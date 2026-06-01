@@ -1,0 +1,21 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://w3id.org/NCL/ontology//1.0.0> a prov:Entity;
+	 dc:title "NCL";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-3218-9472>;
+	 dc:creator <https://orcid.org/0000-0002-3218-9472>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-6926-5299>;
+	 dc:creator <https://orcid.org/0000-0002-6926-5299>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-9418-5330>;
+	 dc:creator <https://orcid.org/0000-0001-9418-5330>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "October 5th, 2021";
+.
+:agent0 a prov:Agent; foaf:name "Pierre BISQUERT".
+:agent1 a prov:Agent; foaf:name "Rallou THOMOPOULOS".
+:agent2 a prov:Agent; foaf:name "Raphaël CONDE SALAZAR".

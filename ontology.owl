@@ -1,0 +1,1734 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+    xmlns:ncl="https://w3id.org/NCL/ontology/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:vocab="https://w3id.org/afy/vocab#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="https://w3id.org/NCL/ontology/NatclinnTbox">
+    <owl:versionIRI rdf:resource="https://w3id.org/NCL/ontology//1.0.0"/>
+    <dc:description xml:lang="en">Tbox for the Natcl'inn ontology</dc:description>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <rdfs:label xml:lang="en">Natcl'inn ontology</rdfs:label>
+    <vann:preferredNamespaceUri>https://w3id.org/NCL/ontology/</vann:preferredNamespaceUri>
+    <dct:created xml:lang="fr">Le 5 Octobre 2021</dct:created>
+    <dc:creator>Rallou THOMOPOULOS</dc:creator>
+    <dct:created xml:lang="en">October 5th, 2021</dct:created>
+    <dct:abstract xml:lang="en">The NATCL’INN project aims to help agri-food companies better meet consumers' expectations for naturalness, which is perceived as a guarantee of quality, health and taste. Based on the characterisation of representations of naturalness and the identification of relevant markers, it is developing a multi-criteria arbitration tool that integrates technical, economic and regulatory constraints. Led by ADRIA, UBO-LEGO, INRAE and several industrial partners, this collaborative project has been certified by Valorial.</dct:abstract>
+    <schema:citation xml:lang="en">Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos; DOI: XXXXXXXXXXXXXXXX</schema:citation>
+    <dct:abstract xml:lang="fr">Le projet NATCL’INN vise à aider les entreprises agroalimentaires à mieux répondre aux attentes de naturalité des consommateurs, perçue comme gage de qualité, de santé et de goût. En s’appuyant sur la caractérisation des représentations de la naturalité et l’identification de marqueurs pertinents, il développe un outil d’arbitrage multicritère intégrant contraintes techniques, économiques et réglementaires. Porté par l’ADRIA, l’UBO-LEGO, l’INRAE et plusieurs partenaires industriels, ce projet collaboratif est labellisé par Valorial.</dct:abstract>
+    <vocab:introduction xml:lang="en">NATCL’INN aims to offer a solution to agri-food companies that need to balance different product attributes related to naturalness in order to meet new consumer expectations and perceptions regarding food naturalness. In order to propose a prototype Decision Support Tool, the R&amp;D teams at ADRIA, the LEGO laboratory at the University of Western Brittany (UBO), INRAE research units and their industrial partners (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) have joined forces to carry out an ambitious collaborative R&amp;D programme. The NATCL'INN project has been certified by the VALORIAL competitiveness cluster and has received support from the Brittany Region, the Pays de la Loire Region and Quimper Bretagne Occidentale. The project began on 1 January 2024 and will be completed at the end of 2027</vocab:introduction>
+    <rdfs:comment xml:lang="en">An ontology designed to define the various products of the agri-food industry and the arguments associated with them in terms of their perceived naturalness.</rdfs:comment>
+    <dc:creator>Pierre BISQUERT</dc:creator>
+    <schema:creator>
+      <schema:Person>
+        <org:memberOf>
+          <foaf:Organization>
+            <foaf:name>University of Montpellier, INRAE, France</foaf:name>
+            <schema:url>https://www.umontpellier.fr/</schema:url>
+          </foaf:Organization>
+        </org:memberOf>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-3218-9472"/>
+        <schema:name xml:lang="fr">Rallou Thomopoulos</schema:name>
+        <schema:name xml:lang="en">Rallou Thomopoulos</schema:name>
+      </schema:Person>
+    </schema:creator>
+    <foaf:fundedBy rdf:resource="https://www.pole-valorial.fr"/>
+    <schema:creator>
+      <schema:Person>
+        <org:memberOf>
+          <foaf:Organization>
+            <foaf:name>University of Montpellier, INRAE, France</foaf:name>
+            <schema:url>https://www.umontpellier.fr/</schema:url>
+          </foaf:Organization>
+        </org:memberOf>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
+        <schema:name xml:lang="fr">Raphaël Conde Salazar</schema:name>
+        <schema:name xml:lang="en">Raphael Conde Salazar</schema:name>
+        <schema:familyName xml:lang="fr">Conde Salazar</schema:familyName>
+        <schema:familyName xml:lang="en">Conde Salazar</schema:familyName>
+      </schema:Person>
+    </schema:creator>
+    <vann:preferredNamespacePrefix xml:lang="en">ncl</vann:preferredNamespacePrefix>
+    <schema:funding rdf:resource="https://www.pole-valorial.fr"/>
+    <dc:title xml:lang="en">NCL</dc:title>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dc:description xml:lang="fr">Tbox pour l'ontologie Natcl'inn</dc:description>
+    <rdfs:label xml:lang="fr">Ontologie Natcl'inn</rdfs:label>
+    <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
+    <bibo:doi rdf:resource="https://doi.org/XXXXXXXXXXXXXXXX"/>
+    <vocab:introduction xml:lang="fr">NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&amp;D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&amp;D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s'achèvera fin 2027.</vocab:introduction>
+    <dc:creator>Raphaël CONDE SALAZAR</dc:creator>
+    <schema:creator>
+      <schema:Person>
+        <org:memberOf>
+          <foaf:Organization>
+            <foaf:name>University of Montpellier, INRAE, France</foaf:name>
+            <schema:url>https://www.umontpellier.fr/</schema:url>
+          </foaf:Organization>
+        </org:memberOf>
+        <schema:url rdf:resource="https://orcid.org/0000-0001-9418-5330"/>
+        <schema:name xml:lang="fr">Pierre Bisquert</schema:name>
+        <schema:name xml:lang="en">Pierre Bisquert</schema:name>
+      </schema:Person>
+    </schema:creator>
+    <vocab:rdfxmlSerialization rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://w3id.org/NCL/ontology.xml</vocab:rdfxmlSerialization>
+    <rdfs:comment xml:lang="fr">Une ontologie conçue pour définir les différents produits de l'industrie agroalimentaire et les arguments qui leur sont associés en termes de naturalité perçue.</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/MainComponentIngredient">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Main ingredient providing structure or mass.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient principal apportant structure ou masse.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Subcategory">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">Subcategory of the argument.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NCL"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/TypeSource"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Sous-catégorie de l'argument.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Verbatim"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByOrigin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Ingredient classified by its origin.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient classé selon son origine.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Context">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NCL"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Category"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Verbatim"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/TypeSource"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">The context in which the argument is relevant.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le contexte dans lequel l'argument est pertinent.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Resource"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/TypeSource"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">An ingredient used in a product.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Un ingrédient utilisé dans un produit.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Verbatim"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/NCL">
+    <rdfs:comment xml:lang="en">NCL is the set of product and arguments.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">NCL est l'ensemble des produits et des arguments.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Verbatim">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <rdfs:comment xml:lang="en">Extract of a sentence supporting the argument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Extrait d'une phrase soutenant l'argument.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/ProductArgument">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Tag"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.arg.dundee.ac.uk/aif#Node"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Category"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CleanLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Un argument lié à la naturalité d'un produit.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/TypeSource"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">An argument related to the naturalness of a product.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/TypeSource">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <rdfs:comment xml:lang="en">The type of source of an argument (expert, peer-reviewed article, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le type de source d'un argument (expert, article peer-reviewed, etc.).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Resource">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <rdfs:comment xml:lang="en">Abstract class Resource, from which Product and Ingredient inherit.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Classe abstraite Resource, dont héritent Produit et Ingrédient.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/CompositeProduct">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Product composed of at least one other product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Produit composé d'au moins un autre produit.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreDetail">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">Nutri-Score detail	.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Nutri-Score detail.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.arg.dundee.ac.uk/aif#Node">
+    <rdfs:comment xml:lang="en">Abstract class for argumentation nodes.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Un nœud dans un graphe d'argumentation.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Category">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">Main category of the argument (e.g., 'Mode de culture et d'élevage').</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Catégorie principale de l'argument (ex: 'Mode de culture et d'élevage').</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/TechnologicalIngredient">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Ingredient used for technological purposes (e.g., carrier, thickener).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient utilisé pour des raisons technologiques (support, épaississant…).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/SimpleIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">A simple ingredient.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Un ingrédient simple.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/PlantOriginIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <rdfs:comment xml:lang="en">Ingredient of plant origin.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient d'origine végétale.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <rdfs:comment xml:lang="en">The source of an argument (consumer, scientific paper, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">La source d'un argument (consommateur, article scientifique, etc.).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/CleanLabel">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Le 'clean label' d'un produit.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">The clean label of a product.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">Details of NOVA group classification from Open Food Facts.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Détails de la classification NOVA depuis Open Food Facts.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <rdfs:comment xml:lang="fr">La forme de l'emballage du produit.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">The forme used for the product packaging.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Score de naturalité.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">Naturalness-Score.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <rdfs:comment xml:lang="en">Ingredient of fungal or microbial origin.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient d'origine fongique ou microbienne.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByFunction">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">Ingredient classified by its function in the food product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient classé selon sa fonction dans le produit alimentaire.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/FunctionalNutrientIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <rdfs:comment xml:lang="en">Ingredient providing nutritional or health benefits.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient apportant des bénéfices nutritionnels ou santé.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/EnzymeIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <rdfs:comment xml:lang="en">Ingredient used as an enzyme in food processing.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient utilisé comme enzyme dans le procédé alimentaire.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <rdfs:comment xml:lang="en">Details of locally calculated NOVA group, listing ingredients by category.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/RawIngredient">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByTransformationDegree"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Unprocessed or minimally processed ingredient.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient brut ou peu transformé.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/FlavorIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <rdfs:comment xml:lang="en">Ingredient used for flavoring purposes.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient utilisé pour aromatiser.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/SimpleProduct">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Food industry product made up entirely of ingredients.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Produit de l'industrie alimentaire composé uniquement d'ingrédients.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <rdfs:comment xml:lang="en">The stakeholder making the argument (consumer, manufacturer, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le partie prenante faisant l'argument (consommateur, fabricant, etc.).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">food naturalness index.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="fr">Indice de naturalité d'un produit alimentaire.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/AnimalOriginIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <rdfs:comment xml:lang="en">Ingredient of animal origin.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient d'origine animale.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Tag">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Un tag utilisé pour qualifier les liens d'argumentation produit.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">A tag used to qualify product argument links.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Le label d'origine contrôlée d'un produit.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">The controlled origin label of a product.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/MineralOriginIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <rdfs:comment xml:lang="en">Ingredient of mineral origin.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient d'origine minérale.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement">
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">An element of a product composition that includes quantity, unit, percentage, and rank.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="fr">Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <rdfs:comment xml:lang="en">Nutri-Score alpha	.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:comment xml:lang="fr">Nutri-Score alpha.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <rdfs:comment xml:lang="en">A link between a product and an argument, containing metadata about the relationship.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Un lien entre un produit et un argument, contenant des métadonnées sur la relation.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/ContextProduct">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <rdfs:comment xml:lang="en">The product context in which an argument is relevant.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le contexte produit dans lequel un argument est pertinent.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/TagArgumentBinding">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Allegation"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    <rdfs:comment xml:lang="en">Binding object carrying argumentation attributes associated with a tag.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:comment xml:lang="fr">Objet de liaison portant les attributs d'argumentation associés à un tag.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:comment xml:lang="fr">La matière de l'emballage du produit.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <rdfs:comment xml:lang="en">The material used for the product packaging.</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Allegation"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="fr">La manière dont le produit est fabriqué.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:comment xml:lang="en">The way the product is manufactured.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
+    <rdfs:comment xml:lang="en">A food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Un produit de l'industrie alimentaire.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <rdfs:comment xml:lang="en">Ingredient origin (EU origin, Vietnam origin, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Origine de l'ingrédient (origine UE, origine Vietnam, etc.).</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:comment xml:lang="fr">L'emballage d'un produit.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
+    <rdfs:comment xml:lang="en">The packaging of a product.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="fr">Déclaration relative à des faits sur un produit dont l'existence reste à prouver.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <rdfs:comment xml:lang="en">Statement of facts about a product whose existence has yet to be proven.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/ProcessedIngredient">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByTransformationDegree"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Ingredient that has been processed (e.g., flour, oil).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient ayant subi une transformation (farine, huile…).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/AdditiveIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <rdfs:comment xml:lang="en">Ingredient used as an additive (e.g., colorant, preservative).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient utilisé comme additif (colorant, conservateur…).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/UltraProcessedIngredient">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByTransformationDegree"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Ingredient that is highly processed or modified.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient hautement transformé ou modifié.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <rdfs:comment xml:lang="en">Ingredient of synthetic or biotechnological origin.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient d'origine synthétique ou biotechnologique.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/CompositeIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">Ingredient composed of at least one other Ingredient.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Un ingrédient composé d'au moins un autre ingrédient.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute">
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">The attribute of naturalness in the context of the argument.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Allegation"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="fr">L'attribut de naturalité dans le contexte de l'argument.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByTransformationDegree">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">Ingredient classified by its degree of processing.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Ingrédient classé selon son degré de transformation.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/ContextIngredient">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <rdfs:comment xml:lang="en">The ingredient context in which an argument is relevant.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le contexte ingrédient dans lequel un argument est pertinent.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore">
+    <rdfs:comment xml:lang="fr">Nutri-Score.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">Nutri-Score.</rdfs:comment>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Allegation"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
+    <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasAllegation">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Allegation"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasManufacturingProcess">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTag">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Links a product to a tag.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit à un tag.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasMaterial">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Material"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasCleanLabel">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasNOVAgroupDetails">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Links a product to its NOVA group classification details.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit aux détails de sa classification NOVA.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasSubcategory">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Links an argument to its subcategory.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un argument à sa sous-catégorie.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/target">
+    <rdfs:range rdf:parseType="Resource">
+      <owl:unionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/CleanLabel"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+      </owl:unionOf>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Link an argument to a component (product, ingredient, packaging, nutri-score, etc.) of a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasRole">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">Links an ingredient to a Tag resource representing its technological or sensory function (preservative, flavor enhancer, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTagInitiator">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:comment xml:lang="en">Tag identifying who initiated the link to the argument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Tag identifiant qui a initié le lien vers l'argument.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasFNI">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTypeSource">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:comment xml:lang="en">Link a source to its type (expert, peer-reviewed article, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie une source à son type (expert, article peer-reviewed, etc.).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasReferenceProductArgument">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:comment xml:lang="en">Links a LinkToArgument to the referenced ProductArgument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un LinkToArgument au ProductArgument référencé.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasCategory">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Category"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Links an argument to its main category.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un argument à sa catégorie principale.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasContextIngredient">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ContextIngredient"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <rdfs:comment xml:lang="en">The ingredient context of an argument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le contexte ingrédient d'un argument.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasPackaging">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasComposedOf">
+    <rdfs:range rdf:parseType="Resource">
+      <owl:unionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+      </owl:unionOf>
+    </rdfs:range>
+    <rdfs:domain rdf:parseType="Resource">
+      <owl:unionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/CompositeIngredient"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/CompositeProduct"/>
+      </owl:unionOf>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasSource">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Link an argument to its source (consumer survey, scientific journal, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un argument à sa source (enquête consommateur, revue scientifique, etc.).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasAttribute">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Attribute"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">The naturalness attribute of a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Attribut de la naturalité d'un produit de l'industrie agro-alimentaire.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasContext">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Links an argument to its context</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un argument à son contexte</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/refersTo">
+    <rdfs:range rdf:parseType="Resource">
+      <owl:unionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
+        <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product"/>
+      </owl:unionOf>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <rdfs:comment xml:lang="en">Relates a product or ingredient to its quantification in a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Links a product to its calculated NOVA group details.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit aux détails de son groupe NOVA calculé.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasLinkToArgument">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Links a food industry product to a LinkToArgument that connects to a ProductArgument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasContextProduct">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ContextProduct"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <rdfs:comment xml:lang="en">The product context of an argument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le contexte produit d'un argument.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasProductArgument">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Link a food industry product to an argument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit de l'industrie agro-alimentaire à un argument.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <rdfs:comment xml:lang="en">The tag argument binding identifying who initiated the link to the argument.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le tag de liaison d'argument identifiant qui a initié le lien vers l'argument.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTagCheck">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Links a product to a validation tag.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit à un tag de vérification.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTechnologicalIngredients">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">Lists technological ingredients found during NOVA calculation.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Liste les ingrédients technologiques trouvés lors du calcul NOVA.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasQuantifiedElement">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasControlledOriginLabel">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasVerbatim">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Link an argument to its verbatim.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Link an argument to its verbatim.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasAdditiveIngredients">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">Lists additive ingredients found during NOVA calculation.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Liste les ingrédients additifs trouvés lors du calcul NOVA.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/containsIngredientWithFunction">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Links a product to the function of its ingredients.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un produit à la fonction de ses ingrédients.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/aboutTag">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Links a TagArgumentBinding to the related Tag.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un TagArgumentBinding au Tag concerné.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasNaturalnessScore">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/identifier">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasProcessedIngredients">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">Lists processed ingredients found during NOVA calculation.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Liste les ingrédients transformés trouvés lors du calcul NOVA.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasStakeholder">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Link an argument to its stakeholder (consumer, manufacturer, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Relie un argument à sa partie prenante (consommateur, fabricant, etc.).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasIngredient">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasNutriScore">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasShape">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasRawIngredients">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">Lists raw ingredients found during NOVA calculation.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Liste les ingrédients bruts trouvés lors du calcul NOVA.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasOrigin">
+    <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/fiability">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <rdfs:comment xml:lang="en">Fiability score of the source type.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Score de fiabilité du type de source.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasText">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <rdfs:comment xml:lang="en">Verbatim text.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Texte du verbatim.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/aim">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Aim or objective related to the tag binding.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Objectif ou visée du binding de tag.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/condition">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Condition under which the argument applies.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Condition dans laquelle l'argument s'applique.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/supportType">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Type of argument (positive or negative) in relation to its target.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Type de l'argument (positif ou négatif) vis à vis de sa cible.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasCiqualFoodCode">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">Ciqual code for a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Code Ciqual d'un produit de l'industrie agroalimentaire.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/assertion">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">The assertion carried by the tag binding.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">L'assertion portée par le binding de tag.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/rank">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <rdfs:comment xml:lang="en">Classification of an ingredient or by-product in the textual statement of a product's composition.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Classement d'un ingrédient ou d'un sous-produit dans l’énoncé textuel de la composition d'un produit.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/nameProperty">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Name of the property evaluated in the tag binding.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Nom de la propriété évaluée dans le binding de tag.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe2">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">NOVA group 2 characteristics (processed culinary ingredients).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 2 (ingrédients culinaires transformés).</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe1">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">NOVA group 1 characteristics (unprocessed or minimally processed foods).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 1 (aliments non transformés ou minimalement transformés).</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe4">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">NOVA group 4 characteristics (ultra-processed foods and drinks).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 4 (produits ultra-transformés).</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe3">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <rdfs:comment xml:lang="en">NOVA group 3 characteristics (processed foods).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 3 (aliments transformés).</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <rdfs:comment xml:lang="en">Ciqual code for a similar food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Code Ciqual d'un produit similaire de l'industrie agroalimentaire.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/valueProperty">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Value associated with the tag binding property.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Valeur associée à la propriété du binding de tag.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/percentage">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <rdfs:comment xml:lang="en">Percentage (by weight) of a by-product or ingredient in a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasNOVAgroup">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">NOVA group (1..4) as provided by Open Food Facts.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Groupe NOVA (1..4) tel que fourni par Open Food Facts.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/quantity">
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <rdfs:comment xml:lang="en">Quantity of a by-product or ingredient present in a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/unitArg">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Unit of measurement for the argument values.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Unité de mesure pour les valeurs de l'argument.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/supValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Upper bound value for the argument condition.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Valeur maximale pour la condition de l'argument.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/containsAdditives">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Indicates whether the product contains additives.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Indique si le produit contient des additifs.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/unit">
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <rdfs:comment xml:lang="en">Unit of the quantity of a by-product or ingredient present in a food industry product.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/bindingKeywords">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Keywords used to bind a tag to argumentation context.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Mots-clés utilisés pour lier un tag au contexte d'argumentation.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/nameCriterion">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Name of the criterion addressed by the tag binding.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Nom du critère abordé par le binding de tag.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/infValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <rdfs:comment xml:lang="en">Lower bound value for the argument condition.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Valeur minimale pour la condition de l'argument.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <rdfs:comment xml:lang="en">Calculated NOVA group (1..4) inferred by rules, not the OFF-provided value.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/polarity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <rdfs:comment xml:lang="en">Polarity of the tag binding (positive '+' or negative '-').</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Polarité du binding de tag (positif '+' ou négatif '-').</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/NCL/ontology/hasIdIngredientOFF"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/NCL/ontology/hasTrademark"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/NCL/ontology/hasEAN13"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+</rdf:RDF>
