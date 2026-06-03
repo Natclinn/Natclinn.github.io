@@ -2,10 +2,9 @@ param(
     [string]$OntologyFile = "ontology.owl",
     [string]$OutputFolder = "ncl",
     [string]$WidocoVersion = "1.4.25",
+    [string]$Languages = "en",
     [switch]$UseDocker,
-    [switch]$UniteSections,
-    [switch]$SkipOops,
-    [switch]$SkipWebVowl
+    [switch]$UniteSections
 )
 
 $ErrorActionPreference = "Stop"
@@ -26,20 +25,21 @@ Get-ChildItem -Path $outputPath -Force -ErrorAction SilentlyContinue | Remove-It
 $widocoArgs = @(
     "-ontFile", $ontologyPath,
     "-outFolder", $outputPath,
-    "-rewriteAll"
+    "-rewriteAll",
+    "-oops",
+    "-webVowl"
 )
-
-if (-not $SkipOops) {
-    $widocoArgs += "-oops"
-}
-
-if (-not $SkipWebVowl) {
-    $widocoArgs += "-webVowl"
-}
 
 if ($UniteSections) {
     $widocoArgs += "-uniteSections"
 }
+
+if ($Languages) {
+    $widocoArgs += @("-lang", $Languages)
+}
+
+Write-Host "WIDOCO options forced: OOPS=ON, WebVOWL=ON"
+Write-Host "Selected languages: $Languages"
 
 if ($UseDocker) {
     $image = "ghcr.io/dgarijo/widoco:v$WidocoVersion"
@@ -56,12 +56,15 @@ if ($UseDocker) {
         $image,
         "-ontFile", "in/$OntologyFile",
         "-outFolder", "out/$OutputFolder",
-        "-rewriteAll"
+        "-rewriteAll",
+        "-oops",
+        "-webVowl"
     )
 
-    if (-not $SkipOops) { $dockerArgs += "-oops" }
-    if (-not $SkipWebVowl) { $dockerArgs += "-webVowl" }
     if ($UniteSections) { $dockerArgs += "-uniteSections" }
+    if ($Languages) {
+        $dockerArgs += @("-lang", $Languages)
+    }
 
     & docker @dockerArgs
 }

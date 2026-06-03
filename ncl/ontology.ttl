@@ -39,17 +39,17 @@
                                               <https://w3id.org/afy/vocab#rdfxmlSerialization> "https://w3id.org/NCL/ontology.xml"^^xsd:anyURI .
 
 _:genid1 rdf:type <http://schema.org/Person> ;
-          <http://schema.org/name> "Rallou Thomopoulos"@en ,
-                                   "Rallou Thomopoulos"@fr ;
-          <http://schema.org/url> <https://orcid.org/0000-0002-3218-9472> ;
-          <http://www.w3.org/ns/org#memberOf> _:genid2 .
-
-_:genid3 rdf:type <http://schema.org/Person> ;
           <http://schema.org/familyName> "Conde Salazar"@en ,
                                          "Conde Salazar"@fr ;
           <http://schema.org/name> "Raphael Conde Salazar"@en ,
                                    "Raphaël Conde Salazar"@fr ;
           <http://schema.org/url> <https://orcid.org/0000-0002-6926-5299> ;
+          <http://www.w3.org/ns/org#memberOf> _:genid2 .
+
+_:genid3 rdf:type <http://schema.org/Person> ;
+          <http://schema.org/name> "Rallou Thomopoulos"@en ,
+                                   "Rallou Thomopoulos"@fr ;
+          <http://schema.org/url> <https://orcid.org/0000-0002-3218-9472> ;
           <http://www.w3.org/ns/org#memberOf> _:genid4 .
 
 _:genid5 rdf:type <http://schema.org/Person> ;
@@ -199,7 +199,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                          rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                          rdfs:range <https://w3id.org/NCL/ontology/Tag> ;
                                          rdfs:comment "Links a TagArgumentBinding to the related Tag."@en ,
-                                                      "Relie un TagArgumentBinding au Tag concerné."@fr .
+                                                      "Relie un TagArgumentBinding au Tag concerné."@fr ;
+                                         rdfs:label "About tag"@en ,
+                                                    "Concerne le tag"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "About tag"@en ,
+                                                                                         "Concerne le tag"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/containsIngredientWithFunction
@@ -212,13 +216,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                        rdfs:domain <https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails> ;
                                                        rdfs:range <https://w3id.org/NCL/ontology/Ingredient> ;
                                                        rdfs:comment "Liste les ingrédients additifs trouvés lors du calcul NOVA."@fr ,
-                                                                    "Lists additive ingredients found during NOVA calculation."@en .
+                                                                    "Lists additive ingredients found during NOVA calculation."@en ;
+                                                       rdfs:label "A pour ingrédients additifs"@fr ,
+                                                                  "Has additive ingredients"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients additifs"@fr ,
+                                                                                                       "Has additive ingredients"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasAllegation
 <https://w3id.org/NCL/ontology/hasAllegation> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                              rdfs:range <https://w3id.org/NCL/ontology/Allegation> .
+                                              rdfs:range <https://w3id.org/NCL/ontology/Allegation> ;
+                                              rdfs:comment "Links a product to its allegations or claims."@en ,
+                                                           "Relie un produit à ses allégations."@fr ;
+                                              rdfs:label "A pour allégation"@fr ,
+                                                         "Has allegation"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour allégation"@fr ,
+                                                                                              "Has allegation"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasAttribute
@@ -226,7 +240,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                              rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                              rdfs:range <https://w3id.org/NCL/ontology/Attribute> ;
                                              rdfs:comment "Attribut de la naturalité d'un produit de l'industrie agro-alimentaire."@fr ,
-                                                          "The naturalness attribute of a food industry product."@en .
+                                                          "The naturalness attribute of a food industry product."@en ;
+                                             rdfs:label "A pour attribut"@fr ,
+                                                        "Has attribute"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour attribut"@fr ,
+                                                                                             "Has attribute"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails
@@ -234,7 +252,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                               rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                                               rdfs:range <https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails> ;
                                                               rdfs:comment "Links a product to its calculated NOVA group details."@en ,
-                                                                           "Relie un produit aux détails de son groupe NOVA calculé."@fr .
+                                                                           "Relie un produit aux détails de son groupe NOVA calculé."@fr ;
+                                                              rdfs:label "A pour détails du groupe NOVA calculé"@fr ,
+                                                                         "Has calculated NOVA group details"@en ;
+                                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour détails du groupe NOVA calculé"@fr ,
+                                                                                                              "Has calculated NOVA group details"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasCategory
@@ -242,27 +264,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                             rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                             rdfs:range <https://w3id.org/NCL/ontology/Category> ;
                                             rdfs:comment "Links an argument to its main category."@en ,
-                                                         "Relie un argument à sa catégorie principale."@fr .
+                                                         "Relie un argument à sa catégorie principale."@fr ;
+                                            rdfs:label "A pour catégorie"@fr ,
+                                                       "Has category"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour catégorie"@fr ,
+                                                                                            "Has category"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasCleanLabel
 <https://w3id.org/NCL/ontology/hasCleanLabel> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                              rdfs:range <https://w3id.org/NCL/ontology/CleanLabel> .
-
-
-###  https://w3id.org/NCL/ontology/hasComposedOf
-<https://w3id.org/NCL/ontology/hasComposedOf> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain [ rdf:type owl:Class ;
-                                                            owl:unionOf ( <https://w3id.org/NCL/ontology/CompositeIngredient>
-                                                                          <https://w3id.org/NCL/ontology/CompositeProduct>
-                                                                        )
-                                                          ] ;
-                                              rdfs:range [ rdf:type owl:Class ;
-                                                           owl:unionOf ( <https://w3id.org/NCL/ontology/Ingredient>
-                                                                         <https://w3id.org/NCL/ontology/Product>
-                                                                       )
-                                                         ] .
+                                              rdfs:range <https://w3id.org/NCL/ontology/CleanLabel> ;
+                                              rdfs:comment "Links a product to clean-label information."@en ,
+                                                           "Relie un produit à une information de clean label."@fr ;
+                                              rdfs:label "A pour clean label"@fr ,
+                                                         "Has clean label"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour clean label"@fr ,
+                                                                                              "Has clean label"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasContext
@@ -270,7 +288,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                            rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                            rdfs:range <https://w3id.org/NCL/ontology/Context> ;
                                            rdfs:comment "Links an argument to its context"@en ,
-                                                        "Relie un argument à son contexte"@fr .
+                                                        "Relie un argument à son contexte"@fr ;
+                                           rdfs:label "A pour contexte"@fr ,
+                                                      "Has context"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour contexte"@fr ,
+                                                                                           "Has context"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasContextIngredient
@@ -278,7 +300,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                      rdfs:domain <https://w3id.org/NCL/ontology/Context> ;
                                                      rdfs:range <https://w3id.org/NCL/ontology/ContextIngredient> ;
                                                      rdfs:comment "Le contexte ingrédient d'un argument."@fr ,
-                                                                  "The ingredient context of an argument."@en .
+                                                                  "The ingredient context of an argument."@en ;
+                                                     rdfs:label "A pour contexte ingrédient"@fr ,
+                                                                "Has ingredient context"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour contexte ingrédient"@fr ,
+                                                                                                     "Has ingredient context"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasContextProduct
@@ -286,25 +312,47 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                   rdfs:domain <https://w3id.org/NCL/ontology/Context> ;
                                                   rdfs:range <https://w3id.org/NCL/ontology/ContextProduct> ;
                                                   rdfs:comment "Le contexte produit d'un argument."@fr ,
-                                                               "The product context of an argument."@en .
+                                                               "The product context of an argument."@en ;
+                                                  rdfs:label "A pour contexte produit"@fr ,
+                                                             "Has product context"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour contexte produit"@fr ,
+                                                                                                  "Has product context"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasControlledOriginLabel
 <https://w3id.org/NCL/ontology/hasControlledOriginLabel> rdf:type owl:ObjectProperty ;
                                                          rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                                         rdfs:range <https://w3id.org/NCL/ontology/ControlledOriginLabel> .
+                                                         rdfs:range <https://w3id.org/NCL/ontology/ControlledOriginLabel> ;
+                                                         rdfs:comment "Links a product to a controlled-origin label."@en ,
+                                                                      "Relie un produit à un label d'origine contrôlée."@fr ;
+                                                         rdfs:label "A pour label d'origine contrôlée"@fr ,
+                                                                    "Has controlled origin label"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour label d'origine contrôlée"@fr ,
+                                                                                                         "Has controlled origin label"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasFNI
 <https://w3id.org/NCL/ontology/hasFNI> rdf:type owl:ObjectProperty ;
                                        rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                       rdfs:range <https://w3id.org/NCL/ontology/FNI> .
+                                       rdfs:range <https://w3id.org/NCL/ontology/FNI> ;
+                                       rdfs:comment "Links a product to its Food Naturalness Index resource."@en ,
+                                                    "Relie un produit à sa ressource d'indice de naturalité alimentaire."@fr ;
+                                       rdfs:label "A pour FNI"@fr ,
+                                                  "Has FNI"@en ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour FNI"@fr ,
+                                                                                       "Has FNI"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasIngredient
 <https://w3id.org/NCL/ontology/hasIngredient> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                              rdfs:range <https://w3id.org/NCL/ontology/Ingredient> .
+                                              rdfs:range <https://w3id.org/NCL/ontology/Ingredient> ;
+                                              rdfs:comment "Links a product to one of its ingredients."@en ,
+                                                           "Relie un produit à l'un de ses ingrédients."@fr ;
+                                              rdfs:label "A pour ingrédient"@fr ,
+                                                         "Has ingredient"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédient"@fr ,
+                                                                                              "Has ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasLinkToArgument
@@ -312,19 +360,35 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                   rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                                   rdfs:range <https://w3id.org/NCL/ontology/LinkToArgument> ;
                                                   rdfs:comment "Links a food industry product to a LinkToArgument that connects to a ProductArgument."@en ,
-                                                               "Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument."@fr .
+                                                               "Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument."@fr ;
+                                                  rdfs:label "A pour lien vers argument"@fr ,
+                                                             "Has link to argument"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour lien vers argument"@fr ,
+                                                                                                  "Has link to argument"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasManufacturingProcess
 <https://w3id.org/NCL/ontology/hasManufacturingProcess> rdf:type owl:ObjectProperty ;
                                                         rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                                        rdfs:range <https://w3id.org/NCL/ontology/ManufacturingProcess> .
+                                                        rdfs:range <https://w3id.org/NCL/ontology/ManufacturingProcess> ;
+                                                        rdfs:comment "Links a product to its manufacturing process."@en ,
+                                                                     "Relie un produit à son procédé de fabrication."@fr ;
+                                                        rdfs:label "A pour procédé de fabrication"@fr ,
+                                                                   "Has manufacturing process"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour procédé de fabrication"@fr ,
+                                                                                                        "Has manufacturing process"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasMaterial
 <https://w3id.org/NCL/ontology/hasMaterial> rdf:type owl:ObjectProperty ;
                                             rdfs:domain <https://w3id.org/NCL/ontology/Packaging> ;
-                                            rdfs:range <https://w3id.org/NCL/ontology/Material> .
+                                            rdfs:range <https://w3id.org/NCL/ontology/Material> ;
+                                            rdfs:comment "Links a packaging to the material it uses."@en ,
+                                                         "Relie un emballage au matériau qu'il utilise."@fr ;
+                                            rdfs:label "A pour matière"@fr ,
+                                                       "Has material"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour matière"@fr ,
+                                                                                            "Has material"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasNOVAgroupDetails
@@ -332,31 +396,59 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                     rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                                     rdfs:range <https://w3id.org/NCL/ontology/NOVAgroupDetails> ;
                                                     rdfs:comment "Links a product to its NOVA group classification details."@en ,
-                                                                 "Relie un produit aux détails de sa classification NOVA."@fr .
+                                                                 "Relie un produit aux détails de sa classification NOVA."@fr ;
+                                                    rdfs:label "A pour détails du groupe NOVA"@fr ,
+                                                               "Has NOVA group details"@en ;
+                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour détails du groupe NOVA"@fr ,
+                                                                                                    "Has NOVA group details"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasNaturalnessScore
 <https://w3id.org/NCL/ontology/hasNaturalnessScore> rdf:type owl:ObjectProperty ;
                                                     rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                                    rdfs:range <https://w3id.org/NCL/ontology/NaturalnessScore> .
+                                                    rdfs:range <https://w3id.org/NCL/ontology/NaturalnessScore> ;
+                                                    rdfs:comment "Links a product to its naturalness score resource."@en ,
+                                                                 "Relie un produit à sa ressource de score de naturalité."@fr ;
+                                                    rdfs:label "A pour score de naturalité"@fr ,
+                                                               "Has naturalness score"@en ;
+                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour score de naturalité"@fr ,
+                                                                                                    "Has naturalness score"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasNutriScore
 <https://w3id.org/NCL/ontology/hasNutriScore> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                              rdfs:range <https://w3id.org/NCL/ontology/NutriScore> .
+                                              rdfs:range <https://w3id.org/NCL/ontology/NutriScore> ;
+                                              rdfs:comment "Links a product to its Nutri-Score resource."@en ,
+                                                           "Relie un produit à sa ressource Nutri-Score."@fr ;
+                                              rdfs:label "A pour Nutri-Score"@fr ,
+                                                         "Has Nutri-Score"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour Nutri-Score"@fr ,
+                                                                                              "Has Nutri-Score"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasOrigin
 <https://w3id.org/NCL/ontology/hasOrigin> rdf:type owl:ObjectProperty ;
                                           rdfs:domain <https://w3id.org/NCL/ontology/Ingredient> ;
-                                          rdfs:range <https://w3id.org/NCL/ontology/Origin> .
+                                          rdfs:range <https://w3id.org/NCL/ontology/Origin> ;
+                                          rdfs:comment "Links an ingredient to its origin."@en ,
+                                                       "Relie un ingrédient à son origine."@fr ;
+                                          rdfs:label "A pour origine"@fr ,
+                                                     "Has origin"@en ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour origine"@fr ,
+                                                                                          "Has origin"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasPackaging
 <https://w3id.org/NCL/ontology/hasPackaging> rdf:type owl:ObjectProperty ;
                                              rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
-                                             rdfs:range <https://w3id.org/NCL/ontology/Packaging> .
+                                             rdfs:range <https://w3id.org/NCL/ontology/Packaging> ;
+                                             rdfs:comment "Links a product to its packaging."@en ,
+                                                          "Relie un produit à son emballage."@fr ;
+                                             rdfs:label "A pour emballage"@fr ,
+                                                        "Has packaging"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour emballage"@fr ,
+                                                                                             "Has packaging"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasProcessedIngredients
@@ -364,7 +456,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                         rdfs:domain <https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails> ;
                                                         rdfs:range <https://w3id.org/NCL/ontology/Ingredient> ;
                                                         rdfs:comment "Liste les ingrédients transformés trouvés lors du calcul NOVA."@fr ,
-                                                                     "Lists processed ingredients found during NOVA calculation."@en .
+                                                                     "Lists processed ingredients found during NOVA calculation."@en ;
+                                                        rdfs:label "A pour ingrédients transformés"@fr ,
+                                                                   "Has processed ingredients"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients transformés"@fr ,
+                                                                                                        "Has processed ingredients"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasProductArgument
@@ -372,13 +468,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                    rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                                    rdfs:range <https://w3id.org/NCL/ontology/ProductArgument> ;
                                                    rdfs:comment "Link a food industry product to an argument."@en ,
-                                                                "Relie un produit de l'industrie agro-alimentaire à un argument."@fr .
+                                                                "Relie un produit de l'industrie agro-alimentaire à un argument."@fr ;
+                                                   rdfs:label "A pour argument produit"@fr ,
+                                                              "Has product argument"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour argument produit"@fr ,
+                                                                                                   "Has product argument"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasQuantifiedElement
 <https://w3id.org/NCL/ontology/hasQuantifiedElement> rdf:type owl:ObjectProperty ;
                                                      rdfs:domain <https://w3id.org/NCL/ontology/Resource> ;
-                                                     rdfs:range <https://w3id.org/NCL/ontology/QuantifiedElement> .
+                                                     rdfs:range <https://w3id.org/NCL/ontology/QuantifiedElement> ;
+                                                     rdfs:comment "Links a resource to one of its quantified elements."@en ,
+                                                                  "Relie une ressource à l'un de ses éléments quantifiés."@fr ;
+                                                     rdfs:label "A pour élément quantifié"@fr ,
+                                                                "Has quantified element"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour élément quantifié"@fr ,
+                                                                                                     "Has quantified element"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasRawIngredients
@@ -386,7 +492,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                   rdfs:domain <https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails> ;
                                                   rdfs:range <https://w3id.org/NCL/ontology/Ingredient> ;
                                                   rdfs:comment "Liste les ingrédients bruts trouvés lors du calcul NOVA."@fr ,
-                                                               "Lists raw ingredients found during NOVA calculation."@en .
+                                                               "Lists raw ingredients found during NOVA calculation."@en ;
+                                                  rdfs:label "A pour ingrédients bruts"@fr ,
+                                                             "Has raw ingredients"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients bruts"@fr ,
+                                                                                                  "Has raw ingredients"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasReferenceProductArgument
@@ -394,7 +504,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                             rdfs:domain <https://w3id.org/NCL/ontology/LinkToArgument> ;
                                                             rdfs:range <https://w3id.org/NCL/ontology/ProductArgument> ;
                                                             rdfs:comment "Links a LinkToArgument to the referenced ProductArgument."@en ,
-                                                                         "Relie un LinkToArgument au ProductArgument référencé."@fr .
+                                                                         "Relie un LinkToArgument au ProductArgument référencé."@fr ;
+                                                            rdfs:label "A pour argument produit référencé"@fr ,
+                                                                       "Has reference product argument"@en ;
+                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour argument produit référencé"@fr ,
+                                                                                                            "Has reference product argument"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasRole
@@ -402,13 +516,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/Ingredient> ;
                                         rdfs:range <https://w3id.org/NCL/ontology/Tag> ;
                                         rdfs:comment "Links an ingredient to a Tag resource representing its technological or sensory function (preservative, flavor enhancer, etc.)."@en ,
-                                                     "Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.)."@fr .
+                                                     "Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.)."@fr ;
+                                        rdfs:label "A pour rôle"@fr ,
+                                                   "Has role"@en ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour rôle"@fr ,
+                                                                                        "Has role"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasShape
 <https://w3id.org/NCL/ontology/hasShape> rdf:type owl:ObjectProperty ;
                                          rdfs:domain <https://w3id.org/NCL/ontology/Packaging> ;
-                                         rdfs:range <https://w3id.org/NCL/ontology/Shape> .
+                                         rdfs:range <https://w3id.org/NCL/ontology/Shape> ;
+                                         rdfs:comment "Links a packaging to its shape."@en ,
+                                                      "Relie un emballage à sa forme."@fr ;
+                                         rdfs:label "A pour forme"@fr ,
+                                                    "Has shape"@en ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour forme"@fr ,
+                                                                                         "Has shape"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasSource
@@ -416,7 +540,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                           rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                           rdfs:range <https://w3id.org/NCL/ontology/Source> ;
                                           rdfs:comment "Link an argument to its source (consumer survey, scientific journal, etc.)."@en ,
-                                                       "Relie un argument à sa source (enquête consommateur, revue scientifique, etc.)."@fr .
+                                                       "Relie un argument à sa source (enquête consommateur, revue scientifique, etc.)."@fr ;
+                                          rdfs:label "A pour source"@fr ,
+                                                     "Has source"@en ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour source"@fr ,
+                                                                                          "Has source"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasStakeholder
@@ -424,7 +552,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                                rdfs:range <https://w3id.org/NCL/ontology/Stakeholder> ;
                                                rdfs:comment "Link an argument to its stakeholder (consumer, manufacturer, etc.)."@en ,
-                                                            "Relie un argument à sa partie prenante (consommateur, fabricant, etc.)."@fr .
+                                                            "Relie un argument à sa partie prenante (consommateur, fabricant, etc.)."@fr ;
+                                               rdfs:label "A pour partie prenante"@fr ,
+                                                          "Has stakeholder"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour partie prenante"@fr ,
+                                                                                               "Has stakeholder"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasSubcategory
@@ -432,7 +564,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                                rdfs:range <https://w3id.org/NCL/ontology/Subcategory> ;
                                                rdfs:comment "Links an argument to its subcategory."@en ,
-                                                            "Relie un argument à sa sous-catégorie."@fr .
+                                                            "Relie un argument à sa sous-catégorie."@fr ;
+                                               rdfs:label "A pour sous-catégorie"@fr ,
+                                                          "Has subcategory"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour sous-catégorie"@fr ,
+                                                                                               "Has subcategory"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasTag
@@ -440,7 +576,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                        rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                        rdfs:range <https://w3id.org/NCL/ontology/Tag> ;
                                        rdfs:comment "Links a product to a tag."@en ,
-                                                    "Relie un produit à un tag."@fr .
+                                                    "Relie un produit à un tag."@fr ;
+                                       rdfs:label "A pour tag"@fr ,
+                                                  "Has tag"@en ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour tag"@fr ,
+                                                                                       "Has tag"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator
@@ -448,7 +588,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                rdfs:domain <https://w3id.org/NCL/ontology/LinkToArgument> ;
                                                                rdfs:range <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                                                rdfs:comment "Le tag de liaison d'argument identifiant qui a initié le lien vers l'argument."@fr ,
-                                                                            "The tag argument binding identifying who initiated the link to the argument."@en .
+                                                                            "The tag argument binding identifying who initiated the link to the argument."@en ;
+                                                               rdfs:label "A pour liaison tag-argument initiatrice"@fr ,
+                                                                          "Has tag argument binding initiator"@en ;
+                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour liaison tag-argument initiatrice"@fr ,
+                                                                                                               "Has tag argument binding initiator"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasTagCheck
@@ -456,7 +600,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                             rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                             rdfs:range <https://w3id.org/NCL/ontology/Tag> ;
                                             rdfs:comment "Links a product to a validation tag."@en ,
-                                                         "Relie un produit à un tag de vérification."@fr .
+                                                         "Relie un produit à un tag de vérification."@fr ;
+                                            rdfs:label "A pour tag de vérification"@fr ,
+                                                       "Has tag check"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour tag de vérification"@fr ,
+                                                                                            "Has tag check"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasTagInitiator
@@ -464,7 +612,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                 rdfs:domain <https://w3id.org/NCL/ontology/LinkToArgument> ;
                                                 rdfs:range <https://w3id.org/NCL/ontology/Tag> ;
                                                 rdfs:comment "Tag identifiant qui a initié le lien vers l'argument."@fr ,
-                                                             "Tag identifying who initiated the link to the argument."@en .
+                                                             "Tag identifying who initiated the link to the argument."@en ;
+                                                rdfs:label "A pour tag initiateur"@fr ,
+                                                           "Has tag initiator"@en ;
+                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour tag initiateur"@fr ,
+                                                                                                "Has tag initiator"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasTechnologicalIngredients
@@ -472,7 +624,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                             rdfs:domain <https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails> ;
                                                             rdfs:range <https://w3id.org/NCL/ontology/Ingredient> ;
                                                             rdfs:comment "Liste les ingrédients technologiques trouvés lors du calcul NOVA."@fr ,
-                                                                         "Lists technological ingredients found during NOVA calculation."@en .
+                                                                         "Lists technological ingredients found during NOVA calculation."@en ;
+                                                            rdfs:label "A pour ingrédients technologiques"@fr ,
+                                                                       "Has technological ingredients"@en ;
+                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients technologiques"@fr ,
+                                                                                                            "Has technological ingredients"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasTypeSource
@@ -480,7 +636,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                               rdfs:domain <https://w3id.org/NCL/ontology/Source> ;
                                               rdfs:range <https://w3id.org/NCL/ontology/TypeSource> ;
                                               rdfs:comment "Link a source to its type (expert, peer-reviewed article, etc.)."@en ,
-                                                           "Relie une source à son type (expert, article peer-reviewed, etc.)."@fr .
+                                                           "Relie une source à son type (expert, article peer-reviewed, etc.)."@fr ;
+                                              rdfs:label "A pour type de source"@fr ,
+                                                         "Has source type"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour type de source"@fr ,
+                                                                                              "Has source type"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasVerbatim
@@ -488,12 +648,36 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                             rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                             rdfs:range <https://w3id.org/NCL/ontology/Verbatim> ;
                                             rdfs:comment "Link an argument to its verbatim."@en ,
-                                                         "Link an argument to its verbatim."@fr .
+                                                         "Link an argument to its verbatim."@fr ;
+                                            rdfs:label "A pour verbatim"@fr ,
+                                                       "Has verbatim"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour verbatim"@fr ,
+                                                                                            "Has verbatim"@en .
 
 
 ###  https://w3id.org/NCL/ontology/identifier
 <https://w3id.org/NCL/ontology/identifier> rdf:type owl:ObjectProperty ;
                                            rdfs:domain <https://w3id.org/NCL/ontology/Resource> .
+
+
+###  https://w3id.org/NCL/ontology/isComposedOf
+<https://w3id.org/NCL/ontology/isComposedOf> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain [ rdf:type owl:Class ;
+                                                           owl:unionOf ( <https://w3id.org/NCL/ontology/CompositeIngredient>
+                                                                         <https://w3id.org/NCL/ontology/CompositeProduct>
+                                                                       )
+                                                         ] ;
+                                             rdfs:range [ rdf:type owl:Class ;
+                                                          owl:unionOf ( <https://w3id.org/NCL/ontology/Ingredient>
+                                                                        <https://w3id.org/NCL/ontology/Product>
+                                                                      )
+                                                        ] ;
+                                             rdfs:comment "Relates a composite resource to the resources it is composed of."@en ,
+                                                          "Relie une ressource composite aux ressources qui la composent."@fr ;
+                                             rdfs:label "Est composé de"@fr ,
+                                                        "Is composed of"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Est composé de"@fr ,
+                                                                                             "Is composed of"@en .
 
 
 ###  https://w3id.org/NCL/ontology/refersTo
@@ -505,7 +689,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                   )
                                                     ] ;
                                          rdfs:comment "Relates a product or ingredient to its quantification in a food industry product."@en ,
-                                                      "Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire."@fr .
+                                                      "Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire."@fr ;
+                                         rdfs:label "Refers to"@en ,
+                                                    "Réfère à"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Refers to"@en ,
+                                                                                         "Réfère à"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/target
@@ -524,7 +712,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                 )
                                                   ] ;
                                        rdfs:comment "Link an argument to a component (product, ingredient, packaging, nutri-score, etc.) of a food industry product."@en ,
-                                                    "Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."@fr .
+                                                    "Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."@fr ;
+                                       rdfs:label "Cible"@fr ,
+                                                  "Target"@en ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Cible"@fr ,
+                                                                                       "Target"@en .
 
 
 #################################################################
@@ -536,7 +728,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                     rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                     rdfs:range xsd:string ;
                                     rdfs:comment "Aim or objective related to the tag binding."@en ,
-                                                 "Objectif ou visée du binding de tag."@fr .
+                                                 "Objectif ou visée du binding de tag."@fr ;
+                                    rdfs:label "Aim"@en ,
+                                               "Objectif"@fr ;
+                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aim"@en ,
+                                                                                    "Objectif"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/assertion
@@ -544,7 +740,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                           rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                           rdfs:range xsd:string ;
                                           rdfs:comment "L'assertion portée par le binding de tag."@fr ,
-                                                       "The assertion carried by the tag binding."@en .
+                                                       "The assertion carried by the tag binding."@en ;
+                                          rdfs:label "Assertion"@en ,
+                                                     "Assertion"@fr ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Assertion"@en ,
+                                                                                          "Assertion"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/bindingKeywords
@@ -552,7 +752,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                 rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                                 rdfs:range xsd:string ;
                                                 rdfs:comment "Keywords used to bind a tag to argumentation context."@en ,
-                                                             "Mots-clés utilisés pour lier un tag au contexte d'argumentation."@fr .
+                                                             "Mots-clés utilisés pour lier un tag au contexte d'argumentation."@fr ;
+                                                rdfs:label "Binding keywords"@en ,
+                                                           "Mots-clés de liaison"@fr ;
+                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Binding keywords"@en ,
+                                                                                                "Mots-clés de liaison"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/condition
@@ -560,7 +764,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                           rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                           rdfs:range xsd:string ;
                                           rdfs:comment "Condition dans laquelle l'argument s'applique."@fr ,
-                                                       "Condition under which the argument applies."@en .
+                                                       "Condition under which the argument applies."@en ;
+                                          rdfs:label "Condition"@en ,
+                                                     "Condition"@fr ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Condition"@en ,
+                                                                                          "Condition"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/containsAdditives
@@ -568,7 +776,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                   rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                                   rdfs:range xsd:boolean ;
                                                   rdfs:comment "Indicates whether the product contains additives."@en ,
-                                                               "Indique si le produit contient des additifs."@fr .
+                                                               "Indique si le produit contient des additifs."@fr ;
+                                                  rdfs:label "Contains additives"@en ,
+                                                             "Contient des additifs"@fr ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Contains additives"@en ,
+                                                                                                  "Contient des additifs"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/containsIngredientWithFunction
@@ -581,7 +793,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                           rdfs:domain <https://w3id.org/NCL/ontology/TypeSource> ;
                                           rdfs:range xsd:double ;
                                           rdfs:comment "Fiability score of the source type."@en ,
-                                                       "Score de fiabilité du type de source."@fr .
+                                                       "Score de fiabilité du type de source."@fr ;
+                                          rdfs:label "Fiabilité"@fr ,
+                                                     "Reliability"@en ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Fiabilité"@fr ,
+                                                                                          "Reliability"@en .
 
 
 ###  https://w3id.org/NCL/ontology/groupe1
@@ -589,7 +805,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/NOVAgroupDetails> ;
                                         rdfs:range xsd:string ;
                                         rdfs:comment "Caractéristiques du groupe NOVA 1 (aliments non transformés ou minimalement transformés)."@fr ,
-                                                     "NOVA group 1 characteristics (unprocessed or minimally processed foods)."@en .
+                                                     "NOVA group 1 characteristics (unprocessed or minimally processed foods)."@en ;
+                                        rdfs:label "Group 1"@en ,
+                                                   "Groupe 1"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Group 1"@en ,
+                                                                                        "Groupe 1"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/groupe2
@@ -597,7 +817,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/NOVAgroupDetails> ;
                                         rdfs:range xsd:string ;
                                         rdfs:comment "Caractéristiques du groupe NOVA 2 (ingrédients culinaires transformés)."@fr ,
-                                                     "NOVA group 2 characteristics (processed culinary ingredients)."@en .
+                                                     "NOVA group 2 characteristics (processed culinary ingredients)."@en ;
+                                        rdfs:label "Group 2"@en ,
+                                                   "Groupe 2"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Group 2"@en ,
+                                                                                        "Groupe 2"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/groupe3
@@ -605,7 +829,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/NOVAgroupDetails> ;
                                         rdfs:range xsd:string ;
                                         rdfs:comment "Caractéristiques du groupe NOVA 3 (aliments transformés)."@fr ,
-                                                     "NOVA group 3 characteristics (processed foods)."@en .
+                                                     "NOVA group 3 characteristics (processed foods)."@en ;
+                                        rdfs:label "Group 3"@en ,
+                                                   "Groupe 3"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Group 3"@en ,
+                                                                                        "Groupe 3"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/groupe4
@@ -613,7 +841,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/NOVAgroupDetails> ;
                                         rdfs:range xsd:string ;
                                         rdfs:comment "Caractéristiques du groupe NOVA 4 (produits ultra-transformés)."@fr ,
-                                                     "NOVA group 4 characteristics (ultra-processed foods and drinks)."@en .
+                                                     "NOVA group 4 characteristics (ultra-processed foods and drinks)."@en ;
+                                        rdfs:label "Group 4"@en ,
+                                                   "Groupe 4"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Group 4"@en ,
+                                                                                        "Groupe 4"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup
@@ -621,7 +853,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                        rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                                        rdfs:range xsd:nonNegativeInteger ;
                                                        rdfs:comment "Calculated NOVA group (1..4) inferred by rules, not the OFF-provided value."@en ,
-                                                                    "Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF."@fr .
+                                                                    "Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF."@fr ;
+                                                       rdfs:label "A pour groupe NOVA calculé"@fr ,
+                                                                  "Has calculated NOVA group"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour groupe NOVA calculé"@fr ,
+                                                                                                       "Has calculated NOVA group"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasCiqualFoodCode
@@ -629,7 +865,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                   rdfs:domain <https://w3id.org/NCL/ontology/Ingredient> ;
                                                   rdfs:range xsd:string ;
                                                   rdfs:comment "Ciqual code for a food industry product."@en ,
-                                                               "Code Ciqual d'un produit de l'industrie agroalimentaire."@fr .
+                                                               "Code Ciqual d'un produit de l'industrie agroalimentaire."@fr ;
+                                                  rdfs:label "A pour code Ciqual"@fr ,
+                                                             "Has Ciqual food code"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour code Ciqual"@fr ,
+                                                                                                  "Has Ciqual food code"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode
@@ -637,7 +877,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                        rdfs:domain <https://w3id.org/NCL/ontology/Ingredient> ;
                                                        rdfs:range xsd:string ;
                                                        rdfs:comment "Ciqual code for a similar food industry product."@en ,
-                                                                    "Code Ciqual d'un produit similaire de l'industrie agroalimentaire."@fr .
+                                                                    "Code Ciqual d'un produit similaire de l'industrie agroalimentaire."@fr ;
+                                                       rdfs:label "A pour code Ciqual proxy"@fr ,
+                                                                  "Has Ciqual proxy food code"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour code Ciqual proxy"@fr ,
+                                                                                                       "Has Ciqual proxy food code"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasNOVAgroup
@@ -645,7 +889,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                              rdfs:domain <https://w3id.org/NCL/ontology/Product> ;
                                              rdfs:range xsd:nonNegativeInteger ;
                                              rdfs:comment "Groupe NOVA (1..4) tel que fourni par Open Food Facts."@fr ,
-                                                          "NOVA group (1..4) as provided by Open Food Facts."@en .
+                                                          "NOVA group (1..4) as provided by Open Food Facts."@en ;
+                                             rdfs:label "A pour groupe NOVA"@fr ,
+                                                        "Has NOVA group"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour groupe NOVA"@fr ,
+                                                                                             "Has NOVA group"@en .
 
 
 ###  https://w3id.org/NCL/ontology/hasText
@@ -653,7 +901,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/Verbatim> ;
                                         rdfs:range xsd:string ;
                                         rdfs:comment "Texte du verbatim."@fr ,
-                                                     "Verbatim text."@en .
+                                                     "Verbatim text."@en ;
+                                        rdfs:label "A pour texte"@fr ,
+                                                   "Has text"@en ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour texte"@fr ,
+                                                                                        "Has text"@en .
 
 
 ###  https://w3id.org/NCL/ontology/identifier
@@ -666,7 +918,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                          rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                          rdfs:range xsd:double ;
                                          rdfs:comment "Lower bound value for the argument condition."@en ,
-                                                      "Valeur minimale pour la condition de l'argument."@fr .
+                                                      "Valeur minimale pour la condition de l'argument."@fr ;
+                                         rdfs:label "Lower bound value"@en ,
+                                                    "Valeur inférieure"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower bound value"@en ,
+                                                                                         "Valeur inférieure"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/nameCriterion
@@ -674,7 +930,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                               rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                               rdfs:range xsd:string ;
                                               rdfs:comment "Name of the criterion addressed by the tag binding."@en ,
-                                                           "Nom du critère abordé par le binding de tag."@fr .
+                                                           "Nom du critère abordé par le binding de tag."@fr ;
+                                              rdfs:label "Criterion name"@en ,
+                                                         "Nom du critère"@fr ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Criterion name"@en ,
+                                                                                              "Nom du critère"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/nameProperty
@@ -682,7 +942,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                              rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                              rdfs:range xsd:string ;
                                              rdfs:comment "Name of the property evaluated in the tag binding."@en ,
-                                                          "Nom de la propriété évaluée dans le binding de tag."@fr .
+                                                          "Nom de la propriété évaluée dans le binding de tag."@fr ;
+                                             rdfs:label "Nom de la propriété"@fr ,
+                                                        "Property name"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Nom de la propriété"@fr ,
+                                                                                             "Property name"@en .
 
 
 ###  https://w3id.org/NCL/ontology/percentage
@@ -690,7 +954,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                            rdfs:domain <https://w3id.org/NCL/ontology/QuantifiedElement> ;
                                            rdfs:range xsd:double ;
                                            rdfs:comment "Percentage (by weight) of a by-product or ingredient in a food industry product."@en ,
-                                                        "Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr .
+                                                        "Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr ;
+                                           rdfs:label "Percentage"@en ,
+                                                      "Pourcentage"@fr ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Percentage"@en ,
+                                                                                           "Pourcentage"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/polarity
@@ -698,14 +966,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                          rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                          rdfs:range xsd:string ;
                                          rdfs:comment "Polarity of the tag binding (positive '+' or negative '-')."@en ,
-                                                      "Polarité du binding de tag (positif '+' ou négatif '-')."@fr .
+                                                      "Polarité du binding de tag (positif '+' ou négatif '-')."@fr ;
+                                         rdfs:label "Polarity"@en ,
+                                                    "Polarité"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Polarity"@en ,
+                                                                                         "Polarité"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/quantity
 <https://w3id.org/NCL/ontology/quantity> rdf:type owl:DatatypeProperty ;
                                          rdfs:domain <https://w3id.org/NCL/ontology/QuantifiedElement> ;
+                                         rdfs:range xsd:double ;
                                          rdfs:comment "Quantity of a by-product or ingredient present in a food industry product."@en ,
-                                                      "Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr .
+                                                      "Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr ;
+                                         rdfs:label "Quantity"@en ,
+                                                    "Quantité"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantity"@en ,
+                                                                                         "Quantité"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/rank
@@ -713,7 +990,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                      rdfs:domain <https://w3id.org/NCL/ontology/QuantifiedElement> ;
                                      rdfs:range xsd:nonNegativeInteger ;
                                      rdfs:comment "Classement d'un ingrédient ou d'un sous-produit dans l’énoncé textuel de la composition d'un produit."@fr ,
-                                                  "Classification of an ingredient or by-product in the textual statement of a product's composition."@en .
+                                                  "Classification of an ingredient or by-product in the textual statement of a product's composition."@en ;
+                                     rdfs:label "Rang"@fr ,
+                                                "Rank"@en ;
+                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Rang"@fr ,
+                                                                                     "Rank"@en .
 
 
 ###  https://w3id.org/NCL/ontology/supValue
@@ -721,7 +1002,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                          rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                          rdfs:range xsd:double ;
                                          rdfs:comment "Upper bound value for the argument condition."@en ,
-                                                      "Valeur maximale pour la condition de l'argument."@fr .
+                                                      "Valeur maximale pour la condition de l'argument."@fr ;
+                                         rdfs:label "Upper bound value"@en ,
+                                                    "Valeur supérieure"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper bound value"@en ,
+                                                                                         "Valeur supérieure"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/supportType
@@ -729,14 +1014,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                             rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                             rdfs:range xsd:string ;
                                             rdfs:comment "Type de l'argument (positif ou négatif) vis à vis de sa cible."@fr ,
-                                                         "Type of argument (positive or negative) in relation to its target."@en .
+                                                         "Type of argument (positive or negative) in relation to its target."@en ;
+                                            rdfs:label "Support type"@en ,
+                                                       "Type de support"@fr ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Support type"@en ,
+                                                                                            "Type de support"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/unit
 <https://w3id.org/NCL/ontology/unit> rdf:type owl:DatatypeProperty ;
                                      rdfs:domain <https://w3id.org/NCL/ontology/QuantifiedElement> ;
+                                     rdfs:range xsd:string ;
                                      rdfs:comment "Unit of the quantity of a by-product or ingredient present in a food industry product."@en ,
-                                                  "Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr .
+                                                  "Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr ;
+                                     rdfs:label "Unit"@en ,
+                                                "Unité"@fr ;
+                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Unit"@en ,
+                                                                                     "Unité"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/unitArg
@@ -744,7 +1038,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                         rdfs:domain <https://w3id.org/NCL/ontology/ProductArgument> ;
                                         rdfs:range xsd:string ;
                                         rdfs:comment "Unit of measurement for the argument values."@en ,
-                                                     "Unité de mesure pour les valeurs de l'argument."@fr .
+                                                     "Unité de mesure pour les valeurs de l'argument."@fr ;
+                                        rdfs:label "Argument unit"@en ,
+                                                   "Unité de l'argument"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Argument unit"@en ,
+                                                                                        "Unité de l'argument"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/valueProperty
@@ -752,7 +1050,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                               rdfs:domain <https://w3id.org/NCL/ontology/TagArgumentBinding> ;
                                               rdfs:range xsd:string ;
                                               rdfs:comment "Valeur associée à la propriété du binding de tag."@fr ,
-                                                           "Value associated with the tag binding property."@en .
+                                                           "Value associated with the tag binding property."@en ;
+                                              rdfs:label "Property value"@en ,
+                                                         "Valeur de la propriété"@fr ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Property value"@en ,
+                                                                                              "Valeur de la propriété"@fr .
 
 
 #################################################################
@@ -760,24 +1062,44 @@ rdfs:label rdf:type owl:AnnotationProperty .
 #################################################################
 
 ###  http://schema.org/Person
-<http://schema.org/Person> rdf:type owl:Class .
+<http://schema.org/Person> rdf:type owl:Class ;
+                           rdfs:comment "A person involved in authorship or provenance metadata."@en ,
+                                        "Une personne impliquée dans les métadonnées d'auteur ou de provenance."@fr ;
+                           rdfs:label "Person"@en ,
+                                      "Personne"@fr ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Person"@en ,
+                                                                           "Personne"@fr .
 
 
 ###  http://www.arg.dundee.ac.uk/aif#Node
 <http://www.arg.dundee.ac.uk/aif#Node> rdf:type owl:Class ;
                                        rdfs:comment "Abstract class for argumentation nodes."@en ,
-                                                    "Un nœud dans un graphe d'argumentation."@fr .
+                                                    "Un nœud dans un graphe d'argumentation."@fr ;
+                                       rdfs:label "Argumentation node"@en ,
+                                                  "Noeud d'argumentation"@fr ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Argumentation node"@en ,
+                                                                                       "Noeud d'argumentation"@fr .
 
 
 ###  http://xmlns.com/foaf/0.1/Organization
-<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class ;
+                                         rdfs:comment "An organization involved in authorship, affiliation, or funding metadata."@en ,
+                                                      "Une organisation impliquée dans les métadonnées d'auteur, d'affiliation ou de financement."@fr ;
+                                         rdfs:label "Organisation"@fr ,
+                                                    "Organization"@en ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisation"@fr ,
+                                                                                         "Organization"@en .
 
 
 ###  https://w3id.org/NCL/ontology/AdditiveIngredient
 <https://w3id.org/NCL/ontology/AdditiveIngredient> rdf:type owl:Class ;
                                                    rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByFunction> ;
                                                    rdfs:comment "Ingredient used as an additive (e.g., colorant, preservative)."@en ,
-                                                                "Ingrédient utilisé comme additif (colorant, conservateur…)."@fr .
+                                                                "Ingrédient utilisé comme additif (colorant, conservateur…)."@fr ;
+                                                   rdfs:label "Additive ingredient"@en ,
+                                                              "Ingrédient additif"@fr ;
+                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Additive ingredient"@en ,
+                                                                                                   "Ingrédient additif"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Allegation
@@ -811,14 +1133,24 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                             <https://w3id.org/NCL/ontology/Tag> ,
                                                             <https://w3id.org/NCL/ontology/TagArgumentBinding> ,
                                                             <https://w3id.org/NCL/ontology/TypeSource> ,
-                                                            <https://w3id.org/NCL/ontology/Verbatim> .
+                                                            <https://w3id.org/NCL/ontology/Verbatim> ;
+                                           rdfs:comment "Déclaration relative à une allégation ou affirmation sur un produit."@fr ,
+                                                        "Statement about a product claim or assertion."@en ;
+                                           rdfs:label "Allegation"@en ,
+                                                      "Allégation"@fr ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Allegation"@en ,
+                                                                                           "Allégation"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/AnimalOriginIngredient
 <https://w3id.org/NCL/ontology/AnimalOriginIngredient> rdf:type owl:Class ;
                                                        rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByOrigin> ;
                                                        rdfs:comment "Ingredient of animal origin."@en ,
-                                                                    "Ingrédient d'origine animale."@fr .
+                                                                    "Ingrédient d'origine animale."@fr ;
+                                                       rdfs:label "Animal origin ingredient"@en ,
+                                                                  "Ingrédient d'origine animale"@fr ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Animal origin ingredient"@en ,
+                                                                                                       "Ingrédient d'origine animale"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Attribute
@@ -853,7 +1185,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                            <https://w3id.org/NCL/ontology/TypeSource> ,
                                                            <https://w3id.org/NCL/ontology/Verbatim> ;
                                           rdfs:comment "L'attribut de naturalité dans le contexte de l'argument."@fr ,
-                                                       "The attribute of naturalness in the context of the argument."@en .
+                                                       "The attribute of naturalness in the context of the argument."@en ;
+                                          rdfs:label "Attribut"@fr ,
+                                                     "Attribute"@en ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Attribut"@fr ,
+                                                                                          "Attribute"@en .
 
 
 ###  https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails
@@ -887,7 +1223,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                             <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                             <https://w3id.org/NCL/ontology/Verbatim> ;
                                                            rdfs:comment "Details of locally calculated NOVA group, listing ingredients by category."@en ,
-                                                                        "Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie."@fr .
+                                                                        "Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie."@fr ;
+                                                           rdfs:label "Calculated NOVA group details"@en ,
+                                                                      "Détails du groupe NOVA calculé"@fr ;
+                                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Calculated NOVA group details"@en ,
+                                                                                                           "Détails du groupe NOVA calculé"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Category
@@ -920,7 +1260,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                           <https://w3id.org/NCL/ontology/TypeSource> ,
                                                           <https://w3id.org/NCL/ontology/Verbatim> ;
                                          rdfs:comment "Catégorie principale de l'argument (ex: 'Mode de culture et d'élevage')."@fr ,
-                                                      "Main category of the argument (e.g., 'Mode de culture et d'élevage')."@en .
+                                                      "Main category of the argument (e.g., 'Mode de culture et d'élevage')."@en ;
+                                         rdfs:label "Category"@en ,
+                                                    "Catégorie"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Category"@en ,
+                                                                                         "Catégorie"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/CleanLabel
@@ -952,21 +1296,33 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                             <https://w3id.org/NCL/ontology/TypeSource> ,
                                                             <https://w3id.org/NCL/ontology/Verbatim> ;
                                            rdfs:comment "Le 'clean label' d'un produit."@fr ,
-                                                        "The clean label of a product."@en .
+                                                        "The clean label of a product."@en ;
+                                           rdfs:label "Clean label"@en ,
+                                                      "Clean label"@fr ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Clean label"@en ,
+                                                                                           "Clean label"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/CompositeIngredient
 <https://w3id.org/NCL/ontology/CompositeIngredient> rdf:type owl:Class ;
                                                     rdfs:subClassOf <https://w3id.org/NCL/ontology/Ingredient> ;
                                                     rdfs:comment "Ingredient composed of at least one other Ingredient."@en ,
-                                                                 "Un ingrédient composé d'au moins un autre ingrédient."@fr .
+                                                                 "Un ingrédient composé d'au moins un autre ingrédient."@fr ;
+                                                    rdfs:label "Composite ingredient"@en ,
+                                                               "Ingrédient composite"@fr ;
+                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Composite ingredient"@en ,
+                                                                                                    "Ingrédient composite"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/CompositeProduct
 <https://w3id.org/NCL/ontology/CompositeProduct> rdf:type owl:Class ;
                                                  rdfs:subClassOf <https://w3id.org/NCL/ontology/Product> ;
                                                  rdfs:comment "Product composed of at least one other product."@en ,
-                                                              "Produit composé d'au moins un autre produit."@fr .
+                                                              "Produit composé d'au moins un autre produit."@fr ;
+                                                 rdfs:label "Composite product"@en ,
+                                                            "Produit composite"@fr ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Composite product"@en ,
+                                                                                                 "Produit composite"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Context
@@ -997,21 +1353,33 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                          <https://w3id.org/NCL/ontology/TypeSource> ,
                                                          <https://w3id.org/NCL/ontology/Verbatim> ;
                                         rdfs:comment "Le contexte dans lequel l'argument est pertinent."@fr ,
-                                                     "The context in which the argument is relevant."@en .
+                                                     "The context in which the argument is relevant."@en ;
+                                        rdfs:label "Context"@en ,
+                                                   "Contexte"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Context"@en ,
+                                                                                        "Contexte"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/ContextIngredient
 <https://w3id.org/NCL/ontology/ContextIngredient> rdf:type owl:Class ;
                                                   rdfs:subClassOf <https://w3id.org/NCL/ontology/Context> ;
                                                   rdfs:comment "Le contexte ingrédient dans lequel un argument est pertinent."@fr ,
-                                                               "The ingredient context in which an argument is relevant."@en .
+                                                               "The ingredient context in which an argument is relevant."@en ;
+                                                  rdfs:label "Contexte ingrédient"@fr ,
+                                                             "Ingredient context"@en ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Contexte ingrédient"@fr ,
+                                                                                                  "Ingredient context"@en .
 
 
 ###  https://w3id.org/NCL/ontology/ContextProduct
 <https://w3id.org/NCL/ontology/ContextProduct> rdf:type owl:Class ;
                                                rdfs:subClassOf <https://w3id.org/NCL/ontology/Context> ;
                                                rdfs:comment "Le contexte produit dans lequel un argument est pertinent."@fr ,
-                                                            "The product context in which an argument is relevant."@en .
+                                                            "The product context in which an argument is relevant."@en ;
+                                               rdfs:label "Contexte produit"@fr ,
+                                                          "Product context"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Contexte produit"@fr ,
+                                                                                               "Product context"@en .
 
 
 ###  https://w3id.org/NCL/ontology/ControlledOriginLabel
@@ -1041,14 +1409,22 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                        <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                        <https://w3id.org/NCL/ontology/Verbatim> ;
                                                       rdfs:comment "Le label d'origine contrôlée d'un produit."@fr ,
-                                                                   "The controlled origin label of a product."@en .
+                                                                   "The controlled origin label of a product."@en ;
+                                                      rdfs:label "Controlled origin label"@en ,
+                                                                 "Label d'origine contrôlée"@fr ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Controlled origin label"@en ,
+                                                                                                      "Label d'origine contrôlée"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/EnzymeIngredient
 <https://w3id.org/NCL/ontology/EnzymeIngredient> rdf:type owl:Class ;
                                                  rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByFunction> ;
                                                  rdfs:comment "Ingredient used as an enzyme in food processing."@en ,
-                                                              "Ingrédient utilisé comme enzyme dans le procédé alimentaire."@fr .
+                                                              "Ingrédient utilisé comme enzyme dans le procédé alimentaire."@fr ;
+                                                 rdfs:label "Enzyme ingredient"@en ,
+                                                            "Ingrédient enzymatique"@fr ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Enzyme ingredient"@en ,
+                                                                                                 "Ingrédient enzymatique"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/FNI
@@ -1077,28 +1453,44 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                      <https://w3id.org/NCL/ontology/TypeSource> ,
                                                      <https://w3id.org/NCL/ontology/Verbatim> ;
                                     rdfs:comment "Indice de naturalité d'un produit alimentaire."@fr ,
-                                                 "food naturalness index."@en .
+                                                 "food naturalness index."@en ;
+                                    rdfs:label "Food naturalness index"@en ,
+                                               "Indice de naturalité alimentaire"@fr ;
+                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Food naturalness index"@en ,
+                                                                                    "Indice de naturalité alimentaire"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/FlavorIngredient
 <https://w3id.org/NCL/ontology/FlavorIngredient> rdf:type owl:Class ;
                                                  rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByFunction> ;
                                                  rdfs:comment "Ingredient used for flavoring purposes."@en ,
-                                                              "Ingrédient utilisé pour aromatiser."@fr .
+                                                              "Ingrédient utilisé pour aromatiser."@fr ;
+                                                 rdfs:label "Flavor ingredient"@en ,
+                                                            "Ingrédient aromatique"@fr ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Flavor ingredient"@en ,
+                                                                                                 "Ingrédient aromatique"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/FunctionalNutrientIngredient
 <https://w3id.org/NCL/ontology/FunctionalNutrientIngredient> rdf:type owl:Class ;
                                                              rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByFunction> ;
                                                              rdfs:comment "Ingredient providing nutritional or health benefits."@en ,
-                                                                          "Ingrédient apportant des bénéfices nutritionnels ou santé."@fr .
+                                                                          "Ingrédient apportant des bénéfices nutritionnels ou santé."@fr ;
+                                                             rdfs:label "Functional nutrient ingredient"@en ,
+                                                                        "Ingrédient nutriment fonctionnel"@fr ;
+                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Functional nutrient ingredient"@en ,
+                                                                                                             "Ingrédient nutriment fonctionnel"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient
 <https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient> rdf:type owl:Class ;
                                                             rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByOrigin> ;
                                                             rdfs:comment "Ingredient of fungal or microbial origin."@en ,
-                                                                         "Ingrédient d'origine fongique ou microbienne."@fr .
+                                                                         "Ingrédient d'origine fongique ou microbienne."@fr ;
+                                                            rdfs:label "Fungal or microbial ingredient"@en ,
+                                                                       "Ingrédient d'origine fongique ou microbienne"@fr ;
+                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Fungal or microbial ingredient"@en ,
+                                                                                                            "Ingrédient d'origine fongique ou microbienne"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Ingredient
@@ -1126,28 +1518,44 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                             <https://w3id.org/NCL/ontology/TypeSource> ,
                                                             <https://w3id.org/NCL/ontology/Verbatim> ;
                                            rdfs:comment "An ingredient used in a product."@en ,
-                                                        "Un ingrédient utilisé dans un produit."@fr .
+                                                        "Un ingrédient utilisé dans un produit."@fr ;
+                                           rdfs:label "Ingredient"@en ,
+                                                      "Ingrédient"@fr ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient"@en ,
+                                                                                           "Ingrédient"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/IngredientByFunction
 <https://w3id.org/NCL/ontology/IngredientByFunction> rdf:type owl:Class ;
                                                      rdfs:subClassOf <https://w3id.org/NCL/ontology/Ingredient> ;
                                                      rdfs:comment "Ingredient classified by its function in the food product."@en ,
-                                                                  "Ingrédient classé selon sa fonction dans le produit alimentaire."@fr .
+                                                                  "Ingrédient classé selon sa fonction dans le produit alimentaire."@fr ;
+                                                     rdfs:label "Ingredient by function"@en ,
+                                                                "Ingrédient par fonction"@fr ;
+                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient by function"@en ,
+                                                                                                     "Ingrédient par fonction"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/IngredientByOrigin
 <https://w3id.org/NCL/ontology/IngredientByOrigin> rdf:type owl:Class ;
                                                    rdfs:subClassOf <https://w3id.org/NCL/ontology/Ingredient> ;
                                                    rdfs:comment "Ingredient classified by its origin."@en ,
-                                                                "Ingrédient classé selon son origine."@fr .
+                                                                "Ingrédient classé selon son origine."@fr ;
+                                                   rdfs:label "Ingredient by origin"@en ,
+                                                              "Ingrédient par origine"@fr ;
+                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient by origin"@en ,
+                                                                                                   "Ingrédient par origine"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/IngredientByTransformationDegree
 <https://w3id.org/NCL/ontology/IngredientByTransformationDegree> rdf:type owl:Class ;
                                                                  rdfs:subClassOf <https://w3id.org/NCL/ontology/Ingredient> ;
                                                                  rdfs:comment "Ingredient classified by its degree of processing."@en ,
-                                                                              "Ingrédient classé selon son degré de transformation."@fr .
+                                                                              "Ingrédient classé selon son degré de transformation."@fr ;
+                                                                 rdfs:label "Ingredient by transformation degree"@en ,
+                                                                            "Ingrédient par degré de transformation"@fr ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient by transformation degree"@en ,
+                                                                                                                 "Ingrédient par degré de transformation"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/LinkToArgument
@@ -1174,14 +1582,22 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                 <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                 <https://w3id.org/NCL/ontology/Verbatim> ;
                                                rdfs:comment "A link between a product and an argument, containing metadata about the relationship."@en ,
-                                                            "Un lien entre un produit et un argument, contenant des métadonnées sur la relation."@fr .
+                                                            "Un lien entre un produit et un argument, contenant des métadonnées sur la relation."@fr ;
+                                               rdfs:label "Lien vers argument"@fr ,
+                                                          "Link to argument"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Lien vers argument"@fr ,
+                                                                                               "Link to argument"@en .
 
 
 ###  https://w3id.org/NCL/ontology/MainComponentIngredient
 <https://w3id.org/NCL/ontology/MainComponentIngredient> rdf:type owl:Class ;
                                                         rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByFunction> ;
                                                         rdfs:comment "Ingrédient principal apportant structure ou masse."@fr ,
-                                                                     "Main ingredient providing structure or mass."@en .
+                                                                     "Main ingredient providing structure or mass."@en ;
+                                                        rdfs:label "Ingrédient composant principal"@fr ,
+                                                                   "Main component ingredient"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient composant principal"@fr ,
+                                                                                                        "Main component ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/ManufacturingProcess
@@ -1207,7 +1623,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                       <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                       <https://w3id.org/NCL/ontology/Verbatim> ;
                                                      rdfs:comment "La manière dont le produit est fabriqué."@fr ,
-                                                                  "The way the product is manufactured."@en .
+                                                                  "The way the product is manufactured."@en ;
+                                                     rdfs:label "Manufacturing process"@en ,
+                                                                "Procédé de fabrication"@fr ;
+                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacturing process"@en ,
+                                                                                                     "Procédé de fabrication"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Material
@@ -1232,20 +1652,32 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                           <https://w3id.org/NCL/ontology/TypeSource> ,
                                                           <https://w3id.org/NCL/ontology/Verbatim> ;
                                          rdfs:comment "La matière de l'emballage du produit."@fr ,
-                                                      "The material used for the product packaging."@en .
+                                                      "The material used for the product packaging."@en ;
+                                         rdfs:label "Material"@en ,
+                                                    "Matière"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Material"@en ,
+                                                                                         "Matière"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/MineralOriginIngredient
 <https://w3id.org/NCL/ontology/MineralOriginIngredient> rdf:type owl:Class ;
                                                         rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByOrigin> ;
                                                         rdfs:comment "Ingredient of mineral origin."@en ,
-                                                                     "Ingrédient d'origine minérale."@fr .
+                                                                     "Ingrédient d'origine minérale."@fr ;
+                                                        rdfs:label "Ingrédient d'origine minérale"@fr ,
+                                                                   "Mineral origin ingredient"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine minérale"@fr ,
+                                                                                                        "Mineral origin ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/NCL
 <https://w3id.org/NCL/ontology/NCL> rdf:type owl:Class ;
                                     rdfs:comment "NCL est l'ensemble des produits et des arguments."@fr ,
-                                                 "NCL is the set of product and arguments."@en .
+                                                 "NCL is the set of product and arguments."@en ;
+                                    rdfs:label "NCL"@en ,
+                                               "NCL"@fr ;
+                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "NCL"@en ,
+                                                                                    "NCL"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/NOVAgroupDetails
@@ -1269,7 +1701,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                   <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                   <https://w3id.org/NCL/ontology/Verbatim> ;
                                                  rdfs:comment "Details of NOVA group classification from Open Food Facts."@en ,
-                                                              "Détails de la classification NOVA depuis Open Food Facts."@fr .
+                                                              "Détails de la classification NOVA depuis Open Food Facts."@fr ;
+                                                 rdfs:label "Détails du groupe NOVA"@fr ,
+                                                            "NOVA group details"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Détails du groupe NOVA"@fr ,
+                                                                                                 "NOVA group details"@en .
 
 
 ###  https://w3id.org/NCL/ontology/NaturalnessScore
@@ -1291,8 +1727,12 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                   <https://w3id.org/NCL/ontology/TagArgumentBinding> ,
                                                                   <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                   <https://w3id.org/NCL/ontology/Verbatim> ;
-                                                 rdfs:comment "Naturalness-Score."@en ,
-                                                              "Score de naturalité."@fr .
+                                                 rdfs:comment "Ressource de score représentant le niveau global de naturalité d'un produit."@fr ,
+                                                              "Score resource representing the overall naturalness level of a product."@en ;
+                                                 rdfs:label "Naturalness score"@en ,
+                                                            "Score de naturalité"@fr ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Naturalness score"@en ,
+                                                                                                 "Score de naturalité"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/NutriScore
@@ -1314,7 +1754,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                             <https://w3id.org/NCL/ontology/TypeSource> ,
                                                             <https://w3id.org/NCL/ontology/Verbatim> ;
                                            rdfs:comment "Nutri-Score."@en ,
-                                                        "Nutri-Score."@fr .
+                                                        "Nutri-Score."@fr ;
+                                           rdfs:label "Nutri-Score"@en ,
+                                                      "Nutri-Score"@fr ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Nutri-Score"@en ,
+                                                                                           "Nutri-Score"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/NutriScoreAlpha
@@ -1335,7 +1779,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                  <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                  <https://w3id.org/NCL/ontology/Verbatim> ;
                                                 rdfs:comment "Nutri-Score alpha	."@en ,
-                                                             "Nutri-Score alpha."@fr .
+                                                             "Nutri-Score alpha."@fr ;
+                                                rdfs:label "Nutri-Score alpha"@en ,
+                                                           "Nutri-Score alpha"@fr ;
+                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Nutri-Score alpha"@en ,
+                                                                                                "Nutri-Score alpha"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/NutriScoreDetail
@@ -1355,7 +1803,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                   <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                   <https://w3id.org/NCL/ontology/Verbatim> ;
                                                  rdfs:comment "Nutri-Score detail	."@en ,
-                                                              "Nutri-Score detail."@fr .
+                                                              "Nutri-Score detail."@fr ;
+                                                 rdfs:label "Détail Nutri-Score"@fr ,
+                                                            "Nutri-Score detail"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Détail Nutri-Score"@fr ,
+                                                                                                 "Nutri-Score detail"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Origin
@@ -1374,7 +1826,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                         <https://w3id.org/NCL/ontology/TypeSource> ,
                                                         <https://w3id.org/NCL/ontology/Verbatim> ;
                                        rdfs:comment "Ingredient origin (EU origin, Vietnam origin, etc.)."@en ,
-                                                    "Origine de l'ingrédient (origine UE, origine Vietnam, etc.)."@fr .
+                                                    "Origine de l'ingrédient (origine UE, origine Vietnam, etc.)."@fr ;
+                                       rdfs:label "Origin"@en ,
+                                                  "Origine"@fr ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Origin"@en ,
+                                                                                       "Origine"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Packaging
@@ -1391,24 +1847,34 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                            <https://w3id.org/NCL/ontology/TagArgumentBinding> ,
                                                            <https://w3id.org/NCL/ontology/TypeSource> ,
                                                            <https://w3id.org/NCL/ontology/Verbatim> ;
-                                          rdfs:comment "Déclaration relative à des faits sur un produit dont l'existence reste à prouver."@fr ,
-                                                       "L'emballage d'un produit."@fr ,
-                                                       "Statement of facts about a product whose existence has yet to be proven."@en ,
-                                                       "The packaging of a product."@en .
+                                          rdfs:comment "L'emballage d'un produit."@fr ,
+                                                       "The packaging of a product."@en ;
+                                          rdfs:label "Emballage"@fr ,
+                                                     "Packaging"@en ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Emballage"@fr ,
+                                                                                          "Packaging"@en .
 
 
 ###  https://w3id.org/NCL/ontology/PlantOriginIngredient
 <https://w3id.org/NCL/ontology/PlantOriginIngredient> rdf:type owl:Class ;
                                                       rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByOrigin> ;
                                                       rdfs:comment "Ingredient of plant origin."@en ,
-                                                                   "Ingrédient d'origine végétale."@fr .
+                                                                   "Ingrédient d'origine végétale."@fr ;
+                                                      rdfs:label "Ingrédient d'origine végétale"@fr ,
+                                                                 "Plant origin ingredient"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine végétale"@fr ,
+                                                                                                      "Plant origin ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/ProcessedIngredient
 <https://w3id.org/NCL/ontology/ProcessedIngredient> rdf:type owl:Class ;
                                                     rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByTransformationDegree> ;
                                                     rdfs:comment "Ingredient that has been processed (e.g., flour, oil)."@en ,
-                                                                 "Ingrédient ayant subi une transformation (farine, huile…)."@fr .
+                                                                 "Ingrédient ayant subi une transformation (farine, huile…)."@fr ;
+                                                    rdfs:label "Ingrédient transformé"@fr ,
+                                                               "Processed ingredient"@en ;
+                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient transformé"@fr ,
+                                                                                                    "Processed ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Product
@@ -1425,7 +1891,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                          <https://w3id.org/NCL/ontology/TypeSource> ,
                                                          <https://w3id.org/NCL/ontology/Verbatim> ;
                                         rdfs:comment "A food industry product."@en ,
-                                                     "Un produit de l'industrie alimentaire."@fr .
+                                                     "Un produit de l'industrie alimentaire."@fr ;
+                                        rdfs:label "Product"@en ,
+                                                   "Produit"@fr ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Product"@en ,
+                                                                                        "Produit"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/ProductArgument
@@ -1442,7 +1912,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                  <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                  <https://w3id.org/NCL/ontology/Verbatim> ;
                                                 rdfs:comment "An argument related to the naturalness of a product."@en ,
-                                                             "Un argument lié à la naturalité d'un produit."@fr .
+                                                             "Un argument lié à la naturalité d'un produit."@fr ;
+                                                rdfs:label "Argument produit"@fr ,
+                                                           "Product argument"@en ;
+                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Argument produit"@fr ,
+                                                                                                "Product argument"@en .
 
 
 ###  https://w3id.org/NCL/ontology/QuantifiedElement
@@ -1457,21 +1931,33 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                    <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                    <https://w3id.org/NCL/ontology/Verbatim> ;
                                                   rdfs:comment "An element of a product composition that includes quantity, unit, percentage, and rank."@en ,
-                                                               "Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang."@fr .
+                                                               "Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang."@fr ;
+                                                  rdfs:label "Quantified element"@en ,
+                                                             "Élément quantifié"@fr ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantified element"@en ,
+                                                                                                  "Élément quantifié"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/RawIngredient
 <https://w3id.org/NCL/ontology/RawIngredient> rdf:type owl:Class ;
                                               rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByTransformationDegree> ;
                                               rdfs:comment "Ingrédient brut ou peu transformé."@fr ,
-                                                           "Unprocessed or minimally processed ingredient."@en .
+                                                           "Unprocessed or minimally processed ingredient."@en ;
+                                              rdfs:label "Ingrédient brut"@fr ,
+                                                         "Raw ingredient"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient brut"@fr ,
+                                                                                              "Raw ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Resource
 <https://w3id.org/NCL/ontology/Resource> rdf:type owl:Class ;
                                          rdfs:subClassOf <https://w3id.org/NCL/ontology/NCL> ;
                                          rdfs:comment "Abstract class Resource, from which Product and Ingredient inherit."@en ,
-                                                      "Classe abstraite Resource, dont héritent Produit et Ingrédient."@fr .
+                                                      "Classe abstraite Resource, dont héritent Produit et Ingrédient."@fr ;
+                                         rdfs:label "Resource"@en ,
+                                                    "Ressource"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Resource"@en ,
+                                                                                         "Ressource"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Shape
@@ -1485,21 +1971,33 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                        <https://w3id.org/NCL/ontology/TypeSource> ,
                                                        <https://w3id.org/NCL/ontology/Verbatim> ;
                                       rdfs:comment "La forme de l'emballage du produit."@fr ,
-                                                   "The forme used for the product packaging."@en .
+                                                   "The forme used for the product packaging."@en ;
+                                      rdfs:label "Forme"@fr ,
+                                                 "Shape"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Forme"@fr ,
+                                                                                      "Shape"@en .
 
 
 ###  https://w3id.org/NCL/ontology/SimpleIngredient
 <https://w3id.org/NCL/ontology/SimpleIngredient> rdf:type owl:Class ;
                                                  rdfs:subClassOf <https://w3id.org/NCL/ontology/Ingredient> ;
                                                  rdfs:comment "A simple ingredient."@en ,
-                                                              "Un ingrédient simple."@fr .
+                                                              "Un ingrédient simple."@fr ;
+                                                 rdfs:label "Ingrédient simple"@fr ,
+                                                            "Simple ingredient"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient simple"@fr ,
+                                                                                                 "Simple ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/SimpleProduct
 <https://w3id.org/NCL/ontology/SimpleProduct> rdf:type owl:Class ;
                                               rdfs:subClassOf <https://w3id.org/NCL/ontology/Product> ;
                                               rdfs:comment "Food industry product made up entirely of ingredients."@en ,
-                                                           "Produit de l'industrie alimentaire composé uniquement d'ingrédients."@fr .
+                                                           "Produit de l'industrie alimentaire composé uniquement d'ingrédients."@fr ;
+                                              rdfs:label "Produit simple"@fr ,
+                                                         "Simple product"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Produit simple"@fr ,
+                                                                                              "Simple product"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Source
@@ -1512,7 +2010,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                         <https://w3id.org/NCL/ontology/TypeSource> ,
                                                         <https://w3id.org/NCL/ontology/Verbatim> ;
                                        rdfs:comment "La source d'un argument (consommateur, article scientifique, etc.)."@fr ,
-                                                    "The source of an argument (consumer, scientific paper, etc.)."@en .
+                                                    "The source of an argument (consumer, scientific paper, etc.)."@en ;
+                                       rdfs:label "Source"@en ,
+                                                  "Source"@fr ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Source"@en ,
+                                                                                       "Source"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/Stakeholder
@@ -1524,7 +2026,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                              <https://w3id.org/NCL/ontology/TypeSource> ,
                                                              <https://w3id.org/NCL/ontology/Verbatim> ;
                                             rdfs:comment "Le partie prenante faisant l'argument (consommateur, fabricant, etc.)."@fr ,
-                                                         "The stakeholder making the argument (consumer, manufacturer, etc.)."@en .
+                                                         "The stakeholder making the argument (consumer, manufacturer, etc.)."@en ;
+                                            rdfs:label "Partie prenante"@fr ,
+                                                       "Stakeholder"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Partie prenante"@fr ,
+                                                                                            "Stakeholder"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Subcategory
@@ -1535,14 +2041,22 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                              <https://w3id.org/NCL/ontology/TypeSource> ,
                                                              <https://w3id.org/NCL/ontology/Verbatim> ;
                                             rdfs:comment "Sous-catégorie de l'argument."@fr ,
-                                                         "Subcategory of the argument."@en .
+                                                         "Subcategory of the argument."@en ;
+                                            rdfs:label "Sous-catégorie"@fr ,
+                                                       "Subcategory"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Sous-catégorie"@fr ,
+                                                                                            "Subcategory"@en .
 
 
 ###  https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient
 <https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient> rdf:type owl:Class ;
                                                              rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByOrigin> ;
                                                              rdfs:comment "Ingredient of synthetic or biotechnological origin."@en ,
-                                                                          "Ingrédient d'origine synthétique ou biotechnologique."@fr .
+                                                                          "Ingrédient d'origine synthétique ou biotechnologique."@fr ;
+                                                             rdfs:label "Ingrédient d'origine synthétique ou biotechnologique"@fr ,
+                                                                        "Synthetic or biotech ingredient"@en ;
+                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine synthétique ou biotechnologique"@fr ,
+                                                                                                             "Synthetic or biotech ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Tag
@@ -1552,7 +2066,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                      <https://w3id.org/NCL/ontology/TypeSource> ,
                                                      <https://w3id.org/NCL/ontology/Verbatim> ;
                                     rdfs:comment "A tag used to qualify product argument links."@en ,
-                                                 "Un tag utilisé pour qualifier les liens d'argumentation produit."@fr .
+                                                 "Un tag utilisé pour qualifier les liens d'argumentation produit."@fr ;
+                                    rdfs:label "Tag"@en ,
+                                               "Tag"@fr ;
+                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tag"@en ,
+                                                                                    "Tag"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/TagArgumentBinding
@@ -1561,14 +2079,22 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                    owl:disjointWith <https://w3id.org/NCL/ontology/TypeSource> ,
                                                                     <https://w3id.org/NCL/ontology/Verbatim> ;
                                                    rdfs:comment "Binding object carrying argumentation attributes associated with a tag."@en ,
-                                                                "Objet de liaison portant les attributs d'argumentation associés à un tag."@fr .
+                                                                "Objet de liaison portant les attributs d'argumentation associés à un tag."@fr ;
+                                                   rdfs:label "Liaison tag-argument"@fr ,
+                                                              "Tag argument binding"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Liaison tag-argument"@fr ,
+                                                                                                   "Tag argument binding"@en .
 
 
 ###  https://w3id.org/NCL/ontology/TechnologicalIngredient
 <https://w3id.org/NCL/ontology/TechnologicalIngredient> rdf:type owl:Class ;
                                                         rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByFunction> ;
                                                         rdfs:comment "Ingredient used for technological purposes (e.g., carrier, thickener)."@en ,
-                                                                     "Ingrédient utilisé pour des raisons technologiques (support, épaississant…)."@fr .
+                                                                     "Ingrédient utilisé pour des raisons technologiques (support, épaississant…)."@fr ;
+                                                        rdfs:label "Ingrédient technologique"@fr ,
+                                                                   "Technological ingredient"@en ;
+                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient technologique"@fr ,
+                                                                                                        "Technological ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/TypeSource
@@ -1576,21 +2102,33 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                            rdfs:subClassOf <https://w3id.org/NCL/ontology/NCL> ;
                                            owl:disjointWith <https://w3id.org/NCL/ontology/Verbatim> ;
                                            rdfs:comment "Le type de source d'un argument (expert, article peer-reviewed, etc.)."@fr ,
-                                                        "The type of source of an argument (expert, peer-reviewed article, etc.)."@en .
+                                                        "The type of source of an argument (expert, peer-reviewed article, etc.)."@en ;
+                                           rdfs:label "Source type"@en ,
+                                                      "Type de source"@fr ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Source type"@en ,
+                                                                                           "Type de source"@fr .
 
 
 ###  https://w3id.org/NCL/ontology/UltraProcessedIngredient
 <https://w3id.org/NCL/ontology/UltraProcessedIngredient> rdf:type owl:Class ;
                                                          rdfs:subClassOf <https://w3id.org/NCL/ontology/IngredientByTransformationDegree> ;
                                                          rdfs:comment "Ingredient that is highly processed or modified."@en ,
-                                                                      "Ingrédient hautement transformé ou modifié."@fr .
+                                                                      "Ingrédient hautement transformé ou modifié."@fr ;
+                                                         rdfs:label "Ingrédient ultra-transformé"@fr ,
+                                                                    "Ultra-processed ingredient"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient ultra-transformé"@fr ,
+                                                                                                         "Ultra-processed ingredient"@en .
 
 
 ###  https://w3id.org/NCL/ontology/Verbatim
 <https://w3id.org/NCL/ontology/Verbatim> rdf:type owl:Class ;
                                          rdfs:subClassOf <https://w3id.org/NCL/ontology/NCL> ;
                                          rdfs:comment "Extract of a sentence supporting the argument."@en ,
-                                                      "Extrait d'une phrase soutenant l'argument."@fr .
+                                                      "Extrait d'une phrase soutenant l'argument."@fr ;
+                                         rdfs:label "Verbatim"@en ,
+                                                    "Verbatim"@fr ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Verbatim"@en ,
+                                                                                         "Verbatim"@fr .
 
 
 #################################################################
@@ -1598,7 +2136,19 @@ rdfs:label rdf:type owl:AnnotationProperty .
 #################################################################
 
 <https://w3id.org/NCL/ontology/containsIngredientWithFunction> rdfs:comment "Links a product to the function of its ingredients."@en ,
-                                                                            "Relie un produit à la fonction de ses ingrédients."@fr .
+                                                                            "Relie un produit à la fonction de ses ingrédients."@fr ;
+                                                               rdfs:label "Contains ingredient with function"@en ,
+                                                                          "Contient un ingrédient avec fonction"@fr ;
+                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Contains ingredient with function"@en ,
+                                                                                                               "Contient un ingrédient avec fonction"@fr .
+
+
+<https://w3id.org/NCL/ontology/identifier> rdfs:comment "Identifiant associé à une ressource."@fr ,
+                                                        "Identifier associated with a resource."@en ;
+                                           rdfs:label "Identifiant"@fr ,
+                                                      "Identifier"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Identifiant"@fr ,
+                                                                                           "Identifier"@en .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

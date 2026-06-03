@@ -1,14 +1,21 @@
 [ {
   "@id" : "_:genid1",
-  "http://schema.org/name" : [ {
+  "http://schema.org/familyName" : [ {
     "@language" : "fr",
-    "@value" : "Rallou Thomopoulos"
+    "@value" : "Conde Salazar"
   }, {
     "@language" : "en",
-    "@value" : "Rallou Thomopoulos"
+    "@value" : "Conde Salazar"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Raphaël Conde Salazar"
+  }, {
+    "@language" : "en",
+    "@value" : "Raphael Conde Salazar"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0002-3218-9472"
+    "@id" : "https://orcid.org/0000-0002-6926-5299"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -73,22 +80,15 @@
   } ]
 }, {
   "@id" : "_:genid3",
-  "http://schema.org/familyName" : [ {
-    "@language" : "fr",
-    "@value" : "Conde Salazar"
-  }, {
-    "@language" : "en",
-    "@value" : "Conde Salazar"
-  } ],
   "http://schema.org/name" : [ {
     "@language" : "fr",
-    "@value" : "Raphaël Conde Salazar"
+    "@value" : "Rallou Thomopoulos"
   }, {
     "@language" : "en",
-    "@value" : "Raphael Conde Salazar"
+    "@value" : "Rallou Thomopoulos"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0002-6926-5299"
+    "@id" : "https://orcid.org/0000-0002-3218-9472"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -178,7 +178,28 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://schema.org/Person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person involved in authorship or provenance metadata."
+  }, {
+    "@language" : "fr",
+    "@value" : "Une personne impliquée dans les métadonnées d'auteur ou de provenance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  }, {
+    "@language" : "fr",
+    "@value" : "Personne"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  }, {
+    "@language" : "fr",
+    "@value" : "Personne"
+  } ]
 }, {
   "@id" : "http://schema.org/citation",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -206,6 +227,20 @@
   }, {
     "@language" : "fr",
     "@value" : "Un nœud dans un graphe d'argumentation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Argumentation node"
+  }, {
+    "@language" : "fr",
+    "@value" : "Noeud d'argumentation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Argumentation node"
+  }, {
+    "@language" : "fr",
+    "@value" : "Noeud d'argumentation"
   } ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
@@ -227,7 +262,28 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/Organization",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organization involved in authorship, affiliation, or funding metadata."
+  }, {
+    "@language" : "fr",
+    "@value" : "Une organisation impliquée dans les métadonnées d'auteur, d'affiliation ou de financement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Organisation"
+  }, {
+    "@language" : "en",
+    "@value" : "Organization"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Organisation"
+  }, {
+    "@language" : "en",
+    "@value" : "Organization"
+  } ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/fundedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -244,12 +300,40 @@
     "@language" : "fr",
     "@value" : "Ingrédient utilisé comme additif (colorant, conservateur…)."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Additive ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient additif"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Additive ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient additif"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Allegation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Déclaration relative à une allégation ou affirmation sur un produit."
+  }, {
+    "@language" : "en",
+    "@value" : "Statement about a product claim or assertion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Allegation"
+  }, {
+    "@language" : "fr",
+    "@value" : "Allégation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
   } ],
@@ -311,6 +395,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Allegation"
+  }, {
+    "@language" : "fr",
+    "@value" : "Allégation"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/AnimalOriginIngredient",
@@ -322,8 +413,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient d'origine animale."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Animal origin ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine animale"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Animal origin ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine animale"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Attribute",
@@ -334,6 +439,13 @@
   }, {
     "@language" : "en",
     "@value" : "The attribute of naturalness in the context of the argument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Attribut"
+  }, {
+    "@language" : "en",
+    "@value" : "Attribute"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -394,6 +506,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Attribut"
+  }, {
+    "@language" : "en",
+    "@value" : "Attribute"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails",
@@ -404,6 +523,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Calculated NOVA group details"
+  }, {
+    "@language" : "fr",
+    "@value" : "Détails du groupe NOVA calculé"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -462,6 +588,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Calculated NOVA group details"
+  }, {
+    "@language" : "fr",
+    "@value" : "Détails du groupe NOVA calculé"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Category",
@@ -472,6 +605,13 @@
   }, {
     "@language" : "en",
     "@value" : "Main category of the argument (e.g., 'Mode de culture et d'élevage')."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Category"
+  }, {
+    "@language" : "fr",
+    "@value" : "Catégorie"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -528,6 +668,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Category"
+  }, {
+    "@language" : "fr",
+    "@value" : "Catégorie"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/CleanLabel",
@@ -539,6 +686,13 @@
     "@language" : "en",
     "@value" : "The clean label of a product."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Clean label"
+  }, {
+    "@language" : "fr",
+    "@value" : "Clean label"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
   } ],
@@ -592,6 +746,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Clean label"
+  }, {
+    "@language" : "fr",
+    "@value" : "Clean label"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/CompositeIngredient",
@@ -603,8 +764,22 @@
     "@language" : "fr",
     "@value" : "Un ingrédient composé d'au moins un autre ingrédient."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient composite"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Composite ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient composite"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/CompositeProduct",
@@ -616,8 +791,22 @@
     "@language" : "fr",
     "@value" : "Produit composé d'au moins un autre produit."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite product"
+  }, {
+    "@language" : "fr",
+    "@value" : "Produit composite"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Composite product"
+  }, {
+    "@language" : "fr",
+    "@value" : "Produit composite"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Context",
@@ -628,6 +817,13 @@
   }, {
     "@language" : "en",
     "@value" : "The context in which the argument is relevant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Context"
+  }, {
+    "@language" : "fr",
+    "@value" : "Contexte"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -680,6 +876,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Context"
+  }, {
+    "@language" : "fr",
+    "@value" : "Contexte"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/ContextIngredient",
@@ -691,8 +894,22 @@
     "@language" : "en",
     "@value" : "The ingredient context in which an argument is relevant."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Contexte ingrédient"
+  }, {
+    "@language" : "en",
+    "@value" : "Ingredient context"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Context"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Contexte ingrédient"
+  }, {
+    "@language" : "en",
+    "@value" : "Ingredient context"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/ContextProduct",
@@ -704,8 +921,22 @@
     "@language" : "en",
     "@value" : "The product context in which an argument is relevant."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Contexte produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Product context"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Context"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Contexte produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Product context"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel",
@@ -716,6 +947,13 @@
   }, {
     "@language" : "en",
     "@value" : "The controlled origin label of a product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controlled origin label"
+  }, {
+    "@language" : "fr",
+    "@value" : "Label d'origine contrôlée"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -766,6 +1004,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Controlled origin label"
+  }, {
+    "@language" : "fr",
+    "@value" : "Label d'origine contrôlée"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/EnzymeIngredient",
@@ -777,8 +1022,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient utilisé comme enzyme dans le procédé alimentaire."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Enzyme ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient enzymatique"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Enzyme ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient enzymatique"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/FNI",
@@ -789,6 +1048,13 @@
   }, {
     "@language" : "en",
     "@value" : "food naturalness index."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food naturalness index"
+  }, {
+    "@language" : "fr",
+    "@value" : "Indice de naturalité alimentaire"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -837,6 +1103,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Food naturalness index"
+  }, {
+    "@language" : "fr",
+    "@value" : "Indice de naturalité alimentaire"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/FlavorIngredient",
@@ -848,8 +1121,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient utilisé pour aromatiser."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Flavor ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient aromatique"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Flavor ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient aromatique"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/FunctionalNutrientIngredient",
@@ -861,8 +1148,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient apportant des bénéfices nutritionnels ou santé."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Functional nutrient ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient nutriment fonctionnel"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Functional nutrient ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient nutriment fonctionnel"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient",
@@ -874,8 +1175,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient d'origine fongique ou microbienne."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fungal or microbial ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine fongique ou microbienne"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fungal or microbial ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine fongique ou microbienne"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Ingredient",
@@ -886,6 +1201,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Un ingrédient utilisé dans un produit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Resource"
@@ -932,6 +1254,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction",
@@ -943,8 +1272,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient classé selon sa fonction dans le produit alimentaire."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient by function"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient par fonction"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient by function"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient par fonction"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin",
@@ -956,8 +1299,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient classé selon son origine."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient by origin"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient par origine"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient by origin"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient par origine"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree",
@@ -969,8 +1326,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient classé selon son degré de transformation."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient by transformation degree"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient par degré de transformation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient by transformation degree"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ingrédient par degré de transformation"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/LinkToArgument",
@@ -981,6 +1352,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Un lien entre un produit et un argument, contenant des métadonnées sur la relation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Lien vers argument"
+  }, {
+    "@language" : "en",
+    "@value" : "Link to argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1025,6 +1403,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Lien vers argument"
+  }, {
+    "@language" : "en",
+    "@value" : "Link to argument"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/MainComponentIngredient",
@@ -1036,8 +1421,22 @@
     "@language" : "en",
     "@value" : "Main ingredient providing structure or mass."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient composant principal"
+  }, {
+    "@language" : "en",
+    "@value" : "Main component ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient composant principal"
+  }, {
+    "@language" : "en",
+    "@value" : "Main component ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess",
@@ -1048,6 +1447,13 @@
   }, {
     "@language" : "en",
     "@value" : "The way the product is manufactured."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing process"
+  }, {
+    "@language" : "fr",
+    "@value" : "Procédé de fabrication"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1090,6 +1496,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing process"
+  }, {
+    "@language" : "fr",
+    "@value" : "Procédé de fabrication"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Material",
@@ -1100,6 +1513,13 @@
   }, {
     "@language" : "en",
     "@value" : "The material used for the product packaging."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Material"
+  }, {
+    "@language" : "fr",
+    "@value" : "Matière"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1140,6 +1560,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Material"
+  }, {
+    "@language" : "fr",
+    "@value" : "Matière"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/MineralOriginIngredient",
@@ -1151,8 +1578,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient d'origine minérale."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine minérale"
+  }, {
+    "@language" : "en",
+    "@value" : "Mineral origin ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine minérale"
+  }, {
+    "@language" : "en",
+    "@value" : "Mineral origin ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/NCL",
@@ -1163,6 +1604,20 @@
   }, {
     "@language" : "en",
     "@value" : "NCL is the set of product and arguments."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NCL"
+  }, {
+    "@language" : "fr",
+    "@value" : "NCL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NCL"
+  }, {
+    "@language" : "fr",
+    "@value" : "NCL"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails",
@@ -1173,6 +1628,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Détails de la classification NOVA depuis Open Food Facts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Détails du groupe NOVA"
+  }, {
+    "@language" : "en",
+    "@value" : "NOVA group details"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1211,6 +1673,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Détails du groupe NOVA"
+  }, {
+    "@language" : "en",
+    "@value" : "NOVA group details"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/NatclinnTbox",
@@ -1315,11 +1784,18 @@
   "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Ressource de score représentant le niveau global de naturalité d'un produit."
+  }, {
     "@language" : "en",
-    "@value" : "Naturalness-Score."
+    "@value" : "Score resource representing the overall naturalness level of a product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Naturalness score"
   }, {
     "@language" : "fr",
-    "@value" : "Score de naturalité."
+    "@value" : "Score de naturalité"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1356,6 +1832,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Naturalness score"
+  }, {
+    "@language" : "fr",
+    "@value" : "Score de naturalité"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/NutriScore",
@@ -1366,6 +1849,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Nutri-Score."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nutri-Score"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nutri-Score"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1400,6 +1890,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Nutri-Score"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nutri-Score"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha",
@@ -1410,6 +1907,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Nutri-Score alpha."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nutri-Score alpha"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nutri-Score alpha"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1442,6 +1946,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Nutri-Score alpha"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nutri-Score alpha"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail",
@@ -1452,6 +1963,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Nutri-Score detail."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Détail Nutri-Score"
+  }, {
+    "@language" : "en",
+    "@value" : "Nutri-Score detail"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1482,6 +2000,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Détail Nutri-Score"
+  }, {
+    "@language" : "en",
+    "@value" : "Nutri-Score detail"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Origin",
@@ -1492,6 +2017,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Origine de l'ingrédient (origine UE, origine Vietnam, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Origin"
+  }, {
+    "@language" : "fr",
+    "@value" : "Origine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1520,22 +2052,30 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Origin"
+  }, {
+    "@language" : "fr",
+    "@value" : "Origine"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Packaging",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
-    "@value" : "Déclaration relative à des faits sur un produit dont l'existence reste à prouver."
-  }, {
-    "@language" : "fr",
     "@value" : "L'emballage d'un produit."
   }, {
     "@language" : "en",
-    "@value" : "Statement of facts about a product whose existence has yet to be proven."
+    "@value" : "The packaging of a product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Emballage"
   }, {
     "@language" : "en",
-    "@value" : "The packaging of a product."
+    "@value" : "Packaging"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1562,6 +2102,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Emballage"
+  }, {
+    "@language" : "en",
+    "@value" : "Packaging"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/PlantOriginIngredient",
@@ -1573,8 +2120,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient d'origine végétale."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine végétale"
+  }, {
+    "@language" : "en",
+    "@value" : "Plant origin ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine végétale"
+  }, {
+    "@language" : "en",
+    "@value" : "Plant origin ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/ProcessedIngredient",
@@ -1586,8 +2147,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient ayant subi une transformation (farine, huile…)."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient transformé"
+  }, {
+    "@language" : "en",
+    "@value" : "Processed ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient transformé"
+  }, {
+    "@language" : "en",
+    "@value" : "Processed ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Product",
@@ -1598,6 +2173,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Un produit de l'industrie alimentaire."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Product"
+  }, {
+    "@language" : "fr",
+    "@value" : "Produit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Resource"
@@ -1622,6 +2204,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Product"
+  }, {
+    "@language" : "fr",
+    "@value" : "Produit"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/ProductArgument",
@@ -1632,6 +2221,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Un argument lié à la naturalité d'un produit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Argument produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Product argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.arg.dundee.ac.uk/aif#Node"
@@ -1656,6 +2252,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Argument produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Product argument"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement",
@@ -1666,6 +2269,13 @@
   }, {
     "@language" : "fr",
     "@value" : "Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quantified element"
+  }, {
+    "@language" : "fr",
+    "@value" : "Élément quantifié"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1686,6 +2296,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Quantified element"
+  }, {
+    "@language" : "fr",
+    "@value" : "Élément quantifié"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/RawIngredient",
@@ -1697,8 +2314,22 @@
     "@language" : "en",
     "@value" : "Unprocessed or minimally processed ingredient."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient brut"
+  }, {
+    "@language" : "en",
+    "@value" : "Raw ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient brut"
+  }, {
+    "@language" : "en",
+    "@value" : "Raw ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Resource",
@@ -1710,8 +2341,22 @@
     "@language" : "fr",
     "@value" : "Classe abstraite Resource, dont héritent Produit et Ingrédient."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resource"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ressource"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Resource"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ressource"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Shape",
@@ -1722,6 +2367,13 @@
   }, {
     "@language" : "en",
     "@value" : "The forme used for the product packaging."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Forme"
+  }, {
+    "@language" : "en",
+    "@value" : "Shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1740,6 +2392,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Forme"
+  }, {
+    "@language" : "en",
+    "@value" : "Shape"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/SimpleIngredient",
@@ -1751,8 +2410,22 @@
     "@language" : "fr",
     "@value" : "Un ingrédient simple."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient simple"
+  }, {
+    "@language" : "en",
+    "@value" : "Simple ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient simple"
+  }, {
+    "@language" : "en",
+    "@value" : "Simple ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/SimpleProduct",
@@ -1764,8 +2437,22 @@
     "@language" : "fr",
     "@value" : "Produit de l'industrie alimentaire composé uniquement d'ingrédients."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Produit simple"
+  }, {
+    "@language" : "en",
+    "@value" : "Simple product"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Produit simple"
+  }, {
+    "@language" : "en",
+    "@value" : "Simple product"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Source",
@@ -1776,6 +2463,13 @@
   }, {
     "@language" : "en",
     "@value" : "The source of an argument (consumer, scientific paper, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Source"
+  }, {
+    "@language" : "fr",
+    "@value" : "Source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1792,6 +2486,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Source"
+  }, {
+    "@language" : "fr",
+    "@value" : "Source"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Stakeholder",
@@ -1802,6 +2503,13 @@
   }, {
     "@language" : "en",
     "@value" : "The stakeholder making the argument (consumer, manufacturer, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Partie prenante"
+  }, {
+    "@language" : "en",
+    "@value" : "Stakeholder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1816,6 +2524,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Partie prenante"
+  }, {
+    "@language" : "en",
+    "@value" : "Stakeholder"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Subcategory",
@@ -1826,6 +2541,13 @@
   }, {
     "@language" : "en",
     "@value" : "Subcategory of the argument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Sous-catégorie"
+  }, {
+    "@language" : "en",
+    "@value" : "Subcategory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
@@ -1838,6 +2560,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Sous-catégorie"
+  }, {
+    "@language" : "en",
+    "@value" : "Subcategory"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient",
@@ -1849,8 +2578,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient d'origine synthétique ou biotechnologique."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine synthétique ou biotechnologique"
+  }, {
+    "@language" : "en",
+    "@value" : "Synthetic or biotech ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient d'origine synthétique ou biotechnologique"
+  }, {
+    "@language" : "en",
+    "@value" : "Synthetic or biotech ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Tag",
@@ -1862,6 +2605,13 @@
     "@language" : "fr",
     "@value" : "Un tag utilisé pour qualifier les liens d'argumentation produit."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tag"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tag"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
   } ],
@@ -1871,6 +2621,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Tag"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tag"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding",
@@ -1882,6 +2639,13 @@
     "@language" : "fr",
     "@value" : "Objet de liaison portant les attributs d'argumentation associés à un tag."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Liaison tag-argument"
+  }, {
+    "@language" : "en",
+    "@value" : "Tag argument binding"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
   } ],
@@ -1889,6 +2653,13 @@
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   }, {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Liaison tag-argument"
+  }, {
+    "@language" : "en",
+    "@value" : "Tag argument binding"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/TechnologicalIngredient",
@@ -1900,8 +2671,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient utilisé pour des raisons technologiques (support, épaississant…)."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient technologique"
+  }, {
+    "@language" : "en",
+    "@value" : "Technological ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient technologique"
+  }, {
+    "@language" : "en",
+    "@value" : "Technological ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/TypeSource",
@@ -1913,11 +2698,25 @@
     "@language" : "en",
     "@value" : "The type of source of an argument (expert, peer-reviewed article, etc.)."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Source type"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type de source"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Source type"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type de source"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/UltraProcessedIngredient",
@@ -1929,8 +2728,22 @@
     "@language" : "fr",
     "@value" : "Ingrédient hautement transformé ou modifié."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient ultra-transformé"
+  }, {
+    "@language" : "en",
+    "@value" : "Ultra-processed ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ingrédient ultra-transformé"
+  }, {
+    "@language" : "en",
+    "@value" : "Ultra-processed ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/Verbatim",
@@ -1942,8 +2755,22 @@
     "@language" : "fr",
     "@value" : "Extrait d'une phrase soutenant l'argument."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Verbatim"
+  }, {
+    "@language" : "fr",
+    "@value" : "Verbatim"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NCL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Verbatim"
+  }, {
+    "@language" : "fr",
+    "@value" : "Verbatim"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/aboutTag",
@@ -1958,8 +2785,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "About tag"
+  }, {
+    "@language" : "fr",
+    "@value" : "Concerne le tag"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Tag"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "About tag"
+  }, {
+    "@language" : "fr",
+    "@value" : "Concerne le tag"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/aim",
@@ -1974,8 +2815,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aim"
+  }, {
+    "@language" : "fr",
+    "@value" : "Objectif"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Aim"
+  }, {
+    "@language" : "fr",
+    "@value" : "Objectif"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/assertion",
@@ -1990,8 +2845,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assertion"
+  }, {
+    "@language" : "fr",
+    "@value" : "Assertion"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Assertion"
+  }, {
+    "@language" : "fr",
+    "@value" : "Assertion"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/bindingKeywords",
@@ -2006,8 +2875,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Binding keywords"
+  }, {
+    "@language" : "fr",
+    "@value" : "Mots-clés de liaison"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Binding keywords"
+  }, {
+    "@language" : "fr",
+    "@value" : "Mots-clés de liaison"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/condition",
@@ -2022,8 +2905,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Condition"
+  }, {
+    "@language" : "fr",
+    "@value" : "Condition"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Condition"
+  }, {
+    "@language" : "fr",
+    "@value" : "Condition"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/containsAdditives",
@@ -2038,8 +2935,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contains additives"
+  }, {
+    "@language" : "fr",
+    "@value" : "Contient des additifs"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Contains additives"
+  }, {
+    "@language" : "fr",
+    "@value" : "Contient des additifs"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/containsIngredientWithFunction",
@@ -2054,8 +2965,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contains ingredient with function"
+  }, {
+    "@language" : "fr",
+    "@value" : "Contient un ingrédient avec fonction"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Contains ingredient with function"
+  }, {
+    "@language" : "fr",
+    "@value" : "Contient un ingrédient avec fonction"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/fiability",
@@ -2070,8 +2995,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Fiabilité"
+  }, {
+    "@language" : "en",
+    "@value" : "Reliability"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Fiabilité"
+  }, {
+    "@language" : "en",
+    "@value" : "Reliability"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/groupe1",
@@ -2086,8 +3025,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Group 1"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Group 1"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 1"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/groupe2",
@@ -2102,8 +3055,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Group 2"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Group 2"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 2"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/groupe3",
@@ -2118,8 +3085,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Group 3"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Group 3"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 3"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/groupe4",
@@ -2134,8 +3115,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Group 4"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 4"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Group 4"
+  }, {
+    "@language" : "fr",
+    "@value" : "Groupe 4"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasAdditiveIngredients",
@@ -2150,17 +3145,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients additifs"
+  }, {
+    "@language" : "en",
+    "@value" : "Has additive ingredients"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients additifs"
+  }, {
+    "@language" : "en",
+    "@value" : "Has additive ingredients"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasAllegation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to its allegations or claims."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à ses allégations."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour allégation"
+  }, {
+    "@language" : "en",
+    "@value" : "Has allegation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Allegation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour allégation"
+  }, {
+    "@language" : "en",
+    "@value" : "Has allegation"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasAttribute",
@@ -2175,8 +3205,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour attribut"
+  }, {
+    "@language" : "en",
+    "@value" : "Has attribute"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Attribute"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour attribut"
+  }, {
+    "@language" : "en",
+    "@value" : "Has attribute"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup",
@@ -2191,8 +3235,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour groupe NOVA calculé"
+  }, {
+    "@language" : "en",
+    "@value" : "Has calculated NOVA group"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour groupe NOVA calculé"
+  }, {
+    "@language" : "en",
+    "@value" : "Has calculated NOVA group"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails",
@@ -2207,8 +3265,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour détails du groupe NOVA calculé"
+  }, {
+    "@language" : "en",
+    "@value" : "Has calculated NOVA group details"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour détails du groupe NOVA calculé"
+  }, {
+    "@language" : "en",
+    "@value" : "Has calculated NOVA group details"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasCategory",
@@ -2223,8 +3295,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour catégorie"
+  }, {
+    "@language" : "en",
+    "@value" : "Has category"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour catégorie"
+  }, {
+    "@language" : "en",
+    "@value" : "Has category"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasCiqualFoodCode",
@@ -2239,8 +3325,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour code Ciqual"
+  }, {
+    "@language" : "en",
+    "@value" : "Has Ciqual food code"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour code Ciqual"
+  }, {
+    "@language" : "en",
+    "@value" : "Has Ciqual food code"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode",
@@ -2255,26 +3355,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour code Ciqual proxy"
+  }, {
+    "@language" : "en",
+    "@value" : "Has Ciqual proxy food code"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour code Ciqual proxy"
+  }, {
+    "@language" : "en",
+    "@value" : "Has Ciqual proxy food code"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasCleanLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to clean-label information."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à une information de clean label."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
-  } ]
-}, {
-  "@id" : "https://w3id.org/NCL/ontology/hasComposedOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid7"
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour clean label"
+  }, {
+    "@language" : "en",
+    "@value" : "Has clean label"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid10"
+    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour clean label"
+  }, {
+    "@language" : "en",
+    "@value" : "Has clean label"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasContext",
@@ -2289,8 +3415,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour contexte"
+  }, {
+    "@language" : "en",
+    "@value" : "Has context"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Context"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour contexte"
+  }, {
+    "@language" : "en",
+    "@value" : "Has context"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasContextIngredient",
@@ -2305,8 +3445,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Context"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour contexte ingrédient"
+  }, {
+    "@language" : "en",
+    "@value" : "Has ingredient context"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ContextIngredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour contexte ingrédient"
+  }, {
+    "@language" : "en",
+    "@value" : "Has ingredient context"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasContextProduct",
@@ -2321,17 +3475,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Context"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour contexte produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Has product context"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ContextProduct"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour contexte produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Has product context"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasControlledOriginLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to a controlled-origin label."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à un label d'origine contrôlée."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour label d'origine contrôlée"
+  }, {
+    "@language" : "en",
+    "@value" : "Has controlled origin label"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour label d'origine contrôlée"
+  }, {
+    "@language" : "en",
+    "@value" : "Has controlled origin label"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasEAN13",
@@ -2339,11 +3528,32 @@
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasFNI",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to its Food Naturalness Index resource."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à sa ressource d'indice de naturalité alimentaire."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour FNI"
+  }, {
+    "@language" : "en",
+    "@value" : "Has FNI"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/FNI"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour FNI"
+  }, {
+    "@language" : "en",
+    "@value" : "Has FNI"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasIdIngredientOFF",
@@ -2351,11 +3561,32 @@
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to one of its ingredients."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à l'un de ses ingrédients."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédient"
+  }, {
+    "@language" : "en",
+    "@value" : "Has ingredient"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédient"
+  }, {
+    "@language" : "en",
+    "@value" : "Has ingredient"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasLinkToArgument",
@@ -2370,26 +3601,82 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour lien vers argument"
+  }, {
+    "@language" : "en",
+    "@value" : "Has link to argument"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour lien vers argument"
+  }, {
+    "@language" : "en",
+    "@value" : "Has link to argument"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasManufacturingProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to its manufacturing process."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à son procédé de fabrication."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour procédé de fabrication"
+  }, {
+    "@language" : "en",
+    "@value" : "Has manufacturing process"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour procédé de fabrication"
+  }, {
+    "@language" : "en",
+    "@value" : "Has manufacturing process"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a packaging to the material it uses."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un emballage au matériau qu'il utilise."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Packaging"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour matière"
+  }, {
+    "@language" : "en",
+    "@value" : "Has material"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Material"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour matière"
+  }, {
+    "@language" : "en",
+    "@value" : "Has material"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasNOVAgroup",
@@ -2404,8 +3691,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour groupe NOVA"
+  }, {
+    "@language" : "en",
+    "@value" : "Has NOVA group"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour groupe NOVA"
+  }, {
+    "@language" : "en",
+    "@value" : "Has NOVA group"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasNOVAgroupDetails",
@@ -2420,44 +3721,142 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour détails du groupe NOVA"
+  }, {
+    "@language" : "en",
+    "@value" : "Has NOVA group details"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour détails du groupe NOVA"
+  }, {
+    "@language" : "en",
+    "@value" : "Has NOVA group details"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasNaturalnessScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to its naturalness score resource."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à sa ressource de score de naturalité."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour score de naturalité"
+  }, {
+    "@language" : "en",
+    "@value" : "Has naturalness score"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour score de naturalité"
+  }, {
+    "@language" : "en",
+    "@value" : "Has naturalness score"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasNutriScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to its Nutri-Score resource."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à sa ressource Nutri-Score."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour Nutri-Score"
+  }, {
+    "@language" : "en",
+    "@value" : "Has Nutri-Score"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour Nutri-Score"
+  }, {
+    "@language" : "en",
+    "@value" : "Has Nutri-Score"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasOrigin",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links an ingredient to its origin."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un ingrédient à son origine."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour origine"
+  }, {
+    "@language" : "en",
+    "@value" : "Has origin"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Origin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour origine"
+  }, {
+    "@language" : "en",
+    "@value" : "Has origin"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasPackaging",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a product to its packaging."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un produit à son emballage."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour emballage"
+  }, {
+    "@language" : "en",
+    "@value" : "Has packaging"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Packaging"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour emballage"
+  }, {
+    "@language" : "en",
+    "@value" : "Has packaging"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasProcessedIngredients",
@@ -2472,8 +3871,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients transformés"
+  }, {
+    "@language" : "en",
+    "@value" : "Has processed ingredients"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients transformés"
+  }, {
+    "@language" : "en",
+    "@value" : "Has processed ingredients"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasProductArgument",
@@ -2488,17 +3901,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour argument produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Has product argument"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour argument produit"
+  }, {
+    "@language" : "en",
+    "@value" : "Has product argument"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasQuantifiedElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a resource to one of its quantified elements."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie une ressource à l'un de ses éléments quantifiés."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Resource"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour élément quantifié"
+  }, {
+    "@language" : "en",
+    "@value" : "Has quantified element"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour élément quantifié"
+  }, {
+    "@language" : "en",
+    "@value" : "Has quantified element"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasRawIngredients",
@@ -2513,8 +3961,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients bruts"
+  }, {
+    "@language" : "en",
+    "@value" : "Has raw ingredients"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients bruts"
+  }, {
+    "@language" : "en",
+    "@value" : "Has raw ingredients"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasReferenceProductArgument",
@@ -2529,8 +3991,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour argument produit référencé"
+  }, {
+    "@language" : "en",
+    "@value" : "Has reference product argument"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour argument produit référencé"
+  }, {
+    "@language" : "en",
+    "@value" : "Has reference product argument"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasRole",
@@ -2545,17 +4021,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour rôle"
+  }, {
+    "@language" : "en",
+    "@value" : "Has role"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Tag"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour rôle"
+  }, {
+    "@language" : "en",
+    "@value" : "Has role"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a packaging to its shape."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie un emballage à sa forme."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Packaging"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour forme"
+  }, {
+    "@language" : "en",
+    "@value" : "Has shape"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Shape"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour forme"
+  }, {
+    "@language" : "en",
+    "@value" : "Has shape"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasSource",
@@ -2570,8 +4081,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour source"
+  }, {
+    "@language" : "en",
+    "@value" : "Has source"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Source"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour source"
+  }, {
+    "@language" : "en",
+    "@value" : "Has source"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasStakeholder",
@@ -2586,8 +4111,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour partie prenante"
+  }, {
+    "@language" : "en",
+    "@value" : "Has stakeholder"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour partie prenante"
+  }, {
+    "@language" : "en",
+    "@value" : "Has stakeholder"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasSubcategory",
@@ -2602,8 +4141,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour sous-catégorie"
+  }, {
+    "@language" : "en",
+    "@value" : "Has subcategory"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour sous-catégorie"
+  }, {
+    "@language" : "en",
+    "@value" : "Has subcategory"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasTag",
@@ -2618,8 +4171,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour tag"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Tag"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour tag"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator",
@@ -2634,8 +4201,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour liaison tag-argument initiatrice"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag argument binding initiator"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour liaison tag-argument initiatrice"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag argument binding initiator"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasTagCheck",
@@ -2650,8 +4231,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Product"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour tag de vérification"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag check"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Tag"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour tag de vérification"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag check"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasTagInitiator",
@@ -2666,8 +4261,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour tag initiateur"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag initiator"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Tag"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour tag initiateur"
+  }, {
+    "@language" : "en",
+    "@value" : "Has tag initiator"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasTechnologicalIngredients",
@@ -2682,8 +4291,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients technologiques"
+  }, {
+    "@language" : "en",
+    "@value" : "Has technological ingredients"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour ingrédients technologiques"
+  }, {
+    "@language" : "en",
+    "@value" : "Has technological ingredients"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasText",
@@ -2698,8 +4321,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour texte"
+  }, {
+    "@language" : "en",
+    "@value" : "Has text"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour texte"
+  }, {
+    "@language" : "en",
+    "@value" : "Has text"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasTrademark",
@@ -2717,8 +4354,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Source"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour type de source"
+  }, {
+    "@language" : "en",
+    "@value" : "Has source type"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour type de source"
+  }, {
+    "@language" : "en",
+    "@value" : "Has source type"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/hasVerbatim",
@@ -2733,17 +4384,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "A pour verbatim"
+  }, {
+    "@language" : "en",
+    "@value" : "Has verbatim"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "A pour verbatim"
+  }, {
+    "@language" : "en",
+    "@value" : "Has verbatim"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/identifier",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Identifiant associé à une ressource."
+  }, {
+    "@language" : "en",
+    "@value" : "Identifier associated with a resource."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/Resource"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Identifiant"
+  }, {
+    "@language" : "en",
+    "@value" : "Identifier"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Identifiant"
+  }, {
+    "@language" : "en",
+    "@value" : "Identifier"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/infValue",
@@ -2758,8 +4444,52 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lower bound value"
+  }, {
+    "@language" : "fr",
+    "@value" : "Valeur inférieure"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Lower bound value"
+  }, {
+    "@language" : "fr",
+    "@value" : "Valeur inférieure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/NCL/ontology/isComposedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a composite resource to the resources it is composed of."
+  }, {
+    "@language" : "fr",
+    "@value" : "Relie une ressource composite aux ressources qui la composent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Est composé de"
+  }, {
+    "@language" : "en",
+    "@value" : "Is composed of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Est composé de"
+  }, {
+    "@language" : "en",
+    "@value" : "Is composed of"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/nameCriterion",
@@ -2774,8 +4504,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Criterion name"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nom du critère"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Criterion name"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nom du critère"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/nameProperty",
@@ -2790,8 +4534,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Nom de la propriété"
+  }, {
+    "@language" : "en",
+    "@value" : "Property name"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Nom de la propriété"
+  }, {
+    "@language" : "en",
+    "@value" : "Property name"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/percentage",
@@ -2806,8 +4564,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pourcentage"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Percentage"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pourcentage"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/polarity",
@@ -2822,8 +4594,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Polarity"
+  }, {
+    "@language" : "fr",
+    "@value" : "Polarité"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Polarity"
+  }, {
+    "@language" : "fr",
+    "@value" : "Polarité"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/quantity",
@@ -2837,6 +4623,23 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quantity"
+  }, {
+    "@language" : "fr",
+    "@value" : "Quantité"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Quantity"
+  }, {
+    "@language" : "fr",
+    "@value" : "Quantité"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/rank",
@@ -2851,8 +4654,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Rang"
+  }, {
+    "@language" : "en",
+    "@value" : "Rank"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Rang"
+  }, {
+    "@language" : "en",
+    "@value" : "Rank"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/refersTo",
@@ -2867,8 +4684,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Refers to"
+  }, {
+    "@language" : "fr",
+    "@value" : "Réfère à"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Refers to"
+  }, {
+    "@language" : "fr",
+    "@value" : "Réfère à"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/supValue",
@@ -2883,8 +4714,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Upper bound value"
+  }, {
+    "@language" : "fr",
+    "@value" : "Valeur supérieure"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Upper bound value"
+  }, {
+    "@language" : "fr",
+    "@value" : "Valeur supérieure"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/supportType",
@@ -2899,8 +4744,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Support type"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type de support"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Support type"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type de support"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/target",
@@ -2915,8 +4774,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Cible"
+  }, {
+    "@language" : "en",
+    "@value" : "Target"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Cible"
+  }, {
+    "@language" : "en",
+    "@value" : "Target"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/unit",
@@ -2930,6 +4803,23 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unit"
+  }, {
+    "@language" : "fr",
+    "@value" : "Unité"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Unit"
+  }, {
+    "@language" : "fr",
+    "@value" : "Unité"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/unitArg",
@@ -2944,8 +4834,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Argument unit"
+  }, {
+    "@language" : "fr",
+    "@value" : "Unité de l'argument"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Argument unit"
+  }, {
+    "@language" : "fr",
+    "@value" : "Unité de l'argument"
   } ]
 }, {
   "@id" : "https://w3id.org/NCL/ontology/valueProperty",
@@ -2960,8 +4864,22 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Property value"
+  }, {
+    "@language" : "fr",
+    "@value" : "Valeur de la propriété"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Property value"
+  }, {
+    "@language" : "fr",
+    "@value" : "Valeur de la propriété"
   } ]
 }, {
   "@id" : "https://w3id.org/afy/vocab#introduction",

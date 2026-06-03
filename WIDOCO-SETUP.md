@@ -21,7 +21,7 @@ This will:
 - Auto-select the JAR asset matching your local Java version
 - Generate documentation from `ontology.owl`
 - Write output to `ncl/`
-- Enable OOPS and WebVowl
+- Always enable OOPS and WebVowl
 
 ## Useful options
 
@@ -37,16 +37,22 @@ Generate a single-page file for local browser preview:
 ./scripts/generate-widoco.ps1 -UniteSections
 ```
 
-Skip online services (more robust offline):
+Generate multilingual documentation (example French + English):
 
 ```powershell
-./scripts/generate-widoco.ps1 -SkipOops -SkipWebVowl
+./scripts/generate-widoco.ps1 -Languages fr-en
 ```
 
 Use Docker instead of Java JAR:
 
 ```powershell
 ./scripts/generate-widoco.ps1 -UseDocker
+```
+
+Use Docker in multilingual mode:
+
+```powershell
+./scripts/generate-widoco.ps1 -UseDocker -Languages fr-en
 ```
 
 ## Publish on GitHub Pages
