@@ -57,13 +57,6 @@
         <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
         <org:memberOf rdf:nodeID="genid2"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid5">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <schema:name xml:lang="en">Pierre Bisquert</schema:name>
-        <schema:name xml:lang="fr">Pierre Bisquert</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0001-9418-5330"/>
-        <org:memberOf rdf:nodeID="genid6"/>
-    </rdf:Description>
     <rdf:Description rdf:nodeID="genid3">
         <rdf:type rdf:resource="http://schema.org/Person"/>
         <schema:name xml:lang="en">Rallou Thomopoulos</schema:name>
@@ -71,12 +64,12 @@
         <schema:url rdf:resource="https://orcid.org/0000-0002-3218-9472"/>
         <org:memberOf rdf:nodeID="genid4"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid3">
+    <rdf:Description rdf:nodeID="genid5">
         <rdf:type rdf:resource="http://schema.org/Person"/>
-        <schema:name xml:lang="en">Magalie Weber</schema:name>
-        <schema:name xml:lang="fr">Magalie Weber</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0001-6573-4070"/>
-        <org:memberOf rdf:nodeID="genid7"/>
+        <schema:name xml:lang="en">Pierre Bisquert</schema:name>
+        <schema:name xml:lang="fr">Pierre Bisquert</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0001-9418-5330"/>
+        <org:memberOf rdf:nodeID="genid6"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid2">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -93,11 +86,7 @@
         <schema:url>https://www.umontpellier.fr/</schema:url>
         <foaf:name>University of Montpellier, INRAE, France</foaf:name>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid7">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <schema:url>https://www.umontpellier.fr/</schema:url>
-        <foaf:name>University of Montpellier, INRAE, France</foaf:name>
-    </rdf:Description>
+    
 
 
     <!-- 

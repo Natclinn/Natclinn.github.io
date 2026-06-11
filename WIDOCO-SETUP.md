@@ -21,6 +21,7 @@ This will:
 - Auto-select the JAR asset matching your local Java version
 - Generate documentation from `ontology.owl`
 - Write output to `ncl/`
+- Generate both French and English pages by default (`fr-en`)
 - Always enable OOPS and WebVowl
 
 ## Useful options

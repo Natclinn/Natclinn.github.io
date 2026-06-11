@@ -2,7 +2,7 @@ param(
     [string]$OntologyFile = "ontology.owl",
     [string]$OutputFolder = "ncl",
     [string]$WidocoVersion = "1.4.25",
-    [string]$Languages = "en",
+    [string]$Languages = "fr-en",
     [switch]$UseDocker,
     [switch]$UniteSections
 )
