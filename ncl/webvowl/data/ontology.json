@@ -156,64 +156,64 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "50",
-    "type" : "owl:Class"
-  }, {
-    "id" : "52",
+    "id" : "51",
     "type" : "owl:Class"
   }, {
     "id" : "53",
     "type" : "owl:Class"
   }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "56",
+    "id" : "57",
     "type" : "owl:Thing"
   }, {
-    "id" : "78",
+    "id" : "79",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "82",
+    "id" : "83",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "86",
+    "id" : "88",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "92",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "96",
+    "id" : "97",
     "type" : "owl:Thing"
   }, {
-    "id" : "100",
+    "id" : "101",
     "type" : "owl:Thing"
   }, {
-    "id" : "45",
+    "id" : "76",
     "type" : "owl:Class"
   }, {
-    "id" : "107",
+    "id" : "108",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "111",
+    "id" : "112",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "39",
+    "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "114",
+    "id" : "115",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "118",
+    "id" : "119",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "121",
+    "id" : "122",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "124",
+    "id" : "125",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "127",
+    "id" : "128",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "131",
@@ -228,7 +228,7 @@
     "id" : "140",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "51",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -276,10 +276,10 @@
     "id" : "186",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "87",
     "type" : "owl:Class"
   }, {
     "id" : "272",
@@ -288,7 +288,7 @@
     "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "89",
+    "id" : "94",
     "type" : "owl:Class"
   }, {
     "id" : "313",
@@ -306,13 +306,13 @@
     "id" : "332",
     "type" : "owl:Class"
   }, {
-    "id" : "48",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "129",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "322",
@@ -336,7 +336,7 @@
     "id" : "443",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "70",
     "type" : "owl:Class"
   }, {
     "id" : "337",
@@ -348,7 +348,7 @@
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "280",
@@ -357,13 +357,13 @@
     "id" : "304",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
+    "id" : "63",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "49",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
     "id" : "19",
@@ -384,19 +384,19 @@
     "id" : "347",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "38",
     "type" : "owl:Class"
   }, {
-    "id" : "22",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
     "id" : "251",
     "type" : "owl:Class"
   }, {
-    "id" : "188",
+    "id" : "193",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "42",
     "type" : "owl:Class"
   }, {
     "id" : "285",
@@ -405,7 +405,7 @@
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
     "id" : "183",
@@ -417,25 +417,25 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
     "id" : "55",
     "type" : "owl:Class"
   }, {
-    "id" : "109",
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -445,13 +445,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient ultra-transformé",
+        "language" : "en",
+        "value" : "Ultra-processed ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ultra-processed ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient ultra-transformé",
         "type" : "label"
       } ]
     },
@@ -465,8 +465,8 @@
       "fr" : "Ingrédient hautement transformé ou modifié."
     },
     "attributes" : [ "external" ],
-    "id" : "50",
-    "superClasses" : [ "51" ]
+    "id" : "51",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/RawIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -494,8 +494,8 @@
       "fr" : "Ingrédient brut ou peu transformé."
     },
     "attributes" : [ "external" ],
-    "id" : "52",
-    "superClasses" : [ "51" ]
+    "id" : "53",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/CompositeIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -523,8 +523,8 @@
       "fr" : "Un ingrédient composé d'au moins un autre ingrédient."
     },
     "attributes" : [ "external" ],
-    "id" : "53",
-    "superClasses" : [ "54" ]
+    "id" : "54",
+    "superClasses" : [ "55" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/NutriScoreDetail",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -532,13 +532,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Nutri-Score detail",
+        "language" : "fr",
+        "value" : "Détail Nutri-Score",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Détail Nutri-Score",
+        "language" : "en",
+        "value" : "Nutri-Score detail",
         "type" : "label"
       } ]
     },
@@ -553,32 +553,32 @@
     },
     "attributes" : [ "external" ],
     "id" : "7",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "56",
+    "id" : "57",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "78",
+    "id" : "79",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "82",
+    "id" : "83",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "86",
+    "id" : "88",
     "label" : {
       "IRI-based" : "string"
     }
@@ -592,14 +592,14 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "96",
+    "id" : "97",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "100",
+    "id" : "101",
     "label" : {
       "undefined" : "Thing"
     }
@@ -610,13 +610,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Forme",
+        "language" : "en",
+        "value" : "Shape",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Shape",
+        "language" : "fr",
+        "value" : "Forme",
         "type" : "label"
       } ]
     },
@@ -630,19 +630,19 @@
       "fr" : "La forme de l'emballage du produit."
     },
     "attributes" : [ "external" ],
-    "id" : "45",
-    "superClasses" : [ "55" ]
+    "id" : "76",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "107",
+    "id" : "108",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "111",
+    "id" : "112",
     "label" : {
       "IRI-based" : "double"
     }
@@ -673,40 +673,40 @@
       "fr" : "Ingrédient utilisé pour des raisons technologiques (support, épaississant…)."
     },
     "attributes" : [ "external" ],
-    "id" : "39",
+    "id" : "40",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "114",
+    "id" : "115",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "118",
+    "id" : "119",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "121",
+    "id" : "122",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "124",
+    "id" : "125",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "127",
+    "id" : "128",
     "label" : {
       "IRI-based" : "string"
     }
@@ -760,14 +760,14 @@
       "en" : "Ingredient by transformation degree",
       "fr" : "Ingrédient par degré de transformation"
     },
-    "subClasses" : [ "50", "62", "52" ],
+    "subClasses" : [ "51", "63", "53" ],
     "comment" : {
       "en" : "Ingredient classified by its degree of processing.",
       "fr" : "Ingrédient classé selon son degré de transformation."
     },
     "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "54" ]
+    "id" : "52",
+    "superClasses" : [ "55" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/CleanLabel",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -796,7 +796,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "1",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -916,7 +916,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "186",
-    "superClasses" : [ "17" ]
+    "superClasses" : [ "15" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/TypeSource",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -944,8 +944,8 @@
       "fr" : "Le type de source d'un argument (expert, article peer-reviewed, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "28",
-    "superClasses" : [ "55" ]
+    "id" : "27",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Subcategory",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -973,8 +973,8 @@
       "fr" : "Sous-catégorie de l'argument."
     },
     "attributes" : [ "external" ],
-    "id" : "71",
-    "superClasses" : [ "55" ]
+    "id" : "87",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/ContextProduct",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1032,7 +1032,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "75",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/NaturalnessScore",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1060,8 +1060,8 @@
       "fr" : "Ressource de score représentant le niveau global de naturalité d'un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "89",
-    "superClasses" : [ "55" ]
+    "id" : "94",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/CompositeProduct",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1090,7 +1090,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "313",
-    "superClasses" : [ "17" ]
+    "superClasses" : [ "15" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Organization",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -1098,13 +1098,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Organization",
+        "language" : "fr",
+        "value" : "Organisation",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Organisation",
+        "language" : "en",
+        "value" : "Organization",
         "type" : "label"
       } ]
     },
@@ -1141,14 +1141,14 @@
       "en" : "Ingredient by function",
       "fr" : "Ingrédient par fonction"
     },
-    "subClasses" : [ "73", "10", "19", "26", "33", "39" ],
+    "subClasses" : [ "73", "10", "19", "25", "33", "40" ],
     "comment" : {
       "en" : "Ingredient classified by its function in the food product.",
       "fr" : "Ingrédient classé selon sa fonction dans le produit alimentaire."
     },
     "attributes" : [ "external" ],
     "id" : "11",
-    "superClasses" : [ "54" ]
+    "superClasses" : [ "55" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/ContextIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1214,13 +1214,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Product argument",
+        "language" : "fr",
+        "value" : "Argument produit",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Argument produit",
+        "language" : "en",
+        "value" : "Product argument",
         "type" : "label"
       } ]
     },
@@ -1234,8 +1234,8 @@
       "fr" : "Un argument lié à la naturalité d'un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "48",
-    "superClasses" : [ "55", "322" ]
+    "id" : "17",
+    "superClasses" : [ "56", "322" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/ManufacturingProcess",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1243,13 +1243,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Manufacturing process",
+        "language" : "fr",
+        "value" : "Procédé de fabrication",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Procédé de fabrication",
+        "language" : "en",
+        "value" : "Manufacturing process",
         "type" : "label"
       } ]
     },
@@ -1263,8 +1263,8 @@
       "fr" : "La manière dont le produit est fabriqué."
     },
     "attributes" : [ "external" ],
-    "id" : "129",
-    "superClasses" : [ "55" ]
+    "id" : "5",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Tag",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1272,12 +1272,12 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
+        "language" : "fr",
         "value" : "Tag",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
+        "language" : "en",
         "value" : "Tag",
         "type" : "label"
       } ]
@@ -1292,8 +1292,8 @@
       "fr" : "Un tag utilisé pour qualifier les liens d'argumentation produit."
     },
     "attributes" : [ "external" ],
-    "id" : "91",
-    "superClasses" : [ "55" ]
+    "id" : "13",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "http://www.arg.dundee.ac.uk/aif#Node",
     "baseIri" : "http://www.arg.dundee.ac.uk/aif",
@@ -1301,13 +1301,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Argumentation node",
+        "language" : "fr",
+        "value" : "Noeud d'argumentation",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Noeud d'argumentation",
+        "language" : "en",
+        "value" : "Argumentation node",
         "type" : "label"
       } ]
     },
@@ -1316,7 +1316,7 @@
       "en" : "Argumentation node",
       "fr" : "Noeud d'argumentation"
     },
-    "subClasses" : [ "48" ],
+    "subClasses" : [ "17" ],
     "comment" : {
       "en" : "Abstract class for argumentation nodes.",
       "fr" : "Un nœud dans un graphe d'argumentation."
@@ -1325,22 +1325,22 @@
     "id" : "322"
   }, {
     "instances" : 0,
-    "union" : [ "53", "313" ],
+    "union" : [ "54", "313" ],
     "attributes" : [ "union", "anonymous" ],
     "id" : "409"
   }, {
     "instances" : 0,
-    "union" : [ "54", "17" ],
+    "union" : [ "55", "15" ],
     "attributes" : [ "union", "anonymous" ],
     "id" : "410"
   }, {
     "instances" : 0,
-    "union" : [ "54", "17" ],
+    "union" : [ "55", "15" ],
     "attributes" : [ "union", "anonymous" ],
     "id" : "437"
   }, {
     "instances" : 0,
-    "union" : [ "347", "8", "5", "188", "54", "17", "1", "129", "30" ],
+    "union" : [ "347", "38", "21", "193", "55", "15", "1", "5", "30" ],
     "attributes" : [ "union", "anonymous" ],
     "id" : "439"
   }, {
@@ -1405,8 +1405,8 @@
       "fr" : "Objet de liaison portant les attributs d'argumentation associés à un tag."
     },
     "attributes" : [ "external" ],
-    "id" : "24",
-    "superClasses" : [ "55" ]
+    "id" : "70",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/MineralOriginIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1414,13 +1414,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient d'origine minérale",
+        "language" : "en",
+        "value" : "Mineral origin ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Mineral origin ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient d'origine minérale",
         "type" : "label"
       } ]
     },
@@ -1443,13 +1443,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Attribute",
+        "language" : "fr",
+        "value" : "Attribut",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Attribut",
+        "language" : "en",
+        "value" : "Attribute",
         "type" : "label"
       } ]
     },
@@ -1464,7 +1464,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "344",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/AdditiveIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1501,13 +1501,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Quantified element",
+        "language" : "fr",
+        "value" : "Élément quantifié",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Élément quantifié",
+        "language" : "en",
+        "value" : "Quantified element",
         "type" : "label"
       } ]
     },
@@ -1521,8 +1521,8 @@
       "fr" : "Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang."
     },
     "attributes" : [ "external" ],
-    "id" : "37",
-    "superClasses" : [ "55" ]
+    "id" : "8",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/SimpleIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1551,7 +1551,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "280",
-    "superClasses" : [ "54" ]
+    "superClasses" : [ "55" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1559,13 +1559,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient d'origine fongique ou microbienne",
+        "language" : "en",
+        "value" : "Fungal or microbial ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Fungal or microbial ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient d'origine fongique ou microbienne",
         "type" : "label"
       } ]
     },
@@ -1608,8 +1608,8 @@
       "fr" : "Ingrédient ayant subi une transformation (farine, huile…)."
     },
     "attributes" : [ "external" ],
-    "id" : "62",
-    "superClasses" : [ "51" ]
+    "id" : "63",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Material",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1637,8 +1637,8 @@
       "fr" : "La matière de l'emballage du produit."
     },
     "attributes" : [ "external" ],
-    "id" : "15",
-    "superClasses" : [ "55" ]
+    "id" : "48",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Verbatim",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1646,12 +1646,12 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
+        "language" : "en",
         "value" : "Verbatim",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
+        "language" : "fr",
         "value" : "Verbatim",
         "type" : "label"
       } ]
@@ -1666,8 +1666,8 @@
       "fr" : "Extrait d'une phrase soutenant l'argument."
     },
     "attributes" : [ "external" ],
-    "id" : "49",
-    "superClasses" : [ "55" ]
+    "id" : "46",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/EnzymeIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1733,13 +1733,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient d'origine synthétique ou biotechnologique",
+        "language" : "en",
+        "value" : "Synthetic or biotech ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Synthetic or biotech ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient d'origine synthétique ou biotechnologique",
         "type" : "label"
       } ]
     },
@@ -1762,13 +1762,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Indice de naturalité alimentaire",
+        "language" : "en",
+        "value" : "Food naturalness index",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Food naturalness index",
+        "language" : "fr",
+        "value" : "Indice de naturalité alimentaire",
         "type" : "label"
       } ]
     },
@@ -1783,7 +1783,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "152",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/AnimalOriginIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1841,7 +1841,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "347",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Packaging",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1869,8 +1869,8 @@
       "fr" : "L'emballage d'un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "8",
-    "superClasses" : [ "55" ]
+    "id" : "38",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Source",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1878,12 +1878,12 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
+        "language" : "fr",
         "value" : "Source",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
+        "language" : "en",
         "value" : "Source",
         "type" : "label"
       } ]
@@ -1898,8 +1898,8 @@
       "fr" : "La source d'un argument (consommateur, article scientifique, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "22",
-    "superClasses" : [ "55" ]
+    "id" : "2",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Resource",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1907,13 +1907,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ressource",
+        "language" : "en",
+        "value" : "Resource",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Resource",
+        "language" : "fr",
+        "value" : "Ressource",
         "type" : "label"
       } ]
     },
@@ -1922,14 +1922,14 @@
       "en" : "Resource",
       "fr" : "Ressource"
     },
-    "subClasses" : [ "54", "17" ],
+    "subClasses" : [ "55", "15" ],
     "comment" : {
       "en" : "Abstract class Resource, from which Product and Ingredient inherit.",
       "fr" : "Classe abstraite Resource, dont héritent Produit et Ingrédient."
     },
     "attributes" : [ "external" ],
     "id" : "251",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/ControlledOriginLabel",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1937,13 +1937,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Controlled origin label",
+        "language" : "fr",
+        "value" : "Label d'origine contrôlée",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Label d'origine contrôlée",
+        "language" : "en",
+        "value" : "Controlled origin label",
         "type" : "label"
       } ]
     },
@@ -1957,8 +1957,8 @@
       "fr" : "Le label d'origine contrôlée d'un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "188",
-    "superClasses" : [ "55" ]
+    "id" : "193",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/NOVAgroupDetails",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1986,8 +1986,8 @@
       "fr" : "Détails de la classification NOVA depuis Open Food Facts."
     },
     "attributes" : [ "external" ],
-    "id" : "13",
-    "superClasses" : [ "55" ]
+    "id" : "42",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/IngredientByOrigin",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -1995,13 +1995,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ingredient by origin",
+        "language" : "fr",
+        "value" : "Ingrédient par origine",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient par origine",
+        "language" : "en",
+        "value" : "Ingredient by origin",
         "type" : "label"
       } ]
     },
@@ -2017,7 +2017,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "285",
-    "superClasses" : [ "54" ]
+    "superClasses" : [ "55" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Origin",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2046,7 +2046,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "30",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Product",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2054,13 +2054,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Produit",
+        "language" : "en",
+        "value" : "Product",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Product",
+        "language" : "fr",
+        "value" : "Produit",
         "type" : "label"
       } ]
     },
@@ -2075,7 +2075,7 @@
       "fr" : "Un produit de l'industrie alimentaire."
     },
     "attributes" : [ "external" ],
-    "id" : "17",
+    "id" : "15",
     "superClasses" : [ "251" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Context",
@@ -2084,13 +2084,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Contexte",
+        "language" : "en",
+        "value" : "Context",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Context",
+        "language" : "fr",
+        "value" : "Contexte",
         "type" : "label"
       } ]
     },
@@ -2106,7 +2106,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "183",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/MainComponentIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2164,7 +2164,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "4",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/NutriScore",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2192,8 +2192,8 @@
       "fr" : "Nutri-Score."
     },
     "attributes" : [ "external" ],
-    "id" : "5",
-    "superClasses" : [ "55" ]
+    "id" : "21",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Ingredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2201,13 +2201,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient",
+        "language" : "en",
+        "value" : "Ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient",
         "type" : "label"
       } ]
     },
@@ -2216,14 +2216,43 @@
       "en" : "Ingredient",
       "fr" : "Ingrédient"
     },
-    "subClasses" : [ "51", "280", "285", "11", "53" ],
+    "subClasses" : [ "52", "280", "285", "11", "54" ],
     "comment" : {
       "en" : "An ingredient used in a product.",
       "fr" : "Un ingrédient utilisé dans un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "54",
+    "id" : "55",
     "superClasses" : [ "251" ]
+  }, {
+    "iri" : "https://w3id.org/NCL/ontology/NutriScoreAlpha",
+    "baseIri" : "https://w3id.org/NCL/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Nutri-Score alpha",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "fr",
+        "value" : "Nutri-Score alpha",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NutriScoreAlpha",
+      "en" : "Nutri-Score alpha",
+      "fr" : "Nutri-Score alpha"
+    },
+    "comment" : {
+      "en" : "Nutri-Score alpha\t.",
+      "fr" : "Nutri-Score alpha."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/Stakeholder",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2251,37 +2280,8 @@
       "fr" : "Le partie prenante faisant l'argument (consommateur, fabricant, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "https://w3id.org/NCL/ontology/NutriScoreAlpha",
-    "baseIri" : "https://w3id.org/NCL/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Nutri-Score alpha",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Nutri-Score alpha",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "NutriScoreAlpha",
-      "en" : "Nutri-Score alpha",
-      "fr" : "Nutri-Score alpha"
-    },
-    "comment" : {
-      "en" : "Nutri-Score alpha\t.",
-      "fr" : "Nutri-Score alpha."
-    },
-    "attributes" : [ "external" ],
-    "id" : "68",
-    "superClasses" : [ "55" ]
+    "id" : "31",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/FunctionalNutrientIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2309,7 +2309,7 @@
       "fr" : "Ingrédient apportant des bénéfices nutritionnels ou santé."
     },
     "attributes" : [ "external" ],
-    "id" : "26",
+    "id" : "25",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://w3id.org/NCL/ontology/NCL",
@@ -2333,13 +2333,13 @@
       "en" : "NCL",
       "fr" : "NCL"
     },
-    "subClasses" : [ "251", "5", "183", "68", "2", "37", "48", "28", "1", "129", "24", "7", "71", "30", "347", "8", "22", "188", "344", "109", "152", "75", "45", "91", "13", "15", "49", "4", "89" ],
+    "subClasses" : [ "251", "21", "183", "35", "31", "8", "17", "27", "1", "5", "70", "7", "87", "30", "347", "38", "2", "193", "344", "110", "152", "75", "76", "13", "42", "48", "46", "4", "94" ],
     "comment" : {
       "en" : "NCL is the set of product and arguments.",
       "fr" : "NCL est l'ensemble des produits et des arguments."
     },
     "attributes" : [ "external" ],
-    "id" : "55"
+    "id" : "56"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -2367,8 +2367,8 @@
       "fr" : "Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie."
     },
     "attributes" : [ "external" ],
-    "id" : "109",
-    "superClasses" : [ "55" ]
+    "id" : "110",
+    "superClasses" : [ "56" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -2398,22 +2398,22 @@
     "id" : "20",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "21",
+    "id" : "22",
     "type" : "owl:disjointWith"
   }, {
     "id" : "23",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "25",
+    "id" : "24",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "27",
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
     "type" : "owl:disjointWith"
   }, {
     "id" : "29",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "31",
     "type" : "owl:disjointWith"
   }, {
     "id" : "32",
@@ -2422,22 +2422,16 @@
     "id" : "34",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "35",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "36",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "38",
+    "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "40",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "41",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "42",
     "type" : "owl:disjointWith"
   }, {
     "id" : "43",
@@ -2446,29 +2440,32 @@
     "id" : "44",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "46",
+    "id" : "45",
     "type" : "owl:disjointWith"
   }, {
     "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "57",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "58",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "59",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "60",
     "type" : "owl:disjointWith"
   }, {
     "id" : "61",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "63",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "64",
     "type" : "owl:disjointWith"
@@ -2477,15 +2474,18 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "66",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
     "type" : "owl:disjointWith"
   }, {
     "id" : "69",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "70",
+    "id" : "71",
     "type" : "owl:disjointWith"
   }, {
     "id" : "72",
@@ -2494,13 +2494,10 @@
     "id" : "74",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "76",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "77",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "79",
+    "id" : "78",
     "type" : "owl:disjointWith"
   }, {
     "id" : "80",
@@ -2509,7 +2506,7 @@
     "id" : "81",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "83",
+    "id" : "82",
     "type" : "owl:disjointWith"
   }, {
     "id" : "84",
@@ -2518,25 +2515,25 @@
     "id" : "85",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "88",
+    "id" : "89",
     "type" : "owl:disjointWith"
   }, {
     "id" : "90",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "93",
+    "id" : "91",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "94",
+    "id" : "93",
     "type" : "owl:disjointWith"
   }, {
     "id" : "95",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "97",
+    "id" : "96",
     "type" : "owl:disjointWith"
   }, {
     "id" : "98",
@@ -2545,7 +2542,7 @@
     "id" : "99",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "101",
+    "id" : "100",
     "type" : "owl:disjointWith"
   }, {
     "id" : "102",
@@ -2563,19 +2560,19 @@
     "id" : "106",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "108",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "110",
+    "id" : "107",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "112",
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
     "type" : "owl:disjointWith"
   }, {
     "id" : "113",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "115",
+    "id" : "114",
     "type" : "owl:disjointWith"
   }, {
     "id" : "116",
@@ -2584,25 +2581,28 @@
     "id" : "117",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "119",
+    "id" : "118",
     "type" : "owl:disjointWith"
   }, {
     "id" : "120",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "122",
+    "id" : "121",
     "type" : "owl:disjointWith"
   }, {
     "id" : "123",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "125",
+    "id" : "124",
     "type" : "owl:disjointWith"
   }, {
     "id" : "126",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "128",
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
     "type" : "owl:disjointWith"
   }, {
     "id" : "130",
@@ -2719,6 +2719,9 @@
     "id" : "187",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "188",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "189",
     "type" : "owl:disjointWith"
   }, {
@@ -2729,9 +2732,6 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "192",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "193",
     "type" : "owl:disjointWith"
   }, {
     "id" : "194",
@@ -3179,10 +3179,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "356",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "357",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "358",
     "type" : "owl:objectProperty"
@@ -3710,7 +3710,7 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "540",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "541",
     "type" : "owl:disjointWith"
@@ -3767,7 +3767,7 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "559",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "560",
     "type" : "owl:objectProperty"
@@ -4092,47 +4092,47 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "range" : "8",
+    "range" : "21",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "20"
   }, {
-    "range" : "22",
+    "range" : "2",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "21"
+    "id" : "22"
   }, {
-    "range" : "24",
+    "range" : "15",
     "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
     "range" : "11",
-    "domain" : "26",
+    "domain" : "25",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "25"
+    "id" : "24"
   }, {
-    "range" : "28",
+    "range" : "27",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "27"
+    "id" : "26"
   }, {
-    "range" : "30",
+    "range" : "27",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "29"
+    "id" : "28"
   }, {
-    "range" : "8",
+    "range" : "31",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "31"
+    "id" : "29"
   }, {
     "range" : "11",
     "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
     "id" : "32"
   }, {
-    "range" : "17",
+    "range" : "35",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "34"
@@ -4140,51 +4140,51 @@
     "range" : "8",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "35"
-  }, {
-    "range" : "37",
-    "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "36"
   }, {
+    "range" : "38",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
     "range" : "11",
-    "domain" : "39",
+    "domain" : "40",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "38"
+    "id" : "39"
   }, {
-    "range" : "30",
+    "range" : "42",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "40"
-  }, {
-    "range" : "13",
-    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "41"
   }, {
-    "range" : "2",
-    "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "42"
-  }, {
-    "range" : "5",
-    "domain" : "1",
+    "range" : "31",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "43"
   }, {
-    "range" : "45",
-    "domain" : "4",
+    "range" : "17",
+    "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
-    "range" : "22",
+    "range" : "46",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "46"
+    "id" : "45"
+  }, {
+    "range" : "48",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "17",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasVerbatim",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "49",
+    "range" : "46",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -4203,202 +4203,202 @@
       "en" : "Has verbatim",
       "fr" : "A pour verbatim"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Link an argument to its verbatim.",
       "fr" : "Link an argument to its verbatim."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "47"
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
   }, {
-    "range" : "22",
+    "range" : "13",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "57"
-  }, {
-    "range" : "51",
-    "domain" : "50",
     "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
-    "range" : "28",
-    "domain" : "4",
+    "range" : "52",
+    "domain" : "51",
     "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
-    "range" : "28",
-    "domain" : "7",
+    "range" : "13",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "51",
-    "domain" : "62",
+    "range" : "46",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
-    "range" : "7",
-    "domain" : "1",
+    "range" : "52",
+    "domain" : "63",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "63"
+    "id" : "62"
   }, {
-    "range" : "7",
-    "domain" : "4",
+    "range" : "31",
+    "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
-    "range" : "30",
-    "domain" : "7",
+    "range" : "17",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "65"
   }, {
-    "range" : "51",
-    "domain" : "52",
+    "range" : "38",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
     "id" : "66"
   }, {
-    "range" : "68",
-    "domain" : "1",
+    "range" : "52",
+    "domain" : "53",
     "attributes" : [ "object", "anonymous" ],
     "id" : "67"
   }, {
-    "range" : "68",
+    "range" : "48",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "70",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "69"
   }, {
-    "range" : "71",
+    "range" : "30",
     "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "70"
+    "id" : "71"
   }, {
     "range" : "11",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
     "id" : "72"
   }, {
-    "range" : "37",
+    "range" : "76",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "74"
   }, {
-    "range" : "49",
-    "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "76"
-  }, {
-    "range" : "8",
-    "domain" : "68",
+    "range" : "2",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "77"
   }, {
-    "range" : "4",
-    "domain" : "75",
+    "range" : "7",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "79"
+    "id" : "78"
   }, {
-    "range" : "4",
-    "domain" : "54",
+    "range" : "55",
+    "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "80"
   }, {
-    "range" : "2",
-    "domain" : "7",
+    "range" : "48",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "81"
   }, {
-    "range" : "15",
-    "domain" : "75",
+    "range" : "31",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "83"
+    "id" : "82"
   }, {
-    "range" : "30",
-    "domain" : "54",
+    "range" : "48",
+    "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "84"
   }, {
-    "range" : "48",
-    "domain" : "7",
+    "range" : "31",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "85"
   }, {
-    "range" : "45",
+    "range" : "87",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "70",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "87"
+    "id" : "89"
   }, {
-    "range" : "89",
+    "range" : "46",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "88"
-  }, {
-    "range" : "91",
-    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
     "id" : "90"
   }, {
-    "range" : "24",
+    "range" : "70",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "94",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "93"
   }, {
-    "range" : "37",
+    "range" : "94",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "94"
-  }, {
-    "range" : "49",
-    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
     "id" : "95"
   }, {
-    "range" : "54",
-    "domain" : "75",
+    "range" : "2",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "97"
+    "id" : "96"
   }, {
-    "range" : "17",
-    "domain" : "4",
+    "range" : "87",
+    "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "98"
   }, {
-    "range" : "45",
-    "domain" : "7",
+    "range" : "35",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "99"
+  }, {
+    "range" : "76",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
   }, {
     "range" : "1",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "101"
-  }, {
-    "range" : "24",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "102"
   }, {
-    "range" : "37",
-    "domain" : "7",
+    "range" : "21",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "103"
+  }, {
+    "range" : "27",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
   }, {
     "range" : "8",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "104"
-  }, {
-    "range" : "71",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "105"
   }, {
-    "range" : "30",
-    "domain" : "75",
+    "range" : "38",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "106"
   }, {
+    "range" : "13",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
     "iri" : "https://w3id.org/NCL/ontology/hasAdditiveIngredients",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "54",
+    "range" : "55",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -4417,142 +4417,142 @@
       "en" : "Has additive ingredients",
       "fr" : "A pour ingrédients additifs"
     },
-    "domain" : "109",
+    "domain" : "110",
     "comment" : {
       "en" : "Lists additive ingredients found during NOVA calculation.",
       "fr" : "Liste les ingrédients additifs trouvés lors du calcul NOVA."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "108"
+    "attributes" : [ "object", "external" ],
+    "id" : "109"
   }, {
-    "range" : "2",
-    "domain" : "68",
+    "range" : "38",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "110"
+    "id" : "111"
   }, {
-    "range" : "2",
-    "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "112"
-  }, {
-    "range" : "22",
-    "domain" : "68",
+    "range" : "76",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "113"
   }, {
-    "range" : "2",
-    "domain" : "75",
+    "range" : "27",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "115"
+    "id" : "114"
   }, {
-    "range" : "24",
-    "domain" : "54",
+    "range" : "46",
+    "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "116"
   }, {
-    "range" : "71",
-    "domain" : "68",
+    "range" : "4",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "117"
   }, {
-    "range" : "37",
-    "domain" : "54",
+    "range" : "76",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "119"
+    "id" : "118"
   }, {
-    "range" : "17",
-    "domain" : "68",
+    "range" : "87",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "120"
   }, {
-    "range" : "17",
-    "domain" : "54",
+    "range" : "8",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "122"
+    "id" : "121"
   }, {
-    "range" : "48",
-    "domain" : "68",
+    "range" : "5",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "123"
   }, {
     "range" : "15",
-    "domain" : "54",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "125"
+    "id" : "124"
   }, {
-    "range" : "91",
-    "domain" : "68",
+    "range" : "7",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "126"
   }, {
-    "range" : "129",
-    "domain" : "54",
+    "range" : "31",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "128"
+    "id" : "127"
   }, {
-    "range" : "24",
-    "domain" : "68",
+    "range" : "94",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "30",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "130"
   }, {
-    "range" : "91",
-    "domain" : "54",
+    "range" : "13",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "132"
   }, {
-    "range" : "45",
-    "domain" : "68",
+    "range" : "87",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "133"
   }, {
-    "range" : "68",
-    "domain" : "54",
+    "range" : "70",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "135"
   }, {
-    "range" : "37",
-    "domain" : "68",
+    "range" : "46",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "136"
   }, {
-    "range" : "28",
-    "domain" : "54",
+    "range" : "27",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "138"
   }, {
-    "range" : "30",
-    "domain" : "68",
+    "range" : "70",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "139"
   }, {
-    "range" : "13",
-    "domain" : "54",
+    "range" : "46",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "141"
   }, {
-    "range" : "49",
-    "domain" : "68",
+    "range" : "17",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
-    "range" : "71",
-    "domain" : "54",
+    "range" : "8",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "143"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasTechnologicalIngredients",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "54",
+    "range" : "55",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédients technologiques",
+        "language" : "en",
+        "value" : "Has technological ingredients",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has technological ingredients",
+        "language" : "fr",
+        "value" : "A pour ingrédients technologiques",
         "type" : "label"
       } ]
     },
@@ -4561,173 +4561,173 @@
       "en" : "Has technological ingredients",
       "fr" : "A pour ingrédients technologiques"
     },
-    "domain" : "109",
+    "domain" : "110",
     "comment" : {
       "en" : "Lists technological ingredients found during NOVA calculation.",
       "fr" : "Liste les ingrédients technologiques trouvés lors du calcul NOVA."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "144"
   }, {
-    "range" : "7",
-    "domain" : "68",
+    "range" : "13",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "146"
   }, {
-    "range" : "89",
-    "domain" : "54",
+    "range" : "17",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "148"
   }, {
-    "range" : "28",
-    "domain" : "68",
+    "range" : "2",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "149"
   }, {
-    "range" : "45",
+    "range" : "8",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "151"
   }, {
     "range" : "7",
-    "domain" : "5",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "153"
   }, {
-    "range" : "129",
+    "range" : "27",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "155"
   }, {
-    "range" : "22",
-    "domain" : "5",
+    "range" : "30",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "156"
   }, {
-    "range" : "71",
+    "range" : "38",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
-    "range" : "37",
-    "domain" : "5",
+    "range" : "2",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "159"
   }, {
-    "range" : "37",
+    "range" : "13",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
-    "range" : "17",
-    "domain" : "5",
+    "range" : "31",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "162"
   }, {
-    "range" : "5",
-    "domain" : "54",
+    "range" : "42",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "164"
   }, {
-    "range" : "91",
-    "domain" : "5",
+    "range" : "8",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "165"
   }, {
-    "range" : "22",
-    "domain" : "54",
+    "range" : "35",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "167"
   }, {
-    "range" : "24",
-    "domain" : "5",
+    "range" : "27",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
-    "range" : "48",
-    "domain" : "54",
+    "range" : "38",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "170"
   }, {
-    "range" : "2",
-    "domain" : "5",
+    "range" : "87",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
-    "range" : "45",
-    "domain" : "54",
+    "range" : "15",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "173"
   }, {
-    "range" : "45",
-    "domain" : "5",
+    "range" : "46",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "174"
   }, {
-    "range" : "7",
-    "domain" : "54",
+    "range" : "21",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "176"
   }, {
-    "range" : "28",
-    "domain" : "5",
+    "range" : "17",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "177"
   }, {
-    "range" : "8",
-    "domain" : "54",
+    "range" : "30",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
-    "range" : "8",
-    "domain" : "5",
+    "range" : "35",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "180"
   }, {
-    "range" : "2",
+    "range" : "42",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
-    "range" : "2",
-    "domain" : "15",
+    "range" : "27",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
-    "range" : "2",
-    "domain" : "48",
+    "range" : "31",
+    "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "185"
   }, {
-    "range" : "188",
+    "range" : "4",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
-    "range" : "28",
-    "domain" : "15",
+    "range" : "30",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "70",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "189"
   }, {
-    "range" : "91",
-    "domain" : "37",
+    "range" : "5",
+    "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
-    "range" : "30",
-    "domain" : "183",
+    "range" : "94",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "191"
   }, {
-    "range" : "22",
-    "domain" : "15",
+    "range" : "2",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "192"
-  }, {
-    "range" : "7",
-    "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "193"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasCategory",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -4735,13 +4735,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour catégorie",
+        "language" : "en",
+        "value" : "Has category",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has category",
+        "language" : "fr",
+        "value" : "A pour catégorie",
         "type" : "label"
       } ]
     },
@@ -4750,182 +4750,182 @@
       "en" : "Has category",
       "fr" : "A pour catégorie"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Links an argument to its main category.",
       "fr" : "Relie un argument à sa catégorie principale."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "194"
   }, {
-    "range" : "22",
-    "domain" : "48",
+    "range" : "76",
+    "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "195"
   }, {
-    "range" : "17",
-    "domain" : "15",
+    "range" : "7",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "196"
   }, {
-    "range" : "37",
-    "domain" : "48",
+    "range" : "87",
+    "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "197"
   }, {
-    "range" : "7",
+    "range" : "193",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "198"
   }, {
-    "range" : "45",
-    "domain" : "15",
+    "range" : "8",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "199"
   }, {
-    "range" : "49",
-    "domain" : "48",
+    "range" : "27",
+    "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "200"
-  }, {
-    "range" : "89",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "201"
-  }, {
-    "range" : "30",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "202"
-  }, {
-    "range" : "24",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "203"
-  }, {
-    "range" : "8",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "204"
-  }, {
-    "range" : "7",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "205"
-  }, {
-    "range" : "45",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "206"
-  }, {
-    "range" : "37",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "207"
-  }, {
-    "range" : "48",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "208"
-  }, {
-    "range" : "28",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "209"
-  }, {
-    "range" : "54",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "210"
-  }, {
-    "range" : "24",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "211"
-  }, {
-    "range" : "91",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "212"
-  }, {
-    "range" : "129",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "213"
-  }, {
-    "range" : "5",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "214"
-  }, {
-    "range" : "71",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "215"
   }, {
     "range" : "152",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "13",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "70",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "17",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "2",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "35",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "31",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "13",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "8",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "15",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "8",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "15",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "17",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "46",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "48",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "216"
   }, {
-    "range" : "71",
-    "domain" : "15",
+    "range" : "46",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "217"
   }, {
-    "range" : "28",
-    "domain" : "17",
+    "range" : "76",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "218"
   }, {
-    "range" : "13",
+    "range" : "38",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "219"
   }, {
-    "range" : "37",
-    "domain" : "15",
+    "range" : "35",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "220"
-  }, {
-    "range" : "71",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "221"
-  }, {
-    "range" : "22",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "222"
   }, {
     "range" : "8",
     "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "94",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "87",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "223"
   }, {
-    "range" : "49",
-    "domain" : "17",
+    "range" : "27",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "224"
   }, {
-    "range" : "49",
+    "range" : "13",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "225"
   }, {
-    "range" : "89",
-    "domain" : "15",
+    "range" : "76",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "226"
   }, {
-    "range" : "68",
+    "range" : "2",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "227"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasTag",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "91",
+    "range" : "13",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -4944,197 +4944,197 @@
       "en" : "Has tag",
       "fr" : "A pour tag"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to a tag.",
       "fr" : "Relie un produit à un tag."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "228"
   }, {
-    "range" : "24",
-    "domain" : "17",
+    "range" : "70",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "229"
   }, {
-    "range" : "37",
-    "domain" : "129",
+    "range" : "7",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "230"
   }, {
-    "range" : "91",
-    "domain" : "17",
+    "range" : "31",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "231"
   }, {
-    "range" : "5",
+    "range" : "7",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "232"
   }, {
-    "range" : "30",
-    "domain" : "129",
+    "range" : "76",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "233"
   }, {
-    "range" : "48",
-    "domain" : "17",
+    "range" : "13",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "234"
   }, {
-    "range" : "91",
+    "range" : "70",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "235"
   }, {
-    "range" : "5",
-    "domain" : "129",
+    "range" : "87",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "236"
   }, {
-    "range" : "22",
-    "domain" : "17",
+    "range" : "46",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "237"
   }, {
-    "range" : "17",
+    "range" : "31",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "238"
   }, {
-    "range" : "13",
-    "domain" : "129",
+    "range" : "15",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "239"
   }, {
-    "range" : "45",
-    "domain" : "17",
+    "range" : "17",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "240"
   }, {
-    "range" : "4",
+    "range" : "87",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "241"
   }, {
-    "range" : "91",
-    "domain" : "15",
+    "range" : "42",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "242"
   }, {
-    "range" : "37",
-    "domain" : "17",
+    "range" : "87",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "243"
   }, {
-    "range" : "45",
+    "range" : "46",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "244"
   }, {
-    "range" : "68",
-    "domain" : "15",
+    "range" : "38",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "245"
   }, {
     "range" : "2",
-    "domain" : "17",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "246"
   }, {
-    "range" : "129",
+    "range" : "5",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "247"
   }, {
-    "range" : "89",
-    "domain" : "129",
+    "range" : "21",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "248"
   }, {
-    "range" : "2",
-    "domain" : "8",
+    "range" : "76",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "249"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "251",
     "attributes" : [ "object", "anonymous" ],
     "id" : "250"
   }, {
-    "range" : "24",
+    "range" : "30",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "252"
   }, {
-    "range" : "17",
-    "domain" : "129",
+    "range" : "38",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "253"
   }, {
-    "range" : "71",
-    "domain" : "8",
+    "range" : "31",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "254"
   }, {
-    "range" : "55",
-    "domain" : "5",
+    "range" : "56",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "255"
   }, {
-    "range" : "15",
+    "range" : "21",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "256"
   }, {
-    "range" : "15",
-    "domain" : "129",
+    "range" : "13",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "257"
   }, {
-    "range" : "49",
-    "domain" : "8",
+    "range" : "2",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "258"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "259"
   }, {
-    "range" : "28",
+    "range" : "55",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "260"
   }, {
-    "range" : "22",
-    "domain" : "129",
+    "range" : "27",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "261"
   }, {
-    "range" : "91",
-    "domain" : "8",
+    "range" : "15",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "262"
   }, {
-    "range" : "71",
+    "range" : "76",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "263"
   }, {
-    "range" : "48",
-    "domain" : "129",
+    "range" : "42",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "264"
   }, {
-    "range" : "48",
+    "range" : "27",
     "domain" : "183",
     "attributes" : [ "object", "anonymous" ],
     "id" : "265"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasNOVAgroup",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "121",
+    "range" : "122",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -5153,27 +5153,27 @@
       "en" : "Has NOVA group",
       "fr" : "A pour groupe NOVA"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "NOVA group (1..4) as provided by Open Food Facts.",
       "fr" : "Groupe NOVA (1..4) tel que fourni par Open Food Facts."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "266"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasRawIngredients",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "54",
+    "range" : "55",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédients bruts",
+        "language" : "en",
+        "value" : "Has raw ingredients",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has raw ingredients",
+        "language" : "fr",
+        "value" : "A pour ingrédients bruts",
         "type" : "label"
       } ]
     },
@@ -5182,12 +5182,12 @@
       "en" : "Has raw ingredients",
       "fr" : "A pour ingrédients bruts"
     },
-    "domain" : "109",
+    "domain" : "110",
     "comment" : {
       "en" : "Lists raw ingredients found during NOVA calculation.",
       "fr" : "Liste les ingrédients bruts trouvés lors du calcul NOVA."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "267"
   }, {
     "range" : "183",
@@ -5195,8 +5195,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "268"
   }, {
-    "range" : "37",
-    "domain" : "8",
+    "range" : "17",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "270"
   }, {
@@ -5205,112 +5205,112 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "271"
   }, {
-    "range" : "2",
-    "domain" : "129",
+    "range" : "17",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "273"
   }, {
-    "range" : "24",
-    "domain" : "8",
+    "range" : "87",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "274"
   }, {
-    "range" : "54",
-    "domain" : "51",
+    "range" : "55",
+    "domain" : "52",
     "attributes" : [ "object", "anonymous" ],
     "id" : "275"
   }, {
-    "range" : "48",
+    "range" : "70",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "276"
   }, {
-    "range" : "71",
-    "domain" : "129",
+    "range" : "94",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "277"
   }, {
-    "range" : "17",
-    "domain" : "8",
+    "range" : "70",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "278"
   }, {
-    "range" : "54",
+    "range" : "55",
     "domain" : "280",
     "attributes" : [ "object", "anonymous" ],
     "id" : "279"
   }, {
-    "range" : "91",
+    "range" : "183",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "281"
   }, {
-    "range" : "91",
-    "domain" : "129",
+    "range" : "48",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "282"
   }, {
-    "range" : "45",
-    "domain" : "8",
+    "range" : "27",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "283"
   }, {
-    "range" : "54",
+    "range" : "55",
     "domain" : "285",
     "attributes" : [ "object", "anonymous" ],
     "id" : "284"
   }, {
-    "range" : "45",
+    "range" : "152",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "286"
   }, {
-    "range" : "68",
-    "domain" : "129",
+    "range" : "2",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "287"
   }, {
-    "range" : "22",
-    "domain" : "8",
+    "range" : "8",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "288"
   }, {
-    "range" : "54",
+    "range" : "55",
     "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "289"
   }, {
-    "range" : "89",
+    "range" : "30",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "290"
   }, {
-    "range" : "24",
-    "domain" : "129",
+    "range" : "35",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "291"
   }, {
-    "range" : "48",
-    "domain" : "8",
+    "range" : "13",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "292"
   }, {
-    "range" : "54",
-    "domain" : "53",
+    "range" : "55",
+    "domain" : "54",
     "attributes" : [ "object", "anonymous" ],
     "id" : "293"
   }, {
-    "range" : "37",
+    "range" : "15",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "294"
   }, {
-    "range" : "49",
+    "range" : "42",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "295"
   }, {
-    "range" : "24",
+    "range" : "46",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "296"
@@ -5322,17 +5322,17 @@
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "109",
+    "range" : "110",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour détails du groupe NOVA calculé",
+        "language" : "en",
+        "value" : "Has calculated NOVA group details",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has calculated NOVA group details",
+        "language" : "fr",
+        "value" : "A pour détails du groupe NOVA calculé",
         "type" : "label"
       } ]
     },
@@ -5341,25 +5341,25 @@
       "en" : "Has calculated NOVA group details",
       "fr" : "A pour détails du groupe NOVA calculé"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its calculated NOVA group details.",
       "fr" : "Relie un produit aux détails de son groupe NOVA calculé."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "299"
   }, {
-    "range" : "71",
+    "range" : "87",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "300"
   }, {
-    "range" : "28",
-    "domain" : "129",
+    "range" : "70",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "301"
   }, {
-    "range" : "48",
+    "range" : "8",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "302"
@@ -5369,72 +5369,72 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
-    "range" : "152",
+    "range" : "38",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "305"
   }, {
-    "range" : "49",
-    "domain" : "129",
+    "range" : "30",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "306"
   }, {
-    "range" : "28",
+    "range" : "2",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "307"
   }, {
-    "range" : "17",
+    "range" : "15",
     "domain" : "186",
     "attributes" : [ "object", "anonymous" ],
     "id" : "308"
   }, {
-    "range" : "54",
+    "range" : "8",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "309"
   }, {
-    "range" : "45",
-    "domain" : "129",
+    "range" : "31",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "310"
   }, {
-    "range" : "91",
+    "range" : "27",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "311"
   }, {
-    "range" : "17",
+    "range" : "15",
     "domain" : "313",
     "attributes" : [ "object", "anonymous" ],
     "id" : "312"
   }, {
-    "range" : "49",
+    "range" : "193",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "314"
   }, {
-    "range" : "8",
-    "domain" : "129",
+    "range" : "46",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "315"
   }, {
-    "range" : "28",
-    "domain" : "8",
+    "range" : "46",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "316"
   }, {
-    "range" : "24",
+    "range" : "4",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "317"
   }, {
-    "range" : "7",
-    "domain" : "129",
+    "range" : "8",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "318"
   }, {
-    "range" : "188",
+    "range" : "94",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "319"
@@ -5445,13 +5445,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour clean label",
+        "language" : "en",
+        "value" : "Has clean label",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has clean label",
+        "language" : "fr",
+        "value" : "A pour clean label",
         "type" : "label"
       } ]
     },
@@ -5460,55 +5460,55 @@
       "en" : "Has clean label",
       "fr" : "A pour clean label"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to clean-label information.",
       "fr" : "Relie un produit à une information de clean label."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "320"
   }, {
     "range" : "322",
-    "domain" : "48",
+    "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "321"
   }, {
-    "range" : "45",
+    "range" : "70",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "323"
   }, {
     "range" : "251",
-    "domain" : "54",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "324"
   }, {
-    "range" : "48",
+    "range" : "30",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "325"
   }, {
-    "range" : "49",
+    "range" : "15",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "326"
   }, {
     "range" : "251",
-    "domain" : "17",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "327"
   }, {
-    "range" : "15",
+    "range" : "76",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "328"
   }, {
-    "range" : "91",
+    "range" : "76",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "329"
   }, {
-    "range" : "17",
+    "range" : "87",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "330"
@@ -5518,17 +5518,17 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "331"
   }, {
-    "range" : "4",
+    "range" : "7",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "333"
   }, {
-    "range" : "2",
+    "range" : "87",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "334"
   }, {
-    "range" : "71",
+    "range" : "76",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "335"
@@ -5538,17 +5538,17 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "336"
   }, {
-    "range" : "183",
+    "range" : "55",
     "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "338"
   }, {
-    "range" : "129",
+    "range" : "7",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "339"
   }, {
-    "range" : "22",
+    "range" : "13",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "340"
@@ -5558,89 +5558,60 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "341"
   }, {
-    "range" : "13",
+    "range" : "42",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "343"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "345"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "346"
   }, {
-    "range" : "55",
-    "domain" : "8",
+    "range" : "56",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "348"
   }, {
-    "range" : "55",
-    "domain" : "22",
+    "range" : "56",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "349"
   }, {
-    "range" : "55",
-    "domain" : "188",
+    "range" : "56",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "350"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "351"
   }, {
-    "range" : "55",
-    "domain" : "109",
+    "range" : "56",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "352"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "353"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "354"
   }, {
-    "range" : "55",
-    "domain" : "45",
+    "range" : "56",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "355"
-  }, {
-    "iri" : "https://w3id.org/NCL/ontology/fiability",
-    "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "163",
-    "annotations" : {
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Reliability",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Fiabilité",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "fiability",
-      "en" : "Reliability",
-      "fr" : "Fiabilité"
-    },
-    "domain" : "28",
-    "comment" : {
-      "en" : "Fiability score of the source type.",
-      "fr" : "Score de fiabilité du type de source."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "356"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasContext",
     "baseIri" : "https://w3id.org/NCL/ontology",
@@ -5663,27 +5634,56 @@
       "en" : "Has context",
       "fr" : "A pour contexte"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Links an argument to its context",
       "fr" : "Relie un argument à son contexte"
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "356"
+  }, {
+    "iri" : "https://w3id.org/NCL/ontology/fiability",
+    "baseIri" : "https://w3id.org/NCL/ontology",
+    "range" : "163",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "fr",
+        "value" : "Fiabilité",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Reliability",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fiability",
+      "en" : "Reliability",
+      "fr" : "Fiabilité"
+    },
+    "domain" : "27",
+    "comment" : {
+      "en" : "Fiability score of the source type.",
+      "fr" : "Score de fiabilité du type de source."
+    },
+    "attributes" : [ "datatype", "external" ],
     "id" : "357"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasSource",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "22",
+    "range" : "2",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has source",
+        "language" : "fr",
+        "value" : "A pour source",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour source",
+        "language" : "en",
+        "value" : "Has source",
         "type" : "label"
       } ]
     },
@@ -5692,45 +5692,45 @@
       "en" : "Has source",
       "fr" : "A pour source"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Link an argument to its source (consumer survey, scientific journal, etc.).",
       "fr" : "Relie un argument à sa source (enquête consommateur, revue scientifique, etc.)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "358"
   }, {
-    "range" : "2",
+    "range" : "8",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "359"
   }, {
-    "range" : "45",
+    "range" : "35",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "360"
   }, {
-    "range" : "188",
+    "range" : "30",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "361"
   }, {
-    "range" : "7",
+    "range" : "42",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "362"
   }, {
-    "range" : "1",
+    "range" : "94",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "363"
   }, {
-    "range" : "37",
+    "range" : "38",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "365"
   }, {
-    "range" : "344",
+    "range" : "17",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "366"
@@ -5741,13 +5741,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Property value",
+        "language" : "fr",
+        "value" : "Valeur de la propriété",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Valeur de la propriété",
+        "language" : "en",
+        "value" : "Property value",
         "type" : "label"
       } ]
     },
@@ -5756,115 +5756,115 @@
       "en" : "Property value",
       "fr" : "Valeur de la propriété"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Value associated with the tag binding property.",
       "fr" : "Valeur associée à la propriété du binding de tag."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "367"
-  }, {
-    "range" : "4",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "368"
-  }, {
-    "range" : "24",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "369"
-  }, {
-    "range" : "109",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "370"
-  }, {
-    "range" : "55",
-    "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "371"
-  }, {
-    "range" : "55",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "372"
-  }, {
-    "range" : "55",
-    "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "373"
-  }, {
-    "range" : "55",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "374"
-  }, {
-    "range" : "55",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "375"
-  }, {
-    "range" : "55",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "376"
-  }, {
-    "range" : "55",
-    "domain" : "129",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "377"
-  }, {
-    "range" : "55",
-    "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "378"
-  }, {
-    "range" : "55",
-    "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "379"
-  }, {
-    "range" : "55",
-    "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "380"
-  }, {
-    "range" : "152",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "381"
-  }, {
-    "range" : "183",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "382"
-  }, {
-    "range" : "30",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "383"
-  }, {
-    "range" : "54",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "384"
-  }, {
-    "range" : "89",
-    "domain" : "347",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "385"
   }, {
     "range" : "13",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "386"
+    "id" : "368"
+  }, {
+    "range" : "110",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "369"
+  }, {
+    "range" : "1",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "370"
+  }, {
+    "range" : "56",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "371"
+  }, {
+    "range" : "56",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "372"
+  }, {
+    "range" : "56",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
+    "range" : "56",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "374"
+  }, {
+    "range" : "56",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "56",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "range" : "56",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "56",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "range" : "56",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "379"
+  }, {
+    "range" : "56",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "range" : "183",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "381"
+  }, {
+    "range" : "75",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
   }, {
     "range" : "5",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "range" : "4",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "384"
+  }, {
+    "range" : "2",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "385"
+  }, {
+    "range" : "8",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "386"
+  }, {
+    "range" : "193",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "387"
   }, {
-    "range" : "75",
+    "range" : "76",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "388"
@@ -5890,27 +5890,27 @@
       "en" : "Has Ciqual food code",
       "fr" : "A pour code Ciqual"
     },
-    "domain" : "54",
+    "domain" : "55",
     "comment" : {
       "en" : "Ciqual code for a food industry product.",
       "fr" : "Code Ciqual d'un produit de l'industrie agroalimentaire."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "389"
   }, {
-    "range" : "2",
+    "range" : "55",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "390"
   }, {
-    "range" : "49",
+    "range" : "31",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "391"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasTypeSource",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "28",
+    "range" : "27",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -5929,42 +5929,42 @@
       "en" : "Has source type",
       "fr" : "A pour type de source"
     },
-    "domain" : "22",
+    "domain" : "2",
     "comment" : {
       "en" : "Link a source to its type (expert, peer-reviewed article, etc.).",
       "fr" : "Relie une source à son type (expert, article peer-reviewed, etc.)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "392"
   }, {
-    "range" : "68",
+    "range" : "48",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "393"
   }, {
-    "range" : "49",
+    "range" : "75",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "394"
   }, {
-    "range" : "75",
+    "range" : "46",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "395"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasManufacturingProcess",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "129",
+    "range" : "5",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has manufacturing process",
+        "language" : "fr",
+        "value" : "A pour procédé de fabrication",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour procédé de fabrication",
+        "language" : "en",
+        "value" : "Has manufacturing process",
         "type" : "label"
       } ]
     },
@@ -5973,67 +5973,67 @@
       "en" : "Has manufacturing process",
       "fr" : "A pour procédé de fabrication"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its manufacturing process.",
       "fr" : "Relie un produit à son procédé de fabrication."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "396"
   }, {
-    "range" : "188",
+    "range" : "4",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "397"
   }, {
-    "range" : "89",
+    "range" : "110",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "398"
   }, {
-    "range" : "8",
+    "range" : "70",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "399"
   }, {
-    "range" : "22",
+    "range" : "193",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "400"
   }, {
-    "range" : "183",
+    "range" : "31",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "401"
   }, {
-    "range" : "24",
+    "range" : "1",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "402"
   }, {
-    "range" : "129",
+    "range" : "7",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "403"
   }, {
-    "range" : "71",
+    "range" : "2",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "404"
   }, {
-    "range" : "45",
+    "range" : "15",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "405"
   }, {
-    "range" : "4",
+    "range" : "152",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "406"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasTagCheck",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "91",
+    "range" : "13",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -6052,12 +6052,12 @@
       "en" : "Has tag check",
       "fr" : "A pour tag de vérification"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to a validation tag.",
       "fr" : "Relie un produit à un tag de vérification."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "407"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/isComposedOf",
@@ -6086,7 +6086,7 @@
       "en" : "Relates a composite resource to the resources it is composed of.",
       "fr" : "Relie une ressource composite aux ressources qui la composent."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "408"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode",
@@ -6110,211 +6110,211 @@
       "en" : "Has Ciqual proxy food code",
       "fr" : "A pour code Ciqual proxy"
     },
-    "domain" : "54",
+    "domain" : "55",
     "comment" : {
       "en" : "Ciqual code for a similar food industry product.",
       "fr" : "Code Ciqual d'un produit similaire de l'industrie agroalimentaire."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "411"
   }, {
-    "range" : "7",
+    "range" : "27",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "412"
   }, {
-    "range" : "1",
+    "range" : "87",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "413"
   }, {
-    "range" : "91",
+    "range" : "21",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "414"
   }, {
-    "range" : "152",
+    "range" : "38",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "415"
   }, {
-    "range" : "5",
+    "range" : "76",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "416"
   }, {
-    "range" : "109",
+    "range" : "13",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "417"
   }, {
-    "range" : "17",
+    "range" : "94",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "418"
   }, {
-    "range" : "28",
+    "range" : "55",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "419"
   }, {
-    "range" : "37",
+    "range" : "30",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "420"
   }, {
-    "range" : "152",
-    "domain" : "109",
+    "range" : "2",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "421"
   }, {
-    "range" : "68",
-    "domain" : "89",
+    "range" : "8",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "422"
   }, {
-    "range" : "49",
-    "domain" : "91",
+    "range" : "27",
+    "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
     "id" : "423"
   }, {
-    "range" : "24",
-    "domain" : "109",
+    "range" : "15",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "424"
   }, {
-    "range" : "91",
-    "domain" : "89",
+    "range" : "35",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "425"
   }, {
-    "range" : "49",
-    "domain" : "24",
+    "range" : "27",
+    "domain" : "70",
     "attributes" : [ "object", "anonymous" ],
     "id" : "426"
   }, {
-    "range" : "2",
-    "domain" : "109",
+    "range" : "48",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "427"
   }, {
-    "range" : "48",
-    "domain" : "89",
+    "range" : "7",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "428"
   }, {
-    "range" : "28",
-    "domain" : "24",
+    "range" : "46",
+    "domain" : "70",
     "attributes" : [ "object", "anonymous" ],
     "id" : "429"
   }, {
-    "range" : "30",
-    "domain" : "109",
+    "range" : "55",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "430"
   }, {
-    "range" : "28",
-    "domain" : "89",
+    "range" : "31",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "431"
   }, {
-    "range" : "49",
-    "domain" : "28",
+    "range" : "46",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
     "id" : "432"
   }, {
-    "range" : "8",
-    "domain" : "89",
+    "range" : "21",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "433"
   }, {
-    "range" : "30",
-    "domain" : "5",
+    "range" : "70",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "434"
   }, {
-    "range" : "4",
-    "domain" : "109",
+    "range" : "27",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "435"
   }, {
-    "range" : "48",
-    "domain" : "5",
+    "range" : "38",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "436"
   }, {
-    "range" : "71",
-    "domain" : "5",
+    "range" : "15",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "438"
   }, {
-    "range" : "68",
-    "domain" : "5",
+    "range" : "76",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "440"
   }, {
-    "range" : "49",
-    "domain" : "5",
+    "range" : "13",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "442"
   }, {
-    "range" : "91",
-    "domain" : "109",
+    "range" : "35",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "444"
   }, {
-    "range" : "45",
-    "domain" : "109",
+    "range" : "17",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "445"
   }, {
-    "range" : "183",
-    "domain" : "109",
+    "range" : "8",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "446"
   }, {
-    "range" : "5",
-    "domain" : "109",
+    "range" : "13",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "447"
   }, {
-    "range" : "15",
-    "domain" : "109",
+    "range" : "75",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "448"
   }, {
-    "range" : "8",
-    "domain" : "109",
+    "range" : "46",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "449"
   }, {
-    "range" : "24",
-    "domain" : "91",
+    "range" : "46",
+    "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
     "id" : "450"
   }, {
-    "range" : "71",
-    "domain" : "109",
+    "range" : "31",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "451"
   }, {
-    "range" : "49",
-    "domain" : "2",
+    "range" : "13",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "452"
   }, {
-    "range" : "28",
-    "domain" : "109",
+    "range" : "7",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "453"
   }, {
-    "range" : "22",
-    "domain" : "89",
+    "range" : "46",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "454"
   }, {
-    "range" : "28",
-    "domain" : "2",
+    "range" : "70",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "455"
   }, {
@@ -6324,13 +6324,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Contient des additifs",
+        "language" : "en",
+        "value" : "Contains additives",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Contains additives",
+        "language" : "fr",
+        "value" : "Contient des additifs",
         "type" : "label"
       } ]
     },
@@ -6339,116 +6339,116 @@
       "en" : "Contains additives",
       "fr" : "Contient des additifs"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Indicates whether the product contains additives.",
       "fr" : "Indique si le produit contient des additifs."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "456"
   }, {
-    "range" : "7",
-    "domain" : "109",
+    "range" : "42",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "457"
   }, {
-    "range" : "49",
-    "domain" : "89",
+    "range" : "38",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "458"
   }, {
-    "range" : "91",
-    "domain" : "2",
+    "range" : "87",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "459"
   }, {
-    "range" : "129",
-    "domain" : "109",
+    "range" : "38",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "460"
   }, {
-    "range" : "71",
-    "domain" : "89",
+    "range" : "30",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "461"
   }, {
-    "range" : "24",
-    "domain" : "2",
+    "range" : "46",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "462"
   }, {
-    "range" : "7",
-    "domain" : "89",
+    "range" : "17",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "463"
   }, {
-    "range" : "71",
-    "domain" : "2",
+    "range" : "27",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "464"
   }, {
-    "range" : "5",
-    "domain" : "89",
+    "range" : "70",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "465"
   }, {
-    "range" : "28",
-    "domain" : "71",
+    "range" : "70",
+    "domain" : "87",
     "attributes" : [ "object", "anonymous" ],
     "id" : "466"
   }, {
-    "range" : "17",
-    "domain" : "89",
+    "range" : "87",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "467"
   }, {
-    "range" : "49",
-    "domain" : "71",
+    "range" : "46",
+    "domain" : "87",
     "attributes" : [ "object", "anonymous" ],
     "id" : "468"
   }, {
-    "range" : "2",
-    "domain" : "89",
+    "range" : "76",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "469"
   }, {
-    "range" : "91",
-    "domain" : "71",
+    "range" : "13",
+    "domain" : "87",
     "attributes" : [ "object", "anonymous" ],
     "id" : "470"
   }, {
-    "range" : "24",
-    "domain" : "89",
+    "range" : "13",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "471"
   }, {
-    "range" : "24",
-    "domain" : "71",
+    "range" : "27",
+    "domain" : "87",
     "attributes" : [ "object", "anonymous" ],
     "id" : "472"
   }, {
-    "range" : "45",
-    "domain" : "89",
+    "range" : "15",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "473"
   }, {
-    "range" : "28",
-    "domain" : "91",
+    "range" : "70",
+    "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
     "id" : "474"
   }, {
-    "range" : "37",
-    "domain" : "89",
+    "range" : "2",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "475"
   }, {
-    "range" : "68",
-    "domain" : "109",
+    "range" : "76",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "476"
   }, {
-    "range" : "75",
-    "domain" : "109",
+    "range" : "1",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "477"
   }, {
@@ -6458,13 +6458,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has origin",
+        "language" : "fr",
+        "value" : "A pour origine",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour origine",
+        "language" : "en",
+        "value" : "Has origin",
         "type" : "label"
       } ]
     },
@@ -6473,20 +6473,20 @@
       "en" : "Has origin",
       "fr" : "A pour origine"
     },
-    "domain" : "54",
+    "domain" : "55",
     "comment" : {
       "en" : "Links an ingredient to its origin.",
       "fr" : "Relie un ingrédient à son origine."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "478"
   }, {
-    "range" : "1",
-    "domain" : "109",
+    "range" : "94",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "479"
   }, {
-    "range" : "15",
+    "range" : "35",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "480"
@@ -6497,13 +6497,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour FNI",
+        "language" : "en",
+        "value" : "Has FNI",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has FNI",
+        "language" : "fr",
+        "value" : "A pour FNI",
         "type" : "label"
       } ]
     },
@@ -6512,32 +6512,32 @@
       "en" : "Has FNI",
       "fr" : "A pour FNI"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its Food Naturalness Index resource.",
       "fr" : "Relie un produit à sa ressource d'indice de naturalité alimentaire."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "481"
   }, {
-    "range" : "54",
+    "range" : "5",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "482"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/supValue",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "118",
+    "range" : "119",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Valeur supérieure",
+        "language" : "en",
+        "value" : "Upper bound value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Upper bound value",
+        "language" : "fr",
+        "value" : "Valeur supérieure",
         "type" : "label"
       } ]
     },
@@ -6546,122 +6546,122 @@
       "en" : "Upper bound value",
       "fr" : "Valeur supérieure"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Upper bound value for the argument condition.",
       "fr" : "Valeur maximale pour la condition de l'argument."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "483"
   }, {
-    "range" : "30",
+    "range" : "17",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "484"
   }, {
-    "range" : "48",
+    "range" : "183",
     "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
     "id" : "485"
   }, {
-    "range" : "48",
+    "range" : "4",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "486"
   }, {
-    "range" : "188",
+    "range" : "27",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "487"
   }, {
-    "range" : "71",
-    "domain" : "45",
+    "range" : "31",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "488"
   }, {
-    "range" : "17",
+    "range" : "183",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "489"
   }, {
-    "range" : "24",
-    "domain" : "45",
+    "range" : "27",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "490"
   }, {
-    "range" : "22",
+    "range" : "35",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "491"
   }, {
-    "range" : "28",
-    "domain" : "45",
+    "range" : "2",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "492"
   }, {
-    "range" : "5",
+    "range" : "152",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "493"
   }, {
-    "range" : "91",
-    "domain" : "45",
+    "range" : "13",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "494"
   }, {
-    "range" : "2",
-    "domain" : "22",
+    "range" : "27",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "495"
   }, {
-    "range" : "91",
+    "range" : "193",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "496"
   }, {
-    "range" : "71",
-    "domain" : "22",
+    "range" : "70",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "497"
   }, {
-    "range" : "71",
+    "range" : "17",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "498"
   }, {
-    "range" : "49",
-    "domain" : "22",
+    "range" : "13",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "499"
   }, {
-    "range" : "91",
-    "domain" : "22",
+    "range" : "87",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "500"
   }, {
-    "range" : "24",
-    "domain" : "22",
+    "range" : "31",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "501"
   }, {
-    "range" : "28",
-    "domain" : "22",
+    "range" : "46",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "502"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasMaterial",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "15",
+    "range" : "48",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has material",
+        "language" : "fr",
+        "value" : "A pour matière",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour matière",
+        "language" : "en",
+        "value" : "Has material",
         "type" : "label"
       } ]
     },
@@ -6670,166 +6670,166 @@
       "en" : "Has material",
       "fr" : "A pour matière"
     },
-    "domain" : "8",
+    "domain" : "38",
     "comment" : {
       "en" : "Links a packaging to the material it uses.",
       "fr" : "Relie un emballage au matériau qu'il utilise."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "503"
   }, {
-    "range" : "49",
+    "range" : "21",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "504"
   }, {
-    "range" : "129",
+    "range" : "31",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "505"
   }, {
-    "range" : "68",
+    "range" : "15",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "506"
   }, {
-    "range" : "7",
+    "range" : "2",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "507"
   }, {
-    "range" : "22",
-    "domain" : "109",
+    "range" : "30",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "508"
   }, {
-    "range" : "17",
-    "domain" : "109",
+    "range" : "87",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "509"
   }, {
-    "range" : "55",
-    "domain" : "91",
+    "range" : "56",
+    "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
     "id" : "510"
   }, {
-    "range" : "28",
+    "range" : "38",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "511"
   }, {
-    "range" : "22",
-    "domain" : "37",
+    "range" : "13",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "512"
   }, {
-    "range" : "55",
-    "domain" : "13",
+    "range" : "56",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "513"
   }, {
-    "range" : "152",
+    "range" : "5",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "514"
   }, {
-    "range" : "2",
-    "domain" : "37",
+    "range" : "76",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "515"
   }, {
-    "range" : "55",
-    "domain" : "15",
+    "range" : "56",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "516"
   }, {
-    "range" : "45",
-    "domain" : "37",
+    "range" : "27",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "517"
   }, {
-    "range" : "55",
-    "domain" : "49",
+    "range" : "56",
+    "domain" : "46",
     "attributes" : [ "object", "anonymous" ],
     "id" : "518"
   }, {
-    "range" : "71",
-    "domain" : "37",
+    "range" : "2",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "519"
   }, {
-    "range" : "55",
+    "range" : "56",
     "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "520"
   }, {
-    "range" : "89",
-    "domain" : "109",
+    "range" : "21",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "521"
   }, {
-    "range" : "24",
-    "domain" : "37",
+    "range" : "46",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "522"
   }, {
-    "range" : "55",
-    "domain" : "89",
+    "range" : "56",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "523"
   }, {
-    "range" : "37",
-    "domain" : "109",
+    "range" : "4",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "524"
   }, {
-    "range" : "49",
-    "domain" : "37",
+    "range" : "31",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "525"
   }, {
-    "range" : "28",
-    "domain" : "37",
+    "range" : "87",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "526"
   }, {
-    "range" : "22",
-    "domain" : "45",
+    "range" : "70",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "527"
   }, {
-    "range" : "2",
-    "domain" : "45",
+    "range" : "46",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "528"
   }, {
-    "range" : "49",
-    "domain" : "45",
+    "range" : "87",
+    "domain" : "76",
     "attributes" : [ "object", "anonymous" ],
     "id" : "529"
   }, {
-    "range" : "54",
-    "domain" : "109",
+    "range" : "5",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "530"
   }, {
-    "range" : "188",
-    "domain" : "109",
+    "range" : "70",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "531"
   }, {
-    "range" : "13",
-    "domain" : "109",
+    "range" : "193",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "532"
   }, {
-    "range" : "49",
-    "domain" : "109",
+    "range" : "152",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "533"
   }, {
-    "range" : "48",
-    "domain" : "109",
+    "range" : "183",
+    "domain" : "110",
     "attributes" : [ "object", "anonymous" ],
     "id" : "534"
   }, {
@@ -6839,13 +6839,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour contexte produit",
+        "language" : "en",
+        "value" : "Has product context",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has product context",
+        "language" : "fr",
+        "value" : "A pour contexte produit",
         "type" : "label"
       } ]
     },
@@ -6859,7 +6859,7 @@
       "en" : "The product context of an argument.",
       "fr" : "Le contexte produit d'un argument."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "535"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/refersTo",
@@ -6883,12 +6883,12 @@
       "en" : "Refers to",
       "fr" : "Réfère à"
     },
-    "domain" : "37",
+    "domain" : "8",
     "comment" : {
       "en" : "Relates a product or ingredient to its quantification in a food industry product.",
       "fr" : "Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "536"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/infValue",
@@ -6897,13 +6897,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Valeur inférieure",
+        "language" : "en",
+        "value" : "Lower bound value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Lower bound value",
+        "language" : "fr",
+        "value" : "Valeur inférieure",
         "type" : "label"
       } ]
     },
@@ -6912,12 +6912,12 @@
       "en" : "Lower bound value",
       "fr" : "Valeur inférieure"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Lower bound value for the argument condition.",
       "fr" : "Valeur minimale pour la condition de l'argument."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "537"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/nameCriterion",
@@ -6941,17 +6941,17 @@
       "en" : "Criterion name",
       "fr" : "Nom du critère"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Name of the criterion addressed by the tag binding.",
       "fr" : "Nom du critère abordé par le binding de tag."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "538"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasSubcategory",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "71",
+    "range" : "87",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -6970,17 +6970,17 @@
       "en" : "Has subcategory",
       "fr" : "A pour sous-catégorie"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Links an argument to its subcategory.",
       "fr" : "Relie un argument à sa sous-catégorie."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "539"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/identifier",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "100",
+    "range" : "128",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -6999,20 +6999,20 @@
       "en" : "Identifier",
       "fr" : "Identifiant"
     },
-    "domain" : "251",
+    "domain" : "97",
     "comment" : {
       "en" : "Identifier associated with a resource.",
       "fr" : "Identifiant associé à une ressource."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "540"
   }, {
-    "range" : "89",
+    "range" : "30",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "541"
   }, {
-    "range" : "13",
+    "range" : "7",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "542"
@@ -7038,15 +7038,15 @@
       "en" : "Has attribute",
       "fr" : "A pour attribut"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "The naturalness attribute of a food industry product.",
       "fr" : "Attribut de la naturalité d'un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "543"
   }, {
-    "range" : "183",
+    "range" : "42",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "544"
@@ -7072,17 +7072,17 @@
       "en" : "Assertion",
       "fr" : "Assertion"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "The assertion carried by the tag binding.",
       "fr" : "L'assertion portée par le binding de tag."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "545"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasStakeholder",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "2",
+    "range" : "31",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7101,27 +7101,27 @@
       "en" : "Has stakeholder",
       "fr" : "A pour partie prenante"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Link an argument to its stakeholder (consumer, manufacturer, etc.).",
       "fr" : "Relie un argument à sa partie prenante (consommateur, fabricant, etc.)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "546"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasNaturalnessScore",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "89",
+    "range" : "94",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has naturalness score",
+        "language" : "fr",
+        "value" : "A pour score de naturalité",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour score de naturalité",
+        "language" : "en",
+        "value" : "Has naturalness score",
         "type" : "label"
       } ]
     },
@@ -7130,17 +7130,17 @@
       "en" : "Has naturalness score",
       "fr" : "A pour score de naturalité"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its naturalness score resource.",
       "fr" : "Relie un produit à sa ressource de score de naturalité."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "547"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasText",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "124",
+    "range" : "125",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7159,12 +7159,12 @@
       "en" : "Has text",
       "fr" : "A pour texte"
     },
-    "domain" : "49",
+    "domain" : "46",
     "comment" : {
       "en" : "Verbatim text.",
       "fr" : "Texte du verbatim."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "548"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/condition",
@@ -7188,27 +7188,27 @@
       "en" : "Condition",
       "fr" : "Condition"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Condition under which the argument applies.",
       "fr" : "Condition dans laquelle l'argument s'applique."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "549"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasTagInitiator",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "91",
+    "range" : "13",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has tag initiator",
+        "language" : "fr",
+        "value" : "A pour tag initiateur",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour tag initiateur",
+        "language" : "en",
+        "value" : "Has tag initiator",
         "type" : "label"
       } ]
     },
@@ -7222,22 +7222,22 @@
       "en" : "Tag identifying who initiated the link to the argument.",
       "fr" : "Tag identifiant qui a initié le lien vers l'argument."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "550"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasReferenceProductArgument",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "48",
+    "range" : "17",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour argument produit référencé",
+        "language" : "en",
+        "value" : "Has reference product argument",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has reference product argument",
+        "language" : "fr",
+        "value" : "A pour argument produit référencé",
         "type" : "label"
       } ]
     },
@@ -7251,7 +7251,7 @@
       "en" : "Links a LinkToArgument to the referenced ProductArgument.",
       "fr" : "Relie un LinkToArgument au ProductArgument référencé."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "551"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/percentage",
@@ -7260,13 +7260,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Percentage",
+        "language" : "fr",
+        "value" : "Pourcentage",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Pourcentage",
+        "language" : "en",
+        "value" : "Percentage",
         "type" : "label"
       } ]
     },
@@ -7275,17 +7275,17 @@
       "en" : "Percentage",
       "fr" : "Pourcentage"
     },
-    "domain" : "37",
+    "domain" : "8",
     "comment" : {
       "en" : "Percentage (by weight) of a by-product or ingredient in a food industry product.",
       "fr" : "Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "552"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/unit",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "82",
+    "range" : "83",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7304,12 +7304,12 @@
       "en" : "Unit",
       "fr" : "Unité"
     },
-    "domain" : "37",
+    "domain" : "8",
     "comment" : {
       "en" : "Unit of the quantity of a by-product or ingredient present in a food industry product.",
       "fr" : "Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "553"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup",
@@ -7333,17 +7333,17 @@
       "en" : "Has calculated NOVA group",
       "fr" : "A pour groupe NOVA calculé"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Calculated NOVA group (1..4) inferred by rules, not the OFF-provided value.",
       "fr" : "Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "554"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasRole",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "91",
+    "range" : "13",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7362,17 +7362,17 @@
       "en" : "Has role",
       "fr" : "A pour rôle"
     },
-    "domain" : "54",
+    "domain" : "55",
     "comment" : {
       "en" : "Links an ingredient to a Tag resource representing its technological or sensory function (preservative, flavor enhancer, etc.).",
       "fr" : "Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "555"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/quantity",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "111",
+    "range" : "112",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7391,12 +7391,12 @@
       "en" : "Quantity",
       "fr" : "Quantité"
     },
-    "domain" : "37",
+    "domain" : "8",
     "comment" : {
       "en" : "Quantity of a by-product or ingredient present in a food industry product.",
       "fr" : "Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "556"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasAllegation",
@@ -7420,27 +7420,27 @@
       "en" : "Has allegation",
       "fr" : "A pour allégation"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its allegations or claims.",
       "fr" : "Relie un produit à ses allégations."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "557"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasControlledOriginLabel",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "188",
+    "range" : "193",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour label d'origine contrôlée",
+        "language" : "en",
+        "value" : "Has controlled origin label",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has controlled origin label",
+        "language" : "fr",
+        "value" : "A pour label d'origine contrôlée",
         "type" : "label"
       } ]
     },
@@ -7449,17 +7449,17 @@
       "en" : "Has controlled origin label",
       "fr" : "A pour label d'origine contrôlée"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to a controlled-origin label.",
       "fr" : "Relie un produit à un label d'origine contrôlée."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "558"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/containsIngredientWithFunction",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "56",
+    "range" : "160",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7478,12 +7478,12 @@
       "en" : "Contains ingredient with function",
       "fr" : "Contient un ingrédient avec fonction"
     },
-    "domain" : "17",
+    "domain" : "97",
     "comment" : {
       "en" : "Links a product to the function of its ingredients.",
       "fr" : "Relie un produit à la fonction de ses ingrédients."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "559"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasContextIngredient",
@@ -7492,13 +7492,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour contexte ingrédient",
+        "language" : "en",
+        "value" : "Has ingredient context",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has ingredient context",
+        "language" : "fr",
+        "value" : "A pour contexte ingrédient",
         "type" : "label"
       } ]
     },
@@ -7512,47 +7512,47 @@
       "en" : "The ingredient context of an argument.",
       "fr" : "Le contexte ingrédient d'un argument."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "560"
   }, {
-    "range" : "17",
+    "range" : "55",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "561"
   }, {
-    "range" : "89",
+    "range" : "7",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "562"
   }, {
-    "range" : "13",
+    "range" : "31",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "563"
   }, {
-    "range" : "2",
+    "range" : "42",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "564"
   }, {
-    "range" : "8",
+    "range" : "48",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "565"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/supportType",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "78",
+    "range" : "79",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Type de support",
+        "language" : "en",
+        "value" : "Support type",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Support type",
+        "language" : "fr",
+        "value" : "Type de support",
         "type" : "label"
       } ]
     },
@@ -7561,15 +7561,15 @@
       "en" : "Support type",
       "fr" : "Type de support"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Type of argument (positive or negative) in relation to its target.",
       "fr" : "Type de l'argument (positif ou négatif) vis à vis de sa cible."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "566"
   }, {
-    "range" : "54",
+    "range" : "15",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "567"
@@ -7579,39 +7579,39 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "568"
   }, {
-    "range" : "24",
+    "range" : "5",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "569"
   }, {
-    "range" : "22",
+    "range" : "70",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "570"
   }, {
-    "range" : "48",
+    "range" : "30",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "571"
   }, {
-    "range" : "30",
+    "range" : "94",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "572"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasNOVAgroupDetails",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "13",
+    "range" : "42",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour détails du groupe NOVA",
+        "language" : "en",
+        "value" : "Has NOVA group details",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has NOVA group details",
+        "language" : "fr",
+        "value" : "A pour détails du groupe NOVA",
         "type" : "label"
       } ]
     },
@@ -7620,16 +7620,16 @@
       "en" : "Has NOVA group details",
       "fr" : "A pour détails du groupe NOVA"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its NOVA group classification details.",
       "fr" : "Relie un produit aux détails de sa classification NOVA."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "573"
   }, {
-    "range" : "89",
-    "domain" : "188",
+    "range" : "38",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "574"
   }, {
@@ -7639,13 +7639,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Groupe 3",
+        "language" : "en",
+        "value" : "Group 3",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Group 3",
+        "language" : "fr",
+        "value" : "Groupe 3",
         "type" : "label"
       } ]
     },
@@ -7654,16 +7654,16 @@
       "en" : "Group 3",
       "fr" : "Groupe 3"
     },
-    "domain" : "13",
+    "domain" : "42",
     "comment" : {
       "en" : "NOVA group 3 characteristics (processed foods).",
       "fr" : "Caractéristiques du groupe NOVA 3 (aliments transformés)."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "575"
   }, {
-    "range" : "4",
-    "domain" : "188",
+    "range" : "15",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "576"
   }, {
@@ -7688,15 +7688,15 @@
       "en" : "Group 4",
       "fr" : "Groupe 4"
     },
-    "domain" : "13",
+    "domain" : "42",
     "comment" : {
       "en" : "NOVA group 4 characteristics (ultra-processed foods and drinks).",
       "fr" : "Caractéristiques du groupe NOVA 4 (produits ultra-transformés)."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "577"
   }, {
-    "range" : "5",
+    "range" : "87",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "578"
@@ -7707,13 +7707,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Group 1",
+        "language" : "fr",
+        "value" : "Groupe 1",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Groupe 1",
+        "language" : "en",
+        "value" : "Group 1",
         "type" : "label"
       } ]
     },
@@ -7722,15 +7722,15 @@
       "en" : "Group 1",
       "fr" : "Groupe 1"
     },
-    "domain" : "13",
+    "domain" : "42",
     "comment" : {
       "en" : "NOVA group 1 characteristics (unprocessed or minimally processed foods).",
       "fr" : "Caractéristiques du groupe NOVA 1 (aliments non transformés ou minimalement transformés)."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "579"
   }, {
-    "range" : "15",
+    "range" : "76",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "580"
@@ -7741,13 +7741,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Groupe 2",
+        "language" : "en",
+        "value" : "Group 2",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Group 2",
+        "language" : "fr",
+        "value" : "Groupe 2",
         "type" : "label"
       } ]
     },
@@ -7756,67 +7756,67 @@
       "en" : "Group 2",
       "fr" : "Groupe 2"
     },
-    "domain" : "13",
+    "domain" : "42",
     "comment" : {
       "en" : "NOVA group 2 characteristics (processed culinary ingredients).",
       "fr" : "Caractéristiques du groupe NOVA 2 (ingrédients culinaires transformés)."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "581"
   }, {
-    "range" : "91",
+    "range" : "21",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "582"
   }, {
-    "range" : "49",
+    "range" : "46",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "583"
   }, {
-    "range" : "68",
+    "range" : "17",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "584"
   }, {
-    "range" : "7",
+    "range" : "2",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "585"
   }, {
-    "range" : "28",
+    "range" : "35",
     "domain" : "152",
     "attributes" : [ "object", "anonymous" ],
     "id" : "586"
   }, {
-    "range" : "22",
-    "domain" : "188",
+    "range" : "87",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "587"
   }, {
-    "range" : "30",
-    "domain" : "89",
+    "range" : "27",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "588"
   }, {
-    "range" : "152",
-    "domain" : "188",
+    "range" : "35",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "589"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasProductArgument",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "48",
+    "range" : "17",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has product argument",
+        "language" : "fr",
+        "value" : "A pour argument produit",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour argument produit",
+        "language" : "en",
+        "value" : "Has product argument",
         "type" : "label"
       } ]
     },
@@ -7825,112 +7825,112 @@
       "en" : "Has product argument",
       "fr" : "A pour argument produit"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Link a food industry product to an argument.",
       "fr" : "Relie un produit de l'industrie agro-alimentaire à un argument."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "590"
   }, {
-    "range" : "8",
-    "domain" : "13",
+    "range" : "21",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "591"
   }, {
-    "range" : "49",
-    "domain" : "188",
+    "range" : "13",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "592"
   }, {
-    "range" : "22",
-    "domain" : "13",
+    "range" : "15",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "593"
   }, {
-    "range" : "13",
-    "domain" : "188",
+    "range" : "30",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "594"
   }, {
-    "range" : "24",
-    "domain" : "13",
+    "range" : "35",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "595"
   }, {
-    "range" : "8",
-    "domain" : "188",
+    "range" : "4",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "596"
   }, {
-    "range" : "37",
-    "domain" : "13",
+    "range" : "7",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "597"
   }, {
-    "range" : "68",
-    "domain" : "188",
+    "range" : "17",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "598"
   }, {
-    "range" : "48",
-    "domain" : "13",
+    "range" : "87",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "599"
   }, {
-    "range" : "2",
-    "domain" : "188",
+    "range" : "42",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "600"
   }, {
-    "range" : "5",
-    "domain" : "13",
+    "range" : "76",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "601"
   }, {
-    "range" : "45",
-    "domain" : "188",
+    "range" : "7",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "602"
   }, {
-    "range" : "91",
-    "domain" : "13",
+    "range" : "2",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "603"
   }, {
-    "range" : "54",
-    "domain" : "188",
+    "range" : "31",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "604"
   }, {
-    "range" : "30",
-    "domain" : "13",
+    "range" : "13",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "605"
   }, {
-    "range" : "17",
-    "domain" : "188",
+    "range" : "5",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "606"
   }, {
-    "range" : "45",
-    "domain" : "13",
+    "range" : "8",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "607"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/aboutTag",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "91",
+    "range" : "13",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Concerne le tag",
+        "language" : "en",
+        "value" : "About tag",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "About tag",
+        "language" : "fr",
+        "value" : "Concerne le tag",
         "type" : "label"
       } ]
     },
@@ -7939,36 +7939,36 @@
       "en" : "About tag",
       "fr" : "Concerne le tag"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Links a TagArgumentBinding to the related Tag.",
       "fr" : "Relie un TagArgumentBinding au Tag concerné."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "608"
   }, {
-    "range" : "5",
-    "domain" : "188",
+    "range" : "8",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "609"
   }, {
-    "range" : "49",
-    "domain" : "13",
+    "range" : "27",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "610"
   }, {
-    "range" : "30",
-    "domain" : "188",
+    "range" : "46",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "611"
   }, {
-    "range" : "17",
-    "domain" : "13",
+    "range" : "70",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "612"
   }, {
-    "range" : "71",
-    "domain" : "188",
+    "range" : "76",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "613"
   }, {
@@ -7993,27 +7993,27 @@
       "en" : "Property name",
       "fr" : "Nom de la propriété"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Name of the property evaluated in the tag binding.",
       "fr" : "Nom de la propriété évaluée dans le binding de tag."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "614"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/rank",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "114",
+    "range" : "115",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Rank",
+        "language" : "fr",
+        "value" : "Rang",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Rang",
+        "language" : "en",
+        "value" : "Rank",
         "type" : "label"
       } ]
     },
@@ -8022,12 +8022,12 @@
       "en" : "Rank",
       "fr" : "Rang"
     },
-    "domain" : "37",
+    "domain" : "8",
     "comment" : {
       "en" : "Classification of an ingredient or by-product in the textual statement of a product's composition.",
       "fr" : "Classement d'un ingrédient ou d'un sous-produit dans l’énoncé textuel de la composition d'un produit."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "615"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasLinkToArgument",
@@ -8036,13 +8036,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour lien vers argument",
+        "language" : "en",
+        "value" : "Has link to argument",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has link to argument",
+        "language" : "fr",
+        "value" : "A pour lien vers argument",
         "type" : "label"
       } ]
     },
@@ -8051,17 +8051,17 @@
       "en" : "Has link to argument",
       "fr" : "A pour lien vers argument"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a food industry product to a LinkToArgument that connects to a ProductArgument.",
       "fr" : "Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "616"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasQuantifiedElement",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "37",
+    "range" : "8",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8085,87 +8085,87 @@
       "en" : "Links a resource to one of its quantified elements.",
       "fr" : "Relie une ressource à l'un de ses éléments quantifiés."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "617"
   }, {
-    "range" : "49",
-    "domain" : "15",
+    "range" : "70",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "618"
   }, {
-    "range" : "129",
-    "domain" : "188",
+    "range" : "27",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "619"
   }, {
-    "range" : "13",
-    "domain" : "15",
+    "range" : "21",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "620"
   }, {
-    "range" : "28",
-    "domain" : "188",
+    "range" : "55",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "621"
   }, {
-    "range" : "28",
-    "domain" : "13",
+    "range" : "46",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "622"
   }, {
-    "range" : "15",
-    "domain" : "188",
+    "range" : "152",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "623"
   }, {
-    "range" : "71",
-    "domain" : "13",
+    "range" : "94",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "624"
   }, {
-    "range" : "37",
-    "domain" : "188",
+    "range" : "94",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "625"
   }, {
-    "range" : "89",
-    "domain" : "13",
+    "range" : "38",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "626"
   }, {
-    "range" : "91",
-    "domain" : "188",
+    "range" : "21",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "627"
   }, {
-    "range" : "7",
-    "domain" : "13",
+    "range" : "17",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "628"
   }, {
-    "range" : "24",
-    "domain" : "188",
+    "range" : "70",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "629"
   }, {
-    "range" : "68",
-    "domain" : "13",
+    "range" : "30",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "630"
   }, {
     "range" : "48",
-    "domain" : "188",
+    "domain" : "193",
     "attributes" : [ "object", "anonymous" ],
     "id" : "631"
   }, {
-    "range" : "2",
-    "domain" : "13",
+    "range" : "31",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
     "id" : "632"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasShape",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "45",
+    "range" : "76",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8184,12 +8184,12 @@
       "en" : "Has shape",
       "fr" : "A pour forme"
     },
-    "domain" : "8",
+    "domain" : "38",
     "comment" : {
       "en" : "Links a packaging to its shape.",
       "fr" : "Relie un emballage à sa forme."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "633"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/aim",
@@ -8213,27 +8213,27 @@
       "en" : "Aim",
       "fr" : "Objectif"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Aim or objective related to the tag binding.",
       "fr" : "Objectif ou visée du binding de tag."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "634"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasProcessedIngredients",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "54",
+    "range" : "55",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédients transformés",
+        "language" : "en",
+        "value" : "Has processed ingredients",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has processed ingredients",
+        "language" : "fr",
+        "value" : "A pour ingrédients transformés",
         "type" : "label"
       } ]
     },
@@ -8242,27 +8242,27 @@
       "en" : "Has processed ingredients",
       "fr" : "A pour ingrédients transformés"
     },
-    "domain" : "109",
+    "domain" : "110",
     "comment" : {
       "en" : "Lists processed ingredients found during NOVA calculation.",
       "fr" : "Liste les ingrédients transformés trouvés lors du calcul NOVA."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "635"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/unitArg",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "86",
+    "range" : "88",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Unité de l'argument",
+        "language" : "en",
+        "value" : "Argument unit",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Argument unit",
+        "language" : "fr",
+        "value" : "Unité de l'argument",
         "type" : "label"
       } ]
     },
@@ -8271,27 +8271,27 @@
       "en" : "Argument unit",
       "fr" : "Unité de l'argument"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Unit of measurement for the argument values.",
       "fr" : "Unité de mesure pour les valeurs de l'argument."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "636"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasPackaging",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "8",
+    "range" : "38",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour emballage",
+        "language" : "en",
+        "value" : "Has packaging",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has packaging",
+        "language" : "fr",
+        "value" : "A pour emballage",
         "type" : "label"
       } ]
     },
@@ -8300,35 +8300,35 @@
       "en" : "Has packaging",
       "fr" : "A pour emballage"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its packaging.",
       "fr" : "Relie un produit à son emballage."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "637"
   }, {
-    "range" : "15",
+    "range" : "21",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "638"
   }, {
-    "range" : "22",
+    "range" : "15",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "639"
   }, {
-    "range" : "91",
+    "range" : "7",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "640"
   }, {
-    "range" : "71",
+    "range" : "70",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "641"
   }, {
-    "range" : "8",
+    "range" : "46",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "642"
@@ -8338,29 +8338,29 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "643"
   }, {
-    "range" : "129",
+    "range" : "152",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "644"
   }, {
-    "range" : "17",
+    "range" : "344",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "645"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "24",
+    "range" : "70",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour liaison tag-argument initiatrice",
+        "language" : "en",
+        "value" : "Has tag argument binding initiator",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has tag argument binding initiator",
+        "language" : "fr",
+        "value" : "A pour liaison tag-argument initiatrice",
         "type" : "label"
       } ]
     },
@@ -8374,22 +8374,22 @@
       "en" : "The tag argument binding identifying who initiated the link to the argument.",
       "fr" : "Le tag de liaison d'argument identifiant qui a initié le lien vers l'argument."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "646"
   }, {
-    "range" : "28",
+    "range" : "87",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "647"
   }, {
-    "range" : "68",
+    "range" : "27",
     "domain" : "347",
     "attributes" : [ "object", "anonymous" ],
     "id" : "648"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasNutriScore",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "5",
+    "range" : "21",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8408,12 +8408,12 @@
       "en" : "Has Nutri-Score",
       "fr" : "A pour Nutri-Score"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to its Nutri-Score resource.",
       "fr" : "Relie un produit à sa ressource Nutri-Score."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "649"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/target",
@@ -8422,13 +8422,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Target",
+        "language" : "fr",
+        "value" : "Cible",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Cible",
+        "language" : "en",
+        "value" : "Target",
         "type" : "label"
       } ]
     },
@@ -8437,27 +8437,27 @@
       "en" : "Target",
       "fr" : "Cible"
     },
-    "domain" : "48",
+    "domain" : "17",
     "comment" : {
       "en" : "Link an argument to a component (product, ingredient, packaging, nutri-score, etc.) of a food industry product.",
       "fr" : "Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "650"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/hasIngredient",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "54",
+    "range" : "55",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has ingredient",
+        "language" : "fr",
+        "value" : "A pour ingrédient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédient",
+        "language" : "en",
+        "value" : "Has ingredient",
         "type" : "label"
       } ]
     },
@@ -8466,17 +8466,17 @@
       "en" : "Has ingredient",
       "fr" : "A pour ingrédient"
     },
-    "domain" : "17",
+    "domain" : "15",
     "comment" : {
       "en" : "Links a product to one of its ingredients.",
       "fr" : "Relie un produit à l'un de ses ingrédients."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "651"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/polarity",
     "baseIri" : "https://w3id.org/NCL/ontology",
-    "range" : "107",
+    "range" : "108",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8495,12 +8495,12 @@
       "en" : "Polarity",
       "fr" : "Polarité"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Polarity of the tag binding (positive '+' or negative '-').",
       "fr" : "Polarité du binding de tag (positif '+' ou négatif '-')."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "652"
   }, {
     "iri" : "https://w3id.org/NCL/ontology/bindingKeywords",
@@ -8524,12 +8524,12 @@
       "en" : "Binding keywords",
       "fr" : "Mots-clés de liaison"
     },
-    "domain" : "24",
+    "domain" : "70",
     "comment" : {
       "en" : "Keywords used to bind a tag to argumentation context.",
       "fr" : "Mots-clés utilisés pour lier un tag au contexte d'argumentation."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "653"
   } ]
 }
