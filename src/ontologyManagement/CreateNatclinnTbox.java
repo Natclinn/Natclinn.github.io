@@ -111,7 +111,7 @@ public class CreateNatclinnTbox {
 		om.add(ont, DC.creator,"Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber", "en");	
 		om.add(ont, DC.creator,"Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber", "fr");	
         
-		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "0.9.9"));
+		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "ncl/0.9.9"));
 		ont.addProperty(OWL.versionInfo, "0.9.9");
 
 

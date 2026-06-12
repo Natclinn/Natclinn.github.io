@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://natclinn.github.io/0.9.9> a prov:Entity;
+<https://natclinn.github.io/ncl/0.9.9> a prov:Entity;
 	 dc:title "NCL";
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;
@@ -19,3 +19,4 @@
 .
 :agent0 a prov:Agent; foaf:name "Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber".
 :agent1 a prov:Agent; foaf:name "Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber".
+

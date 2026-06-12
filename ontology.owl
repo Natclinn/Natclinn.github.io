@@ -24,7 +24,7 @@
     <dct:abstract xml:lang="en">The NATCL’INN project aims to help agri-food companies better meet consumers' expectations for naturalness, which is perceived as a guarantee of quality, health and taste. Based on the characterisation of representations of naturalness and the identification of relevant markers, it is developing a multi-criteria arbitration tool that integrates technical, economic and regulatory constraints. Led by ADRIA, UBO-LEGO, INRAE and several industrial partners, this collaborative project has been certified by Valorial.</dct:abstract>
     <dc:creator xml:lang="en">Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber</dc:creator>
     <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
-    <owl:versionIRI rdf:resource="https://natclinn.github.io/0.9.9"/>
+    <owl:versionIRI rdf:resource="https://natclinn.github.io/ncl/0.9.9"/>
     <schema:creator>
       <schema:Person>
         <org:memberOf>
@@ -2384,3 +2384,4 @@
     <rdfs:comment xml:lang="fr">Une personne impliquée dans les métadonnées d'auteur ou de provenance.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>
+

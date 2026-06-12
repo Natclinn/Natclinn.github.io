@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCL 1.0.0</title>
+  <script>
+    (function () {
+      var localTarget = "./index-fr.html";
+      var fallbackTarget = "../index-fr.html";
+
+      // If this version folder contains its own WIDOCO pages, use them.
+      fetch(localTarget, { method: "HEAD" })
+        .then(function (response) {
+          if (response.ok) {
+            window.location.replace(localTarget);
+          } else {
+            window.location.replace(fallbackTarget);
+          }
+        })
+        .catch(function () {
+          window.location.replace(fallbackTarget);
+        });
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to NCL 1.0.0...</p>
+  <p><a href="../index-fr.html">Open the French page</a></p>
+  <p><a href="../index-en.html">Open the English page</a></p>
+</body>
+</html>

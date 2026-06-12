@@ -82,20 +82,20 @@ git push
 To keep old versions available:
 
 1. Generate latest docs in `ncl/`
-2. Copy them to a version folder (example `ncl/release/1.0.0`)
+2. Copy them to a version folder (example `ncl/1.0.0`)
 3. Update the `versions` array in `index.html`
 
 Example copy command:
 
 ```powershell
-New-Item -ItemType Directory -Force -Path .\ncl\release\1.0.0 | Out-Null
-Copy-Item -Recurse -Force .\ncl\* .\ncl\release\1.0.0
+New-Item -ItemType Directory -Force -Path .\ncl\1.0.0 | Out-Null
+Copy-Item -Recurse -Force .\ncl\* .\ncl\1.0.0
 ```
 
 Then, in `index.html`, set:
 
 ```javascript
 var versions = [
-	{ label: "1.0.0", href: "ncl/release/1.0.0/index-en.html" }
+	{ label: "1.0.0", href: "ncl/1.0.0/index-en.html" }
 ];
 ```

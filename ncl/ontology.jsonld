@@ -1795,7 +1795,7 @@
     "@value" : "Ontologie Natcl'inn"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://natclinn.github.io/0.9.9"
+    "@id" : "https://natclinn.github.io/ncl/0.9.9"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.9.9"
