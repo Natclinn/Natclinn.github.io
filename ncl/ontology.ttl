@@ -22,7 +22,8 @@
                                            <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> ;
                                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "ncl"@en ;
                                            <http://purl.org/vocab/vann/preferredNamespaceUri> "https://natclinn.github.io/" ;
-                                           <http://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos; DOI: XXXXXXXXXXXXXXXX"@en ;
+                                           <http://schema.org/citation> "Cite this vocabulary as: Raphael Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@en ,
+                                                                        "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@fr ;
                                            <http://schema.org/creator> _:genid1 ,
                                                                        _:genid3 ,
                                                                        _:genid5 ,

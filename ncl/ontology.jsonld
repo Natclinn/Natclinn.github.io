@@ -1763,7 +1763,10 @@
   } ],
   "http://schema.org/citation" : [ {
     "@language" : "en",
-    "@value" : "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos; DOI: XXXXXXXXXXXXXXXX"
+    "@value" : "Cite this vocabulary as: Raphael Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"
   } ],
   "http://schema.org/creator" : [ {
     "@id" : "_:genid1"

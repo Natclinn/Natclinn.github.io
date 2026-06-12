@@ -14,7 +14,8 @@
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ncl"@en .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://natclinn.github.io/" .
-<https://natclinn.github.io/NatclinnTbox> <http://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos; DOI: XXXXXXXXXXXXXXXX"@en .
+<https://natclinn.github.io/NatclinnTbox> <http://schema.org/citation> "Cite this vocabulary as: Raphael Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@en .
+<https://natclinn.github.io/NatclinnTbox> <http://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@fr .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/creator> _:genid1 .
 _:genid1 <http://www.w3.org/ns/org#memberOf> _:genid2 .
 _:genid2 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, France" .

@@ -32,7 +32,8 @@
         <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
         <vann:preferredNamespacePrefix xml:lang="en">ncl</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://natclinn.github.io/</vann:preferredNamespaceUri>
-        <schema:citation xml:lang="en">Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos; DOI: XXXXXXXXXXXXXXXX</schema:citation>
+        <schema:citation xml:lang="en">Cite this vocabulary as: Raphael Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX</schema:citation>
+        <schema:citation xml:lang="fr">Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX</schema:citation>
         <schema:creator rdf:nodeID="genid1"/>
         <schema:creator rdf:nodeID="genid3"/>
         <schema:creator rdf:nodeID="genid5"/>
