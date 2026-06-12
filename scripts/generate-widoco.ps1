@@ -19,8 +19,10 @@ if (-not (Test-Path $ontologyPath)) {
 }
 
 New-Item -ItemType Directory -Force -Path $outputPath | Out-Null
-# Keep regeneration deterministic by clearing previous generated content.
-Get-ChildItem -Path $outputPath -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force
+# Clear previous generated content BUT preserve versioned archives (x.y.z folders).
+Get-ChildItem -Path $outputPath -Force -ErrorAction SilentlyContinue |
+    Where-Object { -not ($_.PSIsContainer -and $_.Name -match '^\d+\.\d+\.\d+$') } |
+    Remove-Item -Recurse -Force
 
 $widocoArgs = @(
     "-ontFile", $ontologyPath,

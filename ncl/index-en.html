@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://natclinn.github.io/","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://natclinn.github.io/","name":"NCL", "headline":"The NATCL’INN project aims to help agri-food companies better meet consumers' expectations for naturalness, which is perceived as a guarantee of quality, health and taste. Based on the characterisation of representations of naturalness and the identification of relevant markers, it is developing a multi-criteria arbitration tool that integrates technical, economic and regulatory constraints. Led by ADRIA, UBO-LEGO, INRAE and several industrial partners, this collaborative project has been certified by Valorial.", "dateReleased":"October 5th, 2021", "version":"1.0.0", "license":"http://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber"},{"@type":"Person","name":"Magalie Weber","url":"https://orcid.org/0000-0001-6573-4070"},{"@type":"Person","name":"Rallou Thomopoulos","url":"https://orcid.org/0000-0002-3218-9472"},{"@type":"Person","name":"Raphael Conde Salazar","url":"https://orcid.org/0000-0002-6926-5299"},{"@type":"Person","name":"Pierre Bisquert","url":"https://orcid.org/0000-0001-9418-5330"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://natclinn.github.io/","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://natclinn.github.io/","name":"NCL", "headline":"The NATCL’INN project aims to help agri-food companies better meet consumers' expectations for naturalness, which is perceived as a guarantee of quality, health and taste. Based on the characterisation of representations of naturalness and the identification of relevant markers, it is developing a multi-criteria arbitration tool that integrates technical, economic and regulatory constraints. Led by ADRIA, UBO-LEGO, INRAE and several industrial partners, this collaborative project has been certified by Valorial.", "dateReleased":"October 5th, 2021", "version":"1.0.1", "license":"http://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber"},{"@type":"Person","name":"Magalie Weber","url":"https://orcid.org/0000-0001-6573-4070"},{"@type":"Person","name":"Raphael Conde Salazar","url":"https://orcid.org/0000-0002-6926-5299"},{"@type":"Person","name":"Rallou Thomopoulos","url":"https://orcid.org/0000-0002-3218-9472"},{"@type":"Person","name":"Pierre Bisquert","url":"https://orcid.org/0000-0001-9418-5330"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -62,6 +62,7 @@ function loadTOC(){
       $("#overview").load("sections/overview-en.html"); 
       $("#description").load("sections/description-en.html"); 
       $("#references").load("sections/references-en.html"); 
+      $("#changelog").load("sections/changelog-en.html"); 
       $("#crossref").load("sections/crossref-en.html", null, loadHash); 
     });
     </script> 
@@ -77,11 +78,13 @@ function loadTOC(){
 
 <dl>
 <dt>This version:</dt>
-<dd><a href="https://natclinn.github.io/ncl/1.0.0/index-en.html">https://natclinn.github.io/ncl/1.0.0/index-en.html</a></dd>
+<dd><a href="https://natclinn.github.io/ncl/1.0.1">https://natclinn.github.io/ncl/1.0.1</a></dd>
+<dt>Previous version:</dt>
+<dd><a href="https://natclinn.github.io/ncl/1.0.0/ontology.owl">https://natclinn.github.io/ncl/1.0.0/ontology.owl</a></dd>
 <dt>Revision:</dt>
-<dd>1.0.0</dd>
+<dd>1.0.1</dd>
 <dt>Authors:</dt>
-<dd>Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber</dd><dd><a href="https://orcid.org/0000-0001-6573-4070">Magalie Weber</a>, <a href="https://www.inrae.fr/">INRAE, France</a></dd><dd><a href="https://orcid.org/0000-0002-3218-9472">Rallou Thomopoulos</a>, <a href="https://www.umontpellier.fr/">University of Montpellier, INRAE, France</a></dd><dd><a href="https://orcid.org/0000-0002-6926-5299">Raphael Conde Salazar</a>, <a href="https://www.umontpellier.fr/">University of Montpellier, INRAE, France</a></dd><dd><a href="https://orcid.org/0000-0001-9418-5330">Pierre Bisquert</a>, <a href="https://www.umontpellier.fr/">University of Montpellier, INRAE, France</a></dd>
+<dd>Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber</dd><dd><a href="https://orcid.org/0000-0001-6573-4070">Magalie Weber</a>, <a href="https://www.inrae.fr/">INRAE, France</a></dd><dd><a href="https://orcid.org/0000-0002-6926-5299">Raphael Conde Salazar</a>, <a href="https://www.umontpellier.fr/">University of Montpellier, INRAE, France</a></dd><dd><a href="https://orcid.org/0000-0002-3218-9472">Rallou Thomopoulos</a>, <a href="https://www.umontpellier.fr/">University of Montpellier, INRAE, France</a></dd><dd><a href="https://orcid.org/0000-0001-9418-5330">Pierre Bisquert</a>, <a href="https://www.umontpellier.fr/">University of Montpellier, INRAE, France</a></dd>
 
 <dt>Funder:</dt>
 <dd><a href="https://www.pole-valorial.fr">https://www.pole-valorial.fr</a></dd>
@@ -110,6 +113,7 @@ function loadTOC(){
      <div id="description"></div>
      <div id="crossref"></div>
      <div id="references"></div>
+     <div id="changelog"></div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>

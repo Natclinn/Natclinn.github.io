@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CreateNatclinnTbox",
+            "request": "launch",
+            "mainClass": "ontologyManagement.CreateNatclinnTbox",
+            "projectName": "natclinn-ontology-tools"
+        },
+        {
             "name": "PowerShell: Launch Current File",
             "type": "PowerShell",
             "request": "launch",

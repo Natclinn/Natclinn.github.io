@@ -110,11 +110,10 @@ public class CreateNatclinnTbox {
 		om.add(ont, DC.description,"Tbox pour l'ontologie Natcl'inn", "fr");
 		om.add(ont, DC.creator,"Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber");	
         
-		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "ncl/1.0.0"));
-		ont.addProperty(OWL.versionInfo, "1.0.0");
+		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "ncl/1.0.1"));
+		ont.addProperty(OWL.versionInfo, "1.0.1");
+		ont.addProperty(om.createProperty(pav + "previousVersion"), om.createResource(ncl + "ncl/1.0.0/ontology.owl"));
 
-
-		// pav:previousVersion
 
 
 
