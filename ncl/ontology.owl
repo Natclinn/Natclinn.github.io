@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/NCL/ontology/NatclinnTbox#"
-     xml:base="https://w3id.org/NCL/ontology/NatclinnTbox"
+<rdf:RDF xmlns="https://natclinn.github.io/NatclinnTbox#"
+     xml:base="https://natclinn.github.io/NatclinnTbox"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:org="http://www.w3.org/ns/org#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -15,12 +15,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:vocab="https://w3id.org/afy/vocab#"
      xmlns:schema="http://schema.org/"
-     xmlns:ontology="https://w3id.org/NCL/ontology/">
-    <owl:Ontology rdf:about="https://w3id.org/NCL/ontology/NatclinnTbox">
-        <owl:versionIRI rdf:resource="https://w3id.org/NCL/ontology//1.0.0"/>
-        <dc:creator>Pierre BISQUERT</dc:creator>
-        <dc:creator>Rallou THOMOPOULOS</dc:creator>
-        <dc:creator>Raphaël CONDE SALAZAR</dc:creator>
+     xmlns:natclinn="https://natclinn.github.io/">
+    <owl:Ontology rdf:about="https://natclinn.github.io/NatclinnTbox">
+        <owl:versionIRI rdf:resource="https://natclinn.github.io/0.9.9"/>
+        <dc:creator xml:lang="en">Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber</dc:creator>
+        <dc:creator xml:lang="fr">Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber</dc:creator>
         <dc:description xml:lang="en">Tbox for the Natcl&apos;inn ontology</dc:description>
         <dc:description xml:lang="fr">Tbox pour l&apos;ontologie Natcl&apos;inn</dc:description>
         <dc:title xml:lang="en">NCL</dc:title>
@@ -32,17 +31,18 @@
         <bibo:doi rdf:resource="https://doi.org/XXXXXXXXXXXXXXXX"/>
         <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
         <vann:preferredNamespacePrefix xml:lang="en">ncl</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/NCL/ontology/</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://natclinn.github.io/</vann:preferredNamespaceUri>
         <schema:citation xml:lang="en">Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos; DOI: XXXXXXXXXXXXXXXX</schema:citation>
         <schema:creator rdf:nodeID="genid1"/>
         <schema:creator rdf:nodeID="genid3"/>
         <schema:creator rdf:nodeID="genid5"/>
+        <schema:creator rdf:nodeID="genid7"/>
         <schema:funding rdf:resource="https://www.pole-valorial.fr"/>
         <rdfs:comment xml:lang="en">An ontology designed to define the various products of the agri-food industry and the arguments associated with them in terms of their perceived naturalness.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Une ontologie conçue pour définir les différents produits de l&apos;industrie agroalimentaire et les arguments qui leur sont associés en termes de naturalité perçue.</rdfs:comment>
         <rdfs:label xml:lang="en">Natcl&apos;inn ontology</rdfs:label>
         <rdfs:label xml:lang="fr">Ontologie Natcl&apos;inn</rdfs:label>
-        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <owl:versionInfo>0.9.9</owl:versionInfo>
         <foaf:fundedBy rdf:resource="https://www.pole-valorial.fr"/>
         <vocab:introduction xml:lang="en">NATCL’INN aims to offer a solution to agri-food companies that need to balance different product attributes related to naturalness in order to meet new consumer expectations and perceptions regarding food naturalness. In order to propose a prototype Decision Support Tool, the R&amp;D teams at ADRIA, the LEGO laboratory at the University of Western Brittany (UBO), INRAE research units and their industrial partners (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) have joined forces to carry out an ambitious collaborative R&amp;D programme. The NATCL&apos;INN project has been certified by the VALORIAL competitiveness cluster and has received support from the Brittany Region, the Pays de la Loire Region and Quimper Bretagne Occidentale. The project began on 1 January 2024 and will be completed at the end of 2027</vocab:introduction>
         <vocab:introduction xml:lang="fr">NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&amp;D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&amp;D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s&apos;achèvera fin 2027.</vocab:introduction>
@@ -50,26 +50,32 @@
     </owl:Ontology>
     <rdf:Description rdf:nodeID="genid1">
         <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:name xml:lang="en">Rallou Thomopoulos</schema:name>
+        <schema:name xml:lang="fr">Rallou Thomopoulos</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-3218-9472"/>
+        <org:memberOf rdf:nodeID="genid2"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:name xml:lang="en">Pierre Bisquert</schema:name>
+        <schema:name xml:lang="fr">Pierre Bisquert</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0001-9418-5330"/>
+        <org:memberOf rdf:nodeID="genid4"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:name xml:lang="en">Magalie Weber</schema:name>
+        <schema:name xml:lang="fr">Magalie Weber</schema:name>
+        <org:memberOf rdf:nodeID="genid6"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
         <schema:familyName xml:lang="en">Conde Salazar</schema:familyName>
         <schema:familyName xml:lang="fr">Conde Salazar</schema:familyName>
         <schema:name xml:lang="en">Raphael Conde Salazar</schema:name>
         <schema:name xml:lang="fr">Raphaël Conde Salazar</schema:name>
         <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
-        <org:memberOf rdf:nodeID="genid2"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid3">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <schema:name xml:lang="en">Rallou Thomopoulos</schema:name>
-        <schema:name xml:lang="fr">Rallou Thomopoulos</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0002-3218-9472"/>
-        <org:memberOf rdf:nodeID="genid4"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid5">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <schema:name xml:lang="en">Pierre Bisquert</schema:name>
-        <schema:name xml:lang="fr">Pierre Bisquert</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0001-9418-5330"/>
-        <org:memberOf rdf:nodeID="genid6"/>
+        <org:memberOf rdf:nodeID="genid8"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid2">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -82,6 +88,11 @@
         <foaf:name>University of Montpellier, INRAE, France</foaf:name>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <schema:url>https://www.inrae.fr/</schema:url>
+        <foaf:name>INRAE, France</foaf:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <schema:url>https://www.umontpellier.fr/</schema:url>
         <foaf:name>University of Montpellier, INRAE, France</foaf:name>
@@ -269,24 +280,24 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasEAN13 -->
+    <!-- https://natclinn.github.io/hasEAN13 -->
 
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/NCL/ontology/hasEAN13"/>
+    <owl:AnnotationProperty rdf:about="https://natclinn.github.io/hasEAN13"/>
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasIdIngredientOFF -->
+    <!-- https://natclinn.github.io/hasIdIngredientOFF -->
 
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/NCL/ontology/hasIdIngredientOFF"/>
+    <owl:AnnotationProperty rdf:about="https://natclinn.github.io/hasIdIngredientOFF"/>
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTrademark -->
+    <!-- https://natclinn.github.io/hasTrademark -->
 
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/NCL/ontology/hasTrademark"/>
+    <owl:AnnotationProperty rdf:about="https://natclinn.github.io/hasTrademark"/>
     
 
 
@@ -316,12 +327,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/aboutTag -->
+    <!-- https://natclinn.github.io/aboutTag -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/aboutTag">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/aboutTag">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Tag"/>
         <rdfs:comment xml:lang="en">Links a TagArgumentBinding to the related Tag.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un TagArgumentBinding au Tag concerné.</rdfs:comment>
         <rdfs:label xml:lang="en">About tag</rdfs:label>
@@ -332,21 +343,21 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/containsIngredientWithFunction -->
+    <!-- https://natclinn.github.io/containsIngredientWithFunction -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/containsIngredientWithFunction">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/containsIngredientWithFunction">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasAdditiveIngredients -->
+    <!-- https://natclinn.github.io/hasAdditiveIngredients -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasAdditiveIngredients">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasAdditiveIngredients">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="fr">Liste les ingrédients additifs trouvés lors du calcul NOVA.</rdfs:comment>
         <rdfs:comment xml:lang="en">Lists additive ingredients found during NOVA calculation.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour ingrédients additifs</rdfs:label>
@@ -357,12 +368,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasAllegation -->
+    <!-- https://natclinn.github.io/hasAllegation -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasAllegation">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Allegation"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasAllegation">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Allegation"/>
         <rdfs:comment xml:lang="en">Links a product to its allegations or claims.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à ses allégations.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour allégation</rdfs:label>
@@ -373,12 +384,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasAttribute -->
+    <!-- https://natclinn.github.io/hasAttribute -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasAttribute">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Attribute"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasAttribute">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Attribute"/>
         <rdfs:comment xml:lang="fr">Attribut de la naturalité d&apos;un produit de l&apos;industrie agro-alimentaire.</rdfs:comment>
         <rdfs:comment xml:lang="en">The naturalness attribute of a food industry product.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour attribut</rdfs:label>
@@ -389,12 +400,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails -->
+    <!-- https://natclinn.github.io/hasCalculatedNOVAgroupDetails -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasCalculatedNOVAgroupDetails">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
         <rdfs:comment xml:lang="en">Links a product to its calculated NOVA group details.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit aux détails de son groupe NOVA calculé.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour détails du groupe NOVA calculé</rdfs:label>
@@ -405,12 +416,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasCategory -->
+    <!-- https://natclinn.github.io/hasCategory -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasCategory">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Category"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasCategory">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Category"/>
         <rdfs:comment xml:lang="en">Links an argument to its main category.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un argument à sa catégorie principale.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour catégorie</rdfs:label>
@@ -421,12 +432,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasCleanLabel -->
+    <!-- https://natclinn.github.io/hasCleanLabel -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasCleanLabel">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasCleanLabel">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/CleanLabel"/>
         <rdfs:comment xml:lang="en">Links a product to clean-label information.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à une information de clean label.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour clean label</rdfs:label>
@@ -437,12 +448,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasContext -->
+    <!-- https://natclinn.github.io/hasContext -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasContext">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasContext">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Context"/>
         <rdfs:comment xml:lang="en">Links an argument to its context</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un argument à son contexte</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour contexte</rdfs:label>
@@ -453,12 +464,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasContextIngredient -->
+    <!-- https://natclinn.github.io/hasContextIngredient -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasContextIngredient">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ContextIngredient"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasContextIngredient">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Context"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/ContextIngredient"/>
         <rdfs:comment xml:lang="fr">Le contexte ingrédient d&apos;un argument.</rdfs:comment>
         <rdfs:comment xml:lang="en">The ingredient context of an argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour contexte ingrédient</rdfs:label>
@@ -469,12 +480,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasContextProduct -->
+    <!-- https://natclinn.github.io/hasContextProduct -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasContextProduct">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ContextProduct"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasContextProduct">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Context"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/ContextProduct"/>
         <rdfs:comment xml:lang="fr">Le contexte produit d&apos;un argument.</rdfs:comment>
         <rdfs:comment xml:lang="en">The product context of an argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour contexte produit</rdfs:label>
@@ -485,12 +496,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasControlledOriginLabel -->
+    <!-- https://natclinn.github.io/hasControlledOriginLabel -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasControlledOriginLabel">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasControlledOriginLabel">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
         <rdfs:comment xml:lang="en">Links a product to a controlled-origin label.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à un label d&apos;origine contrôlée.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour label d&apos;origine contrôlée</rdfs:label>
@@ -501,12 +512,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasFNI -->
+    <!-- https://natclinn.github.io/hasFNI -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasFNI">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasFNI">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/FNI"/>
         <rdfs:comment xml:lang="en">Links a product to its Food Naturalness Index resource.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à sa ressource d&apos;indice de naturalité alimentaire.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour FNI</rdfs:label>
@@ -517,12 +528,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasIngredient -->
+    <!-- https://natclinn.github.io/hasIngredient -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasIngredient">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasIngredient">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="en">Links a product to one of its ingredients.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à l&apos;un de ses ingrédients.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour ingrédient</rdfs:label>
@@ -533,12 +544,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasLinkToArgument -->
+    <!-- https://natclinn.github.io/hasLinkToArgument -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasLinkToArgument">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasLinkToArgument">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/LinkToArgument"/>
         <rdfs:comment xml:lang="en">Links a food industry product to a LinkToArgument that connects to a ProductArgument.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit de l&apos;industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour lien vers argument</rdfs:label>
@@ -549,12 +560,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasManufacturingProcess -->
+    <!-- https://natclinn.github.io/hasManufacturingProcess -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasManufacturingProcess">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasManufacturingProcess">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
         <rdfs:comment xml:lang="en">Links a product to its manufacturing process.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à son procédé de fabrication.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour procédé de fabrication</rdfs:label>
@@ -565,12 +576,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasMaterial -->
+    <!-- https://natclinn.github.io/hasMaterial -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasMaterial">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Material"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasMaterial">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Packaging"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Material"/>
         <rdfs:comment xml:lang="en">Links a packaging to the material it uses.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un emballage au matériau qu&apos;il utilise.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour matière</rdfs:label>
@@ -581,12 +592,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasNOVAgroupDetails -->
+    <!-- https://natclinn.github.io/hasNOVAgroupDetails -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasNOVAgroupDetails">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasNOVAgroupDetails">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
         <rdfs:comment xml:lang="en">Links a product to its NOVA group classification details.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit aux détails de sa classification NOVA.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour détails du groupe NOVA</rdfs:label>
@@ -597,12 +608,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasNaturalnessScore -->
+    <!-- https://natclinn.github.io/hasNaturalnessScore -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasNaturalnessScore">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasNaturalnessScore">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
         <rdfs:comment xml:lang="en">Links a product to its naturalness score resource.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à sa ressource de score de naturalité.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour score de naturalité</rdfs:label>
@@ -613,12 +624,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasNutriScore -->
+    <!-- https://natclinn.github.io/hasNutriScore -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasNutriScore">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasNutriScore">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/NutriScore"/>
         <rdfs:comment xml:lang="en">Links a product to its Nutri-Score resource.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à sa ressource Nutri-Score.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour Nutri-Score</rdfs:label>
@@ -629,12 +640,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasOrigin -->
+    <!-- https://natclinn.github.io/hasOrigin -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasOrigin">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasOrigin">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Origin"/>
         <rdfs:comment xml:lang="en">Links an ingredient to its origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un ingrédient à son origine.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour origine</rdfs:label>
@@ -645,12 +656,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasPackaging -->
+    <!-- https://natclinn.github.io/hasPackaging -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasPackaging">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasPackaging">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Packaging"/>
         <rdfs:comment xml:lang="en">Links a product to its packaging.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à son emballage.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour emballage</rdfs:label>
@@ -661,12 +672,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasProcessedIngredients -->
+    <!-- https://natclinn.github.io/hasProcessedIngredients -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasProcessedIngredients">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasProcessedIngredients">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="fr">Liste les ingrédients transformés trouvés lors du calcul NOVA.</rdfs:comment>
         <rdfs:comment xml:lang="en">Lists processed ingredients found during NOVA calculation.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour ingrédients transformés</rdfs:label>
@@ -677,12 +688,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasProductArgument -->
+    <!-- https://natclinn.github.io/hasProductArgument -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasProductArgument">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasProductArgument">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:comment xml:lang="en">Link a food industry product to an argument.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit de l&apos;industrie agro-alimentaire à un argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour argument produit</rdfs:label>
@@ -693,12 +704,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasQuantifiedElement -->
+    <!-- https://natclinn.github.io/hasQuantifiedElement -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasQuantifiedElement">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasQuantifiedElement">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Resource"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
         <rdfs:comment xml:lang="en">Links a resource to one of its quantified elements.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie une ressource à l&apos;un de ses éléments quantifiés.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour élément quantifié</rdfs:label>
@@ -709,12 +720,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasRawIngredients -->
+    <!-- https://natclinn.github.io/hasRawIngredients -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasRawIngredients">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasRawIngredients">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="fr">Liste les ingrédients bruts trouvés lors du calcul NOVA.</rdfs:comment>
         <rdfs:comment xml:lang="en">Lists raw ingredients found during NOVA calculation.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour ingrédients bruts</rdfs:label>
@@ -725,12 +736,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasReferenceProductArgument -->
+    <!-- https://natclinn.github.io/hasReferenceProductArgument -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasReferenceProductArgument">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasReferenceProductArgument">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:comment xml:lang="en">Links a LinkToArgument to the referenced ProductArgument.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un LinkToArgument au ProductArgument référencé.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour argument produit référencé</rdfs:label>
@@ -741,12 +752,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasRole -->
+    <!-- https://natclinn.github.io/hasRole -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasRole">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasRole">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Tag"/>
         <rdfs:comment xml:lang="en">Links an ingredient to a Tag resource representing its technological or sensory function (preservative, flavor enhancer, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.).</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour rôle</rdfs:label>
@@ -757,12 +768,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasShape -->
+    <!-- https://natclinn.github.io/hasShape -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasShape">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasShape">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Packaging"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Shape"/>
         <rdfs:comment xml:lang="en">Links a packaging to its shape.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un emballage à sa forme.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour forme</rdfs:label>
@@ -773,12 +784,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasSource -->
+    <!-- https://natclinn.github.io/hasSource -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasSource">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Source"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasSource">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Source"/>
         <rdfs:comment xml:lang="en">Link an argument to its source (consumer survey, scientific journal, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un argument à sa source (enquête consommateur, revue scientifique, etc.).</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour source</rdfs:label>
@@ -789,12 +800,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasStakeholder -->
+    <!-- https://natclinn.github.io/hasStakeholder -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasStakeholder">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasStakeholder">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Stakeholder"/>
         <rdfs:comment xml:lang="en">Link an argument to its stakeholder (consumer, manufacturer, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un argument à sa partie prenante (consommateur, fabricant, etc.).</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour partie prenante</rdfs:label>
@@ -805,12 +816,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasSubcategory -->
+    <!-- https://natclinn.github.io/hasSubcategory -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasSubcategory">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasSubcategory">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Subcategory"/>
         <rdfs:comment xml:lang="en">Links an argument to its subcategory.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un argument à sa sous-catégorie.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour sous-catégorie</rdfs:label>
@@ -821,12 +832,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTag -->
+    <!-- https://natclinn.github.io/hasTag -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTag">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasTag">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Tag"/>
         <rdfs:comment xml:lang="en">Links a product to a tag.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à un tag.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour tag</rdfs:label>
@@ -837,12 +848,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator -->
+    <!-- https://natclinn.github.io/hasTagArgumentBindingInitiator -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasTagArgumentBindingInitiator">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:comment xml:lang="fr">Le tag de liaison d&apos;argument identifiant qui a initié le lien vers l&apos;argument.</rdfs:comment>
         <rdfs:comment xml:lang="en">The tag argument binding identifying who initiated the link to the argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour liaison tag-argument initiatrice</rdfs:label>
@@ -853,12 +864,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTagCheck -->
+    <!-- https://natclinn.github.io/hasTagCheck -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTagCheck">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasTagCheck">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Tag"/>
         <rdfs:comment xml:lang="en">Links a product to a validation tag.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à un tag de vérification.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour tag de vérification</rdfs:label>
@@ -869,12 +880,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTagInitiator -->
+    <!-- https://natclinn.github.io/hasTagInitiator -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTagInitiator">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasTagInitiator">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Tag"/>
         <rdfs:comment xml:lang="fr">Tag identifiant qui a initié le lien vers l&apos;argument.</rdfs:comment>
         <rdfs:comment xml:lang="en">Tag identifying who initiated the link to the argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour tag initiateur</rdfs:label>
@@ -885,12 +896,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTechnologicalIngredients -->
+    <!-- https://natclinn.github.io/hasTechnologicalIngredients -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTechnologicalIngredients">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasTechnologicalIngredients">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="fr">Liste les ingrédients technologiques trouvés lors du calcul NOVA.</rdfs:comment>
         <rdfs:comment xml:lang="en">Lists technological ingredients found during NOVA calculation.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour ingrédients technologiques</rdfs:label>
@@ -901,12 +912,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasTypeSource -->
+    <!-- https://natclinn.github.io/hasTypeSource -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasTypeSource">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasTypeSource">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Source"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/TypeSource"/>
         <rdfs:comment xml:lang="en">Link a source to its type (expert, peer-reviewed article, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie une source à son type (expert, article peer-reviewed, etc.).</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour type de source</rdfs:label>
@@ -917,12 +928,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasVerbatim -->
+    <!-- https://natclinn.github.io/hasVerbatim -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/hasVerbatim">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <rdfs:range rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/hasVerbatim">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <rdfs:range rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Link an argument to its verbatim.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Link an argument to its verbatim.</rdfs:comment>
         <rdfs:label xml:lang="fr">A pour verbatim</rdfs:label>
@@ -933,32 +944,32 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/identifier -->
+    <!-- https://natclinn.github.io/identifier -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/identifier">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/identifier">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Resource"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/NCL/ontology/isComposedOf -->
+    <!-- https://natclinn.github.io/isComposedOf -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/isComposedOf">
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/isComposedOf">
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/CompositeIngredient"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/CompositeProduct"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/CompositeIngredient"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/CompositeProduct"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Product"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Ingredient"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Product"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -972,16 +983,16 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/refersTo -->
+    <!-- https://natclinn.github.io/refersTo -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/refersTo">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/refersTo">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Product"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Ingredient"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Product"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -995,23 +1006,23 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/target -->
+    <!-- https://natclinn.github.io/target -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/NCL/ontology/target">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:ObjectProperty rdf:about="https://natclinn.github.io/target">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Allegation"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/CleanLabel"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Ingredient"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/NutriScore"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Origin"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Packaging"/>
-                    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/Product"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Allegation"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/CleanLabel"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/ControlledOriginLabel"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Ingredient"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/ManufacturingProcess"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/NutriScore"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Origin"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Packaging"/>
+                    <rdf:Description rdf:about="https://natclinn.github.io/Product"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -1037,11 +1048,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/aim -->
+    <!-- https://natclinn.github.io/aim -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/aim">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/aim">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Aim or objective related to the tag binding.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Objectif ou visée du binding de tag.</rdfs:comment>
@@ -1053,11 +1064,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/assertion -->
+    <!-- https://natclinn.github.io/assertion -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/assertion">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/assertion">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">L&apos;assertion portée par le binding de tag.</rdfs:comment>
         <rdfs:comment xml:lang="en">The assertion carried by the tag binding.</rdfs:comment>
@@ -1069,11 +1080,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/bindingKeywords -->
+    <!-- https://natclinn.github.io/bindingKeywords -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/bindingKeywords">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/bindingKeywords">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Keywords used to bind a tag to argumentation context.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Mots-clés utilisés pour lier un tag au contexte d&apos;argumentation.</rdfs:comment>
@@ -1085,11 +1096,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/condition -->
+    <!-- https://natclinn.github.io/condition -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/condition">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/condition">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Condition dans laquelle l&apos;argument s&apos;applique.</rdfs:comment>
         <rdfs:comment xml:lang="en">Condition under which the argument applies.</rdfs:comment>
@@ -1101,11 +1112,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/containsAdditives -->
+    <!-- https://natclinn.github.io/containsAdditives -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/containsAdditives">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/containsAdditives">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment xml:lang="en">Indicates whether the product contains additives.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Indique si le produit contient des additifs.</rdfs:comment>
@@ -1117,20 +1128,20 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/containsIngredientWithFunction -->
+    <!-- https://natclinn.github.io/containsIngredientWithFunction -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/containsIngredientWithFunction">
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/containsIngredientWithFunction">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/NCL/ontology/fiability -->
+    <!-- https://natclinn.github.io/fiability -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/fiability">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/fiability">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TypeSource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="en">Fiability score of the source type.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Score de fiabilité du type de source.</rdfs:comment>
@@ -1142,11 +1153,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/groupe1 -->
+    <!-- https://natclinn.github.io/groupe1 -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe1">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/groupe1">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 1 (aliments non transformés ou minimalement transformés).</rdfs:comment>
         <rdfs:comment xml:lang="en">NOVA group 1 characteristics (unprocessed or minimally processed foods).</rdfs:comment>
@@ -1158,11 +1169,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/groupe2 -->
+    <!-- https://natclinn.github.io/groupe2 -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe2">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/groupe2">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 2 (ingrédients culinaires transformés).</rdfs:comment>
         <rdfs:comment xml:lang="en">NOVA group 2 characteristics (processed culinary ingredients).</rdfs:comment>
@@ -1174,11 +1185,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/groupe3 -->
+    <!-- https://natclinn.github.io/groupe3 -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe3">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/groupe3">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 3 (aliments transformés).</rdfs:comment>
         <rdfs:comment xml:lang="en">NOVA group 3 characteristics (processed foods).</rdfs:comment>
@@ -1190,11 +1201,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/groupe4 -->
+    <!-- https://natclinn.github.io/groupe4 -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/groupe4">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/groupe4">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Caractéristiques du groupe NOVA 4 (produits ultra-transformés).</rdfs:comment>
         <rdfs:comment xml:lang="en">NOVA group 4 characteristics (ultra-processed foods and drinks).</rdfs:comment>
@@ -1206,11 +1217,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup -->
+    <!-- https://natclinn.github.io/hasCalculatedNOVAgroup -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/hasCalculatedNOVAgroup">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="en">Calculated NOVA group (1..4) inferred by rules, not the OFF-provided value.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF.</rdfs:comment>
@@ -1222,11 +1233,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasCiqualFoodCode -->
+    <!-- https://natclinn.github.io/hasCiqualFoodCode -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasCiqualFoodCode">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/hasCiqualFoodCode">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Ciqual code for a food industry product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Code Ciqual d&apos;un produit de l&apos;industrie agroalimentaire.</rdfs:comment>
@@ -1238,11 +1249,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode -->
+    <!-- https://natclinn.github.io/hasCiqualProxyFoodCode -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/hasCiqualProxyFoodCode">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Ciqual code for a similar food industry product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Code Ciqual d&apos;un produit similaire de l&apos;industrie agroalimentaire.</rdfs:comment>
@@ -1254,11 +1265,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasNOVAgroup -->
+    <!-- https://natclinn.github.io/hasNOVAgroup -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasNOVAgroup">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/hasNOVAgroup">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Product"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="fr">Groupe NOVA (1..4) tel que fourni par Open Food Facts.</rdfs:comment>
         <rdfs:comment xml:lang="en">NOVA group (1..4) as provided by Open Food Facts.</rdfs:comment>
@@ -1270,11 +1281,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/hasText -->
+    <!-- https://natclinn.github.io/hasText -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/hasText">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/hasText">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Texte du verbatim.</rdfs:comment>
         <rdfs:comment xml:lang="en">Verbatim text.</rdfs:comment>
@@ -1286,20 +1297,20 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/identifier -->
+    <!-- https://natclinn.github.io/identifier -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/identifier">
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/identifier">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/NCL/ontology/infValue -->
+    <!-- https://natclinn.github.io/infValue -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/infValue">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/infValue">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="en">Lower bound value for the argument condition.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Valeur minimale pour la condition de l&apos;argument.</rdfs:comment>
@@ -1311,11 +1322,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/nameCriterion -->
+    <!-- https://natclinn.github.io/nameCriterion -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/nameCriterion">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/nameCriterion">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Name of the criterion addressed by the tag binding.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Nom du critère abordé par le binding de tag.</rdfs:comment>
@@ -1327,11 +1338,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/nameProperty -->
+    <!-- https://natclinn.github.io/nameProperty -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/nameProperty">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/nameProperty">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Name of the property evaluated in the tag binding.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Nom de la propriété évaluée dans le binding de tag.</rdfs:comment>
@@ -1343,11 +1354,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/percentage -->
+    <!-- https://natclinn.github.io/percentage -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/percentage">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/percentage">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="en">Percentage (by weight) of a by-product or ingredient in a food industry product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Pourcentage (du poids) d&apos;un sous-produit ou d&apos;un ingrédient dans un produit de l&apos;industrie agro-alimentaire.</rdfs:comment>
@@ -1359,11 +1370,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/polarity -->
+    <!-- https://natclinn.github.io/polarity -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/polarity">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/polarity">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Polarity of the tag binding (positive &apos;+&apos; or negative &apos;-&apos;).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Polarité du binding de tag (positif &apos;+&apos; ou négatif &apos;-&apos;).</rdfs:comment>
@@ -1375,11 +1386,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/quantity -->
+    <!-- https://natclinn.github.io/quantity -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/quantity">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/quantity">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="en">Quantity of a by-product or ingredient present in a food industry product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Quantité présente d&apos;un sous-produit ou d&apos;un ingrédient dans un produit de l&apos;industrie agro-alimentaire.</rdfs:comment>
@@ -1391,11 +1402,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/rank -->
+    <!-- https://natclinn.github.io/rank -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/rank">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/rank">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="fr">Classement d&apos;un ingrédient ou d&apos;un sous-produit dans l’énoncé textuel de la composition d&apos;un produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">Classification of an ingredient or by-product in the textual statement of a product&apos;s composition.</rdfs:comment>
@@ -1407,11 +1418,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/supValue -->
+    <!-- https://natclinn.github.io/supValue -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/supValue">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/supValue">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="en">Upper bound value for the argument condition.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Valeur maximale pour la condition de l&apos;argument.</rdfs:comment>
@@ -1423,11 +1434,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/supportType -->
+    <!-- https://natclinn.github.io/supportType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/supportType">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/supportType">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Type de l&apos;argument (positif ou négatif) vis à vis de sa cible.</rdfs:comment>
         <rdfs:comment xml:lang="en">Type of argument (positive or negative) in relation to its target.</rdfs:comment>
@@ -1439,11 +1450,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/unit -->
+    <!-- https://natclinn.github.io/unit -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/unit">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/unit">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Unit of the quantity of a by-product or ingredient present in a food industry product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Unité de la quantité présente d&apos;un sous-produit ou d&apos;un ingrédient dans un produit de l&apos;industrie agro-alimentaire.</rdfs:comment>
@@ -1455,11 +1466,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/unitArg -->
+    <!-- https://natclinn.github.io/unitArg -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/unitArg">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/unitArg">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/ProductArgument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Unit of measurement for the argument values.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Unité de mesure pour les valeurs de l&apos;argument.</rdfs:comment>
@@ -1471,11 +1482,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/valueProperty -->
+    <!-- https://natclinn.github.io/valueProperty -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/NCL/ontology/valueProperty">
-        <rdfs:domain rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
+    <owl:DatatypeProperty rdf:about="https://natclinn.github.io/valueProperty">
+        <rdfs:domain rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="fr">Valeur associée à la propriété du binding de tag.</rdfs:comment>
         <rdfs:comment xml:lang="en">Value associated with the tag binding property.</rdfs:comment>
@@ -1541,11 +1552,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/AdditiveIngredient -->
+    <!-- https://natclinn.github.io/AdditiveIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/AdditiveIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <owl:Class rdf:about="https://natclinn.github.io/AdditiveIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByFunction"/>
         <rdfs:comment xml:lang="en">Ingredient used as an additive (e.g., colorant, preservative).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient utilisé comme additif (colorant, conservateur…).</rdfs:comment>
         <rdfs:label xml:lang="en">Additive ingredient</rdfs:label>
@@ -1556,40 +1567,40 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Allegation -->
+    <!-- https://natclinn.github.io/Allegation -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Allegation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Attribute"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Allegation">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Attribute"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Category"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/CleanLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Context"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Déclaration relative à une allégation ou affirmation sur un produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">Statement about a product claim or assertion.</rdfs:comment>
         <rdfs:label xml:lang="en">Allegation</rdfs:label>
@@ -1600,11 +1611,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/AnimalOriginIngredient -->
+    <!-- https://natclinn.github.io/AnimalOriginIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/AnimalOriginIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <owl:Class rdf:about="https://natclinn.github.io/AnimalOriginIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByOrigin"/>
         <rdfs:comment xml:lang="en">Ingredient of animal origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient d&apos;origine animale.</rdfs:comment>
         <rdfs:label xml:lang="en">Animal origin ingredient</rdfs:label>
@@ -1615,39 +1626,39 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Attribute -->
+    <!-- https://natclinn.github.io/Attribute -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Attribute">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Attribute">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/CalculatedNOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Category"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/CleanLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Context"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">L&apos;attribut de naturalité dans le contexte de l&apos;argument.</rdfs:comment>
         <rdfs:comment xml:lang="en">The attribute of naturalness in the context of the argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">Attribut</rdfs:label>
@@ -1658,38 +1669,38 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails -->
+    <!-- https://natclinn.github.io/CalculatedNOVAgroupDetails -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Category"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/CalculatedNOVAgroupDetails">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Category"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/CleanLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Context"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Details of locally calculated NOVA group, listing ingredients by category.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie.</rdfs:comment>
         <rdfs:label xml:lang="en">Calculated NOVA group details</rdfs:label>
@@ -1700,37 +1711,37 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Category -->
+    <!-- https://natclinn.github.io/Category -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Category">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/CleanLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Category">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/CleanLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Context"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Catégorie principale de l&apos;argument (ex: &apos;Mode de culture et d&apos;élevage&apos;).</rdfs:comment>
         <rdfs:comment xml:lang="en">Main category of the argument (e.g., &apos;Mode de culture et d&apos;élevage&apos;).</rdfs:comment>
         <rdfs:label xml:lang="en">Category</rdfs:label>
@@ -1741,36 +1752,36 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/CleanLabel -->
+    <!-- https://natclinn.github.io/CleanLabel -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/CleanLabel">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Context"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/CleanLabel">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Context"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Le &apos;clean label&apos; d&apos;un produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">The clean label of a product.</rdfs:comment>
         <rdfs:label xml:lang="en">Clean label</rdfs:label>
@@ -1781,11 +1792,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/CompositeIngredient -->
+    <!-- https://natclinn.github.io/CompositeIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/CompositeIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:Class rdf:about="https://natclinn.github.io/CompositeIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="en">Ingredient composed of at least one other Ingredient.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un ingrédient composé d&apos;au moins un autre ingrédient.</rdfs:comment>
         <rdfs:label xml:lang="en">Composite ingredient</rdfs:label>
@@ -1796,11 +1807,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/CompositeProduct -->
+    <!-- https://natclinn.github.io/CompositeProduct -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/CompositeProduct">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:Class rdf:about="https://natclinn.github.io/CompositeProduct">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Product"/>
         <rdfs:comment xml:lang="en">Product composed of at least one other product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Produit composé d&apos;au moins un autre produit.</rdfs:comment>
         <rdfs:label xml:lang="en">Composite product</rdfs:label>
@@ -1811,35 +1822,35 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Context -->
+    <!-- https://natclinn.github.io/Context -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Context">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ControlledOriginLabel"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Context">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ControlledOriginLabel"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Le contexte dans lequel l&apos;argument est pertinent.</rdfs:comment>
         <rdfs:comment xml:lang="en">The context in which the argument is relevant.</rdfs:comment>
         <rdfs:label xml:lang="en">Context</rdfs:label>
@@ -1850,11 +1861,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/ContextIngredient -->
+    <!-- https://natclinn.github.io/ContextIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/ContextIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:Class rdf:about="https://natclinn.github.io/ContextIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Context"/>
         <rdfs:comment xml:lang="fr">Le contexte ingrédient dans lequel un argument est pertinent.</rdfs:comment>
         <rdfs:comment xml:lang="en">The ingredient context in which an argument is relevant.</rdfs:comment>
         <rdfs:label xml:lang="fr">Contexte ingrédient</rdfs:label>
@@ -1865,11 +1876,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/ContextProduct -->
+    <!-- https://natclinn.github.io/ContextProduct -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/ContextProduct">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Context"/>
+    <owl:Class rdf:about="https://natclinn.github.io/ContextProduct">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Context"/>
         <rdfs:comment xml:lang="fr">Le contexte produit dans lequel un argument est pertinent.</rdfs:comment>
         <rdfs:comment xml:lang="en">The product context in which an argument is relevant.</rdfs:comment>
         <rdfs:label xml:lang="fr">Contexte produit</rdfs:label>
@@ -1880,34 +1891,34 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/ControlledOriginLabel -->
+    <!-- https://natclinn.github.io/ControlledOriginLabel -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/ControlledOriginLabel">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/FNI"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/ControlledOriginLabel">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/FNI"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Le label d&apos;origine contrôlée d&apos;un produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">The controlled origin label of a product.</rdfs:comment>
         <rdfs:label xml:lang="en">Controlled origin label</rdfs:label>
@@ -1918,11 +1929,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/EnzymeIngredient -->
+    <!-- https://natclinn.github.io/EnzymeIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/EnzymeIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <owl:Class rdf:about="https://natclinn.github.io/EnzymeIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByFunction"/>
         <rdfs:comment xml:lang="en">Ingredient used as an enzyme in food processing.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient utilisé comme enzyme dans le procédé alimentaire.</rdfs:comment>
         <rdfs:label xml:lang="en">Enzyme ingredient</rdfs:label>
@@ -1933,33 +1944,33 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/FNI -->
+    <!-- https://natclinn.github.io/FNI -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/FNI">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/FNI">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Indice de naturalité d&apos;un produit alimentaire.</rdfs:comment>
         <rdfs:comment xml:lang="en">food naturalness index.</rdfs:comment>
         <rdfs:label xml:lang="en">Food naturalness index</rdfs:label>
@@ -1970,11 +1981,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/FlavorIngredient -->
+    <!-- https://natclinn.github.io/FlavorIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/FlavorIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <owl:Class rdf:about="https://natclinn.github.io/FlavorIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByFunction"/>
         <rdfs:comment xml:lang="en">Ingredient used for flavoring purposes.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient utilisé pour aromatiser.</rdfs:comment>
         <rdfs:label xml:lang="en">Flavor ingredient</rdfs:label>
@@ -1985,11 +1996,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/FunctionalNutrientIngredient -->
+    <!-- https://natclinn.github.io/FunctionalNutrientIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/FunctionalNutrientIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <owl:Class rdf:about="https://natclinn.github.io/FunctionalNutrientIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByFunction"/>
         <rdfs:comment xml:lang="en">Ingredient providing nutritional or health benefits.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient apportant des bénéfices nutritionnels ou santé.</rdfs:comment>
         <rdfs:label xml:lang="en">Functional nutrient ingredient</rdfs:label>
@@ -2000,11 +2011,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient -->
+    <!-- https://natclinn.github.io/FungalOrMicrobialIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <owl:Class rdf:about="https://natclinn.github.io/FungalOrMicrobialIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByOrigin"/>
         <rdfs:comment xml:lang="en">Ingredient of fungal or microbial origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient d&apos;origine fongique ou microbienne.</rdfs:comment>
         <rdfs:label xml:lang="en">Fungal or microbial ingredient</rdfs:label>
@@ -2015,32 +2026,32 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Ingredient -->
+    <!-- https://natclinn.github.io/Ingredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Ingredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/LinkToArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Ingredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Resource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/LinkToArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">An ingredient used in a product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un ingrédient utilisé dans un produit.</rdfs:comment>
         <rdfs:label xml:lang="en">Ingredient</rdfs:label>
@@ -2051,11 +2062,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/IngredientByFunction -->
+    <!-- https://natclinn.github.io/IngredientByFunction -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByFunction">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:Class rdf:about="https://natclinn.github.io/IngredientByFunction">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="en">Ingredient classified by its function in the food product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient classé selon sa fonction dans le produit alimentaire.</rdfs:comment>
         <rdfs:label xml:lang="en">Ingredient by function</rdfs:label>
@@ -2066,11 +2077,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/IngredientByOrigin -->
+    <!-- https://natclinn.github.io/IngredientByOrigin -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByOrigin">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:Class rdf:about="https://natclinn.github.io/IngredientByOrigin">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="en">Ingredient classified by its origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient classé selon son origine.</rdfs:comment>
         <rdfs:label xml:lang="en">Ingredient by origin</rdfs:label>
@@ -2081,11 +2092,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/IngredientByTransformationDegree -->
+    <!-- https://natclinn.github.io/IngredientByTransformationDegree -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/IngredientByTransformationDegree">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:Class rdf:about="https://natclinn.github.io/IngredientByTransformationDegree">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="en">Ingredient classified by its degree of processing.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient classé selon son degré de transformation.</rdfs:comment>
         <rdfs:label xml:lang="en">Ingredient by transformation degree</rdfs:label>
@@ -2096,31 +2107,31 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/LinkToArgument -->
+    <!-- https://natclinn.github.io/LinkToArgument -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/LinkToArgument">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ManufacturingProcess"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/LinkToArgument">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ManufacturingProcess"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">A link between a product and an argument, containing metadata about the relationship.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un lien entre un produit et un argument, contenant des métadonnées sur la relation.</rdfs:comment>
         <rdfs:label xml:lang="fr">Lien vers argument</rdfs:label>
@@ -2131,11 +2142,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/MainComponentIngredient -->
+    <!-- https://natclinn.github.io/MainComponentIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/MainComponentIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <owl:Class rdf:about="https://natclinn.github.io/MainComponentIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByFunction"/>
         <rdfs:comment xml:lang="fr">Ingrédient principal apportant structure ou masse.</rdfs:comment>
         <rdfs:comment xml:lang="en">Main ingredient providing structure or mass.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient composant principal</rdfs:label>
@@ -2146,30 +2157,30 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/ManufacturingProcess -->
+    <!-- https://natclinn.github.io/ManufacturingProcess -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/ManufacturingProcess">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Material"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/ManufacturingProcess">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Material"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">La manière dont le produit est fabriqué.</rdfs:comment>
         <rdfs:comment xml:lang="en">The way the product is manufactured.</rdfs:comment>
         <rdfs:label xml:lang="en">Manufacturing process</rdfs:label>
@@ -2180,29 +2191,29 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Material -->
+    <!-- https://natclinn.github.io/Material -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Material">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NOVAgroupDetails"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Material">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NOVAgroupDetails"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">La matière de l&apos;emballage du produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">The material used for the product packaging.</rdfs:comment>
         <rdfs:label xml:lang="en">Material</rdfs:label>
@@ -2213,11 +2224,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/MineralOriginIngredient -->
+    <!-- https://natclinn.github.io/MineralOriginIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/MineralOriginIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <owl:Class rdf:about="https://natclinn.github.io/MineralOriginIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByOrigin"/>
         <rdfs:comment xml:lang="en">Ingredient of mineral origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient d&apos;origine minérale.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient d&apos;origine minérale</rdfs:label>
@@ -2228,10 +2239,10 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/NCL -->
+    <!-- https://natclinn.github.io/NCL -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/NCL">
+    <owl:Class rdf:about="https://natclinn.github.io/NCL">
         <rdfs:comment xml:lang="fr">NCL est l&apos;ensemble des produits et des arguments.</rdfs:comment>
         <rdfs:comment xml:lang="en">NCL is the set of product and arguments.</rdfs:comment>
         <rdfs:label xml:lang="en">NCL</rdfs:label>
@@ -2242,28 +2253,28 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/NOVAgroupDetails -->
+    <!-- https://natclinn.github.io/NOVAgroupDetails -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/NOVAgroupDetails">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NaturalnessScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/NOVAgroupDetails">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NaturalnessScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Details of NOVA group classification from Open Food Facts.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Détails de la classification NOVA depuis Open Food Facts.</rdfs:comment>
         <rdfs:label xml:lang="fr">Détails du groupe NOVA</rdfs:label>
@@ -2274,27 +2285,27 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/NaturalnessScore -->
+    <!-- https://natclinn.github.io/NaturalnessScore -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/NaturalnessScore">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScore"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/NaturalnessScore">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScore"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Ressource de score représentant le niveau global de naturalité d&apos;un produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">Score resource representing the overall naturalness level of a product.</rdfs:comment>
         <rdfs:label xml:lang="en">Naturalness score</rdfs:label>
@@ -2305,26 +2316,26 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/NutriScore -->
+    <!-- https://natclinn.github.io/NutriScore -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScore">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreAlpha"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/NutriScore">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreAlpha"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Nutri-Score.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Nutri-Score.</rdfs:comment>
         <rdfs:label xml:lang="en">Nutri-Score</rdfs:label>
@@ -2335,25 +2346,25 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/NutriScoreAlpha -->
+    <!-- https://natclinn.github.io/NutriScoreAlpha -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreAlpha">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/NutriScoreDetail"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/NutriScoreAlpha">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/NutriScoreDetail"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Nutri-Score alpha	.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Nutri-Score alpha.</rdfs:comment>
         <rdfs:label xml:lang="en">Nutri-Score alpha</rdfs:label>
@@ -2364,24 +2375,24 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/NutriScoreDetail -->
+    <!-- https://natclinn.github.io/NutriScoreDetail -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/NutriScoreDetail">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Origin"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/NutriScoreDetail">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Origin"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Nutri-Score detail	.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Nutri-Score detail.</rdfs:comment>
         <rdfs:label xml:lang="fr">Détail Nutri-Score</rdfs:label>
@@ -2392,23 +2403,23 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Origin -->
+    <!-- https://natclinn.github.io/Origin -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Origin">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Packaging"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Origin">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Packaging"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Ingredient origin (EU origin, Vietnam origin, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Origine de l&apos;ingrédient (origine UE, origine Vietnam, etc.).</rdfs:comment>
         <rdfs:label xml:lang="en">Origin</rdfs:label>
@@ -2419,22 +2430,22 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Packaging -->
+    <!-- https://natclinn.github.io/Packaging -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Packaging">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Product"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Packaging">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Product"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">L&apos;emballage d&apos;un produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">The packaging of a product.</rdfs:comment>
         <rdfs:label xml:lang="fr">Emballage</rdfs:label>
@@ -2445,11 +2456,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/PlantOriginIngredient -->
+    <!-- https://natclinn.github.io/PlantOriginIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/PlantOriginIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <owl:Class rdf:about="https://natclinn.github.io/PlantOriginIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByOrigin"/>
         <rdfs:comment xml:lang="en">Ingredient of plant origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient d&apos;origine végétale.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient d&apos;origine végétale</rdfs:label>
@@ -2460,11 +2471,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/ProcessedIngredient -->
+    <!-- https://natclinn.github.io/ProcessedIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/ProcessedIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByTransformationDegree"/>
+    <owl:Class rdf:about="https://natclinn.github.io/ProcessedIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByTransformationDegree"/>
         <rdfs:comment xml:lang="en">Ingredient that has been processed (e.g., flour, oil).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient ayant subi une transformation (farine, huile…).</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient transformé</rdfs:label>
@@ -2475,21 +2486,21 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Product -->
+    <!-- https://natclinn.github.io/Product -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Product">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Resource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/ProductArgument"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Product">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Resource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/ProductArgument"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">A food industry product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un produit de l&apos;industrie alimentaire.</rdfs:comment>
         <rdfs:label xml:lang="en">Product</rdfs:label>
@@ -2500,21 +2511,21 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/ProductArgument -->
+    <!-- https://natclinn.github.io/ProductArgument -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/ProductArgument">
+    <owl:Class rdf:about="https://natclinn.github.io/ProductArgument">
         <rdfs:subClassOf rdf:resource="http://www.arg.dundee.ac.uk/aif#Node"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/QuantifiedElement"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/QuantifiedElement"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">An argument related to the naturalness of a product.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un argument lié à la naturalité d&apos;un produit.</rdfs:comment>
         <rdfs:label xml:lang="fr">Argument produit</rdfs:label>
@@ -2525,19 +2536,19 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/QuantifiedElement -->
+    <!-- https://natclinn.github.io/QuantifiedElement -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/QuantifiedElement">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Shape"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/QuantifiedElement">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Shape"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">An element of a product composition that includes quantity, unit, percentage, and rank.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un élément d&apos;une composition de produit incluant quantité, unité, pourcentage et rang.</rdfs:comment>
         <rdfs:label xml:lang="en">Quantified element</rdfs:label>
@@ -2548,11 +2559,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/RawIngredient -->
+    <!-- https://natclinn.github.io/RawIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/RawIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByTransformationDegree"/>
+    <owl:Class rdf:about="https://natclinn.github.io/RawIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByTransformationDegree"/>
         <rdfs:comment xml:lang="fr">Ingrédient brut ou peu transformé.</rdfs:comment>
         <rdfs:comment xml:lang="en">Unprocessed or minimally processed ingredient.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient brut</rdfs:label>
@@ -2563,11 +2574,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Resource -->
+    <!-- https://natclinn.github.io/Resource -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Resource">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Resource">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
         <rdfs:comment xml:lang="en">Abstract class Resource, from which Product and Ingredient inherit.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Classe abstraite Resource, dont héritent Produit et Ingrédient.</rdfs:comment>
         <rdfs:label xml:lang="en">Resource</rdfs:label>
@@ -2578,18 +2589,18 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Shape -->
+    <!-- https://natclinn.github.io/Shape -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Shape">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Source"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Shape">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Source"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">La forme de l&apos;emballage du produit.</rdfs:comment>
         <rdfs:comment xml:lang="en">The forme used for the product packaging.</rdfs:comment>
         <rdfs:label xml:lang="fr">Forme</rdfs:label>
@@ -2600,11 +2611,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/SimpleIngredient -->
+    <!-- https://natclinn.github.io/SimpleIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/SimpleIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Ingredient"/>
+    <owl:Class rdf:about="https://natclinn.github.io/SimpleIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Ingredient"/>
         <rdfs:comment xml:lang="en">A simple ingredient.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un ingrédient simple.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient simple</rdfs:label>
@@ -2615,11 +2626,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/SimpleProduct -->
+    <!-- https://natclinn.github.io/SimpleProduct -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/SimpleProduct">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/Product"/>
+    <owl:Class rdf:about="https://natclinn.github.io/SimpleProduct">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/Product"/>
         <rdfs:comment xml:lang="en">Food industry product made up entirely of ingredients.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Produit de l&apos;industrie alimentaire composé uniquement d&apos;ingrédients.</rdfs:comment>
         <rdfs:label xml:lang="fr">Produit simple</rdfs:label>
@@ -2630,17 +2641,17 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Source -->
+    <!-- https://natclinn.github.io/Source -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Source">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Stakeholder"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Source">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Stakeholder"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">La source d&apos;un argument (consommateur, article scientifique, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="en">The source of an argument (consumer, scientific paper, etc.).</rdfs:comment>
         <rdfs:label xml:lang="en">Source</rdfs:label>
@@ -2651,16 +2662,16 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Stakeholder -->
+    <!-- https://natclinn.github.io/Stakeholder -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Stakeholder">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Subcategory"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Stakeholder">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Subcategory"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Le partie prenante faisant l&apos;argument (consommateur, fabricant, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="en">The stakeholder making the argument (consumer, manufacturer, etc.).</rdfs:comment>
         <rdfs:label xml:lang="fr">Partie prenante</rdfs:label>
@@ -2671,15 +2682,15 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Subcategory -->
+    <!-- https://natclinn.github.io/Subcategory -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Subcategory">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Tag"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Subcategory">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Tag"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Sous-catégorie de l&apos;argument.</rdfs:comment>
         <rdfs:comment xml:lang="en">Subcategory of the argument.</rdfs:comment>
         <rdfs:label xml:lang="fr">Sous-catégorie</rdfs:label>
@@ -2690,11 +2701,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient -->
+    <!-- https://natclinn.github.io/SyntheticOrBiotechIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByOrigin"/>
+    <owl:Class rdf:about="https://natclinn.github.io/SyntheticOrBiotechIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByOrigin"/>
         <rdfs:comment xml:lang="en">Ingredient of synthetic or biotechnological origin.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient d&apos;origine synthétique ou biotechnologique.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient d&apos;origine synthétique ou biotechnologique</rdfs:label>
@@ -2705,14 +2716,14 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Tag -->
+    <!-- https://natclinn.github.io/Tag -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Tag">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TagArgumentBinding"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Tag">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TagArgumentBinding"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">A tag used to qualify product argument links.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un tag utilisé pour qualifier les liens d&apos;argumentation produit.</rdfs:comment>
         <rdfs:label xml:lang="en">Tag</rdfs:label>
@@ -2723,13 +2734,13 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/TagArgumentBinding -->
+    <!-- https://natclinn.github.io/TagArgumentBinding -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/TagArgumentBinding">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/TypeSource"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/TagArgumentBinding">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/TypeSource"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="en">Binding object carrying argumentation attributes associated with a tag.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Objet de liaison portant les attributs d&apos;argumentation associés à un tag.</rdfs:comment>
         <rdfs:label xml:lang="fr">Liaison tag-argument</rdfs:label>
@@ -2740,11 +2751,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/TechnologicalIngredient -->
+    <!-- https://natclinn.github.io/TechnologicalIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/TechnologicalIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByFunction"/>
+    <owl:Class rdf:about="https://natclinn.github.io/TechnologicalIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByFunction"/>
         <rdfs:comment xml:lang="en">Ingredient used for technological purposes (e.g., carrier, thickener).</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient utilisé pour des raisons technologiques (support, épaississant…).</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient technologique</rdfs:label>
@@ -2755,12 +2766,12 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/TypeSource -->
+    <!-- https://natclinn.github.io/TypeSource -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/TypeSource">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/NCL/ontology/Verbatim"/>
+    <owl:Class rdf:about="https://natclinn.github.io/TypeSource">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
+        <owl:disjointWith rdf:resource="https://natclinn.github.io/Verbatim"/>
         <rdfs:comment xml:lang="fr">Le type de source d&apos;un argument (expert, article peer-reviewed, etc.).</rdfs:comment>
         <rdfs:comment xml:lang="en">The type of source of an argument (expert, peer-reviewed article, etc.).</rdfs:comment>
         <rdfs:label xml:lang="en">Source type</rdfs:label>
@@ -2771,11 +2782,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/UltraProcessedIngredient -->
+    <!-- https://natclinn.github.io/UltraProcessedIngredient -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/UltraProcessedIngredient">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/IngredientByTransformationDegree"/>
+    <owl:Class rdf:about="https://natclinn.github.io/UltraProcessedIngredient">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/IngredientByTransformationDegree"/>
         <rdfs:comment xml:lang="en">Ingredient that is highly processed or modified.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Ingrédient hautement transformé ou modifié.</rdfs:comment>
         <rdfs:label xml:lang="fr">Ingrédient ultra-transformé</rdfs:label>
@@ -2786,11 +2797,11 @@
     
 
 
-    <!-- https://w3id.org/NCL/ontology/Verbatim -->
+    <!-- https://natclinn.github.io/Verbatim -->
 
 
-    <owl:Class rdf:about="https://w3id.org/NCL/ontology/Verbatim">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/NCL/ontology/NCL"/>
+    <owl:Class rdf:about="https://natclinn.github.io/Verbatim">
+        <rdfs:subClassOf rdf:resource="https://natclinn.github.io/NCL"/>
         <rdfs:comment xml:lang="en">Extract of a sentence supporting the argument.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Extrait d&apos;une phrase soutenant l&apos;argument.</rdfs:comment>
         <rdfs:label xml:lang="en">Verbatim</rdfs:label>
@@ -2810,7 +2821,7 @@
      -->
 
 
-    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/containsIngredientWithFunction">
+    <rdf:Description rdf:about="https://natclinn.github.io/containsIngredientWithFunction">
         <rdfs:comment xml:lang="en">Links a product to the function of its ingredients.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relie un produit à la fonction de ses ingrédients.</rdfs:comment>
         <rdfs:label xml:lang="en">Contains ingredient with function</rdfs:label>
@@ -2818,7 +2829,7 @@
         <skos:prefLabel xml:lang="en">Contains ingredient with function</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Contient un ingrédient avec fonction</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/NCL/ontology/identifier">
+    <rdf:Description rdf:about="https://natclinn.github.io/identifier">
         <rdfs:comment xml:lang="fr">Identifiant associé à une ressource.</rdfs:comment>
         <rdfs:comment xml:lang="en">Identifier associated with a resource.</rdfs:comment>
         <rdfs:label xml:lang="fr">Identifiant</rdfs:label>

@@ -1,21 +1,14 @@
 [ {
   "@id" : "_:genid1",
-  "http://schema.org/familyName" : [ {
-    "@language" : "fr",
-    "@value" : "Conde Salazar"
-  }, {
-    "@language" : "en",
-    "@value" : "Conde Salazar"
-  } ],
   "http://schema.org/name" : [ {
     "@language" : "fr",
-    "@value" : "Raphaël Conde Salazar"
+    "@value" : "Rallou Thomopoulos"
   }, {
     "@language" : "en",
-    "@value" : "Raphael Conde Salazar"
+    "@value" : "Rallou Thomopoulos"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0002-6926-5299"
+    "@id" : "https://orcid.org/0000-0002-3218-9472"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -24,47 +17,47 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "_:genid10",
+  "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+      "@id" : "https://natclinn.github.io/Ingredient"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/Product"
+      "@id" : "https://natclinn.github.io/Product"
     } ]
   } ]
 }, {
-  "@id" : "_:genid13",
+  "@id" : "_:genid15",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+      "@id" : "https://natclinn.github.io/Ingredient"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/Product"
+      "@id" : "https://natclinn.github.io/Product"
     } ]
   } ]
 }, {
-  "@id" : "_:genid16",
+  "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/NCL/ontology/Allegation"
+      "@id" : "https://natclinn.github.io/Allegation"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+      "@id" : "https://natclinn.github.io/CleanLabel"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+      "@id" : "https://natclinn.github.io/ControlledOriginLabel"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+      "@id" : "https://natclinn.github.io/Ingredient"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+      "@id" : "https://natclinn.github.io/ManufacturingProcess"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+      "@id" : "https://natclinn.github.io/NutriScore"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/Origin"
+      "@id" : "https://natclinn.github.io/Origin"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/Packaging"
+      "@id" : "https://natclinn.github.io/Packaging"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/Product"
+      "@id" : "https://natclinn.github.io/Product"
     } ]
   } ]
 }, {
@@ -82,13 +75,13 @@
   "@id" : "_:genid3",
   "http://schema.org/name" : [ {
     "@language" : "fr",
-    "@value" : "Rallou Thomopoulos"
+    "@value" : "Pierre Bisquert"
   }, {
     "@language" : "en",
-    "@value" : "Rallou Thomopoulos"
+    "@value" : "Pierre Bisquert"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0002-3218-9472"
+    "@id" : "https://orcid.org/0000-0001-9418-5330"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -111,13 +104,10 @@
   "@id" : "_:genid5",
   "http://schema.org/name" : [ {
     "@language" : "fr",
-    "@value" : "Pierre Bisquert"
+    "@value" : "Magalie Weber"
   }, {
     "@language" : "en",
-    "@value" : "Pierre Bisquert"
-  } ],
-  "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0001-9418-5330"
+    "@value" : "Magalie Weber"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -128,6 +118,42 @@
 }, {
   "@id" : "_:genid6",
   "http://schema.org/url" : [ {
+    "@value" : "https://www.inrae.fr/"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "INRAE, France"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://schema.org/familyName" : [ {
+    "@language" : "fr",
+    "@value" : "Conde Salazar"
+  }, {
+    "@language" : "en",
+    "@value" : "Conde Salazar"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Raphaël Conde Salazar"
+  }, {
+    "@language" : "en",
+    "@value" : "Raphael Conde Salazar"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://orcid.org/0000-0002-6926-5299"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://schema.org/Person"
+  } ],
+  "http://www.w3.org/ns/org#memberOf" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://schema.org/url" : [ {
     "@value" : "https://www.umontpellier.fr/"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -137,13 +163,13 @@
     "@value" : "University of Montpellier, INRAE, France"
   } ]
 }, {
-  "@id" : "_:genid7",
+  "@id" : "_:genid9",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/NCL/ontology/CompositeIngredient"
+      "@id" : "https://natclinn.github.io/CompositeIngredient"
     }, {
-      "@id" : "https://w3id.org/NCL/ontology/CompositeProduct"
+      "@id" : "https://natclinn.github.io/CompositeProduct"
     } ]
   } ]
 }, {
@@ -291,7 +317,7 @@
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/AdditiveIngredient",
+  "@id" : "https://natclinn.github.io/AdditiveIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -308,7 +334,7 @@
     "@value" : "Ingrédient additif"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+    "@id" : "https://natclinn.github.io/IngredientByFunction"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -318,7 +344,7 @@
     "@value" : "Ingrédient additif"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Allegation",
+  "@id" : "https://natclinn.github.io/Allegation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -335,66 +361,66 @@
     "@value" : "Allégation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Attribute"
+    "@id" : "https://natclinn.github.io/Attribute"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Category"
+    "@id" : "https://natclinn.github.io/Category"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+    "@id" : "https://natclinn.github.io/CleanLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -404,7 +430,7 @@
     "@value" : "Allégation"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/AnimalOriginIngredient",
+  "@id" : "https://natclinn.github.io/AnimalOriginIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -421,7 +447,7 @@
     "@value" : "Ingrédient d'origine animale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+    "@id" : "https://natclinn.github.io/IngredientByOrigin"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -431,7 +457,7 @@
     "@value" : "Ingrédient d'origine animale"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Attribute",
+  "@id" : "https://natclinn.github.io/Attribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -448,64 +474,64 @@
     "@value" : "Attribute"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Category"
+    "@id" : "https://natclinn.github.io/Category"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+    "@id" : "https://natclinn.github.io/CleanLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -515,7 +541,7 @@
     "@value" : "Attribute"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails",
+  "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -532,62 +558,62 @@
     "@value" : "Détails du groupe NOVA calculé"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Category"
+    "@id" : "https://natclinn.github.io/Category"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+    "@id" : "https://natclinn.github.io/CleanLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -597,7 +623,7 @@
     "@value" : "Détails du groupe NOVA calculé"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Category",
+  "@id" : "https://natclinn.github.io/Category",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -614,60 +640,60 @@
     "@value" : "Catégorie"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+    "@id" : "https://natclinn.github.io/CleanLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -677,7 +703,7 @@
     "@value" : "Catégorie"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/CleanLabel",
+  "@id" : "https://natclinn.github.io/CleanLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -694,58 +720,58 @@
     "@value" : "Clean label"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -755,7 +781,7 @@
     "@value" : "Clean label"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/CompositeIngredient",
+  "@id" : "https://natclinn.github.io/CompositeIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -772,7 +798,7 @@
     "@value" : "Ingrédient composite"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -782,7 +808,7 @@
     "@value" : "Ingrédient composite"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/CompositeProduct",
+  "@id" : "https://natclinn.github.io/CompositeProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -799,7 +825,7 @@
     "@value" : "Produit composite"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -809,7 +835,7 @@
     "@value" : "Produit composite"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Context",
+  "@id" : "https://natclinn.github.io/Context",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -826,56 +852,56 @@
     "@value" : "Contexte"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -885,7 +911,7 @@
     "@value" : "Contexte"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/ContextIngredient",
+  "@id" : "https://natclinn.github.io/ContextIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -902,7 +928,7 @@
     "@value" : "Ingredient context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -912,7 +938,7 @@
     "@value" : "Ingredient context"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/ContextProduct",
+  "@id" : "https://natclinn.github.io/ContextProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -929,7 +955,7 @@
     "@value" : "Product context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -939,7 +965,7 @@
     "@value" : "Product context"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel",
+  "@id" : "https://natclinn.github.io/ControlledOriginLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -956,54 +982,54 @@
     "@value" : "Label d'origine contrôlée"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1013,7 +1039,7 @@
     "@value" : "Label d'origine contrôlée"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/EnzymeIngredient",
+  "@id" : "https://natclinn.github.io/EnzymeIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1030,7 +1056,7 @@
     "@value" : "Ingrédient enzymatique"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+    "@id" : "https://natclinn.github.io/IngredientByFunction"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1040,7 +1066,7 @@
     "@value" : "Ingrédient enzymatique"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/FNI",
+  "@id" : "https://natclinn.github.io/FNI",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -1057,52 +1083,52 @@
     "@value" : "Indice de naturalité alimentaire"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1112,7 +1138,7 @@
     "@value" : "Indice de naturalité alimentaire"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/FlavorIngredient",
+  "@id" : "https://natclinn.github.io/FlavorIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1129,7 +1155,7 @@
     "@value" : "Ingrédient aromatique"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+    "@id" : "https://natclinn.github.io/IngredientByFunction"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1139,7 +1165,7 @@
     "@value" : "Ingrédient aromatique"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/FunctionalNutrientIngredient",
+  "@id" : "https://natclinn.github.io/FunctionalNutrientIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1156,7 +1182,7 @@
     "@value" : "Ingrédient nutriment fonctionnel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+    "@id" : "https://natclinn.github.io/IngredientByFunction"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1166,7 +1192,7 @@
     "@value" : "Ingrédient nutriment fonctionnel"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/FungalOrMicrobialIngredient",
+  "@id" : "https://natclinn.github.io/FungalOrMicrobialIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1183,7 +1209,7 @@
     "@value" : "Ingrédient d'origine fongique ou microbienne"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+    "@id" : "https://natclinn.github.io/IngredientByOrigin"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1193,7 +1219,7 @@
     "@value" : "Ingrédient d'origine fongique ou microbienne"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Ingredient",
+  "@id" : "https://natclinn.github.io/Ingredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1210,50 +1236,50 @@
     "@value" : "Ingrédient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Resource"
+    "@id" : "https://natclinn.github.io/Resource"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1263,7 +1289,7 @@
     "@value" : "Ingrédient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction",
+  "@id" : "https://natclinn.github.io/IngredientByFunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1280,7 +1306,7 @@
     "@value" : "Ingrédient par fonction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1290,7 +1316,7 @@
     "@value" : "Ingrédient par fonction"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin",
+  "@id" : "https://natclinn.github.io/IngredientByOrigin",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1307,7 +1333,7 @@
     "@value" : "Ingrédient par origine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1317,7 +1343,7 @@
     "@value" : "Ingrédient par origine"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree",
+  "@id" : "https://natclinn.github.io/IngredientByTransformationDegree",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1334,7 +1360,7 @@
     "@value" : "Ingrédient par degré de transformation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1344,7 +1370,7 @@
     "@value" : "Ingrédient par degré de transformation"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/LinkToArgument",
+  "@id" : "https://natclinn.github.io/LinkToArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1361,48 +1387,48 @@
     "@value" : "Link to argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -1412,7 +1438,7 @@
     "@value" : "Link to argument"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/MainComponentIngredient",
+  "@id" : "https://natclinn.github.io/MainComponentIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -1429,7 +1455,7 @@
     "@value" : "Main component ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+    "@id" : "https://natclinn.github.io/IngredientByFunction"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -1439,7 +1465,7 @@
     "@value" : "Main component ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess",
+  "@id" : "https://natclinn.github.io/ManufacturingProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -1456,46 +1482,46 @@
     "@value" : "Procédé de fabrication"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1505,7 +1531,7 @@
     "@value" : "Procédé de fabrication"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Material",
+  "@id" : "https://natclinn.github.io/Material",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -1522,44 +1548,44 @@
     "@value" : "Matière"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1569,7 +1595,7 @@
     "@value" : "Matière"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/MineralOriginIngredient",
+  "@id" : "https://natclinn.github.io/MineralOriginIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1586,7 +1612,7 @@
     "@value" : "Mineral origin ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+    "@id" : "https://natclinn.github.io/IngredientByOrigin"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -1596,7 +1622,7 @@
     "@value" : "Mineral origin ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NCL",
+  "@id" : "https://natclinn.github.io/NCL",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -1620,7 +1646,7 @@
     "@value" : "NCL"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails",
+  "@id" : "https://natclinn.github.io/NOVAgroupDetails",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1637,42 +1663,42 @@
     "@value" : "NOVA group details"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -1682,14 +1708,14 @@
     "@value" : "NOVA group details"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NatclinnTbox",
+  "@id" : "https://natclinn.github.io/NatclinnTbox",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Pierre BISQUERT"
+    "@language" : "en",
+    "@value" : "Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber"
   }, {
-    "@value" : "Rallou THOMOPOULOS"
-  }, {
-    "@value" : "Raphaël CONDE SALAZAR"
+    "@language" : "fr",
+    "@value" : "Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber"
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1730,7 +1756,7 @@
     "@value" : "ncl"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://w3id.org/NCL/ontology/"
+    "@value" : "https://natclinn.github.io/"
   } ],
   "http://schema.org/citation" : [ {
     "@language" : "en",
@@ -1742,6 +1768,8 @@
     "@id" : "_:genid3"
   }, {
     "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid7"
   } ],
   "http://schema.org/funding" : [ {
     "@id" : "https://www.pole-valorial.fr"
@@ -1761,10 +1789,10 @@
     "@value" : "Ontologie Natcl'inn"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/NCL/ontology//1.0.0"
+    "@id" : "https://natclinn.github.io/0.9.9"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "1.0.0"
+    "@value" : "0.9.9"
   } ],
   "http://xmlns.com/foaf/0.1/fundedBy" : [ {
     "@id" : "https://www.pole-valorial.fr"
@@ -1781,7 +1809,7 @@
     "@value" : "https://w3id.org/NCL/ontology.xml"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore",
+  "@id" : "https://natclinn.github.io/NaturalnessScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -1798,40 +1826,40 @@
     "@value" : "Score de naturalité"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1841,7 +1869,7 @@
     "@value" : "Score de naturalité"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NutriScore",
+  "@id" : "https://natclinn.github.io/NutriScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1858,38 +1886,38 @@
     "@value" : "Nutri-Score"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha"
+    "@id" : "https://natclinn.github.io/NutriScoreAlpha"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1899,7 +1927,7 @@
     "@value" : "Nutri-Score"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NutriScoreAlpha",
+  "@id" : "https://natclinn.github.io/NutriScoreAlpha",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1916,36 +1944,36 @@
     "@value" : "Nutri-Score alpha"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail"
+    "@id" : "https://natclinn.github.io/NutriScoreDetail"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1955,7 +1983,7 @@
     "@value" : "Nutri-Score alpha"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/NutriScoreDetail",
+  "@id" : "https://natclinn.github.io/NutriScoreDetail",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1972,34 +2000,34 @@
     "@value" : "Nutri-Score detail"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2009,7 +2037,7 @@
     "@value" : "Nutri-Score detail"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Origin",
+  "@id" : "https://natclinn.github.io/Origin",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2026,32 +2054,32 @@
     "@value" : "Origine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2061,7 +2089,7 @@
     "@value" : "Origine"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Packaging",
+  "@id" : "https://natclinn.github.io/Packaging",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2078,30 +2106,30 @@
     "@value" : "Packaging"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2111,7 +2139,7 @@
     "@value" : "Packaging"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/PlantOriginIngredient",
+  "@id" : "https://natclinn.github.io/PlantOriginIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2128,7 +2156,7 @@
     "@value" : "Plant origin ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+    "@id" : "https://natclinn.github.io/IngredientByOrigin"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2138,7 +2166,7 @@
     "@value" : "Plant origin ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/ProcessedIngredient",
+  "@id" : "https://natclinn.github.io/ProcessedIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2155,7 +2183,7 @@
     "@value" : "Processed ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree"
+    "@id" : "https://natclinn.github.io/IngredientByTransformationDegree"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2165,7 +2193,7 @@
     "@value" : "Processed ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Product",
+  "@id" : "https://natclinn.github.io/Product",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2182,28 +2210,28 @@
     "@value" : "Produit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Resource"
+    "@id" : "https://natclinn.github.io/Resource"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2213,7 +2241,7 @@
     "@value" : "Produit"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/ProductArgument",
+  "@id" : "https://natclinn.github.io/ProductArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2232,26 +2260,26 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.arg.dundee.ac.uk/aif#Node"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2261,7 +2289,7 @@
     "@value" : "Product argument"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement",
+  "@id" : "https://natclinn.github.io/QuantifiedElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2278,24 +2306,24 @@
     "@value" : "Élément quantifié"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2305,7 +2333,7 @@
     "@value" : "Élément quantifié"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/RawIngredient",
+  "@id" : "https://natclinn.github.io/RawIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2322,7 +2350,7 @@
     "@value" : "Raw ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree"
+    "@id" : "https://natclinn.github.io/IngredientByTransformationDegree"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2332,7 +2360,7 @@
     "@value" : "Raw ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Resource",
+  "@id" : "https://natclinn.github.io/Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2349,7 +2377,7 @@
     "@value" : "Ressource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2359,7 +2387,7 @@
     "@value" : "Ressource"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Shape",
+  "@id" : "https://natclinn.github.io/Shape",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2376,22 +2404,22 @@
     "@value" : "Shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2401,7 +2429,7 @@
     "@value" : "Shape"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/SimpleIngredient",
+  "@id" : "https://natclinn.github.io/SimpleIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2418,7 +2446,7 @@
     "@value" : "Simple ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2428,7 +2456,7 @@
     "@value" : "Simple ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/SimpleProduct",
+  "@id" : "https://natclinn.github.io/SimpleProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2445,7 +2473,7 @@
     "@value" : "Simple product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2455,7 +2483,7 @@
     "@value" : "Simple product"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Source",
+  "@id" : "https://natclinn.github.io/Source",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2472,20 +2500,20 @@
     "@value" : "Source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2495,7 +2523,7 @@
     "@value" : "Source"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Stakeholder",
+  "@id" : "https://natclinn.github.io/Stakeholder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2512,18 +2540,18 @@
     "@value" : "Stakeholder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2533,7 +2561,7 @@
     "@value" : "Stakeholder"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Subcategory",
+  "@id" : "https://natclinn.github.io/Subcategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2550,16 +2578,16 @@
     "@value" : "Subcategory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2569,7 +2597,7 @@
     "@value" : "Subcategory"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/SyntheticOrBiotechIngredient",
+  "@id" : "https://natclinn.github.io/SyntheticOrBiotechIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2586,7 +2614,7 @@
     "@value" : "Synthetic or biotech ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByOrigin"
+    "@id" : "https://natclinn.github.io/IngredientByOrigin"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2596,7 +2624,7 @@
     "@value" : "Synthetic or biotech ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Tag",
+  "@id" : "https://natclinn.github.io/Tag",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2613,14 +2641,14 @@
     "@value" : "Tag"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2630,7 +2658,7 @@
     "@value" : "Tag"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding",
+  "@id" : "https://natclinn.github.io/TagArgumentBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2647,12 +2675,12 @@
     "@value" : "Tag argument binding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   }, {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2662,7 +2690,7 @@
     "@value" : "Tag argument binding"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/TechnologicalIngredient",
+  "@id" : "https://natclinn.github.io/TechnologicalIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2679,7 +2707,7 @@
     "@value" : "Technological ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByFunction"
+    "@id" : "https://natclinn.github.io/IngredientByFunction"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2689,7 +2717,7 @@
     "@value" : "Technological ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/TypeSource",
+  "@id" : "https://natclinn.github.io/TypeSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2706,10 +2734,10 @@
     "@value" : "Type de source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2719,7 +2747,7 @@
     "@value" : "Type de source"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/UltraProcessedIngredient",
+  "@id" : "https://natclinn.github.io/UltraProcessedIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2736,7 +2764,7 @@
     "@value" : "Ultra-processed ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/IngredientByTransformationDegree"
+    "@id" : "https://natclinn.github.io/IngredientByTransformationDegree"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -2746,7 +2774,7 @@
     "@value" : "Ultra-processed ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/Verbatim",
+  "@id" : "https://natclinn.github.io/Verbatim",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2763,7 +2791,7 @@
     "@value" : "Verbatim"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NCL"
+    "@id" : "https://natclinn.github.io/NCL"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2773,7 +2801,7 @@
     "@value" : "Verbatim"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/aboutTag",
+  "@id" : "https://natclinn.github.io/aboutTag",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2783,7 +2811,7 @@
     "@value" : "Relie un TagArgumentBinding au Tag concerné."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2793,7 +2821,7 @@
     "@value" : "Concerne le tag"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2803,7 +2831,7 @@
     "@value" : "Concerne le tag"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/aim",
+  "@id" : "https://natclinn.github.io/aim",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2813,7 +2841,7 @@
     "@value" : "Objectif ou visée du binding de tag."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2833,7 +2861,7 @@
     "@value" : "Objectif"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/assertion",
+  "@id" : "https://natclinn.github.io/assertion",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2843,7 +2871,7 @@
     "@value" : "The assertion carried by the tag binding."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2863,7 +2891,7 @@
     "@value" : "Assertion"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/bindingKeywords",
+  "@id" : "https://natclinn.github.io/bindingKeywords",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2873,7 +2901,7 @@
     "@value" : "Mots-clés utilisés pour lier un tag au contexte d'argumentation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2893,7 +2921,7 @@
     "@value" : "Mots-clés de liaison"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/condition",
+  "@id" : "https://natclinn.github.io/condition",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -2903,7 +2931,7 @@
     "@value" : "Condition under which the argument applies."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2923,7 +2951,7 @@
     "@value" : "Condition"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/containsAdditives",
+  "@id" : "https://natclinn.github.io/containsAdditives",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2933,7 +2961,7 @@
     "@value" : "Indique si le produit contient des additifs."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2953,7 +2981,7 @@
     "@value" : "Contient des additifs"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/containsIngredientWithFunction",
+  "@id" : "https://natclinn.github.io/containsIngredientWithFunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2963,7 +2991,7 @@
     "@value" : "Relie un produit à la fonction de ses ingrédients."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2983,7 +3011,7 @@
     "@value" : "Contient un ingrédient avec fonction"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/fiability",
+  "@id" : "https://natclinn.github.io/fiability",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2993,7 +3021,7 @@
     "@value" : "Score de fiabilité du type de source."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3013,7 +3041,7 @@
     "@value" : "Reliability"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/groupe1",
+  "@id" : "https://natclinn.github.io/groupe1",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3023,7 +3051,7 @@
     "@value" : "NOVA group 1 characteristics (unprocessed or minimally processed foods)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3043,7 +3071,7 @@
     "@value" : "Groupe 1"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/groupe2",
+  "@id" : "https://natclinn.github.io/groupe2",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3053,7 +3081,7 @@
     "@value" : "NOVA group 2 characteristics (processed culinary ingredients)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3073,7 +3101,7 @@
     "@value" : "Groupe 2"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/groupe3",
+  "@id" : "https://natclinn.github.io/groupe3",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3083,7 +3111,7 @@
     "@value" : "NOVA group 3 characteristics (processed foods)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3103,7 +3131,7 @@
     "@value" : "Groupe 3"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/groupe4",
+  "@id" : "https://natclinn.github.io/groupe4",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3113,7 +3141,7 @@
     "@value" : "NOVA group 4 characteristics (ultra-processed foods and drinks)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3133,7 +3161,7 @@
     "@value" : "Groupe 4"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasAdditiveIngredients",
+  "@id" : "https://natclinn.github.io/hasAdditiveIngredients",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3143,7 +3171,7 @@
     "@value" : "Lists additive ingredients found during NOVA calculation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3153,7 +3181,7 @@
     "@value" : "Has additive ingredients"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3163,7 +3191,7 @@
     "@value" : "Has additive ingredients"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasAllegation",
+  "@id" : "https://natclinn.github.io/hasAllegation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3173,7 +3201,7 @@
     "@value" : "Relie un produit à ses allégations."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3183,7 +3211,7 @@
     "@value" : "Has allegation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Allegation"
+    "@id" : "https://natclinn.github.io/Allegation"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3193,7 +3221,7 @@
     "@value" : "Has allegation"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasAttribute",
+  "@id" : "https://natclinn.github.io/hasAttribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3203,7 +3231,7 @@
     "@value" : "The naturalness attribute of a food industry product."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3213,7 +3241,7 @@
     "@value" : "Has attribute"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Attribute"
+    "@id" : "https://natclinn.github.io/Attribute"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3223,7 +3251,7 @@
     "@value" : "Has attribute"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasCalculatedNOVAgroup",
+  "@id" : "https://natclinn.github.io/hasCalculatedNOVAgroup",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3233,7 +3261,7 @@
     "@value" : "Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3253,7 +3281,7 @@
     "@value" : "Has calculated NOVA group"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasCalculatedNOVAgroupDetails",
+  "@id" : "https://natclinn.github.io/hasCalculatedNOVAgroupDetails",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3263,7 +3291,7 @@
     "@value" : "Relie un produit aux détails de son groupe NOVA calculé."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3273,7 +3301,7 @@
     "@value" : "Has calculated NOVA group details"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3283,7 +3311,7 @@
     "@value" : "Has calculated NOVA group details"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasCategory",
+  "@id" : "https://natclinn.github.io/hasCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3293,7 +3321,7 @@
     "@value" : "Relie un argument à sa catégorie principale."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3303,7 +3331,7 @@
     "@value" : "Has category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Category"
+    "@id" : "https://natclinn.github.io/Category"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3313,7 +3341,7 @@
     "@value" : "Has category"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasCiqualFoodCode",
+  "@id" : "https://natclinn.github.io/hasCiqualFoodCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3323,7 +3351,7 @@
     "@value" : "Code Ciqual d'un produit de l'industrie agroalimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3343,7 +3371,7 @@
     "@value" : "Has Ciqual food code"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasCiqualProxyFoodCode",
+  "@id" : "https://natclinn.github.io/hasCiqualProxyFoodCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3353,7 +3381,7 @@
     "@value" : "Code Ciqual d'un produit similaire de l'industrie agroalimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3373,7 +3401,7 @@
     "@value" : "Has Ciqual proxy food code"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasCleanLabel",
+  "@id" : "https://natclinn.github.io/hasCleanLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3383,7 +3411,7 @@
     "@value" : "Relie un produit à une information de clean label."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3393,7 +3421,7 @@
     "@value" : "Has clean label"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CleanLabel"
+    "@id" : "https://natclinn.github.io/CleanLabel"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3403,7 +3431,7 @@
     "@value" : "Has clean label"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasContext",
+  "@id" : "https://natclinn.github.io/hasContext",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3413,7 +3441,7 @@
     "@value" : "Relie un argument à son contexte"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3423,7 +3451,7 @@
     "@value" : "Has context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3433,7 +3461,7 @@
     "@value" : "Has context"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasContextIngredient",
+  "@id" : "https://natclinn.github.io/hasContextIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3443,7 +3471,7 @@
     "@value" : "The ingredient context of an argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3453,7 +3481,7 @@
     "@value" : "Has ingredient context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ContextIngredient"
+    "@id" : "https://natclinn.github.io/ContextIngredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3463,7 +3491,7 @@
     "@value" : "Has ingredient context"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasContextProduct",
+  "@id" : "https://natclinn.github.io/hasContextProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3473,7 +3501,7 @@
     "@value" : "The product context of an argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Context"
+    "@id" : "https://natclinn.github.io/Context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3483,7 +3511,7 @@
     "@value" : "Has product context"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ContextProduct"
+    "@id" : "https://natclinn.github.io/ContextProduct"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3493,7 +3521,7 @@
     "@value" : "Has product context"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasControlledOriginLabel",
+  "@id" : "https://natclinn.github.io/hasControlledOriginLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3503,7 +3531,7 @@
     "@value" : "Relie un produit à un label d'origine contrôlée."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3513,7 +3541,7 @@
     "@value" : "Has controlled origin label"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ControlledOriginLabel"
+    "@id" : "https://natclinn.github.io/ControlledOriginLabel"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3523,10 +3551,10 @@
     "@value" : "Has controlled origin label"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasEAN13",
+  "@id" : "https://natclinn.github.io/hasEAN13",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasFNI",
+  "@id" : "https://natclinn.github.io/hasFNI",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3536,7 +3564,7 @@
     "@value" : "Relie un produit à sa ressource d'indice de naturalité alimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3546,7 +3574,7 @@
     "@value" : "Has FNI"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/FNI"
+    "@id" : "https://natclinn.github.io/FNI"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3556,10 +3584,10 @@
     "@value" : "Has FNI"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasIdIngredientOFF",
+  "@id" : "https://natclinn.github.io/hasIdIngredientOFF",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasIngredient",
+  "@id" : "https://natclinn.github.io/hasIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3569,7 +3597,7 @@
     "@value" : "Relie un produit à l'un de ses ingrédients."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3579,7 +3607,7 @@
     "@value" : "Has ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3589,7 +3617,7 @@
     "@value" : "Has ingredient"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasLinkToArgument",
+  "@id" : "https://natclinn.github.io/hasLinkToArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3599,7 +3627,7 @@
     "@value" : "Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3609,7 +3637,7 @@
     "@value" : "Has link to argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3619,7 +3647,7 @@
     "@value" : "Has link to argument"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasManufacturingProcess",
+  "@id" : "https://natclinn.github.io/hasManufacturingProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3629,7 +3657,7 @@
     "@value" : "Relie un produit à son procédé de fabrication."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3639,7 +3667,7 @@
     "@value" : "Has manufacturing process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ManufacturingProcess"
+    "@id" : "https://natclinn.github.io/ManufacturingProcess"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3649,7 +3677,7 @@
     "@value" : "Has manufacturing process"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasMaterial",
+  "@id" : "https://natclinn.github.io/hasMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3659,7 +3687,7 @@
     "@value" : "Relie un emballage au matériau qu'il utilise."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3669,7 +3697,7 @@
     "@value" : "Has material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Material"
+    "@id" : "https://natclinn.github.io/Material"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3679,7 +3707,7 @@
     "@value" : "Has material"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasNOVAgroup",
+  "@id" : "https://natclinn.github.io/hasNOVAgroup",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3689,7 +3717,7 @@
     "@value" : "NOVA group (1..4) as provided by Open Food Facts."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3709,7 +3737,7 @@
     "@value" : "Has NOVA group"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasNOVAgroupDetails",
+  "@id" : "https://natclinn.github.io/hasNOVAgroupDetails",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3719,7 +3747,7 @@
     "@value" : "Relie un produit aux détails de sa classification NOVA."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3729,7 +3757,7 @@
     "@value" : "Has NOVA group details"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/NOVAgroupDetails"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3739,7 +3767,7 @@
     "@value" : "Has NOVA group details"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasNaturalnessScore",
+  "@id" : "https://natclinn.github.io/hasNaturalnessScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3749,7 +3777,7 @@
     "@value" : "Relie un produit à sa ressource de score de naturalité."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3759,7 +3787,7 @@
     "@value" : "Has naturalness score"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NaturalnessScore"
+    "@id" : "https://natclinn.github.io/NaturalnessScore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3769,7 +3797,7 @@
     "@value" : "Has naturalness score"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasNutriScore",
+  "@id" : "https://natclinn.github.io/hasNutriScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3779,7 +3807,7 @@
     "@value" : "Relie un produit à sa ressource Nutri-Score."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3789,7 +3817,7 @@
     "@value" : "Has Nutri-Score"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/NutriScore"
+    "@id" : "https://natclinn.github.io/NutriScore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3799,7 +3827,7 @@
     "@value" : "Has Nutri-Score"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasOrigin",
+  "@id" : "https://natclinn.github.io/hasOrigin",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3809,7 +3837,7 @@
     "@value" : "Relie un ingrédient à son origine."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3819,7 +3847,7 @@
     "@value" : "Has origin"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Origin"
+    "@id" : "https://natclinn.github.io/Origin"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3829,7 +3857,7 @@
     "@value" : "Has origin"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasPackaging",
+  "@id" : "https://natclinn.github.io/hasPackaging",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3839,7 +3867,7 @@
     "@value" : "Relie un produit à son emballage."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3849,7 +3877,7 @@
     "@value" : "Has packaging"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3859,7 +3887,7 @@
     "@value" : "Has packaging"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasProcessedIngredients",
+  "@id" : "https://natclinn.github.io/hasProcessedIngredients",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3869,7 +3897,7 @@
     "@value" : "Lists processed ingredients found during NOVA calculation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3879,7 +3907,7 @@
     "@value" : "Has processed ingredients"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3889,7 +3917,7 @@
     "@value" : "Has processed ingredients"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasProductArgument",
+  "@id" : "https://natclinn.github.io/hasProductArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3899,7 +3927,7 @@
     "@value" : "Relie un produit de l'industrie agro-alimentaire à un argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3909,7 +3937,7 @@
     "@value" : "Has product argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3919,7 +3947,7 @@
     "@value" : "Has product argument"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasQuantifiedElement",
+  "@id" : "https://natclinn.github.io/hasQuantifiedElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3929,7 +3957,7 @@
     "@value" : "Relie une ressource à l'un de ses éléments quantifiés."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Resource"
+    "@id" : "https://natclinn.github.io/Resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3939,7 +3967,7 @@
     "@value" : "Has quantified element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3949,7 +3977,7 @@
     "@value" : "Has quantified element"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasRawIngredients",
+  "@id" : "https://natclinn.github.io/hasRawIngredients",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -3959,7 +3987,7 @@
     "@value" : "Lists raw ingredients found during NOVA calculation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3969,7 +3997,7 @@
     "@value" : "Has raw ingredients"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -3979,7 +4007,7 @@
     "@value" : "Has raw ingredients"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasReferenceProductArgument",
+  "@id" : "https://natclinn.github.io/hasReferenceProductArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3989,7 +4017,7 @@
     "@value" : "Relie un LinkToArgument au ProductArgument référencé."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -3999,7 +4027,7 @@
     "@value" : "Has reference product argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4009,7 +4037,7 @@
     "@value" : "Has reference product argument"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasRole",
+  "@id" : "https://natclinn.github.io/hasRole",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4019,7 +4047,7 @@
     "@value" : "Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4029,7 +4057,7 @@
     "@value" : "Has role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4039,7 +4067,7 @@
     "@value" : "Has role"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasShape",
+  "@id" : "https://natclinn.github.io/hasShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4049,7 +4077,7 @@
     "@value" : "Relie un emballage à sa forme."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Packaging"
+    "@id" : "https://natclinn.github.io/Packaging"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4059,7 +4087,7 @@
     "@value" : "Has shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Shape"
+    "@id" : "https://natclinn.github.io/Shape"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4069,7 +4097,7 @@
     "@value" : "Has shape"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasSource",
+  "@id" : "https://natclinn.github.io/hasSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4079,7 +4107,7 @@
     "@value" : "Relie un argument à sa source (enquête consommateur, revue scientifique, etc.)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4089,7 +4117,7 @@
     "@value" : "Has source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4099,7 +4127,7 @@
     "@value" : "Has source"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasStakeholder",
+  "@id" : "https://natclinn.github.io/hasStakeholder",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4109,7 +4137,7 @@
     "@value" : "Relie un argument à sa partie prenante (consommateur, fabricant, etc.)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4119,7 +4147,7 @@
     "@value" : "Has stakeholder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Stakeholder"
+    "@id" : "https://natclinn.github.io/Stakeholder"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4129,7 +4157,7 @@
     "@value" : "Has stakeholder"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasSubcategory",
+  "@id" : "https://natclinn.github.io/hasSubcategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4139,7 +4167,7 @@
     "@value" : "Relie un argument à sa sous-catégorie."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4149,7 +4177,7 @@
     "@value" : "Has subcategory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Subcategory"
+    "@id" : "https://natclinn.github.io/Subcategory"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4159,7 +4187,7 @@
     "@value" : "Has subcategory"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTag",
+  "@id" : "https://natclinn.github.io/hasTag",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4169,7 +4197,7 @@
     "@value" : "Relie un produit à un tag."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4179,7 +4207,7 @@
     "@value" : "Has tag"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4189,7 +4217,7 @@
     "@value" : "Has tag"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTagArgumentBindingInitiator",
+  "@id" : "https://natclinn.github.io/hasTagArgumentBindingInitiator",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4199,7 +4227,7 @@
     "@value" : "The tag argument binding identifying who initiated the link to the argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4209,7 +4237,7 @@
     "@value" : "Has tag argument binding initiator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4219,7 +4247,7 @@
     "@value" : "Has tag argument binding initiator"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTagCheck",
+  "@id" : "https://natclinn.github.io/hasTagCheck",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4229,7 +4257,7 @@
     "@value" : "Relie un produit à un tag de vérification."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Product"
+    "@id" : "https://natclinn.github.io/Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4239,7 +4267,7 @@
     "@value" : "Has tag check"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4249,7 +4277,7 @@
     "@value" : "Has tag check"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTagInitiator",
+  "@id" : "https://natclinn.github.io/hasTagInitiator",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4259,7 +4287,7 @@
     "@value" : "Tag identifying who initiated the link to the argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/LinkToArgument"
+    "@id" : "https://natclinn.github.io/LinkToArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4269,7 +4297,7 @@
     "@value" : "Has tag initiator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Tag"
+    "@id" : "https://natclinn.github.io/Tag"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4279,7 +4307,7 @@
     "@value" : "Has tag initiator"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTechnologicalIngredients",
+  "@id" : "https://natclinn.github.io/hasTechnologicalIngredients",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4289,7 +4317,7 @@
     "@value" : "Lists technological ingredients found during NOVA calculation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/CalculatedNOVAgroupDetails"
+    "@id" : "https://natclinn.github.io/CalculatedNOVAgroupDetails"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4299,7 +4327,7 @@
     "@value" : "Has technological ingredients"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Ingredient"
+    "@id" : "https://natclinn.github.io/Ingredient"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4309,7 +4337,7 @@
     "@value" : "Has technological ingredients"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasText",
+  "@id" : "https://natclinn.github.io/hasText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4319,7 +4347,7 @@
     "@value" : "Verbatim text."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4339,10 +4367,10 @@
     "@value" : "Has text"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTrademark",
+  "@id" : "https://natclinn.github.io/hasTrademark",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasTypeSource",
+  "@id" : "https://natclinn.github.io/hasTypeSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4352,7 +4380,7 @@
     "@value" : "Relie une source à son type (expert, article peer-reviewed, etc.)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Source"
+    "@id" : "https://natclinn.github.io/Source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4362,7 +4390,7 @@
     "@value" : "Has source type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TypeSource"
+    "@id" : "https://natclinn.github.io/TypeSource"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4372,7 +4400,7 @@
     "@value" : "Has source type"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/hasVerbatim",
+  "@id" : "https://natclinn.github.io/hasVerbatim",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4382,7 +4410,7 @@
     "@value" : "Link an argument to its verbatim."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4392,7 +4420,7 @@
     "@value" : "Has verbatim"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Verbatim"
+    "@id" : "https://natclinn.github.io/Verbatim"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4402,7 +4430,7 @@
     "@value" : "Has verbatim"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/identifier",
+  "@id" : "https://natclinn.github.io/identifier",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4412,7 +4440,7 @@
     "@value" : "Identifier associated with a resource."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/Resource"
+    "@id" : "https://natclinn.github.io/Resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4432,7 +4460,7 @@
     "@value" : "Identifier"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/infValue",
+  "@id" : "https://natclinn.github.io/infValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4442,7 +4470,7 @@
     "@value" : "Valeur minimale pour la condition de l'argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4462,7 +4490,7 @@
     "@value" : "Valeur inférieure"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/isComposedOf",
+  "@id" : "https://natclinn.github.io/isComposedOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4472,7 +4500,7 @@
     "@value" : "Relie une ressource composite aux ressources qui la composent."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid7"
+    "@id" : "_:genid9"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4482,7 +4510,7 @@
     "@value" : "Is composed of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid10"
+    "@id" : "_:genid12"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4492,7 +4520,7 @@
     "@value" : "Is composed of"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/nameCriterion",
+  "@id" : "https://natclinn.github.io/nameCriterion",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4502,7 +4530,7 @@
     "@value" : "Nom du critère abordé par le binding de tag."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4522,7 +4550,7 @@
     "@value" : "Nom du critère"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/nameProperty",
+  "@id" : "https://natclinn.github.io/nameProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4532,7 +4560,7 @@
     "@value" : "Nom de la propriété évaluée dans le binding de tag."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4552,7 +4580,7 @@
     "@value" : "Property name"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/percentage",
+  "@id" : "https://natclinn.github.io/percentage",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4562,7 +4590,7 @@
     "@value" : "Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4582,7 +4610,7 @@
     "@value" : "Pourcentage"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/polarity",
+  "@id" : "https://natclinn.github.io/polarity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4592,7 +4620,7 @@
     "@value" : "Polarité du binding de tag (positif '+' ou négatif '-')."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4612,7 +4640,7 @@
     "@value" : "Polarité"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/quantity",
+  "@id" : "https://natclinn.github.io/quantity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4622,7 +4650,7 @@
     "@value" : "Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4642,7 +4670,7 @@
     "@value" : "Quantité"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/rank",
+  "@id" : "https://natclinn.github.io/rank",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4652,7 +4680,7 @@
     "@value" : "Classification of an ingredient or by-product in the textual statement of a product's composition."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4672,7 +4700,7 @@
     "@value" : "Rank"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/refersTo",
+  "@id" : "https://natclinn.github.io/refersTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4682,7 +4710,7 @@
     "@value" : "Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4692,7 +4720,7 @@
     "@value" : "Réfère à"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid13"
+    "@id" : "_:genid15"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -4702,7 +4730,7 @@
     "@value" : "Réfère à"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/supValue",
+  "@id" : "https://natclinn.github.io/supValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4712,7 +4740,7 @@
     "@value" : "Valeur maximale pour la condition de l'argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4732,7 +4760,7 @@
     "@value" : "Valeur supérieure"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/supportType",
+  "@id" : "https://natclinn.github.io/supportType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4742,7 +4770,7 @@
     "@value" : "Type of argument (positive or negative) in relation to its target."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4762,7 +4790,7 @@
     "@value" : "Type de support"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/target",
+  "@id" : "https://natclinn.github.io/target",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4772,7 +4800,7 @@
     "@value" : "Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -4782,7 +4810,7 @@
     "@value" : "Target"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid16"
+    "@id" : "_:genid18"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "fr",
@@ -4792,7 +4820,7 @@
     "@value" : "Target"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/unit",
+  "@id" : "https://natclinn.github.io/unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4802,7 +4830,7 @@
     "@value" : "Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/QuantifiedElement"
+    "@id" : "https://natclinn.github.io/QuantifiedElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4822,7 +4850,7 @@
     "@value" : "Unité"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/unitArg",
+  "@id" : "https://natclinn.github.io/unitArg",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -4832,7 +4860,7 @@
     "@value" : "Unité de mesure pour les valeurs de l'argument."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/ProductArgument"
+    "@id" : "https://natclinn.github.io/ProductArgument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4852,7 +4880,7 @@
     "@value" : "Unité de l'argument"
   } ]
 }, {
-  "@id" : "https://w3id.org/NCL/ontology/valueProperty",
+  "@id" : "https://natclinn.github.io/valueProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -4862,7 +4890,7 @@
     "@value" : "Value associated with the tag binding property."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/NCL/ontology/TagArgumentBinding"
+    "@id" : "https://natclinn.github.io/TagArgumentBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
