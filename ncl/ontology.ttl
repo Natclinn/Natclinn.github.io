@@ -51,16 +51,17 @@ _:genid3 rdf:type <http://schema.org/Person> ;
           <http://www.w3.org/ns/org#memberOf> _:genid4 .
 
 _:genid5 rdf:type <http://schema.org/Person> ;
-          <http://schema.org/name> "Magalie Weber"@en ,
-                                   "Magalie Weber"@fr ;
-          <http://www.w3.org/ns/org#memberOf> _:genid6 .
-
-_:genid7 rdf:type <http://schema.org/Person> ;
           <http://schema.org/familyName> "Conde Salazar"@en ,
                                          "Conde Salazar"@fr ;
           <http://schema.org/name> "Raphael Conde Salazar"@en ,
                                    "Raphaël Conde Salazar"@fr ;
           <http://schema.org/url> <https://orcid.org/0000-0002-6926-5299> ;
+          <http://www.w3.org/ns/org#memberOf> _:genid6 .
+
+_:genid7 rdf:type <http://schema.org/Person> ;
+          <http://schema.org/name> "Magalie Weber"@en ,
+                                   "Magalie Weber"@fr ;
+          <http://schema.org/url> <https://orcid.org/0000-0001-6573-4070> ;
           <http://www.w3.org/ns/org#memberOf> _:genid8 .
 
 _:genid2 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
@@ -72,12 +73,12 @@ _:genid4 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
           <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, France" .
 
 _:genid6 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
-          <http://schema.org/url> "https://www.inrae.fr/" ;
-          <http://xmlns.com/foaf/0.1/name> "INRAE, France" .
-
-_:genid8 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
           <http://schema.org/url> "https://www.umontpellier.fr/" ;
           <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, France" .
+
+_:genid8 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
+          <http://schema.org/url> "https://www.inrae.fr/" ;
+          <http://xmlns.com/foaf/0.1/name> "INRAE, France" .
 
 #################################################################
 #    Annotation properties

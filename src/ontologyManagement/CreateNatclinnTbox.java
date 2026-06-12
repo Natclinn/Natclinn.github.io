@@ -217,7 +217,7 @@ public class CreateNatclinnTbox {
         person4.addProperty(om.createProperty(org + "memberOf"), org4);
         person4.addProperty(om.createProperty(schema + "name"), "Magalie Weber", "fr");
         person4.addProperty(om.createProperty(schema + "name"), "Magalie Weber", "en");
-        person4.addProperty(om.createProperty(schema + "url"), om.createResource("0000-0001-6573-4070"));
+        person4.addProperty(om.createProperty(schema + "url"), om.createResource("https://orcid.org/0000-0001-6573-4070"));
         ont.addProperty(om.createProperty(schema + "creator"), person4);
 
         // Financement

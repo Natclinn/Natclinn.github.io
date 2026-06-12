@@ -37,22 +37,23 @@ _:genid3 <http://schema.org/name> "Pierre Bisquert"@en .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/creator> _:genid5 .
 _:genid5 <http://www.w3.org/ns/org#memberOf> _:genid6 .
-_:genid6 <http://xmlns.com/foaf/0.1/name> "INRAE, France" .
-_:genid6 <http://schema.org/url> "https://www.inrae.fr/" .
+_:genid6 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, France" .
+_:genid6 <http://schema.org/url> "https://www.umontpellier.fr/" .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-_:genid5 <http://schema.org/name> "Magalie Weber"@fr .
-_:genid5 <http://schema.org/name> "Magalie Weber"@en .
+_:genid5 <http://schema.org/url> <https://orcid.org/0000-0002-6926-5299> .
+_:genid5 <http://schema.org/name> "Raphaël Conde Salazar"@fr .
+_:genid5 <http://schema.org/name> "Raphael Conde Salazar"@en .
+_:genid5 <http://schema.org/familyName> "Conde Salazar"@fr .
+_:genid5 <http://schema.org/familyName> "Conde Salazar"@en .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/creator> _:genid7 .
 _:genid7 <http://www.w3.org/ns/org#memberOf> _:genid8 .
-_:genid8 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, France" .
-_:genid8 <http://schema.org/url> "https://www.umontpellier.fr/" .
+_:genid8 <http://xmlns.com/foaf/0.1/name> "INRAE, France" .
+_:genid8 <http://schema.org/url> "https://www.inrae.fr/" .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-_:genid7 <http://schema.org/url> <https://orcid.org/0000-0002-6926-5299> .
-_:genid7 <http://schema.org/name> "Raphaël Conde Salazar"@fr .
-_:genid7 <http://schema.org/name> "Raphael Conde Salazar"@en .
-_:genid7 <http://schema.org/familyName> "Conde Salazar"@fr .
-_:genid7 <http://schema.org/familyName> "Conde Salazar"@en .
+_:genid7 <http://schema.org/url> <https://orcid.org/0000-0001-6573-4070> .
+_:genid7 <http://schema.org/name> "Magalie Weber"@fr .
+_:genid7 <http://schema.org/name> "Magalie Weber"@en .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/funding> <https://www.pole-valorial.fr> .
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology designed to define the various products of the agri-food industry and the arguments associated with them in terms of their perceived naturalness."@en .

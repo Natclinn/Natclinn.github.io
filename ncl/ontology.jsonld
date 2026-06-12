@@ -102,32 +102,6 @@
   } ]
 }, {
   "@id" : "_:genid5",
-  "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Magalie Weber"
-  }, {
-    "@language" : "en",
-    "@value" : "Magalie Weber"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://schema.org/Person"
-  } ],
-  "http://www.w3.org/ns/org#memberOf" : [ {
-    "@id" : "_:genid6"
-  } ]
-}, {
-  "@id" : "_:genid6",
-  "http://schema.org/url" : [ {
-    "@value" : "https://www.inrae.fr/"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://xmlns.com/foaf/0.1/Organization"
-  } ],
-  "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "INRAE, France"
-  } ]
-}, {
-  "@id" : "_:genid7",
   "http://schema.org/familyName" : [ {
     "@language" : "fr",
     "@value" : "Conde Salazar"
@@ -149,10 +123,10 @@
     "@id" : "http://schema.org/Person"
   } ],
   "http://www.w3.org/ns/org#memberOf" : [ {
-    "@id" : "_:genid8"
+    "@id" : "_:genid6"
   } ]
 }, {
-  "@id" : "_:genid8",
+  "@id" : "_:genid6",
   "http://schema.org/url" : [ {
     "@value" : "https://www.umontpellier.fr/"
   } ],
@@ -161,6 +135,35 @@
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "University of Montpellier, INRAE, France"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Magalie Weber"
+  }, {
+    "@language" : "en",
+    "@value" : "Magalie Weber"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://orcid.org/0000-0001-6573-4070"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://schema.org/Person"
+  } ],
+  "http://www.w3.org/ns/org#memberOf" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://schema.org/url" : [ {
+    "@value" : "https://www.inrae.fr/"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "INRAE, France"
   } ]
 }, {
   "@id" : "_:genid9",
