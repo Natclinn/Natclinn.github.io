@@ -151,4 +151,30 @@ if (-not (Test-Path (Join-Path $generatedRoot "index-en.html")) -and -not (Test-
     throw "WIDOCO execution finished but no index file was found in $generatedRoot"
 }
 
+function Update-PreviousVersionLinkForHumans {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$HtmlPath
+    )
+
+    if (-not (Test-Path $HtmlPath)) {
+        return
+    }
+
+    $content = Get-Content -Path $HtmlPath -Raw
+    $updated = [regex]::Replace(
+        $content,
+        '(?s)(<dd><a href=")https://natclinn\.github\.io/ncl/(\d+\.\d+\.\d+)/ontology\.owl("\s*>\s*)https://natclinn\.github\.io/ncl/\2/ontology\.owl(\s*</a></dd>)',
+        '$1https://natclinn.github.io/ncl/$2/index.html$3https://natclinn.github.io/ncl/$2/index.html$4'
+    )
+
+    if ($updated -ne $content) {
+        [System.IO.File]::WriteAllText($HtmlPath, $updated, (New-Object System.Text.UTF8Encoding($false)))
+        Write-Host "Updated previous version link in: $HtmlPath"
+    }
+}
+
+Update-PreviousVersionLinkForHumans -HtmlPath (Join-Path $generatedRoot "index-en.html")
+Update-PreviousVersionLinkForHumans -HtmlPath (Join-Path $generatedRoot "index-fr.html")
+
 Write-Host "WIDOCO documentation generated in: $generatedRoot"
