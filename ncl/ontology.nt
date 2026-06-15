@@ -1,11 +1,11 @@
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2002/07/owl#versionIRI> <https://natclinn.github.io/ncl/1.0.1> .
-<https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/elements/1.1/creator> "Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber" .
+<https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/elements/1.1/creator> "Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber" .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/elements/1.1/description> "Tbox for the Natcl'inn ontology"@en .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/elements/1.1/description> "Tbox pour l'ontologie Natcl'inn"@fr .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/elements/1.1/title> "NCL"@en .
-<https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/abstract> "Le projet NATCL’INN vise à aider les entreprises agroalimentaires à mieux répondre aux attentes de naturalité des consommateurs, perçue comme gage de qualité, de santé et de goût. En s’appuyant sur la caractérisation des représentations de la naturalité et l’identification de marqueurs pertinents, il développe un outil d’arbitrage multicritère intégrant contraintes techniques, économiques et réglementaires. Porté par l’ADRIA, l’UBO-LEGO, l’INRAE et plusieurs partenaires industriels, ce projet collaboratif est labellisé par Valorial."@fr .
-<https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/abstract> "The NATCL’INN project aims to help agri-food companies better meet consumers' expectations for naturalness, which is perceived as a guarantee of quality, health and taste. Based on the characterisation of representations of naturalness and the identification of relevant markers, it is developing a multi-criteria arbitration tool that integrates technical, economic and regulatory constraints. Led by ADRIA, UBO-LEGO, INRAE and several industrial partners, this collaborative project has been certified by Valorial."@en .
+<https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/abstract> "Le projet NATCLâ€™INN vise Ã  aider les entreprises agroalimentaires Ã  mieux rÃ©pondre aux attentes de naturalitÃ© des consommateurs, perÃ§ue comme gage de qualitÃ©, de santÃ© et de goÃ»t. En sâ€™appuyant sur la caractÃ©risation des reprÃ©sentations de la naturalitÃ© et lâ€™identification de marqueurs pertinents, il dÃ©veloppe un outil dâ€™arbitrage multicritÃ¨re intÃ©grant contraintes techniques, Ã©conomiques et rÃ©glementaires. PortÃ© par lâ€™ADRIA, lâ€™UBO-LEGO, lâ€™INRAE et plusieurs partenaires industriels, ce projet collaboratif est labellisÃ© par Valorial."@fr .
+<https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/abstract> "The NATCLâ€™INN project aims to help agri-food companies better meet consumers' expectations for naturalness, which is perceived as a guarantee of quality, health and taste. Based on the characterisation of representations of naturalness and the identification of relevant markers, it is developing a multi-criteria arbitration tool that integrates technical, economic and regulatory constraints. Led by ADRIA, UBO-LEGO, INRAE and several industrial partners, this collaborative project has been certified by Valorial."@en .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/created> "Le 5 Octobre 2021"@fr .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/created> "October 5th, 2021"@en .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
@@ -15,7 +15,7 @@
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ncl"@en .
 <https://natclinn.github.io/NatclinnTbox> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://natclinn.github.io/" .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/citation> "Cite this vocabulary as: Raphael Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@en .
-<https://natclinn.github.io/NatclinnTbox> <http://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@fr .
+<https://natclinn.github.io/NatclinnTbox> <http://schema.org/citation> "Cite this vocabulary as: RaphaÃ«l Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX"@fr .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/creator> _:genid1 .
 _:genid1 <http://www.w3.org/ns/org#memberOf> _:genid2 .
 _:genid2 <http://xmlns.com/foaf/0.1/name> "INRAE, France" .
@@ -33,7 +33,7 @@ _:genid4 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, Fra
 _:genid4 <http://schema.org/url> "https://www.umontpellier.fr/" .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 _:genid3 <http://schema.org/url> <https://orcid.org/0000-0002-6926-5299> .
-_:genid3 <http://schema.org/name> "Raphaël Conde Salazar"@fr .
+_:genid3 <http://schema.org/name> "RaphaÃ«l Conde Salazar"@fr .
 _:genid3 <http://schema.org/name> "Raphael Conde Salazar"@en .
 _:genid3 <http://schema.org/familyName> "Conde Salazar"@fr .
 _:genid3 <http://schema.org/familyName> "Conde Salazar"@en .
@@ -58,13 +58,13 @@ _:genid7 <http://schema.org/name> "Pierre Bisquert"@en .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://natclinn.github.io/NatclinnTbox> <http://schema.org/funding> <https://www.pole-valorial.fr> .
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology designed to define the various products of the agri-food industry and the arguments associated with them in terms of their perceived naturalness."@en .
-<https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ontologie conçue pour définir les différents produits de l'industrie agroalimentaire et les arguments qui leur sont associés en termes de naturalité perçue."@fr .
+<https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ontologie conÃ§ue pour dÃ©finir les diffÃ©rents produits de l'industrie agroalimentaire et les arguments qui leur sont associÃ©s en termes de naturalitÃ© perÃ§ue."@fr .
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2000/01/rdf-schema#label> "Natcl'inn ontology"@en .
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologie Natcl'inn"@fr .
 <https://natclinn.github.io/NatclinnTbox> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
 <https://natclinn.github.io/NatclinnTbox> <http://xmlns.com/foaf/0.1/fundedBy> <https://www.pole-valorial.fr> .
-<https://natclinn.github.io/NatclinnTbox> <https://w3id.org/afy/vocab#introduction> "NATCL’INN aims to offer a solution to agri-food companies that need to balance different product attributes related to naturalness in order to meet new consumer expectations and perceptions regarding food naturalness. In order to propose a prototype Decision Support Tool, the R&D teams at ADRIA, the LEGO laboratory at the University of Western Brittany (UBO), INRAE research units and their industrial partners (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) have joined forces to carry out an ambitious collaborative R&D programme. The NATCL'INN project has been certified by the VALORIAL competitiveness cluster and has received support from the Brittany Region, the Pays de la Loire Region and Quimper Bretagne Occidentale. The project began on 1 January 2024 and will be completed at the end of 2027"@en .
-<https://natclinn.github.io/NatclinnTbox> <https://w3id.org/afy/vocab#introduction> "NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s'achèvera fin 2027."@fr .
+<https://natclinn.github.io/NatclinnTbox> <https://w3id.org/afy/vocab#introduction> "NATCLâ€™INN aims to offer a solution to agri-food companies that need to balance different product attributes related to naturalness in order to meet new consumer expectations and perceptions regarding food naturalness. In order to propose a prototype Decision Support Tool, the R&D teams at ADRIA, the LEGO laboratory at the University of Western Brittany (UBO), INRAE research units and their industrial partners (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) have joined forces to carry out an ambitious collaborative R&D programme. The NATCL'INN project has been certified by the VALORIAL competitiveness cluster and has received support from the Brittany Region, the Pays de la Loire Region and Quimper Bretagne Occidentale. The project began on 1 January 2024 and will be completed at the end of 2027"@en .
+<https://natclinn.github.io/NatclinnTbox> <https://w3id.org/afy/vocab#introduction> "NATCLâ€™INN vise Ã  proposer une solution aux entreprises de lâ€™agroalimentaire qui doivent rÃ©aliser des arbitrages entre diffÃ©rents attributs produits relatifs Ã  la naturalitÃ© en vue de rÃ©pondre aux nouvelles attentes et reprÃ©sentations des consommateurs en matiÃ¨re de naturalitÃ© alimentaire. Afin de proposer un prototype dâ€™Outil dâ€™Aide Ã  la DÃ©cision, les Ã©quipes de R&D de lâ€™ADRIA, le laboratoire LEGO de lâ€™UniversitÃ© de Bretagne Occidentale (UBO), les unitÃ©s de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associÃ©s pour mener un programme ambitieux de R&D collaborative. Le projet NATCLâ€™INN a Ã©tÃ© labellisÃ© par le pÃ´le de compÃ©titivitÃ© VALORIAL et a reÃ§u le soutien de la RÃ©gion Bretagne, de la RÃ©gion Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a dÃ©marrÃ© au 1er janvier 2024 et s'achÃ¨vera fin 2027."@fr .
 <https://natclinn.github.io/NatclinnTbox> <https://w3id.org/afy/vocab#rdfxmlSerialization> "https://w3id.org/NCL/ontology.xml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # 
@@ -179,7 +179,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Tag> .
 <https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TagArgumentBinding to the related Tag."@en .
-<https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un TagArgumentBinding au Tag concerné."@fr .
+<https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un TagArgumentBinding au Tag concernÃ©."@fr .
 <https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#label> "About tag"@en .
 <https://natclinn.github.io/aboutTag> <http://www.w3.org/2000/01/rdf-schema#label> "Concerne le tag"@fr .
 <https://natclinn.github.io/aboutTag> <http://www.w3.org/2004/02/skos/core#prefLabel> "About tag"@en .
@@ -193,11 +193,11 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/CalculatedNOVAgroupDetails> .
 <https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Ingredient> .
-<https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrédients additifs trouvés lors du calcul NOVA."@fr .
+<https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrÃ©dients additifs trouvÃ©s lors du calcul NOVA."@fr .
 <https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Lists additive ingredients found during NOVA calculation."@en .
-<https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrédients additifs"@fr .
+<https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrÃ©dients additifs"@fr .
 <https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "Has additive ingredients"@en .
-<https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients additifs"@fr .
+<https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrÃ©dients additifs"@fr .
 <https://natclinn.github.io/hasAdditiveIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has additive ingredients"@en .
 # 
 # https://natclinn.github.io/hasAllegation
@@ -205,17 +205,17 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Allegation> .
 <https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its allegations or claims."@en .
-<https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à ses allégations."@fr .
-<https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#label> "A pour allégation"@fr .
+<https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  ses allÃ©gations."@fr .
+<https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#label> "A pour allÃ©gation"@fr .
 <https://natclinn.github.io/hasAllegation> <http://www.w3.org/2000/01/rdf-schema#label> "Has allegation"@en .
-<https://natclinn.github.io/hasAllegation> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour allégation"@fr .
+<https://natclinn.github.io/hasAllegation> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour allÃ©gation"@fr .
 <https://natclinn.github.io/hasAllegation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has allegation"@en .
 # 
 # https://natclinn.github.io/hasAttribute
 <https://natclinn.github.io/hasAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Attribute> .
-<https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Attribut de la naturalité d'un produit de l'industrie agro-alimentaire."@fr .
+<https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Attribut de la naturalitÃ© d'un produit de l'industrie agro-alimentaire."@fr .
 <https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "The naturalness attribute of a food industry product."@en .
 <https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#label> "A pour attribut"@fr .
 <https://natclinn.github.io/hasAttribute> <http://www.w3.org/2000/01/rdf-schema#label> "Has attribute"@en .
@@ -227,10 +227,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/CalculatedNOVAgroupDetails> .
 <https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its calculated NOVA group details."@en .
-<https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit aux détails de son groupe NOVA calculé."@fr .
-<https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "A pour détails du groupe NOVA calculé"@fr .
+<https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit aux dÃ©tails de son groupe NOVA calculÃ©."@fr .
+<https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "A pour dÃ©tails du groupe NOVA calculÃ©"@fr .
 <https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "Has calculated NOVA group details"@en .
-<https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour détails du groupe NOVA calculé"@fr .
+<https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour dÃ©tails du groupe NOVA calculÃ©"@fr .
 <https://natclinn.github.io/hasCalculatedNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has calculated NOVA group details"@en .
 # 
 # https://natclinn.github.io/hasCategory
@@ -238,10 +238,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Category> .
 <https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an argument to its main category."@en .
-<https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument à sa catégorie principale."@fr .
-<https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#label> "A pour catégorie"@fr .
+<https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument Ã  sa catÃ©gorie principale."@fr .
+<https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#label> "A pour catÃ©gorie"@fr .
 <https://natclinn.github.io/hasCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Has category"@en .
-<https://natclinn.github.io/hasCategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour catégorie"@fr .
+<https://natclinn.github.io/hasCategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour catÃ©gorie"@fr .
 <https://natclinn.github.io/hasCategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has category"@en .
 # 
 # https://natclinn.github.io/hasCleanLabel
@@ -249,7 +249,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/CleanLabel> .
 <https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to clean-label information."@en .
-<https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à une information de clean label."@fr .
+<https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  une information de clean label."@fr .
 <https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#label> "A pour clean label"@fr .
 <https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Has clean label"@en .
 <https://natclinn.github.io/hasCleanLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour clean label"@fr .
@@ -260,7 +260,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Context> .
 <https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an argument to its context"@en .
-<https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument à son contexte"@fr .
+<https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument Ã  son contexte"@fr .
 <https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "A pour contexte"@fr .
 <https://natclinn.github.io/hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "Has context"@en .
 <https://natclinn.github.io/hasContext> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour contexte"@fr .
@@ -270,11 +270,11 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Context> .
 <https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/ContextIngredient> .
-<https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contexte ingrédient d'un argument."@fr .
+<https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contexte ingrÃ©dient d'un argument."@fr .
 <https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "The ingredient context of an argument."@en .
-<https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "A pour contexte ingrédient"@fr .
+<https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "A pour contexte ingrÃ©dient"@fr .
 <https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Has ingredient context"@en .
-<https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour contexte ingrédient"@fr .
+<https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour contexte ingrÃ©dient"@fr .
 <https://natclinn.github.io/hasContextIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has ingredient context"@en .
 # 
 # https://natclinn.github.io/hasContextProduct
@@ -293,10 +293,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/ControlledOriginLabel> .
 <https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to a controlled-origin label."@en .
-<https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à un label d'origine contrôlée."@fr .
-<https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#label> "A pour label d'origine contrôlée"@fr .
+<https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  un label d'origine contrÃ´lÃ©e."@fr .
+<https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#label> "A pour label d'origine contrÃ´lÃ©e"@fr .
 <https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Has controlled origin label"@en .
-<https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour label d'origine contrôlée"@fr .
+<https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour label d'origine contrÃ´lÃ©e"@fr .
 <https://natclinn.github.io/hasControlledOriginLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has controlled origin label"@en .
 # 
 # https://natclinn.github.io/hasFNI
@@ -304,7 +304,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/FNI> .
 <https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its Food Naturalness Index resource."@en .
-<https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à sa ressource d'indice de naturalité alimentaire."@fr .
+<https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  sa ressource d'indice de naturalitÃ© alimentaire."@fr .
 <https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#label> "A pour FNI"@fr .
 <https://natclinn.github.io/hasFNI> <http://www.w3.org/2000/01/rdf-schema#label> "Has FNI"@en .
 <https://natclinn.github.io/hasFNI> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour FNI"@fr .
@@ -315,10 +315,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to one of its ingredients."@en .
-<https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à l'un de ses ingrédients."@fr .
-<https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrédient"@fr .
+<https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  l'un de ses ingrÃ©dients."@fr .
+<https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrÃ©dient"@fr .
 <https://natclinn.github.io/hasIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Has ingredient"@en .
-<https://natclinn.github.io/hasIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédient"@fr .
+<https://natclinn.github.io/hasIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrÃ©dient"@fr .
 <https://natclinn.github.io/hasIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has ingredient"@en .
 # 
 # https://natclinn.github.io/hasLinkToArgument
@@ -326,7 +326,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/LinkToArgument> .
 <https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a food industry product to a LinkToArgument that connects to a ProductArgument."@en .
-<https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument."@fr .
+<https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit de l'industrie agro-alimentaire Ã  un LinkToArgument qui se connecte Ã  un ProductArgument."@fr .
 <https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#label> "A pour lien vers argument"@fr .
 <https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Has link to argument"@en .
 <https://natclinn.github.io/hasLinkToArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour lien vers argument"@fr .
@@ -337,10 +337,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/ManufacturingProcess> .
 <https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its manufacturing process."@en .
-<https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à son procédé de fabrication."@fr .
-<https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "A pour procédé de fabrication"@fr .
+<https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  son procÃ©dÃ© de fabrication."@fr .
+<https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "A pour procÃ©dÃ© de fabrication"@fr .
 <https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "Has manufacturing process"@en .
-<https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour procédé de fabrication"@fr .
+<https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour procÃ©dÃ© de fabrication"@fr .
 <https://natclinn.github.io/hasManufacturingProcess> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has manufacturing process"@en .
 # 
 # https://natclinn.github.io/hasMaterial
@@ -348,10 +348,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Packaging> .
 <https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Material> .
 <https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a packaging to the material it uses."@en .
-<https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un emballage au matériau qu'il utilise."@fr .
-<https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "A pour matière"@fr .
+<https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un emballage au matÃ©riau qu'il utilise."@fr .
+<https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "A pour matiÃ¨re"@fr .
 <https://natclinn.github.io/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "Has material"@en .
-<https://natclinn.github.io/hasMaterial> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour matière"@fr .
+<https://natclinn.github.io/hasMaterial> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour matiÃ¨re"@fr .
 <https://natclinn.github.io/hasMaterial> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has material"@en .
 # 
 # https://natclinn.github.io/hasNOVAgroupDetails
@@ -359,10 +359,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/NOVAgroupDetails> .
 <https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its NOVA group classification details."@en .
-<https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit aux détails de sa classification NOVA."@fr .
-<https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "A pour détails du groupe NOVA"@fr .
+<https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit aux dÃ©tails de sa classification NOVA."@fr .
+<https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "A pour dÃ©tails du groupe NOVA"@fr .
 <https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "Has NOVA group details"@en .
-<https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour détails du groupe NOVA"@fr .
+<https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour dÃ©tails du groupe NOVA"@fr .
 <https://natclinn.github.io/hasNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has NOVA group details"@en .
 # 
 # https://natclinn.github.io/hasNaturalnessScore
@@ -370,10 +370,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/NaturalnessScore> .
 <https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its naturalness score resource."@en .
-<https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à sa ressource de score de naturalité."@fr .
-<https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#label> "A pour score de naturalité"@fr .
+<https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  sa ressource de score de naturalitÃ©."@fr .
+<https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#label> "A pour score de naturalitÃ©"@fr .
 <https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#label> "Has naturalness score"@en .
-<https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour score de naturalité"@fr .
+<https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour score de naturalitÃ©"@fr .
 <https://natclinn.github.io/hasNaturalnessScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has naturalness score"@en .
 # 
 # https://natclinn.github.io/hasNutriScore
@@ -381,7 +381,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/NutriScore> .
 <https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its Nutri-Score resource."@en .
-<https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à sa ressource Nutri-Score."@fr .
+<https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  sa ressource Nutri-Score."@fr .
 <https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#label> "A pour Nutri-Score"@fr .
 <https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2000/01/rdf-schema#label> "Has Nutri-Score"@en .
 <https://natclinn.github.io/hasNutriScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour Nutri-Score"@fr .
@@ -392,7 +392,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Origin> .
 <https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an ingredient to its origin."@en .
-<https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un ingrédient à son origine."@fr .
+<https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un ingrÃ©dient Ã  son origine."@fr .
 <https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "A pour origine"@fr .
 <https://natclinn.github.io/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "Has origin"@en .
 <https://natclinn.github.io/hasOrigin> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour origine"@fr .
@@ -403,7 +403,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Packaging> .
 <https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to its packaging."@en .
-<https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à son emballage."@fr .
+<https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  son emballage."@fr .
 <https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#label> "A pour emballage"@fr .
 <https://natclinn.github.io/hasPackaging> <http://www.w3.org/2000/01/rdf-schema#label> "Has packaging"@en .
 <https://natclinn.github.io/hasPackaging> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour emballage"@fr .
@@ -413,11 +413,11 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/CalculatedNOVAgroupDetails> .
 <https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Ingredient> .
-<https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrédients transformés trouvés lors du calcul NOVA."@fr .
+<https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrÃ©dients transformÃ©s trouvÃ©s lors du calcul NOVA."@fr .
 <https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Lists processed ingredients found during NOVA calculation."@en .
-<https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrédients transformés"@fr .
+<https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrÃ©dients transformÃ©s"@fr .
 <https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "Has processed ingredients"@en .
-<https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients transformés"@fr .
+<https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrÃ©dients transformÃ©s"@fr .
 <https://natclinn.github.io/hasProcessedIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has processed ingredients"@en .
 # 
 # https://natclinn.github.io/hasProductArgument
@@ -425,7 +425,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a food industry product to an argument."@en .
-<https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit de l'industrie agro-alimentaire à un argument."@fr .
+<https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit de l'industrie agro-alimentaire Ã  un argument."@fr .
 <https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "A pour argument produit"@fr .
 <https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Has product argument"@en .
 <https://natclinn.github.io/hasProductArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour argument produit"@fr .
@@ -436,21 +436,21 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Resource> .
 <https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/QuantifiedElement> .
 <https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a resource to one of its quantified elements."@en .
-<https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une ressource à l'un de ses éléments quantifiés."@fr .
-<https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#label> "A pour élément quantifié"@fr .
+<https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une ressource Ã  l'un de ses Ã©lÃ©ments quantifiÃ©s."@fr .
+<https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#label> "A pour Ã©lÃ©ment quantifiÃ©"@fr .
 <https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Has quantified element"@en .
-<https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour élément quantifié"@fr .
+<https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour Ã©lÃ©ment quantifiÃ©"@fr .
 <https://natclinn.github.io/hasQuantifiedElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has quantified element"@en .
 # 
 # https://natclinn.github.io/hasRawIngredients
 <https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/CalculatedNOVAgroupDetails> .
 <https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Ingredient> .
-<https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrédients bruts trouvés lors du calcul NOVA."@fr .
+<https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrÃ©dients bruts trouvÃ©s lors du calcul NOVA."@fr .
 <https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Lists raw ingredients found during NOVA calculation."@en .
-<https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrédients bruts"@fr .
+<https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrÃ©dients bruts"@fr .
 <https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "Has raw ingredients"@en .
-<https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients bruts"@fr .
+<https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrÃ©dients bruts"@fr .
 <https://natclinn.github.io/hasRawIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has raw ingredients"@en .
 # 
 # https://natclinn.github.io/hasReferenceProductArgument
@@ -458,10 +458,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/LinkToArgument> .
 <https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a LinkToArgument to the referenced ProductArgument."@en .
-<https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un LinkToArgument au ProductArgument référencé."@fr .
-<https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "A pour argument produit référencé"@fr .
+<https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un LinkToArgument au ProductArgument rÃ©fÃ©rencÃ©."@fr .
+<https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "A pour argument produit rÃ©fÃ©rencÃ©"@fr .
 <https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Has reference product argument"@en .
-<https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour argument produit référencé"@fr .
+<https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour argument produit rÃ©fÃ©rencÃ©"@fr .
 <https://natclinn.github.io/hasReferenceProductArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has reference product argument"@en .
 # 
 # https://natclinn.github.io/hasRole
@@ -469,10 +469,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Tag> .
 <https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an ingredient to a Tag resource representing its technological or sensory function (preservative, flavor enhancer, etc.)."@en .
-<https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un ingrédient à une ressource Tag représentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goût, etc.)."@fr .
-<https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "A pour rôle"@fr .
+<https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un ingrÃ©dient Ã  une ressource Tag reprÃ©sentant sa fonction technologique ou sensorielle (conservateur, exhausteur de goÃ»t, etc.)."@fr .
+<https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "A pour rÃ´le"@fr .
 <https://natclinn.github.io/hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "Has role"@en .
-<https://natclinn.github.io/hasRole> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour rôle"@fr .
+<https://natclinn.github.io/hasRole> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour rÃ´le"@fr .
 <https://natclinn.github.io/hasRole> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has role"@en .
 # 
 # https://natclinn.github.io/hasShape
@@ -480,7 +480,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Packaging> .
 <https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Shape> .
 <https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a packaging to its shape."@en .
-<https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un emballage à sa forme."@fr .
+<https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un emballage Ã  sa forme."@fr .
 <https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#label> "A pour forme"@fr .
 <https://natclinn.github.io/hasShape> <http://www.w3.org/2000/01/rdf-schema#label> "Has shape"@en .
 <https://natclinn.github.io/hasShape> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour forme"@fr .
@@ -491,7 +491,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Source> .
 <https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Link an argument to its source (consumer survey, scientific journal, etc.)."@en .
-<https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument à sa source (enquête consommateur, revue scientifique, etc.)."@fr .
+<https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument Ã  sa source (enquÃªte consommateur, revue scientifique, etc.)."@fr .
 <https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#label> "A pour source"@fr .
 <https://natclinn.github.io/hasSource> <http://www.w3.org/2000/01/rdf-schema#label> "Has source"@en .
 <https://natclinn.github.io/hasSource> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour source"@fr .
@@ -502,7 +502,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Stakeholder> .
 <https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#comment> "Link an argument to its stakeholder (consumer, manufacturer, etc.)."@en .
-<https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument à sa partie prenante (consommateur, fabricant, etc.)."@fr .
+<https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument Ã  sa partie prenante (consommateur, fabricant, etc.)."@fr .
 <https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#label> "A pour partie prenante"@fr .
 <https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2000/01/rdf-schema#label> "Has stakeholder"@en .
 <https://natclinn.github.io/hasStakeholder> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour partie prenante"@fr .
@@ -513,10 +513,10 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Subcategory> .
 <https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an argument to its subcategory."@en .
-<https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument à sa sous-catégorie."@fr .
-<https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#label> "A pour sous-catégorie"@fr .
+<https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument Ã  sa sous-catÃ©gorie."@fr .
+<https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#label> "A pour sous-catÃ©gorie"@fr .
 <https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2000/01/rdf-schema#label> "Has subcategory"@en .
-<https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour sous-catégorie"@fr .
+<https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour sous-catÃ©gorie"@fr .
 <https://natclinn.github.io/hasSubcategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has subcategory"@en .
 # 
 # https://natclinn.github.io/hasTag
@@ -524,7 +524,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Tag> .
 <https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to a tag."@en .
-<https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à un tag."@fr .
+<https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  un tag."@fr .
 <https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#label> "A pour tag"@fr .
 <https://natclinn.github.io/hasTag> <http://www.w3.org/2000/01/rdf-schema#label> "Has tag"@en .
 <https://natclinn.github.io/hasTag> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour tag"@fr .
@@ -534,7 +534,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/LinkToArgument> .
 <https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/TagArgumentBinding> .
-<https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#comment> "Le tag de liaison d'argument identifiant qui a initié le lien vers l'argument."@fr .
+<https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#comment> "Le tag de liaison d'argument identifiant qui a initiÃ© le lien vers l'argument."@fr .
 <https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#comment> "The tag argument binding identifying who initiated the link to the argument."@en .
 <https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#label> "A pour liaison tag-argument initiatrice"@fr .
 <https://natclinn.github.io/hasTagArgumentBindingInitiator> <http://www.w3.org/2000/01/rdf-schema#label> "Has tag argument binding initiator"@en .
@@ -546,17 +546,17 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Tag> .
 <https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to a validation tag."@en .
-<https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à un tag de vérification."@fr .
-<https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#label> "A pour tag de vérification"@fr .
+<https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  un tag de vÃ©rification."@fr .
+<https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#label> "A pour tag de vÃ©rification"@fr .
 <https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2000/01/rdf-schema#label> "Has tag check"@en .
-<https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour tag de vérification"@fr .
+<https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour tag de vÃ©rification"@fr .
 <https://natclinn.github.io/hasTagCheck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has tag check"@en .
 # 
 # https://natclinn.github.io/hasTagInitiator
 <https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/LinkToArgument> .
 <https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Tag> .
-<https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#comment> "Tag identifiant qui a initié le lien vers l'argument."@fr .
+<https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#comment> "Tag identifiant qui a initiÃ© le lien vers l'argument."@fr .
 <https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#comment> "Tag identifying who initiated the link to the argument."@en .
 <https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#label> "A pour tag initiateur"@fr .
 <https://natclinn.github.io/hasTagInitiator> <http://www.w3.org/2000/01/rdf-schema#label> "Has tag initiator"@en .
@@ -567,11 +567,11 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/CalculatedNOVAgroupDetails> .
 <https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/Ingredient> .
-<https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrédients technologiques trouvés lors du calcul NOVA."@fr .
+<https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste les ingrÃ©dients technologiques trouvÃ©s lors du calcul NOVA."@fr .
 <https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#comment> "Lists technological ingredients found during NOVA calculation."@en .
-<https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrédients technologiques"@fr .
+<https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "A pour ingrÃ©dients technologiques"@fr .
 <https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2000/01/rdf-schema#label> "Has technological ingredients"@en .
-<https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrédients technologiques"@fr .
+<https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour ingrÃ©dients technologiques"@fr .
 <https://natclinn.github.io/hasTechnologicalIngredients> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has technological ingredients"@en .
 # 
 # https://natclinn.github.io/hasTypeSource
@@ -579,7 +579,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 <https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Source> .
 <https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#range> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a source to its type (expert, peer-reviewed article, etc.)."@en .
-<https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une source à son type (expert, article peer-reviewed, etc.)."@fr .
+<https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une source Ã  son type (expert, article peer-reviewed, etc.)."@fr .
 <https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#label> "A pour type de source"@fr .
 <https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2000/01/rdf-schema#label> "Has source type"@en .
 <https://natclinn.github.io/hasTypeSource> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour type de source"@fr .
@@ -622,9 +622,9 @@ _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/isComposedOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a composite resource to the resources it is composed of."@en .
 <https://natclinn.github.io/isComposedOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une ressource composite aux ressources qui la composent."@fr .
-<https://natclinn.github.io/isComposedOf> <http://www.w3.org/2000/01/rdf-schema#label> "Est composé de"@fr .
+<https://natclinn.github.io/isComposedOf> <http://www.w3.org/2000/01/rdf-schema#label> "Est composÃ© de"@fr .
 <https://natclinn.github.io/isComposedOf> <http://www.w3.org/2000/01/rdf-schema#label> "Is composed of"@en .
-<https://natclinn.github.io/isComposedOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Est composé de"@fr .
+<https://natclinn.github.io/isComposedOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Est composÃ© de"@fr .
 <https://natclinn.github.io/isComposedOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Is composed of"@en .
 # 
 # https://natclinn.github.io/refersTo
@@ -640,11 +640,11 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://natclinn.g
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/refersTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a product or ingredient to its quantification in a food industry product."@en .
-<https://natclinn.github.io/refersTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire."@fr .
+<https://natclinn.github.io/refersTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit ou un ingrÃ©dient Ã  sa quantification dans un produit de l'industrie agro-alimentaire."@fr .
 <https://natclinn.github.io/refersTo> <http://www.w3.org/2000/01/rdf-schema#label> "Refers to"@en .
-<https://natclinn.github.io/refersTo> <http://www.w3.org/2000/01/rdf-schema#label> "Réfère à"@fr .
+<https://natclinn.github.io/refersTo> <http://www.w3.org/2000/01/rdf-schema#label> "RÃ©fÃ¨re Ã "@fr .
 <https://natclinn.github.io/refersTo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Refers to"@en .
-<https://natclinn.github.io/refersTo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Réfère à"@fr .
+<https://natclinn.github.io/refersTo> <http://www.w3.org/2004/02/skos/core#prefLabel> "RÃ©fÃ¨re Ã "@fr .
 # 
 # https://natclinn.github.io/target
 <https://natclinn.github.io/target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -680,7 +680,7 @@ _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://natclinn.g
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/target> <http://www.w3.org/2000/01/rdf-schema#comment> "Link an argument to a component (product, ingredient, packaging, nutri-score, etc.) of a food industry product."@en .
-<https://natclinn.github.io/target> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."@fr .
+<https://natclinn.github.io/target> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un argument Ã  un composant (produit, ingrÃ©dient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."@fr .
 <https://natclinn.github.io/target> <http://www.w3.org/2000/01/rdf-schema#label> "Cible"@fr .
 <https://natclinn.github.io/target> <http://www.w3.org/2000/01/rdf-schema#label> "Target"@en .
 <https://natclinn.github.io/target> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cible"@fr .
@@ -700,7 +700,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#comment> "Aim or objective related to the tag binding."@en .
-<https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#comment> "Objectif ou visée du binding de tag."@fr .
+<https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#comment> "Objectif ou visÃ©e du binding de tag."@fr .
 <https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#label> "Aim"@en .
 <https://natclinn.github.io/aim> <http://www.w3.org/2000/01/rdf-schema#label> "Objectif"@fr .
 <https://natclinn.github.io/aim> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aim"@en .
@@ -710,7 +710,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/assertion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#comment> "L'assertion portée par le binding de tag."@fr .
+<https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#comment> "L'assertion portÃ©e par le binding de tag."@fr .
 <https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#comment> "The assertion carried by the tag binding."@en .
 <https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#label> "Assertion"@en .
 <https://natclinn.github.io/assertion> <http://www.w3.org/2000/01/rdf-schema#label> "Assertion"@fr .
@@ -722,11 +722,11 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#comment> "Keywords used to bind a tag to argumentation context."@en .
-<https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#comment> "Mots-clés utilisés pour lier un tag au contexte d'argumentation."@fr .
+<https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#comment> "Mots-clÃ©s utilisÃ©s pour lier un tag au contexte d'argumentation."@fr .
 <https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#label> "Binding keywords"@en .
-<https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#label> "Mots-clés de liaison"@fr .
+<https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2000/01/rdf-schema#label> "Mots-clÃ©s de liaison"@fr .
 <https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2004/02/skos/core#prefLabel> "Binding keywords"@en .
-<https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mots-clés de liaison"@fr .
+<https://natclinn.github.io/bindingKeywords> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mots-clÃ©s de liaison"@fr .
 # 
 # https://natclinn.github.io/condition
 <https://natclinn.github.io/condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -759,17 +759,17 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#comment> "Fiability score of the source type."@en .
-<https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#comment> "Score de fiabilité du type de source."@fr .
-<https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#label> "Fiabilité"@fr .
+<https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#comment> "Score de fiabilitÃ© du type de source."@fr .
+<https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#label> "FiabilitÃ©"@fr .
 <https://natclinn.github.io/fiability> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability"@en .
-<https://natclinn.github.io/fiability> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fiabilité"@fr .
+<https://natclinn.github.io/fiability> <http://www.w3.org/2004/02/skos/core#prefLabel> "FiabilitÃ©"@fr .
 <https://natclinn.github.io/fiability> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reliability"@en .
 # 
 # https://natclinn.github.io/groupe1
 <https://natclinn.github.io/groupe1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/NOVAgroupDetails> .
 <https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#comment> "Caractéristiques du groupe NOVA 1 (aliments non transformés ou minimalement transformés)."@fr .
+<https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#comment> "CaractÃ©ristiques du groupe NOVA 1 (aliments non transformÃ©s ou minimalement transformÃ©s)."@fr .
 <https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#comment> "NOVA group 1 characteristics (unprocessed or minimally processed foods)."@en .
 <https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#label> "Group 1"@en .
 <https://natclinn.github.io/groupe1> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe 1"@fr .
@@ -780,7 +780,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/groupe2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/NOVAgroupDetails> .
 <https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#comment> "Caractéristiques du groupe NOVA 2 (ingrédients culinaires transformés)."@fr .
+<https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#comment> "CaractÃ©ristiques du groupe NOVA 2 (ingrÃ©dients culinaires transformÃ©s)."@fr .
 <https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#comment> "NOVA group 2 characteristics (processed culinary ingredients)."@en .
 <https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#label> "Group 2"@en .
 <https://natclinn.github.io/groupe2> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe 2"@fr .
@@ -791,7 +791,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/groupe3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/NOVAgroupDetails> .
 <https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#comment> "Caractéristiques du groupe NOVA 3 (aliments transformés)."@fr .
+<https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#comment> "CaractÃ©ristiques du groupe NOVA 3 (aliments transformÃ©s)."@fr .
 <https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#comment> "NOVA group 3 characteristics (processed foods)."@en .
 <https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#label> "Group 3"@en .
 <https://natclinn.github.io/groupe3> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe 3"@fr .
@@ -802,7 +802,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/groupe4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/NOVAgroupDetails> .
 <https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#comment> "Caractéristiques du groupe NOVA 4 (produits ultra-transformés)."@fr .
+<https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#comment> "CaractÃ©ristiques du groupe NOVA 4 (produits ultra-transformÃ©s)."@fr .
 <https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#comment> "NOVA group 4 characteristics (ultra-processed foods and drinks)."@en .
 <https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#label> "Group 4"@en .
 <https://natclinn.github.io/groupe4> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe 4"@fr .
@@ -814,10 +814,10 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Calculated NOVA group (1..4) inferred by rules, not the OFF-provided value."@en .
-<https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF."@fr .
-<https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#label> "A pour groupe NOVA calculé"@fr .
+<https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Groupe NOVA calculÃ© (1..4) infÃ©rÃ© par les rÃ¨gles, distinct de la valeur fournie par OFF."@fr .
+<https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#label> "A pour groupe NOVA calculÃ©"@fr .
 <https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2000/01/rdf-schema#label> "Has calculated NOVA group"@en .
-<https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour groupe NOVA calculé"@fr .
+<https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pour groupe NOVA calculÃ©"@fr .
 <https://natclinn.github.io/hasCalculatedNOVAgroup> <http://www.w3.org/2004/02/skos/core#prefLabel> "Has calculated NOVA group"@en .
 # 
 # https://natclinn.github.io/hasCiqualFoodCode
@@ -875,30 +875,30 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/infValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Lower bound value for the argument condition."@en .
 <https://natclinn.github.io/infValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Valeur minimale pour la condition de l'argument."@fr .
 <https://natclinn.github.io/infValue> <http://www.w3.org/2000/01/rdf-schema#label> "Lower bound value"@en .
-<https://natclinn.github.io/infValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur inférieure"@fr .
+<https://natclinn.github.io/infValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur infÃ©rieure"@fr .
 <https://natclinn.github.io/infValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower bound value"@en .
-<https://natclinn.github.io/infValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valeur inférieure"@fr .
+<https://natclinn.github.io/infValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valeur infÃ©rieure"@fr .
 # 
 # https://natclinn.github.io/nameCriterion
 <https://natclinn.github.io/nameCriterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the criterion addressed by the tag binding."@en .
-<https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom du critère abordé par le binding de tag."@fr .
+<https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom du critÃ¨re abordÃ© par le binding de tag."@fr .
 <https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#label> "Criterion name"@en .
-<https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#label> "Nom du critère"@fr .
+<https://natclinn.github.io/nameCriterion> <http://www.w3.org/2000/01/rdf-schema#label> "Nom du critÃ¨re"@fr .
 <https://natclinn.github.io/nameCriterion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Criterion name"@en .
-<https://natclinn.github.io/nameCriterion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nom du critère"@fr .
+<https://natclinn.github.io/nameCriterion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nom du critÃ¨re"@fr .
 # 
 # https://natclinn.github.io/nameProperty
 <https://natclinn.github.io/nameProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the property evaluated in the tag binding."@en .
-<https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom de la propriété évaluée dans le binding de tag."@fr .
-<https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Nom de la propriété"@fr .
+<https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom de la propriÃ©tÃ© Ã©valuÃ©e dans le binding de tag."@fr .
+<https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Nom de la propriÃ©tÃ©"@fr .
 <https://natclinn.github.io/nameProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Property name"@en .
-<https://natclinn.github.io/nameProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nom de la propriété"@fr .
+<https://natclinn.github.io/nameProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nom de la propriÃ©tÃ©"@fr .
 <https://natclinn.github.io/nameProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Property name"@en .
 # 
 # https://natclinn.github.io/percentage
@@ -906,7 +906,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/QuantifiedElement> .
 <https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Percentage (by weight) of a by-product or ingredient in a food industry product."@en .
-<https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr .
+<https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Pourcentage (du poids) d'un sous-produit ou d'un ingrÃ©dient dans un produit de l'industrie agro-alimentaire."@fr .
 <https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#label> "Percentage"@en .
 <https://natclinn.github.io/percentage> <http://www.w3.org/2000/01/rdf-schema#label> "Pourcentage"@fr .
 <https://natclinn.github.io/percentage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Percentage"@en .
@@ -917,28 +917,28 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#comment> "Polarity of the tag binding (positive '+' or negative '-')."@en .
-<https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#comment> "Polarité du binding de tag (positif '+' ou négatif '-')."@fr .
+<https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#comment> "PolaritÃ© du binding de tag (positif '+' ou nÃ©gatif '-')."@fr .
 <https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#label> "Polarity"@en .
-<https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#label> "Polarité"@fr .
+<https://natclinn.github.io/polarity> <http://www.w3.org/2000/01/rdf-schema#label> "PolaritÃ©"@fr .
 <https://natclinn.github.io/polarity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polarity"@en .
-<https://natclinn.github.io/polarity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polarité"@fr .
+<https://natclinn.github.io/polarity> <http://www.w3.org/2004/02/skos/core#prefLabel> "PolaritÃ©"@fr .
 # 
 # https://natclinn.github.io/quantity
 <https://natclinn.github.io/quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/QuantifiedElement> .
 <https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantity of a by-product or ingredient present in a food industry product."@en .
-<https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr .
+<https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "QuantitÃ© prÃ©sente d'un sous-produit ou d'un ingrÃ©dient dans un produit de l'industrie agro-alimentaire."@fr .
 <https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity"@en .
-<https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#label> "Quantité"@fr .
+<https://natclinn.github.io/quantity> <http://www.w3.org/2000/01/rdf-schema#label> "QuantitÃ©"@fr .
 <https://natclinn.github.io/quantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantity"@en .
-<https://natclinn.github.io/quantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantité"@fr .
+<https://natclinn.github.io/quantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "QuantitÃ©"@fr .
 # 
 # https://natclinn.github.io/rank
 <https://natclinn.github.io/rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/QuantifiedElement> .
 <https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#comment> "Classement d'un ingrédient ou d'un sous-produit dans l’énoncé textuel de la composition d'un produit."@fr .
+<https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#comment> "Classement d'un ingrÃ©dient ou d'un sous-produit dans lâ€™Ã©noncÃ© textuel de la composition d'un produit."@fr .
 <https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification of an ingredient or by-product in the textual statement of a product's composition."@en .
 <https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#label> "Rang"@fr .
 <https://natclinn.github.io/rank> <http://www.w3.org/2000/01/rdf-schema#label> "Rank"@en .
@@ -952,15 +952,15 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/supValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Upper bound value for the argument condition."@en .
 <https://natclinn.github.io/supValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Valeur maximale pour la condition de l'argument."@fr .
 <https://natclinn.github.io/supValue> <http://www.w3.org/2000/01/rdf-schema#label> "Upper bound value"@en .
-<https://natclinn.github.io/supValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur supérieure"@fr .
+<https://natclinn.github.io/supValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur supÃ©rieure"@fr .
 <https://natclinn.github.io/supValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper bound value"@en .
-<https://natclinn.github.io/supValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valeur supérieure"@fr .
+<https://natclinn.github.io/supValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valeur supÃ©rieure"@fr .
 # 
 # https://natclinn.github.io/supportType
 <https://natclinn.github.io/supportType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type de l'argument (positif ou négatif) vis à vis de sa cible."@fr .
+<https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type de l'argument (positif ou nÃ©gatif) vis Ã  vis de sa cible."@fr .
 <https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of argument (positive or negative) in relation to its target."@en .
 <https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#label> "Support type"@en .
 <https://natclinn.github.io/supportType> <http://www.w3.org/2000/01/rdf-schema#label> "Type de support"@fr .
@@ -972,33 +972,33 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/QuantifiedElement> .
 <https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit of the quantity of a by-product or ingredient present in a food industry product."@en .
-<https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."@fr .
+<https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#comment> "UnitÃ© de la quantitÃ© prÃ©sente d'un sous-produit ou d'un ingrÃ©dient dans un produit de l'industrie agro-alimentaire."@fr .
 <https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit"@en .
-<https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unité"@fr .
+<https://natclinn.github.io/unit> <http://www.w3.org/2000/01/rdf-schema#label> "UnitÃ©"@fr .
 <https://natclinn.github.io/unit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unit"@en .
-<https://natclinn.github.io/unit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unité"@fr .
+<https://natclinn.github.io/unit> <http://www.w3.org/2004/02/skos/core#prefLabel> "UnitÃ©"@fr .
 # 
 # https://natclinn.github.io/unitArg
 <https://natclinn.github.io/unitArg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/ProductArgument> .
 <https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit of measurement for the argument values."@en .
-<https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#comment> "Unité de mesure pour les valeurs de l'argument."@fr .
+<https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#comment> "UnitÃ© de mesure pour les valeurs de l'argument."@fr .
 <https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#label> "Argument unit"@en .
-<https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#label> "Unité de l'argument"@fr .
+<https://natclinn.github.io/unitArg> <http://www.w3.org/2000/01/rdf-schema#label> "UnitÃ© de l'argument"@fr .
 <https://natclinn.github.io/unitArg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argument unit"@en .
-<https://natclinn.github.io/unitArg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unité de l'argument"@fr .
+<https://natclinn.github.io/unitArg> <http://www.w3.org/2004/02/skos/core#prefLabel> "UnitÃ© de l'argument"@fr .
 # 
 # https://natclinn.github.io/valueProperty
 <https://natclinn.github.io/valueProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Valeur associée à la propriété du binding de tag."@fr .
+<https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Valeur associÃ©e Ã  la propriÃ©tÃ© du binding de tag."@fr .
 <https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Value associated with the tag binding property."@en .
 <https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Property value"@en .
-<https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur de la propriété"@fr .
+<https://natclinn.github.io/valueProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur de la propriÃ©tÃ©"@fr .
 <https://natclinn.github.io/valueProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Property value"@en .
-<https://natclinn.github.io/valueProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valeur de la propriété"@fr .
+<https://natclinn.github.io/valueProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valeur de la propriÃ©tÃ©"@fr .
 # 
 # 
 # 
@@ -1011,7 +1011,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://schema.org/Person
 <http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person involved in authorship or provenance metadata."@en .
-<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Une personne impliquée dans les métadonnées d'auteur ou de provenance."@fr .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Une personne impliquÃ©e dans les mÃ©tadonnÃ©es d'auteur ou de provenance."@fr .
 <http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
 <http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Personne"@fr .
 <http://schema.org/Person> <http://www.w3.org/2004/02/skos/core#prefLabel> "Person"@en .
@@ -1020,7 +1020,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://www.arg.dundee.ac.uk/aif#Node
 <http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract class for argumentation nodes."@en .
-<http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/2000/01/rdf-schema#comment> "Un nœud dans un graphe d'argumentation."@fr .
+<http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/2000/01/rdf-schema#comment> "Un nÅ“ud dans un graphe d'argumentation."@fr .
 <http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Argumentation node"@en .
 <http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Noeud d'argumentation"@fr .
 <http://www.arg.dundee.ac.uk/aif#Node> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argumentation node"@en .
@@ -1028,7 +1028,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://xmlns.com/foaf/0.1/Organization
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization involved in authorship, affiliation, or funding metadata."@en .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Une organisation impliquée dans les métadonnées d'auteur, d'affiliation ou de financement."@fr .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Une organisation impliquÃ©e dans les mÃ©tadonnÃ©es d'auteur, d'affiliation ou de financement."@fr .
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation"@fr .
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisation"@fr .
@@ -1038,11 +1038,11 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByFunction> .
 <https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient used as an additive (e.g., colorant, preservative)."@en .
-<https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient utilisé comme additif (colorant, conservateur…)."@fr .
+<https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient utilisÃ© comme additif (colorant, conservateurâ€¦)."@fr .
 <https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Additive ingredient"@en .
-<https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient additif"@fr .
+<https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient additif"@fr .
 <https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Additive ingredient"@en .
-<https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient additif"@fr .
+<https://natclinn.github.io/AdditiveIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient additif"@fr .
 # 
 # https://natclinn.github.io/Allegation
 <https://natclinn.github.io/Allegation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1076,22 +1076,22 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Allegation> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/Allegation> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Allegation> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/Allegation> <http://www.w3.org/2000/01/rdf-schema#comment> "Déclaration relative à une allégation ou affirmation sur un produit."@fr .
+<https://natclinn.github.io/Allegation> <http://www.w3.org/2000/01/rdf-schema#comment> "DÃ©claration relative Ã  une allÃ©gation ou affirmation sur un produit."@fr .
 <https://natclinn.github.io/Allegation> <http://www.w3.org/2000/01/rdf-schema#comment> "Statement about a product claim or assertion."@en .
 <https://natclinn.github.io/Allegation> <http://www.w3.org/2000/01/rdf-schema#label> "Allegation"@en .
-<https://natclinn.github.io/Allegation> <http://www.w3.org/2000/01/rdf-schema#label> "Allégation"@fr .
+<https://natclinn.github.io/Allegation> <http://www.w3.org/2000/01/rdf-schema#label> "AllÃ©gation"@fr .
 <https://natclinn.github.io/Allegation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allegation"@en .
-<https://natclinn.github.io/Allegation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allégation"@fr .
+<https://natclinn.github.io/Allegation> <http://www.w3.org/2004/02/skos/core#prefLabel> "AllÃ©gation"@fr .
 # 
 # https://natclinn.github.io/AnimalOriginIngredient
 <https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByOrigin> .
 <https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient of animal origin."@en .
-<https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient d'origine animale."@fr .
+<https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient d'origine animale."@fr .
 <https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Animal origin ingredient"@en .
-<https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient d'origine animale"@fr .
+<https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient d'origine animale"@fr .
 <https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Animal origin ingredient"@en .
-<https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine animale"@fr .
+<https://natclinn.github.io/AnimalOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient d'origine animale"@fr .
 # 
 # https://natclinn.github.io/Attribute
 <https://natclinn.github.io/Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1124,7 +1124,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Attribute> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/Attribute> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Attribute> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/Attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "L'attribut de naturalité dans le contexte de l'argument."@fr .
+<https://natclinn.github.io/Attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "L'attribut de naturalitÃ© dans le contexte de l'argument."@fr .
 <https://natclinn.github.io/Attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute of naturalness in the context of the argument."@en .
 <https://natclinn.github.io/Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Attribut"@fr .
 <https://natclinn.github.io/Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute"@en .
@@ -1162,11 +1162,11 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Details of locally calculated NOVA group, listing ingredients by category."@en .
-<https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Détails du groupe NOVA calculé localement, listant les ingrédients par catégorie."@fr .
+<https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "DÃ©tails du groupe NOVA calculÃ© localement, listant les ingrÃ©dients par catÃ©gorie."@fr .
 <https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "Calculated NOVA group details"@en .
-<https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "Détails du groupe NOVA calculé"@fr .
+<https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "DÃ©tails du groupe NOVA calculÃ©"@fr .
 <https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calculated NOVA group details"@en .
-<https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "Détails du groupe NOVA calculé"@fr .
+<https://natclinn.github.io/CalculatedNOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "DÃ©tails du groupe NOVA calculÃ©"@fr .
 # 
 # https://natclinn.github.io/Category
 <https://natclinn.github.io/Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1197,12 +1197,12 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Category> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/Category> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Category> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie principale de l'argument (ex: 'Mode de culture et d'élevage')."@fr .
-<https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "Main category of the argument (e.g., 'Mode de culture et d'élevage')."@en .
+<https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "CatÃ©gorie principale de l'argument (ex: 'Mode de culture et d'Ã©levage')."@fr .
+<https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "Main category of the argument (e.g., 'Mode de culture et d'Ã©levage')."@en .
 <https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category"@en .
-<https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Catégorie"@fr .
+<https://natclinn.github.io/Category> <http://www.w3.org/2000/01/rdf-schema#label> "CatÃ©gorie"@fr .
 <https://natclinn.github.io/Category> <http://www.w3.org/2004/02/skos/core#prefLabel> "Category"@en .
-<https://natclinn.github.io/Category> <http://www.w3.org/2004/02/skos/core#prefLabel> "Catégorie"@fr .
+<https://natclinn.github.io/Category> <http://www.w3.org/2004/02/skos/core#prefLabel> "CatÃ©gorie"@fr .
 # 
 # https://natclinn.github.io/CleanLabel
 <https://natclinn.github.io/CleanLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1243,17 +1243,17 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient composed of at least one other Ingredient."@en .
-<https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ingrédient composé d'au moins un autre ingrédient."@fr .
+<https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ingrÃ©dient composÃ© d'au moins un autre ingrÃ©dient."@fr .
 <https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Composite ingredient"@en .
-<https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient composite"@fr .
+<https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient composite"@fr .
 <https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Composite ingredient"@en .
-<https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient composite"@fr .
+<https://natclinn.github.io/CompositeIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient composite"@fr .
 # 
 # https://natclinn.github.io/CompositeProduct
 <https://natclinn.github.io/CompositeProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Product composed of at least one other product."@en .
-<https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Produit composé d'au moins un autre produit."@fr .
+<https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Produit composÃ© d'au moins un autre produit."@fr .
 <https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2000/01/rdf-schema#label> "Composite product"@en .
 <https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2000/01/rdf-schema#label> "Produit composite"@fr .
 <https://natclinn.github.io/CompositeProduct> <http://www.w3.org/2004/02/skos/core#prefLabel> "Composite product"@en .
@@ -1296,11 +1296,11 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://natclinn.github.io/ContextIngredient
 <https://natclinn.github.io/ContextIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Context> .
-<https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contexte ingrédient dans lequel un argument est pertinent."@fr .
+<https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contexte ingrÃ©dient dans lequel un argument est pertinent."@fr .
 <https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "The ingredient context in which an argument is relevant."@en .
-<https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Contexte ingrédient"@fr .
+<https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Contexte ingrÃ©dient"@fr .
 <https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient context"@en .
-<https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contexte ingrédient"@fr .
+<https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contexte ingrÃ©dient"@fr .
 <https://natclinn.github.io/ContextIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient context"@en .
 # 
 # https://natclinn.github.io/ContextProduct
@@ -1339,22 +1339,22 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Le label d'origine contrôlée d'un produit."@fr .
+<https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Le label d'origine contrÃ´lÃ©e d'un produit."@fr .
 <https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "The controlled origin label of a product."@en .
 <https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Controlled origin label"@en .
-<https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Label d'origine contrôlée"@fr .
+<https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Label d'origine contrÃ´lÃ©e"@fr .
 <https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Controlled origin label"@en .
-<https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Label d'origine contrôlée"@fr .
+<https://natclinn.github.io/ControlledOriginLabel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Label d'origine contrÃ´lÃ©e"@fr .
 # 
 # https://natclinn.github.io/EnzymeIngredient
 <https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByFunction> .
 <https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient used as an enzyme in food processing."@en .
-<https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient utilisé comme enzyme dans le procédé alimentaire."@fr .
+<https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient utilisÃ© comme enzyme dans le procÃ©dÃ© alimentaire."@fr .
 <https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Enzyme ingredient"@en .
-<https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient enzymatique"@fr .
+<https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient enzymatique"@fr .
 <https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enzyme ingredient"@en .
-<https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient enzymatique"@fr .
+<https://natclinn.github.io/EnzymeIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient enzymatique"@fr .
 # 
 # https://natclinn.github.io/FNI
 <https://natclinn.github.io/FNI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1381,42 +1381,42 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/FNI> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/FNI> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/FNI> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/FNI> <http://www.w3.org/2000/01/rdf-schema#comment> "Indice de naturalité d'un produit alimentaire."@fr .
+<https://natclinn.github.io/FNI> <http://www.w3.org/2000/01/rdf-schema#comment> "Indice de naturalitÃ© d'un produit alimentaire."@fr .
 <https://natclinn.github.io/FNI> <http://www.w3.org/2000/01/rdf-schema#comment> "food naturalness index."@en .
 <https://natclinn.github.io/FNI> <http://www.w3.org/2000/01/rdf-schema#label> "Food naturalness index"@en .
-<https://natclinn.github.io/FNI> <http://www.w3.org/2000/01/rdf-schema#label> "Indice de naturalité alimentaire"@fr .
+<https://natclinn.github.io/FNI> <http://www.w3.org/2000/01/rdf-schema#label> "Indice de naturalitÃ© alimentaire"@fr .
 <https://natclinn.github.io/FNI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food naturalness index"@en .
-<https://natclinn.github.io/FNI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indice de naturalité alimentaire"@fr .
+<https://natclinn.github.io/FNI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indice de naturalitÃ© alimentaire"@fr .
 # 
 # https://natclinn.github.io/FlavorIngredient
 <https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByFunction> .
 <https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient used for flavoring purposes."@en .
-<https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient utilisé pour aromatiser."@fr .
+<https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient utilisÃ© pour aromatiser."@fr .
 <https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Flavor ingredient"@en .
-<https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient aromatique"@fr .
+<https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient aromatique"@fr .
 <https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flavor ingredient"@en .
-<https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient aromatique"@fr .
+<https://natclinn.github.io/FlavorIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient aromatique"@fr .
 # 
 # https://natclinn.github.io/FunctionalNutrientIngredient
 <https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByFunction> .
 <https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient providing nutritional or health benefits."@en .
-<https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient apportant des bénéfices nutritionnels ou santé."@fr .
+<https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient apportant des bÃ©nÃ©fices nutritionnels ou santÃ©."@fr .
 <https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Functional nutrient ingredient"@en .
-<https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient nutriment fonctionnel"@fr .
+<https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient nutriment fonctionnel"@fr .
 <https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Functional nutrient ingredient"@en .
-<https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient nutriment fonctionnel"@fr .
+<https://natclinn.github.io/FunctionalNutrientIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient nutriment fonctionnel"@fr .
 # 
 # https://natclinn.github.io/FungalOrMicrobialIngredient
 <https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByOrigin> .
 <https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient of fungal or microbial origin."@en .
-<https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient d'origine fongique ou microbienne."@fr .
+<https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient d'origine fongique ou microbienne."@fr .
 <https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Fungal or microbial ingredient"@en .
-<https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient d'origine fongique ou microbienne"@fr .
+<https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient d'origine fongique ou microbienne"@fr .
 <https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fungal or microbial ingredient"@en .
-<https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine fongique ou microbienne"@fr .
+<https://natclinn.github.io/FungalOrMicrobialIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient d'origine fongique ou microbienne"@fr .
 # 
 # https://natclinn.github.io/Ingredient
 <https://natclinn.github.io/Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1443,41 +1443,41 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Ingredient> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Ingredient> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/Ingredient> <http://www.w3.org/2000/01/rdf-schema#comment> "An ingredient used in a product."@en .
-<https://natclinn.github.io/Ingredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ingrédient utilisé dans un produit."@fr .
+<https://natclinn.github.io/Ingredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ingrÃ©dient utilisÃ© dans un produit."@fr .
 <https://natclinn.github.io/Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient"@en .
-<https://natclinn.github.io/Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient"@fr .
+<https://natclinn.github.io/Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient"@fr .
 <https://natclinn.github.io/Ingredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient"@en .
-<https://natclinn.github.io/Ingredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient"@fr .
+<https://natclinn.github.io/Ingredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient"@fr .
 # 
 # https://natclinn.github.io/IngredientByFunction
 <https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient classified by its function in the food product."@en .
-<https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient classé selon sa fonction dans le produit alimentaire."@fr .
+<https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient classÃ© selon sa fonction dans le produit alimentaire."@fr .
 <https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient by function"@en .
-<https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient par fonction"@fr .
+<https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient par fonction"@fr .
 <https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient by function"@en .
-<https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient par fonction"@fr .
+<https://natclinn.github.io/IngredientByFunction> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient par fonction"@fr .
 # 
 # https://natclinn.github.io/IngredientByOrigin
 <https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient classified by its origin."@en .
-<https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient classé selon son origine."@fr .
+<https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient classÃ© selon son origine."@fr .
 <https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient by origin"@en .
-<https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient par origine"@fr .
+<https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient par origine"@fr .
 <https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient by origin"@en .
-<https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient par origine"@fr .
+<https://natclinn.github.io/IngredientByOrigin> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient par origine"@fr .
 # 
 # https://natclinn.github.io/IngredientByTransformationDegree
 <https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient classified by its degree of processing."@en .
-<https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient classé selon son degré de transformation."@fr .
+<https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient classÃ© selon son degrÃ© de transformation."@fr .
 <https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient by transformation degree"@en .
-<https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient par degré de transformation"@fr .
+<https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient par degrÃ© de transformation"@fr .
 <https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingredient by transformation degree"@en .
-<https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient par degré de transformation"@fr .
+<https://natclinn.github.io/IngredientByTransformationDegree> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient par degrÃ© de transformation"@fr .
 # 
 # https://natclinn.github.io/LinkToArgument
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1503,7 +1503,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "A link between a product and an argument, containing metadata about the relationship."@en .
-<https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un lien entre un produit et un argument, contenant des métadonnées sur la relation."@fr .
+<https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un lien entre un produit et un argument, contenant des mÃ©tadonnÃ©es sur la relation."@fr .
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Lien vers argument"@fr .
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Link to argument"@en .
 <https://natclinn.github.io/LinkToArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lien vers argument"@fr .
@@ -1512,11 +1512,11 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://natclinn.github.io/MainComponentIngredient
 <https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByFunction> .
-<https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient principal apportant structure ou masse."@fr .
+<https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient principal apportant structure ou masse."@fr .
 <https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Main ingredient providing structure or mass."@en .
-<https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient composant principal"@fr .
+<https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient composant principal"@fr .
 <https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Main component ingredient"@en .
-<https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient composant principal"@fr .
+<https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient composant principal"@fr .
 <https://natclinn.github.io/MainComponentIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Main component ingredient"@en .
 # 
 # https://natclinn.github.io/ManufacturingProcess
@@ -1541,12 +1541,12 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "La manière dont le produit est fabriqué."@fr .
+<https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "La maniÃ¨re dont le produit est fabriquÃ©."@fr .
 <https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "The way the product is manufactured."@en .
 <https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturing process"@en .
-<https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "Procédé de fabrication"@fr .
+<https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "ProcÃ©dÃ© de fabrication"@fr .
 <https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacturing process"@en .
-<https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2004/02/skos/core#prefLabel> "Procédé de fabrication"@fr .
+<https://natclinn.github.io/ManufacturingProcess> <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcÃ©dÃ© de fabrication"@fr .
 # 
 # https://natclinn.github.io/Material
 <https://natclinn.github.io/Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1569,21 +1569,21 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Material> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/Material> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Material> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/Material> <http://www.w3.org/2000/01/rdf-schema#comment> "La matière de l'emballage du produit."@fr .
+<https://natclinn.github.io/Material> <http://www.w3.org/2000/01/rdf-schema#comment> "La matiÃ¨re de l'emballage du produit."@fr .
 <https://natclinn.github.io/Material> <http://www.w3.org/2000/01/rdf-schema#comment> "The material used for the product packaging."@en .
 <https://natclinn.github.io/Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
-<https://natclinn.github.io/Material> <http://www.w3.org/2000/01/rdf-schema#label> "Matière"@fr .
+<https://natclinn.github.io/Material> <http://www.w3.org/2000/01/rdf-schema#label> "MatiÃ¨re"@fr .
 <https://natclinn.github.io/Material> <http://www.w3.org/2004/02/skos/core#prefLabel> "Material"@en .
-<https://natclinn.github.io/Material> <http://www.w3.org/2004/02/skos/core#prefLabel> "Matière"@fr .
+<https://natclinn.github.io/Material> <http://www.w3.org/2004/02/skos/core#prefLabel> "MatiÃ¨re"@fr .
 # 
 # https://natclinn.github.io/MineralOriginIngredient
 <https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByOrigin> .
 <https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient of mineral origin."@en .
-<https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient d'origine minérale."@fr .
-<https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient d'origine minérale"@fr .
+<https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient d'origine minÃ©rale."@fr .
+<https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient d'origine minÃ©rale"@fr .
 <https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Mineral origin ingredient"@en .
-<https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine minérale"@fr .
+<https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient d'origine minÃ©rale"@fr .
 <https://natclinn.github.io/MineralOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mineral origin ingredient"@en .
 # 
 # https://natclinn.github.io/NCL
@@ -1616,10 +1616,10 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Details of NOVA group classification from Open Food Facts."@en .
-<https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Détails de la classification NOVA depuis Open Food Facts."@fr .
-<https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "Détails du groupe NOVA"@fr .
+<https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "DÃ©tails de la classification NOVA depuis Open Food Facts."@fr .
+<https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "DÃ©tails du groupe NOVA"@fr .
 <https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2000/01/rdf-schema#label> "NOVA group details"@en .
-<https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "Détails du groupe NOVA"@fr .
+<https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "DÃ©tails du groupe NOVA"@fr .
 <https://natclinn.github.io/NOVAgroupDetails> <http://www.w3.org/2004/02/skos/core#prefLabel> "NOVA group details"@en .
 # 
 # https://natclinn.github.io/NaturalnessScore
@@ -1641,12 +1641,12 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Ressource de score représentant le niveau global de naturalité d'un produit."@fr .
+<https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Ressource de score reprÃ©sentant le niveau global de naturalitÃ© d'un produit."@fr .
 <https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Score resource representing the overall naturalness level of a product."@en .
 <https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#label> "Naturalness score"@en .
-<https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#label> "Score de naturalité"@fr .
+<https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2000/01/rdf-schema#label> "Score de naturalitÃ©"@fr .
 <https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Naturalness score"@en .
-<https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Score de naturalité"@fr .
+<https://natclinn.github.io/NaturalnessScore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Score de naturalitÃ©"@fr .
 # 
 # https://natclinn.github.io/NutriScore
 <https://natclinn.github.io/NutriScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1715,9 +1715,9 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2000/01/rdf-schema#comment> "Nutri-Score detail\t."@en .
 <https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2000/01/rdf-schema#comment> "Nutri-Score detail."@fr .
-<https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2000/01/rdf-schema#label> "Détail Nutri-Score"@fr .
+<https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2000/01/rdf-schema#label> "DÃ©tail Nutri-Score"@fr .
 <https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2000/01/rdf-schema#label> "Nutri-Score detail"@en .
-<https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Détail Nutri-Score"@fr .
+<https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2004/02/skos/core#prefLabel> "DÃ©tail Nutri-Score"@fr .
 <https://natclinn.github.io/NutriScoreDetail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nutri-Score detail"@en .
 # 
 # https://natclinn.github.io/Origin
@@ -1736,7 +1736,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Origin> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Origin> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient origin (EU origin, Vietnam origin, etc.)."@en .
-<https://natclinn.github.io/Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "Origine de l'ingrédient (origine UE, origine Vietnam, etc.)."@fr .
+<https://natclinn.github.io/Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "Origine de l'ingrÃ©dient (origine UE, origine Vietnam, etc.)."@fr .
 <https://natclinn.github.io/Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin"@en .
 <https://natclinn.github.io/Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origine"@fr .
 <https://natclinn.github.io/Origin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Origin"@en .
@@ -1767,20 +1767,20 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByOrigin> .
 <https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient of plant origin."@en .
-<https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient d'origine végétale."@fr .
-<https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient d'origine végétale"@fr .
+<https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient d'origine vÃ©gÃ©tale."@fr .
+<https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient d'origine vÃ©gÃ©tale"@fr .
 <https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Plant origin ingredient"@en .
-<https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine végétale"@fr .
+<https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient d'origine vÃ©gÃ©tale"@fr .
 <https://natclinn.github.io/PlantOriginIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plant origin ingredient"@en .
 # 
 # https://natclinn.github.io/ProcessedIngredient
 <https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByTransformationDegree> .
 <https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient that has been processed (e.g., flour, oil)."@en .
-<https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient ayant subi une transformation (farine, huile…)."@fr .
-<https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient transformé"@fr .
+<https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient ayant subi une transformation (farine, huileâ€¦)."@fr .
+<https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient transformÃ©"@fr .
 <https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Processed ingredient"@en .
-<https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient transformé"@fr .
+<https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient transformÃ©"@fr .
 <https://natclinn.github.io/ProcessedIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Processed ingredient"@en .
 # 
 # https://natclinn.github.io/Product
@@ -1817,7 +1817,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/ProductArgument> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/ProductArgument> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/ProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "An argument related to the naturalness of a product."@en .
-<https://natclinn.github.io/ProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un argument lié à la naturalité d'un produit."@fr .
+<https://natclinn.github.io/ProductArgument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un argument liÃ© Ã  la naturalitÃ© d'un produit."@fr .
 <https://natclinn.github.io/ProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument produit"@fr .
 <https://natclinn.github.io/ProductArgument> <http://www.w3.org/2000/01/rdf-schema#label> "Product argument"@en .
 <https://natclinn.github.io/ProductArgument> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argument produit"@fr .
@@ -1835,27 +1835,27 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#comment> "An element of a product composition that includes quantity, unit, percentage, and rank."@en .
-<https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang."@fr .
+<https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Un Ã©lÃ©ment d'une composition de produit incluant quantitÃ©, unitÃ©, pourcentage et rang."@fr .
 <https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Quantified element"@en .
-<https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Élément quantifié"@fr .
+<https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Ã‰lÃ©ment quantifiÃ©"@fr .
 <https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantified element"@en .
-<https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Élément quantifié"@fr .
+<https://natclinn.github.io/QuantifiedElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ã‰lÃ©ment quantifiÃ©"@fr .
 # 
 # https://natclinn.github.io/RawIngredient
 <https://natclinn.github.io/RawIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByTransformationDegree> .
-<https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient brut ou peu transformé."@fr .
+<https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient brut ou peu transformÃ©."@fr .
 <https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Unprocessed or minimally processed ingredient."@en .
-<https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient brut"@fr .
+<https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient brut"@fr .
 <https://natclinn.github.io/RawIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Raw ingredient"@en .
-<https://natclinn.github.io/RawIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient brut"@fr .
+<https://natclinn.github.io/RawIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient brut"@fr .
 <https://natclinn.github.io/RawIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raw ingredient"@en .
 # 
 # https://natclinn.github.io/Resource
 <https://natclinn.github.io/Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/NCL> .
 <https://natclinn.github.io/Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract class Resource, from which Product and Ingredient inherit."@en .
-<https://natclinn.github.io/Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe abstraite Resource, dont héritent Produit et Ingrédient."@fr .
+<https://natclinn.github.io/Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe abstraite Resource, dont hÃ©ritent Produit et IngrÃ©dient."@fr .
 <https://natclinn.github.io/Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@en .
 <https://natclinn.github.io/Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource"@fr .
 <https://natclinn.github.io/Resource> <http://www.w3.org/2004/02/skos/core#prefLabel> "Resource"@en .
@@ -1882,17 +1882,17 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Ingredient> .
 <https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "A simple ingredient."@en .
-<https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ingrédient simple."@fr .
-<https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient simple"@fr .
+<https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ingrÃ©dient simple."@fr .
+<https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient simple"@fr .
 <https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Simple ingredient"@en .
-<https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient simple"@fr .
+<https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient simple"@fr .
 <https://natclinn.github.io/SimpleIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Simple ingredient"@en .
 # 
 # https://natclinn.github.io/SimpleProduct
 <https://natclinn.github.io/SimpleProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/Product> .
 <https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Food industry product made up entirely of ingredients."@en .
-<https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Produit de l'industrie alimentaire composé uniquement d'ingrédients."@fr .
+<https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Produit de l'industrie alimentaire composÃ© uniquement d'ingrÃ©dients."@fr .
 <https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2000/01/rdf-schema#label> "Produit simple"@fr .
 <https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2000/01/rdf-schema#label> "Simple product"@en .
 <https://natclinn.github.io/SimpleProduct> <http://www.w3.org/2004/02/skos/core#prefLabel> "Produit simple"@fr .
@@ -1936,21 +1936,21 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Subcategory> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TagArgumentBinding> .
 <https://natclinn.github.io/Subcategory> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Subcategory> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
-<https://natclinn.github.io/Subcategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Sous-catégorie de l'argument."@fr .
+<https://natclinn.github.io/Subcategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Sous-catÃ©gorie de l'argument."@fr .
 <https://natclinn.github.io/Subcategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Subcategory of the argument."@en .
-<https://natclinn.github.io/Subcategory> <http://www.w3.org/2000/01/rdf-schema#label> "Sous-catégorie"@fr .
+<https://natclinn.github.io/Subcategory> <http://www.w3.org/2000/01/rdf-schema#label> "Sous-catÃ©gorie"@fr .
 <https://natclinn.github.io/Subcategory> <http://www.w3.org/2000/01/rdf-schema#label> "Subcategory"@en .
-<https://natclinn.github.io/Subcategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sous-catégorie"@fr .
+<https://natclinn.github.io/Subcategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sous-catÃ©gorie"@fr .
 <https://natclinn.github.io/Subcategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subcategory"@en .
 # 
 # https://natclinn.github.io/SyntheticOrBiotechIngredient
 <https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByOrigin> .
 <https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient of synthetic or biotechnological origin."@en .
-<https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient d'origine synthétique ou biotechnologique."@fr .
-<https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient d'origine synthétique ou biotechnologique"@fr .
+<https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient d'origine synthÃ©tique ou biotechnologique."@fr .
+<https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient d'origine synthÃ©tique ou biotechnologique"@fr .
 <https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetic or biotech ingredient"@en .
-<https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient d'origine synthétique ou biotechnologique"@fr .
+<https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient d'origine synthÃ©tique ou biotechnologique"@fr .
 <https://natclinn.github.io/SyntheticOrBiotechIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Synthetic or biotech ingredient"@en .
 # 
 # https://natclinn.github.io/Tag
@@ -1960,7 +1960,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/Tag> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/Tag> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/Tag> <http://www.w3.org/2000/01/rdf-schema#comment> "A tag used to qualify product argument links."@en .
-<https://natclinn.github.io/Tag> <http://www.w3.org/2000/01/rdf-schema#comment> "Un tag utilisé pour qualifier les liens d'argumentation produit."@fr .
+<https://natclinn.github.io/Tag> <http://www.w3.org/2000/01/rdf-schema#comment> "Un tag utilisÃ© pour qualifier les liens d'argumentation produit."@fr .
 <https://natclinn.github.io/Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag"@en .
 <https://natclinn.github.io/Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag"@fr .
 <https://natclinn.github.io/Tag> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tag"@en .
@@ -1972,7 +1972,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/TypeSource> .
 <https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2002/07/owl#disjointWith> <https://natclinn.github.io/Verbatim> .
 <https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2000/01/rdf-schema#comment> "Binding object carrying argumentation attributes associated with a tag."@en .
-<https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2000/01/rdf-schema#comment> "Objet de liaison portant les attributs d'argumentation associés à un tag."@fr .
+<https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2000/01/rdf-schema#comment> "Objet de liaison portant les attributs d'argumentation associÃ©s Ã  un tag."@fr .
 <https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2000/01/rdf-schema#label> "Liaison tag-argument"@fr .
 <https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2000/01/rdf-schema#label> "Tag argument binding"@en .
 <https://natclinn.github.io/TagArgumentBinding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Liaison tag-argument"@fr .
@@ -1982,10 +1982,10 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByFunction> .
 <https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient used for technological purposes (e.g., carrier, thickener)."@en .
-<https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient utilisé pour des raisons technologiques (support, épaississant…)."@fr .
-<https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient technologique"@fr .
+<https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient utilisÃ© pour des raisons technologiques (support, Ã©paississantâ€¦)."@fr .
+<https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient technologique"@fr .
 <https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Technological ingredient"@en .
-<https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient technologique"@fr .
+<https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient technologique"@fr .
 <https://natclinn.github.io/TechnologicalIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technological ingredient"@en .
 # 
 # https://natclinn.github.io/TypeSource
@@ -2003,10 +2003,10 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://natclinn.github.io/IngredientByTransformationDegree> .
 <https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient that is highly processed or modified."@en .
-<https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingrédient hautement transformé ou modifié."@fr .
-<https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingrédient ultra-transformé"@fr .
+<https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "IngrÃ©dient hautement transformÃ© ou modifiÃ©."@fr .
+<https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "IngrÃ©dient ultra-transformÃ©"@fr .
 <https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ultra-processed ingredient"@en .
-<https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrédient ultra-transformé"@fr .
+<https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "IngrÃ©dient ultra-transformÃ©"@fr .
 <https://natclinn.github.io/UltraProcessedIngredient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ultra-processed ingredient"@en .
 # 
 # https://natclinn.github.io/Verbatim
@@ -2029,13 +2029,13 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # 
 <https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product to the function of its ingredients."@en .
-<https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit à la fonction de ses ingrédients."@fr .
+<https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un produit Ã  la fonction de ses ingrÃ©dients."@fr .
 <https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Contains ingredient with function"@en .
-<https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Contient un ingrédient avec fonction"@fr .
+<https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Contient un ingrÃ©dient avec fonction"@fr .
 <https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contains ingredient with function"@en .
-<https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contient un ingrédient avec fonction"@fr .
+<https://natclinn.github.io/containsIngredientWithFunction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contient un ingrÃ©dient avec fonction"@fr .
 # 
-<https://natclinn.github.io/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifiant associé à une ressource."@fr .
+<https://natclinn.github.io/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifiant associÃ© Ã  une ressource."@fr .
 <https://natclinn.github.io/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier associated with a resource."@en .
 <https://natclinn.github.io/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifiant"@fr .
 <https://natclinn.github.io/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .

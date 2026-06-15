@@ -16,4 +16,4 @@
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 	 prov:wasGeneratedAt "October 5th, 2021";
 .
-:agent0 a prov:Agent; foaf:name "Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber".
+:agent0 a prov:Agent; foaf:name "Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber".

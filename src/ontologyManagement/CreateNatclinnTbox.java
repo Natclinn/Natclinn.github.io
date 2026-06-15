@@ -108,7 +108,7 @@ public class CreateNatclinnTbox {
 		ont.addProperty(RDFS.label, "Ontologie Natcl'inn", "fr");
 		om.add(ont, DC.description,"Tbox for the Natcl'inn ontology", "en");
 		om.add(ont, DC.description,"Tbox pour l'ontologie Natcl'inn", "fr");
-		om.add(ont, DC.creator,"Raphaël CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber");	
+		om.add(ont, DC.creator,"Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber");	
         
 		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "ncl/1.0.1"));
 		ont.addProperty(OWL.versionInfo, "1.0.1");
