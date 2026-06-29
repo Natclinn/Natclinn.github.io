@@ -1,21 +1,11 @@
 [ {
   "@id" : "_:genid1",
-  "http://schema.org/familyName" : [ {
-    "@language" : "fr",
-    "@value" : "Conde Salazar"
-  }, {
-    "@language" : "en",
-    "@value" : "Conde Salazar"
-  } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Raphaël Conde Salazar"
-  }, {
     "@language" : "en",
-    "@value" : "Raphael Conde Salazar"
+    "@value" : "Cedric Baudrit"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0002-6926-5299"
+    "@id" : "https://orcid.org/0000-0003-4320-3345"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -36,15 +26,19 @@
   } ]
 }, {
   "@id" : "_:genid11",
-  "http://schema.org/name" : [ {
+  "http://schema.org/familyName" : [ {
     "@language" : "fr",
-    "@value" : "Christophe Fernandez"
+    "@value" : "Conde Salazar"
   }, {
     "@language" : "en",
-    "@value" : "Christophe Fernandez"
+    "@value" : "Conde Salazar"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Raphael Conde Salazar"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0001-6765-4680"
+    "@id" : "https://orcid.org/0000-0002-6926-5299"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -55,13 +49,13 @@
 }, {
   "@id" : "_:genid12",
   "http://schema.org/url" : [ {
-    "@value" : "https://www.inrae.fr/"
+    "@value" : "https://www.umontpellier.fr/"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Organization"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "INRAE, France"
+    "@value" : "University of Montpellier, INRAE, France"
   } ]
 }, {
   "@id" : "_:genid13",
@@ -96,13 +90,13 @@
 }, {
   "@id" : "_:genid2",
   "http://schema.org/url" : [ {
-    "@value" : "https://www.umontpellier.fr/"
+    "@value" : "https://www.inrae.fr/"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Organization"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "University of Montpellier, INRAE, France"
+    "@value" : "INRAE, France"
   } ]
 }, {
   "@id" : "_:genid22",
@@ -132,35 +126,6 @@
   "@id" : "_:genid3",
   "http://schema.org/name" : [ {
     "@language" : "fr",
-    "@value" : "Cédric Baudrit"
-  }, {
-    "@language" : "en",
-    "@value" : "Cedric Baudrit"
-  } ],
-  "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0003-4320-3345"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://schema.org/Person"
-  } ],
-  "http://www.w3.org/ns/org#memberOf" : [ {
-    "@id" : "_:genid4"
-  } ]
-}, {
-  "@id" : "_:genid4",
-  "http://schema.org/url" : [ {
-    "@value" : "https://www.inrae.fr/"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://xmlns.com/foaf/0.1/Organization"
-  } ],
-  "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "INRAE, France"
-  } ]
-}, {
-  "@id" : "_:genid5",
-  "http://schema.org/name" : [ {
-    "@language" : "fr",
     "@value" : "Rallou Thomopoulos"
   }, {
     "@language" : "en",
@@ -173,10 +138,10 @@
     "@id" : "http://schema.org/Person"
   } ],
   "http://www.w3.org/ns/org#memberOf" : [ {
-    "@id" : "_:genid6"
+    "@id" : "_:genid4"
   } ]
 }, {
-  "@id" : "_:genid6",
+  "@id" : "_:genid4",
   "http://schema.org/url" : [ {
     "@value" : "https://www.umontpellier.fr/"
   } ],
@@ -185,6 +150,35 @@
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "University of Montpellier, INRAE, France"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Magalie Weber"
+  }, {
+    "@language" : "en",
+    "@value" : "Magalie Weber"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://orcid.org/0000-0001-6573-4070"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://schema.org/Person"
+  } ],
+  "http://www.w3.org/ns/org#memberOf" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://schema.org/url" : [ {
+    "@value" : "https://www.inrae.fr/"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "INRAE, France"
   } ]
 }, {
   "@id" : "_:genid7",
@@ -219,13 +213,13 @@
   "@id" : "_:genid9",
   "http://schema.org/name" : [ {
     "@language" : "fr",
-    "@value" : "Magalie Weber"
+    "@value" : "Christophe Fernandez"
   }, {
     "@language" : "en",
-    "@value" : "Magalie Weber"
+    "@value" : "Christophe Fernandez"
   } ],
   "http://schema.org/url" : [ {
-    "@id" : "https://orcid.org/0000-0001-6573-4070"
+    "@id" : "https://orcid.org/0000-0001-6765-4680"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://schema.org/Person"
@@ -1824,9 +1818,6 @@
   "http://schema.org/citation" : [ {
     "@language" : "en",
     "@value" : "Cite this vocabulary as: Raphael Conde Salazar , Cedric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309"
-  }, {
-    "@language" : "fr",
-    "@value" : "Cite this vocabulary as: Raphaël Conde Salazar , Cédric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309"
   } ],
   "http://schema.org/creator" : [ {
     "@id" : "_:genid1"

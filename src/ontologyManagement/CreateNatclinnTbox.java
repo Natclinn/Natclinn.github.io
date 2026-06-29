@@ -149,9 +149,10 @@ public class CreateNatclinnTbox {
         ont.addProperty(om.createProperty(schema + "citation"),
                 "Cite this vocabulary as: Raphael Conde Salazar , Cedric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309", "en");
 
-		 ont.addProperty(om.createProperty(schema + "citation"),
-                "Cite this vocabulary as: Raphaël Conde Salazar , Cédric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309", "fr");
-        // Introduction
+		//ont.addProperty(om.createProperty(schema + "citation"),
+        //        "Cite this vocabulary as: Raphaël Conde Salazar , Cédric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309", "fr");
+        
+		// Introduction
         ont.addProperty(om.createProperty(vocab + "introduction"),
                 "NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s'achèvera fin 2027.", "fr");
         ont.addProperty(om.createProperty(vocab + "introduction"),
@@ -175,7 +176,7 @@ public class CreateNatclinnTbox {
         person1.addProperty(om.createProperty(org + "memberOf"), org1);
         person1.addProperty(om.createProperty(schema + "familyName"), "Conde Salazar", "fr");
         person1.addProperty(om.createProperty(schema + "familyName"), "Conde Salazar", "en");
-        person1.addProperty(om.createProperty(schema + "name"), "Raphaël Conde Salazar", "fr");
+        //person1.addProperty(om.createProperty(schema + "name"), "Raphaël Conde Salazar", "fr");
         person1.addProperty(om.createProperty(schema + "name"), "Raphael Conde Salazar", "en");
         person1.addProperty(om.createProperty(schema + "url"), om.createResource("https://orcid.org/0000-0002-6926-5299"));
         ont.addProperty(om.createProperty(schema + "creator"), person1);
@@ -228,7 +229,7 @@ public class CreateNatclinnTbox {
         org5.addProperty(om.createProperty(foaf + "name"), "INRAE, France");
         org5.addProperty(om.createProperty(schema + "url"), "https://www.inrae.fr/");
         person5.addProperty(om.createProperty(org + "memberOf"), org5);
-        person5.addProperty(om.createProperty(schema + "name"), "Cédric Baudrit", "fr");
+        //person5.addProperty(om.createProperty(schema + "name"), "Cédric Baudrit", "fr");
         person5.addProperty(om.createProperty(schema + "name"), "Cedric Baudrit", "en");
         person5.addProperty(om.createProperty(schema + "url"), om.createResource("https://orcid.org/0000-0003-4320-3345"));
         ont.addProperty(om.createProperty(schema + "creator"), person5);

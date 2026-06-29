@@ -8,7 +8,7 @@
     },
     "iri" : "https://natclinn.github.io/NatclinnTbox",
     "version" : "1.0.2",
-    "author" : [ "_:genid2147483657", "_:genid2147483665", "_:genid2147483649", "_:genid2147483669", "_:genid2147483653", "_:genid2147483661", "Raphael CONDE SALAZAR, Cedric Baudrit, Pierre BISQUERT, Christophe Fernandez, Rallou THOMOPOULOS, Magalie Weber" ],
+    "author" : [ "_:genid2147483657", "_:genid2147483665", "_:genid2147483649", "_:genid2147483669", "_:genid2147483653", "Raphael CONDE SALAZAR, Cedric Baudrit, Pierre BISQUERT, Christophe Fernandez, Rallou THOMOPOULOS, Magalie Weber", "_:genid2147483661" ],
     "description" : {
       "en" : "Tbox for the Natcl'inn ontology",
       "fr" : "Tbox pour l'ontologie Natcl'inn"
@@ -25,17 +25,7 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "_:genid2147483657",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "_:genid2147483669",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "_:genid2147483661",
+        "value" : "Raphael CONDE SALAZAR, Cedric Baudrit, Pierre BISQUERT, Christophe Fernandez, Rallou THOMOPOULOS, Magalie Weber",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -45,17 +35,27 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Raphael CONDE SALAZAR, Cedric Baudrit, Pierre BISQUERT, Christophe Fernandez, Rallou THOMOPOULOS, Magalie Weber",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
         "value" : "_:genid2147483649",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
+        "value" : "_:genid2147483669",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
         "value" : "_:genid2147483653",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483657",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483661",
         "type" : "label"
       } ],
       "funding" : [ {
@@ -68,11 +68,6 @@
         "identifier" : "citation",
         "language" : "en",
         "value" : "Cite this vocabulary as: Raphael Conde Salazar , Cedric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309",
-        "type" : "label"
-      }, {
-        "identifier" : "citation",
-        "language" : "fr",
-        "value" : "Cite this vocabulary as: Raphaël Conde Salazar , Cédric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309",
         "type" : "label"
       } ],
       "created" : [ {
@@ -147,25 +142,25 @@
       } ],
       "introduction" : [ {
         "identifier" : "introduction",
-        "language" : "fr",
-        "value" : "NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s'achèvera fin 2027.",
-        "type" : "label"
-      }, {
-        "identifier" : "introduction",
         "language" : "en",
         "value" : "NATCL’INN aims to offer a solution to agri-food companies that need to balance different product attributes related to naturalness in order to meet new consumer expectations and perceptions regarding food naturalness. In order to propose a prototype Decision Support Tool, the R&D teams at ADRIA, the LEGO laboratory at the University of Western Brittany (UBO), INRAE research units and their industrial partners (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) have joined forces to carry out an ambitious collaborative R&D programme. The NATCL'INN project has been certified by the VALORIAL competitiveness cluster and has received support from the Brittany Region, the Pays de la Loire Region and Quimper Bretagne Occidentale. The project began on 1 January 2024 and will be completed at the end of 2027",
         "type" : "label"
-      } ],
-      "doi" : [ {
-        "identifier" : "doi",
-        "language" : "undefined",
-        "value" : "https://doi.org/10.57745/PKKGWE",
-        "type" : "iri"
+      }, {
+        "identifier" : "introduction",
+        "language" : "fr",
+        "value" : "NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s'achèvera fin 2027.",
+        "type" : "label"
       } ],
       "status" : [ {
         "identifier" : "status",
         "language" : "undefined",
         "value" : "http://purl.org/ontology/bibo/status/draft",
+        "type" : "iri"
+      } ],
+      "doi" : [ {
+        "identifier" : "doi",
+        "language" : "undefined",
+        "value" : "https://doi.org/10.57745/PKKGWE",
         "type" : "iri"
       } ]
     }
@@ -175,19 +170,19 @@
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "50",
     "type" : "owl:Thing"
   }, {
-    "id" : "76",
+    "id" : "74",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "80",
+    "id" : "78",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "81",
+    "id" : "79",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "85",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "90",
@@ -199,55 +194,55 @@
     "id" : "98",
     "type" : "owl:Thing"
   }, {
-    "id" : "36",
+    "id" : "68",
     "type" : "owl:Class"
-  }, {
-    "id" : "55",
-    "type" : "owl:Class"
-  }, {
-    "id" : "108",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "110",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "115",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "119",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "124",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "127",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "130",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "133",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "136",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "139",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "121",
-    "type" : "rdfs:Datatype"
   }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "148",
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "47",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "152",
+    "id" : "153",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "156",
@@ -283,28 +278,28 @@
     "id" : "187",
     "type" : "owl:Class"
   }, {
-    "id" : "107",
+    "id" : "108",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "17",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "34",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
     "id" : "277",
     "type" : "owl:Class"
   }, {
-    "id" : "284",
+    "id" : "58",
     "type" : "owl:Class"
   }, {
-    "id" : "60",
+    "id" : "284",
     "type" : "owl:Class"
   }, {
     "id" : "325",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "63",
     "type" : "owl:Class"
   }, {
     "id" : "11",
@@ -325,7 +320,7 @@
     "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
+    "id" : "80",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -355,7 +350,7 @@
     "id" : "457",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "102",
     "type" : "owl:Class"
   }, {
     "id" : "357",
@@ -364,7 +359,7 @@
     "id" : "381",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
     "id" : "19",
@@ -382,31 +377,31 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "38",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
     "id" : "349",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "392",
-    "type" : "owl:Class"
-  }, {
     "id" : "535",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "392",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
     "type" : "owl:Class"
   }, {
     "id" : "361",
@@ -421,37 +416,37 @@
     "id" : "450",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "75",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "112",
+    "id" : "113",
     "type" : "owl:Class"
   }, {
     "id" : "46",
     "type" : "owl:Class"
   }, {
-    "id" : "64",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "154",
+    "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "72",
+    "id" : "36",
     "type" : "owl:Class"
   }, {
-    "id" : "67",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
     "id" : "367",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "84",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -486,21 +481,21 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "51",
+    "id" : "50",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "76",
+    "id" : "74",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "80",
+    "id" : "78",
     "label" : {
       "IRI-based" : "string"
     }
@@ -511,13 +506,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient d'origine végétale",
+        "language" : "en",
+        "value" : "Plant origin ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Plant origin ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient d'origine végétale",
         "type" : "label"
       } ]
     },
@@ -531,12 +526,12 @@
       "fr" : "Ingrédient d'origine végétale."
     },
     "attributes" : [ "external" ],
-    "id" : "81",
-    "superClasses" : [ "82" ]
+    "id" : "79",
+    "superClasses" : [ "80" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "86",
+    "id" : "85",
     "label" : {
       "IRI-based" : "string"
     }
@@ -588,7 +583,7 @@
       "fr" : "Extrait d'une phrase soutenant l'argument."
     },
     "attributes" : [ "external" ],
-    "id" : "36",
+    "id" : "68",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/Context",
@@ -612,88 +607,88 @@
       "en" : "Context",
       "fr" : "Contexte"
     },
-    "subClasses" : [ "54", "60" ],
+    "subClasses" : [ "54", "58" ],
     "comment" : {
       "en" : "The context in which the argument is relevant.",
       "fr" : "Le contexte dans lequel l'argument est pertinent."
     },
     "attributes" : [ "external" ],
-    "id" : "55",
+    "id" : "13",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "108",
+    "id" : "109",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "110",
+    "id" : "111",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "115",
+    "id" : "116",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "119",
+    "id" : "120",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "124",
+    "id" : "125",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "127",
+    "id" : "128",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "130",
+    "id" : "131",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "133",
+    "id" : "134",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "136",
+    "id" : "137",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "139",
+    "id" : "140",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "121",
+    "id" : "122",
     "label" : {
       "IRI-based" : "double"
     }
@@ -704,13 +699,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Origin",
+        "language" : "fr",
+        "value" : "Origine",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Origine",
+        "language" : "en",
+        "value" : "Origin",
         "type" : "label"
       } ]
     },
@@ -724,12 +719,12 @@
       "fr" : "Origine de l'ingrédient (origine UE, origine Vietnam, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "13",
+    "id" : "31",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "148",
+    "id" : "149",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
@@ -743,7 +738,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "152",
+    "id" : "153",
     "label" : {
       "IRI-based" : "string"
     }
@@ -810,13 +805,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Attribute",
+        "language" : "fr",
+        "value" : "Attribut",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Attribut",
+        "language" : "en",
+        "value" : "Attribute",
         "type" : "label"
       } ]
     },
@@ -867,11 +862,11 @@
     },
     "attributes" : [ "external" ],
     "id" : "187",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "80" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "107",
+    "id" : "108",
     "label" : {
       "IRI-based" : "string"
     }
@@ -882,13 +877,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Tag argument binding",
+        "language" : "fr",
+        "value" : "Liaison tag-argument",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Liaison tag-argument",
+        "language" : "en",
+        "value" : "Tag argument binding",
         "type" : "label"
       } ]
     },
@@ -902,7 +897,7 @@
       "fr" : "Objet de liaison portant les attributs d'argumentation associés à un tag."
     },
     "attributes" : [ "external" ],
-    "id" : "17",
+    "id" : "25",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/QuantifiedElement",
@@ -911,13 +906,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Quantified element",
+        "language" : "fr",
+        "value" : "Élément quantifié",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Élément quantifié",
+        "language" : "en",
+        "value" : "Quantified element",
         "type" : "label"
       } ]
     },
@@ -931,7 +926,7 @@
       "fr" : "Un élément d'une composition de produit incluant quantité, unité, pourcentage et rang."
     },
     "attributes" : [ "external" ],
-    "id" : "34",
+    "id" : "29",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/CompositeProduct",
@@ -961,36 +956,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "277",
-    "superClasses" : [ "50" ]
-  }, {
-    "iri" : "https://natclinn.github.io/AdditiveIngredient",
-    "baseIri" : "https://natclinn.github.io",
-    "instances" : 0,
-    "annotations" : {
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient additif",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Additive ingredient",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "AdditiveIngredient",
-      "en" : "Additive ingredient",
-      "fr" : "Ingrédient additif"
-    },
-    "comment" : {
-      "en" : "Ingredient used as an additive (e.g., colorant, preservative).",
-      "fr" : "Ingrédient utilisé comme additif (colorant, conservateur…)."
-    },
-    "attributes" : [ "external" ],
-    "id" : "284",
-    "superClasses" : [ "285" ]
+    "superClasses" : [ "8" ]
   }, {
     "iri" : "https://natclinn.github.io/ContextIngredient",
     "baseIri" : "https://natclinn.github.io",
@@ -1018,8 +984,37 @@
       "fr" : "Le contexte ingrédient dans lequel un argument est pertinent."
     },
     "attributes" : [ "external" ],
-    "id" : "60",
-    "superClasses" : [ "55" ]
+    "id" : "58",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://natclinn.github.io/AdditiveIngredient",
+    "baseIri" : "https://natclinn.github.io",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Additive ingredient",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "fr",
+        "value" : "Ingrédient additif",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AdditiveIngredient",
+      "en" : "Additive ingredient",
+      "fr" : "Ingrédient additif"
+    },
+    "comment" : {
+      "en" : "Ingredient used as an additive (e.g., colorant, preservative).",
+      "fr" : "Ingrédient utilisé comme additif (colorant, conservateur…)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "284",
+    "superClasses" : [ "285" ]
   }, {
     "iri" : "https://natclinn.github.io/SyntheticOrBiotechIngredient",
     "baseIri" : "https://natclinn.github.io",
@@ -1027,13 +1022,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Synthetic or biotech ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient d'origine synthétique ou biotechnologique",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient d'origine synthétique ou biotechnologique",
+        "language" : "en",
+        "value" : "Synthetic or biotech ingredient",
         "type" : "label"
       } ]
     },
@@ -1048,7 +1043,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "325",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "80" ]
   }, {
     "iri" : "https://natclinn.github.io/ProductArgument",
     "baseIri" : "https://natclinn.github.io",
@@ -1056,13 +1051,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Argument produit",
+        "language" : "en",
+        "value" : "Product argument",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Product argument",
+        "language" : "fr",
+        "value" : "Argument produit",
         "type" : "label"
       } ]
     },
@@ -1076,7 +1071,7 @@
       "fr" : "Un argument lié à la naturalité d'un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "21",
+    "id" : "63",
     "superClasses" : [ "11", "327" ]
   }, {
     "iri" : "https://natclinn.github.io/NCL",
@@ -1100,7 +1095,7 @@
       "en" : "NCL",
       "fr" : "NCL"
     },
-    "subClasses" : [ "26", "43", "10", "19", "17", "1", "38", "13", "57", "328", "7", "15", "75", "64", "30", "154", "72", "67", "23", "36", "21", "55", "2", "8", "4", "5", "34", "112", "185" ],
+    "subClasses" : [ "26", "5", "10", "19", "25", "1", "21", "31", "102", "328", "7", "41", "17", "2", "15", "87", "71", "36", "52", "68", "63", "13", "60", "84", "4", "34", "29", "113", "185" ],
     "comment" : {
       "en" : "NCL is the set of product and arguments.",
       "fr" : "NCL est l'ensemble des produits et des arguments."
@@ -1114,13 +1109,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient ultra-transformé",
+        "language" : "en",
+        "value" : "Ultra-processed ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ultra-processed ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient ultra-transformé",
         "type" : "label"
       } ]
     },
@@ -1171,13 +1166,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Détail Nutri-Score",
+        "language" : "en",
+        "value" : "Nutri-Score detail",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Nutri-Score detail",
+        "language" : "fr",
+        "value" : "Détail Nutri-Score",
         "type" : "label"
       } ]
     },
@@ -1229,13 +1224,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Product context",
+        "language" : "fr",
+        "value" : "Contexte produit",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Contexte produit",
+        "language" : "en",
+        "value" : "Product context",
         "type" : "label"
       } ]
     },
@@ -1250,7 +1245,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "54",
-    "superClasses" : [ "55" ]
+    "superClasses" : [ "13" ]
   }, {
     "iri" : "https://natclinn.github.io/IngredientByOrigin",
     "baseIri" : "https://natclinn.github.io",
@@ -1258,13 +1253,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient par origine",
+        "language" : "en",
+        "value" : "Ingredient by origin",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ingredient by origin",
+        "language" : "fr",
+        "value" : "Ingrédient par origine",
         "type" : "label"
       } ]
     },
@@ -1273,13 +1268,13 @@
       "en" : "Ingredient by origin",
       "fr" : "Ingrédient par origine"
     },
-    "subClasses" : [ "381", "81", "325", "384", "187" ],
+    "subClasses" : [ "381", "79", "325", "384", "187" ],
     "comment" : {
       "en" : "Ingredient classified by its origin.",
       "fr" : "Ingrédient classé selon son origine."
     },
     "attributes" : [ "external" ],
-    "id" : "82",
+    "id" : "80",
     "superClasses" : [ "46" ]
   }, {
     "iri" : "https://natclinn.github.io/CleanLabel",
@@ -1338,7 +1333,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "384",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "80" ]
   }, {
     "iri" : "http://www.arg.dundee.ac.uk/aif#Node",
     "baseIri" : "http://www.arg.dundee.ac.uk/aif",
@@ -1346,13 +1341,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Argumentation node",
+        "language" : "fr",
+        "value" : "Noeud d'argumentation",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Noeud d'argumentation",
+        "language" : "en",
+        "value" : "Argumentation node",
         "type" : "label"
       } ]
     },
@@ -1361,7 +1356,7 @@
       "en" : "Argumentation node",
       "fr" : "Noeud d'argumentation"
     },
-    "subClasses" : [ "21" ],
+    "subClasses" : [ "63" ],
     "comment" : {
       "en" : "Abstract class for argumentation nodes.",
       "fr" : "Un nœud dans un graphe d'argumentation."
@@ -1371,22 +1366,22 @@
   }, {
     "instances" : 0,
     "union" : [ "277", "450" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "437"
   }, {
     "instances" : 0,
-    "union" : [ "46", "50" ],
-    "attributes" : [ "anonymous", "union" ],
+    "union" : [ "46", "8" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "438"
   }, {
     "instances" : 0,
-    "union" : [ "46", "50" ],
-    "attributes" : [ "anonymous", "union" ],
+    "union" : [ "46", "8" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "423"
   }, {
     "instances" : 0,
-    "union" : [ "46", "15", "26", "43", "10", "13", "19", "50", "1" ],
-    "attributes" : [ "anonymous", "union" ],
+    "union" : [ "46", "41", "26", "5", "10", "31", "19", "8", "1" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "274"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -1402,13 +1397,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Personne",
+        "language" : "en",
+        "value" : "Person",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Person",
+        "language" : "fr",
+        "value" : "Personne",
         "type" : "label"
       } ]
     },
@@ -1430,13 +1425,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Source type",
+        "language" : "fr",
+        "value" : "Type de source",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Type de source",
+        "language" : "en",
+        "value" : "Source type",
         "type" : "label"
       } ]
     },
@@ -1450,7 +1445,7 @@
       "fr" : "Le type de source d'un argument (expert, article peer-reviewed, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "57",
+    "id" : "102",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/SimpleProduct",
@@ -1480,7 +1475,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "357",
-    "superClasses" : [ "50" ]
+    "superClasses" : [ "8" ]
   }, {
     "iri" : "https://natclinn.github.io/AnimalOriginIngredient",
     "baseIri" : "https://natclinn.github.io",
@@ -1488,13 +1483,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Animal origin ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient d'origine animale",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient d'origine animale",
+        "language" : "en",
+        "value" : "Animal origin ingredient",
         "type" : "label"
       } ]
     },
@@ -1509,7 +1504,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "381",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "80" ]
   }, {
     "iri" : "https://natclinn.github.io/NaturalnessScore",
     "baseIri" : "https://natclinn.github.io",
@@ -1537,7 +1532,7 @@
       "fr" : "Ressource de score représentant le niveau global de naturalité d'un produit."
     },
     "attributes" : [ "external" ],
-    "id" : "2",
+    "id" : "60",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/Packaging",
@@ -1575,13 +1570,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient par fonction",
+        "language" : "en",
+        "value" : "Ingredient by function",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ingredient by function",
+        "language" : "fr",
+        "value" : "Ingrédient par fonction",
         "type" : "label"
       } ]
     },
@@ -1605,13 +1600,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient technologique",
+        "language" : "en",
+        "value" : "Technological ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Technological ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient technologique",
         "type" : "label"
       } ]
     },
@@ -1692,13 +1687,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Matière",
+        "language" : "en",
+        "value" : "Material",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Material",
+        "language" : "fr",
+        "value" : "Matière",
         "type" : "label"
       } ]
     },
@@ -1712,7 +1707,7 @@
       "fr" : "La matière de l'emballage du produit."
     },
     "attributes" : [ "external" ],
-    "id" : "5",
+    "id" : "34",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/NOVAgroupDetails",
@@ -1741,7 +1736,7 @@
       "fr" : "Détails de la classification NOVA depuis Open Food Facts."
     },
     "attributes" : [ "external" ],
-    "id" : "38",
+    "id" : "21",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/MainComponentIngredient",
@@ -1750,13 +1745,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Main component ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient composant principal",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient composant principal",
+        "language" : "en",
+        "value" : "Main component ingredient",
         "type" : "label"
       } ]
     },
@@ -1779,13 +1774,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Produit",
+        "language" : "en",
+        "value" : "Product",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Product",
+        "language" : "fr",
+        "value" : "Produit",
         "type" : "label"
       } ]
     },
@@ -1800,8 +1795,8 @@
       "fr" : "Un produit de l'industrie alimentaire."
     },
     "attributes" : [ "external" ],
-    "id" : "50",
-    "superClasses" : [ "112" ]
+    "id" : "8",
+    "superClasses" : [ "113" ]
   }, {
     "iri" : "https://natclinn.github.io/Allegation",
     "baseIri" : "https://natclinn.github.io",
@@ -1809,13 +1804,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Allégation",
+        "language" : "en",
+        "value" : "Allegation",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Allegation",
+        "language" : "fr",
+        "value" : "Allégation",
         "type" : "label"
       } ]
     },
@@ -1832,48 +1827,19 @@
     "id" : "10",
     "superClasses" : [ "11" ]
   }, {
-    "iri" : "https://natclinn.github.io/FunctionalNutrientIngredient",
-    "baseIri" : "https://natclinn.github.io",
-    "instances" : 0,
-    "annotations" : {
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Functional nutrient ingredient",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient nutriment fonctionnel",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "FunctionalNutrientIngredient",
-      "en" : "Functional nutrient ingredient",
-      "fr" : "Ingrédient nutriment fonctionnel"
-    },
-    "comment" : {
-      "en" : "Ingredient providing nutritional or health benefits.",
-      "fr" : "Ingrédient apportant des bénéfices nutritionnels ou santé."
-    },
-    "attributes" : [ "external" ],
-    "id" : "392",
-    "superClasses" : [ "285" ]
-  }, {
     "iri" : "https://natclinn.github.io/ProcessedIngredient",
     "baseIri" : "https://natclinn.github.io",
     "instances" : 0,
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Processed ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient transformé",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient transformé",
+        "language" : "en",
+        "value" : "Processed ingredient",
         "type" : "label"
       } ]
     },
@@ -1890,18 +1856,47 @@
     "id" : "535",
     "superClasses" : [ "367" ]
   }, {
-    "iri" : "https://natclinn.github.io/Tag",
+    "iri" : "https://natclinn.github.io/FunctionalNutrientIngredient",
     "baseIri" : "https://natclinn.github.io",
     "instances" : 0,
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
         "language" : "fr",
-        "value" : "Tag",
+        "value" : "Ingrédient nutriment fonctionnel",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
         "language" : "en",
+        "value" : "Functional nutrient ingredient",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FunctionalNutrientIngredient",
+      "en" : "Functional nutrient ingredient",
+      "fr" : "Ingrédient nutriment fonctionnel"
+    },
+    "comment" : {
+      "en" : "Ingredient providing nutritional or health benefits.",
+      "fr" : "Ingrédient apportant des bénéfices nutritionnels ou santé."
+    },
+    "attributes" : [ "external" ],
+    "id" : "392",
+    "superClasses" : [ "285" ]
+  }, {
+    "iri" : "https://natclinn.github.io/Tag",
+    "baseIri" : "https://natclinn.github.io",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Tag",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "fr",
         "value" : "Tag",
         "type" : "label"
       } ]
@@ -1916,7 +1911,7 @@
       "fr" : "Un tag utilisé pour qualifier les liens d'argumentation produit."
     },
     "attributes" : [ "external" ],
-    "id" : "23",
+    "id" : "52",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/ManufacturingProcess",
@@ -1945,7 +1940,7 @@
       "fr" : "La manière dont le produit est fabriqué."
     },
     "attributes" : [ "external" ],
-    "id" : "43",
+    "id" : "5",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/SimpleIngredient",
@@ -1954,13 +1949,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient simple",
+        "language" : "en",
+        "value" : "Simple ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Simple ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient simple",
         "type" : "label"
       } ]
     },
@@ -1983,13 +1978,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Raw ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient brut",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient brut",
+        "language" : "en",
+        "value" : "Raw ingredient",
         "type" : "label"
       } ]
     },
@@ -2070,12 +2065,12 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
+        "language" : "fr",
         "value" : "Nutri-Score",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
+        "language" : "en",
         "value" : "Nutri-Score",
         "type" : "label"
       } ]
@@ -2090,7 +2085,7 @@
       "fr" : "Nutri-Score."
     },
     "attributes" : [ "external" ],
-    "id" : "15",
+    "id" : "41",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/Stakeholder",
@@ -2119,7 +2114,7 @@
       "fr" : "Le partie prenante faisant l'argument (consommateur, fabricant, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "75",
+    "id" : "17",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/Resource",
@@ -2128,13 +2123,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Resource",
+        "language" : "fr",
+        "value" : "Ressource",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ressource",
+        "language" : "en",
+        "value" : "Resource",
         "type" : "label"
       } ]
     },
@@ -2143,13 +2138,13 @@
       "en" : "Resource",
       "fr" : "Ressource"
     },
-    "subClasses" : [ "46", "50" ],
+    "subClasses" : [ "46", "8" ],
     "comment" : {
       "en" : "Abstract class Resource, from which Product and Ingredient inherit.",
       "fr" : "Classe abstraite Resource, dont héritent Produit et Ingrédient."
     },
     "attributes" : [ "external" ],
-    "id" : "112",
+    "id" : "113",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/Ingredient",
@@ -2158,13 +2153,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient",
+        "language" : "en",
+        "value" : "Ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ingredient",
+        "language" : "fr",
+        "value" : "Ingrédient",
         "type" : "label"
       } ]
     },
@@ -2173,14 +2168,14 @@
       "en" : "Ingredient",
       "fr" : "Ingrédient"
     },
-    "subClasses" : [ "361", "82", "367", "450", "285" ],
+    "subClasses" : [ "361", "80", "367", "450", "285" ],
     "comment" : {
       "en" : "An ingredient used in a product.",
       "fr" : "Un ingrédient utilisé dans un produit."
     },
     "attributes" : [ "external" ],
     "id" : "46",
-    "superClasses" : [ "112" ]
+    "superClasses" : [ "113" ]
   }, {
     "iri" : "https://natclinn.github.io/Subcategory",
     "baseIri" : "https://natclinn.github.io",
@@ -2188,13 +2183,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Sous-catégorie",
+        "language" : "en",
+        "value" : "Subcategory",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Subcategory",
+        "language" : "fr",
+        "value" : "Sous-catégorie",
         "type" : "label"
       } ]
     },
@@ -2208,7 +2203,7 @@
       "fr" : "Sous-catégorie de l'argument."
     },
     "attributes" : [ "external" ],
-    "id" : "64",
+    "id" : "2",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/FNI",
@@ -2237,36 +2232,7 @@
       "fr" : "Indice de naturalité d'un produit alimentaire."
     },
     "attributes" : [ "external" ],
-    "id" : "154",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "https://natclinn.github.io/Category",
-    "baseIri" : "https://natclinn.github.io",
-    "instances" : 0,
-    "annotations" : {
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Category",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Catégorie",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Category",
-      "en" : "Category",
-      "fr" : "Catégorie"
-    },
-    "comment" : {
-      "en" : "Main category of the argument (e.g., 'Mode de culture et d'élevage').",
-      "fr" : "Catégorie principale de l'argument (ex: 'Mode de culture et d'élevage')."
-    },
-    "attributes" : [ "external" ],
-    "id" : "72",
+    "id" : "87",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/NutriScoreAlpha",
@@ -2295,7 +2261,36 @@
       "fr" : "Nutri-Score alpha."
     },
     "attributes" : [ "external" ],
-    "id" : "67",
+    "id" : "36",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://natclinn.github.io/Category",
+    "baseIri" : "https://natclinn.github.io",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Category",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "fr",
+        "value" : "Catégorie",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Category",
+      "en" : "Category",
+      "fr" : "Catégorie"
+    },
+    "comment" : {
+      "en" : "Main category of the argument (e.g., 'Mode de culture et d'élevage').",
+      "fr" : "Catégorie principale de l'argument (ex: 'Mode de culture et d'élevage')."
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/IngredientByTransformationDegree",
@@ -2304,13 +2299,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Ingredient by transformation degree",
+        "language" : "fr",
+        "value" : "Ingrédient par degré de transformation",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Ingrédient par degré de transformation",
+        "language" : "en",
+        "value" : "Ingredient by transformation degree",
         "type" : "label"
       } ]
     },
@@ -2334,13 +2329,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Forme",
+        "language" : "en",
+        "value" : "Shape",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Shape",
+        "language" : "fr",
+        "value" : "Forme",
         "type" : "label"
       } ]
     },
@@ -2354,7 +2349,7 @@
       "fr" : "La forme de l'emballage du produit."
     },
     "attributes" : [ "external" ],
-    "id" : "30",
+    "id" : "15",
     "superClasses" : [ "11" ]
   }, {
     "iri" : "https://natclinn.github.io/Source",
@@ -2363,12 +2358,12 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
+        "language" : "en",
         "value" : "Source",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
+        "language" : "fr",
         "value" : "Source",
         "type" : "label"
       } ]
@@ -2383,7 +2378,7 @@
       "fr" : "La source d'un argument (consommateur, article scientifique, etc.)."
     },
     "attributes" : [ "external" ],
-    "id" : "8",
+    "id" : "84",
     "superClasses" : [ "11" ]
   } ],
   "property" : [ {
@@ -2417,10 +2412,10 @@
     "id" : "22",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "24",
+    "id" : "23",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "25",
+    "id" : "24",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "27",
@@ -2429,14 +2424,11 @@
     "id" : "28",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "29",
+    "id" : "30",
     "type" : "owl:disjointWith"
-  }, {
-    "id" : "31",
-    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "32",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "33",
     "type" : "owl:disjointWith"
@@ -2445,6 +2437,9 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "39",
@@ -2453,10 +2448,10 @@
     "id" : "40",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "41",
+    "id" : "42",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "42",
+    "id" : "43",
     "type" : "owl:disjointWith"
   }, {
     "id" : "44",
@@ -2471,20 +2466,23 @@
     "id" : "49",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "52",
+    "id" : "51",
     "type" : "owl:disjointWith"
   }, {
     "id" : "53",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "56",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "58",
-    "type" : "owl:disjointWith"
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "59",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "61",
     "type" : "owl:disjointWith"
@@ -2492,52 +2490,49 @@
     "id" : "62",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "63",
-    "type" : "owl:disjointWith"
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "65",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "66",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "68",
+    "id" : "67",
     "type" : "owl:disjointWith"
   }, {
     "id" : "69",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "70",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "71",
+    "id" : "70",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "72",
     "type" : "owl:disjointWith"
   }, {
     "id" : "73",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "74",
+    "id" : "75",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "76",
     "type" : "owl:disjointWith"
   }, {
     "id" : "77",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "78",
+    "id" : "81",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "79",
+    "id" : "82",
     "type" : "owl:disjointWith"
   }, {
     "id" : "83",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "84",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "85",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "owl:disjointWith"
   }, {
     "id" : "88",
@@ -2573,9 +2568,6 @@
     "id" : "101",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "102",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "103",
     "type" : "owl:disjointWith"
   }, {
@@ -2583,24 +2575,24 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "105",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "106",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "109",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "111",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "113",
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "114",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "116",
+    "id" : "115",
     "type" : "owl:disjointWith"
   }, {
     "id" : "117",
@@ -2609,46 +2601,46 @@
     "id" : "118",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "120",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "122",
+    "id" : "119",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "123",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "125",
+    "id" : "124",
     "type" : "owl:disjointWith"
   }, {
     "id" : "126",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "128",
+    "id" : "127",
     "type" : "owl:disjointWith"
   }, {
     "id" : "129",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "131",
+    "id" : "130",
     "type" : "owl:disjointWith"
   }, {
     "id" : "132",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "134",
+    "id" : "133",
     "type" : "owl:disjointWith"
   }, {
     "id" : "135",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "137",
+    "id" : "136",
     "type" : "owl:disjointWith"
   }, {
     "id" : "138",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "140",
+    "id" : "139",
     "type" : "owl:disjointWith"
   }, {
     "id" : "141",
@@ -2664,16 +2656,16 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "145",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "146",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "147",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "149",
-    "type" : "owl:disjointWith"
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "150",
     "type" : "owl:disjointWith"
@@ -2681,7 +2673,10 @@
     "id" : "151",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "153",
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "154",
     "type" : "owl:disjointWith"
   }, {
     "id" : "155",
@@ -3771,7 +3766,7 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "555",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "556",
     "type" : "owl:disjointWith"
@@ -4065,7 +4060,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "653",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
     "range" : "2",
@@ -4113,82 +4108,82 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "20"
   }, {
-    "range" : "23",
+    "range" : "7",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "22"
   }, {
-    "range" : "21",
+    "range" : "15",
     "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "11",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "24"
   }, {
-    "range" : "11",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "25"
-  }, {
-    "range" : "17",
+    "range" : "5",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "27"
   }, {
-    "range" : "7",
+    "range" : "29",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
-    "range" : "30",
-    "domain" : "13",
+    "range" : "2",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "29"
+    "id" : "30"
   }, {
     "range" : "11",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "31"
-  }, {
-    "range" : "19",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "32"
   }, {
     "range" : "34",
-    "domain" : "4",
+    "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "33"
   }, {
     "range" : "36",
-    "domain" : "13",
+    "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "35"
   }, {
-    "range" : "11",
-    "domain" : "38",
+    "range" : "29",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "37"
   }, {
-    "range" : "15",
+    "range" : "11",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "4",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "39"
   }, {
-    "range" : "19",
+    "range" : "41",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "40"
   }, {
-    "range" : "19",
-    "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "41"
-  }, {
-    "range" : "43",
-    "domain" : "1",
+    "range" : "25",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "42"
   }, {
-    "range" : "43",
+    "range" : "26",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "34",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "44"
@@ -4219,17 +4214,17 @@
       "en" : "Ciqual code for a food industry product.",
       "fr" : "Code Ciqual d'un produit de l'industrie agroalimentaire."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "45"
   }, {
-    "range" : "26",
+    "range" : "41",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "48"
   }, {
     "iri" : "https://natclinn.github.io/hasNOVAgroupDetails",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "38",
+    "range" : "21",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -4248,7 +4243,7 @@
       "en" : "Has NOVA group details",
       "fr" : "A pour détails du groupe NOVA"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its NOVA group classification details.",
       "fr" : "Relie un produit aux détails de sa classification NOVA."
@@ -4256,190 +4251,190 @@
     "attributes" : [ "external", "object" ],
     "id" : "49"
   }, {
-    "range" : "19",
+    "range" : "52",
     "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "52"
+    "id" : "51"
   }, {
-    "range" : "55",
+    "range" : "13",
     "domain" : "54",
     "attributes" : [ "anonymous", "object" ],
     "id" : "53"
   }, {
-    "range" : "57",
+    "range" : "2",
     "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "2",
+    "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "56"
   }, {
-    "range" : "23",
-    "domain" : "7",
+    "range" : "13",
+    "domain" : "58",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "58"
+    "id" : "57"
   }, {
-    "range" : "55",
-    "domain" : "60",
+    "range" : "60",
+    "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "59"
-  }, {
-    "range" : "38",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "61"
-  }, {
-    "range" : "30",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "62"
-  }, {
-    "range" : "64",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "63"
-  }, {
-    "range" : "11",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "65"
-  }, {
-    "range" : "67",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "66"
-  }, {
-    "range" : "64",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "68"
-  }, {
-    "range" : "13",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "69"
-  }, {
-    "range" : "11",
-    "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "70"
-  }, {
-    "range" : "1",
-    "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "71"
-  }, {
-    "range" : "57",
-    "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "73"
-  }, {
-    "range" : "75",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "74"
-  }, {
-    "range" : "26",
-    "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "77"
-  }, {
-    "range" : "50",
-    "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "78"
-  }, {
-    "range" : "75",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "79"
-  }, {
-    "range" : "30",
-    "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "83"
-  }, {
-    "range" : "5",
-    "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "84"
-  }, {
-    "range" : "34",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "85"
-  }, {
-    "range" : "57",
-    "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "87"
   }, {
     "range" : "17",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "63",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "11",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "31",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "52",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "68",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "11",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "1",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "2",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "31",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "63",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "29",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "19",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "34",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "5",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "84",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "87",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "19",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "88"
   }, {
-    "range" : "36",
+    "range" : "29",
     "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "89"
   }, {
-    "range" : "13",
-    "domain" : "72",
+    "range" : "68",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "91"
   }, {
-    "range" : "13",
+    "range" : "60",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "92"
   }, {
-    "range" : "57",
+    "range" : "31",
     "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
-    "range" : "2",
-    "domain" : "72",
+    "range" : "17",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "95"
   }, {
-    "range" : "2",
+    "range" : "8",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "96"
   }, {
-    "range" : "50",
+    "range" : "25",
     "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "97"
   }, {
-    "range" : "55",
-    "domain" : "72",
+    "range" : "2",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "99"
   }, {
-    "range" : "38",
+    "range" : "84",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
-    "range" : "30",
+    "range" : "102",
     "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
-    "range" : "34",
-    "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "102"
-  }, {
-    "range" : "67",
-    "domain" : "4",
+    "range" : "41",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "103"
   }, {
-    "range" : "67",
-    "domain" : "72",
+    "range" : "63",
+    "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "104"
+  }, {
+    "range" : "21",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
   }, {
     "iri" : "https://natclinn.github.io/hasLinkToArgument",
     "baseIri" : "https://natclinn.github.io",
@@ -4462,27 +4457,27 @@
       "en" : "Has link to argument",
       "fr" : "A pour lien vers argument"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a food industry product to a LinkToArgument that connects to a ProductArgument.",
       "fr" : "Relie un produit de l'industrie agro-alimentaire à un LinkToArgument qui se connecte à un ProductArgument."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "105"
+    "id" : "106"
   }, {
     "iri" : "https://natclinn.github.io/bindingKeywords",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "107",
+    "range" : "108",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Mots-clés de liaison",
+        "language" : "en",
+        "value" : "Binding keywords",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Binding keywords",
+        "language" : "fr",
+        "value" : "Mots-clés de liaison",
         "type" : "label"
       } ]
     },
@@ -4491,32 +4486,32 @@
       "en" : "Binding keywords",
       "fr" : "Mots-clés de liaison"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Keywords used to bind a tag to argumentation context.",
       "fr" : "Mots-clés utilisés pour lier un tag au contexte d'argumentation."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "106"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "107"
   }, {
-    "range" : "34",
-    "domain" : "67",
+    "range" : "19",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "109"
+    "id" : "110"
   }, {
     "iri" : "https://natclinn.github.io/hasQuantifiedElement",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "34",
+    "range" : "29",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour élément quantifié",
+        "language" : "en",
+        "value" : "Has quantified element",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has quantified element",
+        "language" : "fr",
+        "value" : "A pour élément quantifié",
         "type" : "label"
       } ]
     },
@@ -4525,52 +4520,52 @@
       "en" : "Has quantified element",
       "fr" : "A pour élément quantifié"
     },
-    "domain" : "112",
+    "domain" : "113",
     "comment" : {
       "en" : "Links a resource to one of its quantified elements.",
       "fr" : "Relie une ressource à l'un de ses éléments quantifiés."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "111"
+    "id" : "112"
   }, {
-    "range" : "13",
+    "range" : "17",
     "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "113"
-  }, {
-    "range" : "19",
-    "domain" : "67",
     "attributes" : [ "anonymous", "object" ],
     "id" : "114"
   }, {
-    "range" : "15",
-    "domain" : "72",
+    "range" : "8",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "116"
+    "id" : "115"
   }, {
-    "range" : "4",
-    "domain" : "46",
+    "range" : "36",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "117"
   }, {
-    "range" : "13",
-    "domain" : "67",
+    "range" : "36",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "118"
   }, {
+    "range" : "63",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
     "iri" : "https://natclinn.github.io/percentage",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "121",
+    "range" : "122",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Percentage",
+        "language" : "fr",
+        "value" : "Pourcentage",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Pourcentage",
+        "language" : "en",
+        "value" : "Percentage",
         "type" : "label"
       } ]
     },
@@ -4579,102 +4574,102 @@
       "en" : "Percentage",
       "fr" : "Pourcentage"
     },
-    "domain" : "34",
+    "domain" : "29",
     "comment" : {
       "en" : "Percentage (by weight) of a by-product or ingredient in a food industry product.",
       "fr" : "Pourcentage (du poids) d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "120"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "121"
   }, {
-    "range" : "75",
+    "range" : "8",
     "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "122"
-  }, {
-    "range" : "23",
-    "domain" : "67",
     "attributes" : [ "anonymous", "object" ],
     "id" : "123"
   }, {
-    "range" : "17",
-    "domain" : "46",
+    "range" : "102",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "125"
+    "id" : "124"
   }, {
-    "range" : "8",
-    "domain" : "67",
+    "range" : "41",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "126"
   }, {
-    "range" : "36",
-    "domain" : "46",
+    "range" : "2",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "128"
+    "id" : "127"
   }, {
-    "range" : "30",
-    "domain" : "67",
+    "range" : "19",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "129"
   }, {
-    "range" : "2",
-    "domain" : "46",
+    "range" : "84",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "131"
+    "id" : "130"
   }, {
-    "range" : "17",
-    "domain" : "67",
+    "range" : "34",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "132"
   }, {
-    "range" : "7",
-    "domain" : "46",
+    "range" : "52",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "134"
+    "id" : "133"
   }, {
-    "range" : "50",
-    "domain" : "67",
+    "range" : "60",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "135"
   }, {
-    "range" : "15",
-    "domain" : "46",
+    "range" : "17",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "137"
+    "id" : "136"
   }, {
-    "range" : "7",
-    "domain" : "67",
+    "range" : "21",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "138"
   }, {
-    "range" : "23",
-    "domain" : "46",
+    "range" : "15",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "140"
+    "id" : "139"
   }, {
-    "range" : "36",
-    "domain" : "67",
+    "range" : "102",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "141"
   }, {
-    "range" : "30",
-    "domain" : "46",
+    "range" : "29",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
     "id" : "142"
   }, {
-    "range" : "64",
-    "domain" : "67",
+    "range" : "7",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "143"
   }, {
-    "range" : "64",
-    "domain" : "46",
+    "range" : "68",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
     "id" : "144"
   }, {
+    "range" : "84",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
     "iri" : "https://natclinn.github.io/hasTagCheck",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "23",
+    "range" : "52",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -4693,13 +4688,13 @@
       "en" : "Has tag check",
       "fr" : "A pour tag de vérification"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to a validation tag.",
       "fr" : "Relie un produit à un tag de vérification."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "145"
+    "id" : "146"
   }, {
     "iri" : "https://natclinn.github.io/valueProperty",
     "baseIri" : "https://natclinn.github.io",
@@ -4722,17 +4717,17 @@
       "en" : "Property value",
       "fr" : "Valeur de la propriété"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Value associated with the tag binding property.",
       "fr" : "Valeur associée à la propriété du binding de tag."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "146"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "147"
   }, {
     "iri" : "https://natclinn.github.io/hasContextIngredient",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "60",
+    "range" : "58",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -4751,36 +4746,36 @@
       "en" : "Has ingredient context",
       "fr" : "A pour contexte ingrédient"
     },
-    "domain" : "55",
+    "domain" : "13",
     "comment" : {
       "en" : "The ingredient context of an argument.",
       "fr" : "Le contexte ingrédient d'un argument."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "147"
+    "id" : "148"
   }, {
-    "range" : "21",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "149"
-  }, {
-    "range" : "8",
-    "domain" : "46",
+    "range" : "7",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
     "id" : "150"
   }, {
-    "range" : "57",
-    "domain" : "67",
+    "range" : "4",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "151"
   }, {
-    "range" : "30",
-    "domain" : "154",
+    "range" : "25",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "153"
+    "id" : "152"
   }, {
-    "range" : "8",
-    "domain" : "15",
+    "range" : "4",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "15",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "155"
   }, {
@@ -4805,21 +4800,21 @@
       "en" : "Group 1",
       "fr" : "Groupe 1"
     },
-    "domain" : "38",
+    "domain" : "21",
     "comment" : {
       "en" : "NOVA group 1 characteristics (unprocessed or minimally processed foods).",
       "fr" : "Caractéristiques du groupe NOVA 1 (aliments non transformés ou minimalement transformés)."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "157"
   }, {
-    "range" : "23",
-    "domain" : "154",
+    "range" : "68",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "159"
   }, {
-    "range" : "57",
-    "domain" : "15",
+    "range" : "7",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "160"
   }, {
@@ -4844,21 +4839,21 @@
       "en" : "Group 2",
       "fr" : "Groupe 2"
     },
-    "domain" : "38",
+    "domain" : "21",
     "comment" : {
       "en" : "NOVA group 2 characteristics (processed culinary ingredients).",
       "fr" : "Caractéristiques du groupe NOVA 2 (ingrédients culinaires transformés)."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "162"
   }, {
-    "range" : "21",
-    "domain" : "154",
+    "range" : "19",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "164"
   }, {
-    "range" : "17",
-    "domain" : "15",
+    "range" : "84",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "165"
   }, {
@@ -4883,21 +4878,21 @@
       "en" : "Group 3",
       "fr" : "Groupe 3"
     },
-    "domain" : "38",
+    "domain" : "21",
     "comment" : {
       "en" : "NOVA group 3 characteristics (processed foods).",
       "fr" : "Caractéristiques du groupe NOVA 3 (aliments transformés)."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "167"
   }, {
     "range" : "15",
-    "domain" : "154",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "169"
   }, {
-    "range" : "67",
-    "domain" : "15",
+    "range" : "63",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "170"
   }, {
@@ -4907,13 +4902,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Group 4",
+        "language" : "fr",
+        "value" : "Groupe 4",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Groupe 4",
+        "language" : "en",
+        "value" : "Group 4",
         "type" : "label"
       } ]
     },
@@ -4922,102 +4917,102 @@
       "en" : "Group 4",
       "fr" : "Groupe 4"
     },
-    "domain" : "38",
+    "domain" : "21",
     "comment" : {
       "en" : "NOVA group 4 characteristics (ultra-processed foods and drinks).",
       "fr" : "Caractéristiques du groupe NOVA 4 (produits ultra-transformés)."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "172"
   }, {
-    "range" : "34",
+    "range" : "31",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "174"
   }, {
-    "range" : "19",
-    "domain" : "15",
+    "range" : "8",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "175"
   }, {
-    "range" : "38",
+    "range" : "68",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "176"
   }, {
-    "range" : "75",
-    "domain" : "15",
+    "range" : "2",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "177"
   }, {
-    "range" : "19",
+    "range" : "25",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "178"
   }, {
-    "range" : "36",
-    "domain" : "15",
+    "range" : "25",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "179"
   }, {
-    "range" : "21",
+    "range" : "15",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "180"
   }, {
-    "range" : "23",
-    "domain" : "15",
+    "range" : "102",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "181"
   }, {
-    "range" : "67",
+    "range" : "52",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "182"
   }, {
-    "range" : "13",
-    "domain" : "15",
+    "range" : "29",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "183"
   }, {
-    "range" : "43",
+    "range" : "63",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "184"
   }, {
-    "range" : "64",
-    "domain" : "15",
+    "range" : "52",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "188"
   }, {
-    "range" : "21",
-    "domain" : "55",
+    "range" : "4",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "189"
   }, {
-    "range" : "50",
-    "domain" : "5",
+    "range" : "17",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "190"
   }, {
-    "range" : "36",
-    "domain" : "21",
+    "range" : "102",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "191"
   }, {
     "iri" : "https://natclinn.github.io/hasTagInitiator",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "23",
+    "range" : "52",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has tag initiator",
+        "language" : "fr",
+        "value" : "A pour tag initiateur",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour tag initiateur",
+        "language" : "en",
+        "value" : "Has tag initiator",
         "type" : "label"
       } ]
     },
@@ -5034,32 +5029,32 @@
     "attributes" : [ "external", "object" ],
     "id" : "192"
   }, {
-    "range" : "67",
-    "domain" : "55",
+    "range" : "60",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "193"
   }, {
-    "range" : "17",
-    "domain" : "5",
+    "range" : "41",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "194"
   }, {
-    "range" : "36",
-    "domain" : "34",
+    "range" : "52",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "195"
   }, {
-    "range" : "5",
-    "domain" : "55",
+    "range" : "19",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "196"
   }, {
-    "range" : "13",
-    "domain" : "5",
+    "range" : "29",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "197"
   }, {
-    "range" : "7",
+    "range" : "19",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "198"
@@ -5085,12 +5080,12 @@
       "en" : "Contains additives",
       "fr" : "Contient des additifs"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Indicates whether the product contains additives.",
       "fr" : "Indique si le produit contient des additifs."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "199"
   }, {
     "iri" : "https://natclinn.github.io/aim",
@@ -5114,187 +5109,187 @@
       "en" : "Aim",
       "fr" : "Objectif"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Aim or objective related to the tag binding.",
       "fr" : "Objectif ou visée du binding de tag."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "200"
   }, {
-    "range" : "75",
-    "domain" : "21",
+    "range" : "15",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "202"
   }, {
-    "range" : "75",
-    "domain" : "5",
+    "range" : "25",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "203"
   }, {
-    "range" : "23",
-    "domain" : "21",
+    "range" : "68",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "204"
   }, {
-    "range" : "43",
-    "domain" : "55",
+    "range" : "84",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "205"
   }, {
-    "range" : "7",
-    "domain" : "5",
+    "range" : "60",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "206"
   }, {
-    "range" : "30",
-    "domain" : "21",
+    "range" : "52",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "207"
   }, {
-    "range" : "13",
-    "domain" : "55",
+    "range" : "34",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "208"
   }, {
-    "range" : "38",
-    "domain" : "5",
+    "range" : "2",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "209"
   }, {
-    "range" : "57",
-    "domain" : "21",
+    "range" : "2",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "210"
   }, {
-    "range" : "23",
-    "domain" : "55",
+    "range" : "26",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "211"
   }, {
-    "range" : "64",
-    "domain" : "5",
+    "range" : "21",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "212"
   }, {
-    "range" : "34",
-    "domain" : "21",
+    "range" : "84",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "213"
   }, {
-    "range" : "8",
-    "domain" : "55",
+    "range" : "31",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "214"
   }, {
-    "range" : "21",
-    "domain" : "5",
+    "range" : "68",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "215"
   }, {
-    "range" : "8",
-    "domain" : "21",
+    "range" : "17",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "216"
   }, {
-    "range" : "30",
-    "domain" : "55",
+    "range" : "8",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "217"
   }, {
-    "range" : "34",
-    "domain" : "5",
+    "range" : "19",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "218"
   }, {
-    "range" : "64",
-    "domain" : "21",
+    "range" : "25",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "219"
   }, {
-    "range" : "7",
-    "domain" : "55",
+    "range" : "5",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "220"
   }, {
-    "range" : "15",
-    "domain" : "5",
+    "range" : "63",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "221"
   }, {
-    "range" : "17",
-    "domain" : "21",
+    "range" : "29",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "222"
   }, {
-    "range" : "15",
-    "domain" : "55",
+    "range" : "17",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "223"
   }, {
-    "range" : "36",
-    "domain" : "5",
+    "range" : "15",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "224"
   }, {
-    "range" : "8",
-    "domain" : "50",
+    "range" : "25",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "225"
   }, {
-    "range" : "64",
-    "domain" : "55",
+    "range" : "15",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "226"
   }, {
-    "range" : "67",
-    "domain" : "5",
+    "range" : "84",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "227"
   }, {
-    "range" : "36",
-    "domain" : "50",
+    "range" : "15",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "228"
   }, {
-    "range" : "46",
-    "domain" : "55",
+    "range" : "52",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "229"
   }, {
-    "range" : "23",
-    "domain" : "5",
+    "range" : "7",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "230"
   }, {
-    "range" : "30",
-    "domain" : "50",
+    "range" : "17",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "231"
   }, {
-    "range" : "154",
-    "domain" : "55",
+    "range" : "25",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "232"
   }, {
     "range" : "8",
-    "domain" : "5",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "233"
   }, {
     "iri" : "https://natclinn.github.io/hasShape",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "30",
+    "range" : "15",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has shape",
+        "language" : "fr",
+        "value" : "A pour forme",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour forme",
+        "language" : "en",
+        "value" : "Has shape",
         "type" : "label"
       } ]
     },
@@ -5311,112 +5306,112 @@
     "attributes" : [ "external", "object" ],
     "id" : "234"
   }, {
-    "range" : "36",
-    "domain" : "55",
+    "range" : "63",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "235"
   }, {
-    "range" : "75",
-    "domain" : "50",
+    "range" : "2",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "236"
   }, {
-    "range" : "21",
-    "domain" : "43",
+    "range" : "41",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "237"
   }, {
-    "range" : "34",
-    "domain" : "50",
+    "range" : "68",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "238"
   }, {
-    "range" : "34",
-    "domain" : "55",
+    "range" : "36",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "239"
   }, {
-    "range" : "17",
-    "domain" : "43",
+    "range" : "68",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "240"
   }, {
-    "range" : "23",
-    "domain" : "50",
+    "range" : "52",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "241"
   }, {
-    "range" : "2",
-    "domain" : "55",
+    "range" : "29",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "242"
   }, {
-    "range" : "7",
-    "domain" : "43",
+    "range" : "36",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "243"
   }, {
-    "range" : "17",
-    "domain" : "50",
+    "range" : "102",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "244"
   }, {
-    "range" : "38",
-    "domain" : "55",
+    "range" : "46",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "245"
   }, {
-    "range" : "36",
-    "domain" : "43",
+    "range" : "2",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "246"
   }, {
-    "range" : "21",
-    "domain" : "50",
+    "range" : "63",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "247"
   }, {
-    "range" : "4",
-    "domain" : "55",
+    "range" : "87",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "248"
   }, {
-    "range" : "57",
-    "domain" : "5",
+    "range" : "31",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "249"
   }, {
-    "range" : "64",
-    "domain" : "50",
+    "range" : "84",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "250"
   }, {
-    "range" : "57",
-    "domain" : "55",
+    "range" : "21",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "251"
   }, {
-    "range" : "30",
-    "domain" : "5",
+    "range" : "102",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "252"
   }, {
-    "range" : "57",
-    "domain" : "50",
+    "range" : "29",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "253"
   }, {
-    "range" : "34",
+    "range" : "84",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "254"
   }, {
-    "range" : "19",
-    "domain" : "43",
+    "range" : "25",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "255"
   }, {
-    "range" : "21",
+    "range" : "2",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "256"
@@ -5426,49 +5421,49 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "257"
   }, {
-    "range" : "75",
-    "domain" : "55",
+    "range" : "2",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "258"
   }, {
-    "range" : "57",
-    "domain" : "43",
+    "range" : "52",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "259"
   }, {
-    "range" : "17",
+    "range" : "25",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "260"
   }, {
     "range" : "11",
-    "domain" : "5",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "261"
   }, {
-    "range" : "17",
-    "domain" : "55",
+    "range" : "41",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "262"
   }, {
-    "range" : "67",
-    "domain" : "43",
+    "range" : "29",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "263"
   }, {
-    "range" : "75",
+    "range" : "8",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "264"
   }, {
     "range" : "11",
-    "domain" : "34",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "265"
   }, {
     "iri" : "https://natclinn.github.io/hasOrigin",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "13",
+    "range" : "31",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -5495,33 +5490,33 @@
     "attributes" : [ "external", "object" ],
     "id" : "266"
   }, {
-    "range" : "26",
-    "domain" : "55",
+    "range" : "102",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "267"
   }, {
-    "range" : "75",
-    "domain" : "43",
+    "range" : "31",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "268"
   }, {
-    "range" : "30",
+    "range" : "63",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "269"
   }, {
-    "range" : "19",
-    "domain" : "55",
+    "range" : "68",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "270"
   }, {
-    "range" : "8",
-    "domain" : "43",
+    "range" : "21",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "271"
   }, {
-    "range" : "50",
-    "domain" : "55",
+    "range" : "7",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "272"
   }, {
@@ -5531,13 +5526,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Target",
+        "language" : "fr",
+        "value" : "Cible",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Cible",
+        "language" : "en",
+        "value" : "Target",
         "type" : "label"
       } ]
     },
@@ -5546,7 +5541,7 @@
       "en" : "Target",
       "fr" : "Cible"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Link an argument to a component (product, ingredient, packaging, nutri-score, etc.) of a food industry product.",
       "fr" : "Relie un argument à un composant (produit, ingrédient, packaging, nutri-score,etc.) d'un produit de l'industrie agro-alimentaire."
@@ -5556,17 +5551,17 @@
   }, {
     "iri" : "https://natclinn.github.io/nameProperty",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "139",
+    "range" : "140",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Property name",
+        "language" : "fr",
+        "value" : "Nom de la propriété",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Nom de la propriété",
+        "language" : "en",
+        "value" : "Property name",
         "type" : "label"
       } ]
     },
@@ -5575,17 +5570,17 @@
       "en" : "Property name",
       "fr" : "Nom de la propriété"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Name of the property evaluated in the tag binding.",
       "fr" : "Nom de la propriété évaluée dans le binding de tag."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "275"
   }, {
     "iri" : "https://natclinn.github.io/supportType",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "76",
+    "range" : "74",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -5604,117 +5599,117 @@
       "en" : "Support type",
       "fr" : "Type de support"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Type of argument (positive or negative) in relation to its target.",
       "fr" : "Type de l'argument (positif ou négatif) vis à vis de sa cible."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "276"
   }, {
     "range" : "11",
-    "domain" : "67",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
     "id" : "278"
   }, {
-    "range" : "34",
+    "range" : "29",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "279"
   }, {
     "range" : "11",
-    "domain" : "23",
+    "domain" : "52",
     "attributes" : [ "anonymous", "object" ],
     "id" : "280"
   }, {
-    "range" : "15",
-    "domain" : "43",
+    "range" : "34",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "281"
   }, {
-    "range" : "50",
+    "range" : "102",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "282"
   }, {
     "range" : "11",
-    "domain" : "36",
+    "domain" : "68",
     "attributes" : [ "anonymous", "object" ],
     "id" : "283"
   }, {
-    "range" : "5",
+    "range" : "87",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "286"
   }, {
-    "range" : "34",
-    "domain" : "43",
+    "range" : "17",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "287"
   }, {
-    "range" : "23",
+    "range" : "68",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "288"
   }, {
     "range" : "11",
-    "domain" : "21",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "289"
   }, {
-    "range" : "50",
+    "range" : "68",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "290"
   }, {
-    "range" : "30",
-    "domain" : "43",
+    "range" : "102",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "291"
   }, {
-    "range" : "36",
+    "range" : "15",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "292"
   }, {
     "range" : "11",
-    "domain" : "55",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "293"
   }, {
-    "range" : "55",
+    "range" : "15",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "294"
   }, {
-    "range" : "23",
-    "domain" : "43",
+    "range" : "19",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "295"
   }, {
-    "range" : "64",
+    "range" : "17",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "296"
   }, {
     "range" : "11",
-    "domain" : "2",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "297"
   }, {
     "iri" : "https://natclinn.github.io/hasNaturalnessScore",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "2",
+    "range" : "60",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour score de naturalité",
+        "language" : "en",
+        "value" : "Has naturalness score",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has naturalness score",
+        "language" : "fr",
+        "value" : "A pour score de naturalité",
         "type" : "label"
       } ]
     },
@@ -5723,7 +5718,7 @@
       "en" : "Has naturalness score",
       "fr" : "A pour score de naturalité"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its naturalness score resource.",
       "fr" : "Relie un produit à sa ressource de score de naturalité."
@@ -5731,132 +5726,132 @@
     "attributes" : [ "external", "object" ],
     "id" : "298"
   }, {
-    "range" : "30",
+    "range" : "29",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "299"
   }, {
-    "range" : "38",
-    "domain" : "43",
+    "range" : "63",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "300"
   }, {
-    "range" : "57",
+    "range" : "52",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "301"
   }, {
     "range" : "11",
-    "domain" : "8",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "302"
   }, {
-    "range" : "7",
+    "range" : "19",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "303"
   }, {
-    "range" : "21",
+    "range" : "25",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "304"
   }, {
     "range" : "17",
-    "domain" : "13",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "305"
   }, {
     "range" : "11",
-    "domain" : "64",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "306"
   }, {
-    "range" : "8",
+    "range" : "52",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "307"
   }, {
-    "range" : "13",
-    "domain" : "43",
+    "range" : "84",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "308"
   }, {
-    "range" : "64",
-    "domain" : "13",
+    "range" : "102",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "309"
   }, {
     "range" : "11",
-    "domain" : "30",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "310"
   }, {
-    "range" : "57",
+    "range" : "46",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "311"
   }, {
-    "range" : "50",
-    "domain" : "43",
+    "range" : "15",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "312"
   }, {
-    "range" : "57",
-    "domain" : "13",
+    "range" : "84",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "313"
   }, {
     "range" : "11",
-    "domain" : "154",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "314"
   }, {
-    "range" : "4",
+    "range" : "25",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "315"
   }, {
-    "range" : "2",
-    "domain" : "43",
+    "range" : "7",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "316"
   }, {
-    "range" : "75",
-    "domain" : "13",
+    "range" : "19",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "317"
   }, {
     "range" : "11",
-    "domain" : "72",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "318"
   }, {
-    "range" : "64",
+    "range" : "8",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "319"
   }, {
-    "range" : "5",
-    "domain" : "43",
+    "range" : "8",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "320"
   }, {
-    "range" : "8",
+    "range" : "84",
     "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
     "id" : "321"
   }, {
-    "range" : "75",
+    "range" : "36",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "322"
   }, {
-    "range" : "64",
-    "domain" : "43",
+    "range" : "60",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "323"
   }, {
-    "range" : "36",
+    "range" : "7",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "324"
@@ -5867,13 +5862,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has attribute",
+        "language" : "fr",
+        "value" : "A pour attribut",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour attribut",
+        "language" : "en",
+        "value" : "Has attribute",
         "type" : "label"
       } ]
     },
@@ -5882,7 +5877,7 @@
       "en" : "Has attribute",
       "fr" : "A pour attribut"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "The naturalness attribute of a food industry product.",
       "fr" : "Attribut de la naturalité d'un produit de l'industrie agro-alimentaire."
@@ -5891,27 +5886,27 @@
     "id" : "326"
   }, {
     "range" : "11",
-    "domain" : "13",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "329"
   }, {
-    "range" : "23",
-    "domain" : "13",
+    "range" : "68",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "330"
   }, {
     "range" : "11",
-    "domain" : "57",
+    "domain" : "102",
     "attributes" : [ "anonymous", "object" ],
     "id" : "331"
   }, {
-    "range" : "50",
+    "range" : "102",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "332"
   }, {
-    "range" : "8",
-    "domain" : "13",
+    "range" : "63",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "333"
   }, {
@@ -5920,18 +5915,18 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "334"
   }, {
-    "range" : "46",
+    "range" : "17",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "335"
   }, {
-    "range" : "8",
+    "range" : "68",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "336"
   }, {
-    "range" : "21",
-    "domain" : "13",
+    "range" : "52",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "337"
   }, {
@@ -5940,47 +5935,47 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "338"
   }, {
-    "range" : "154",
+    "range" : "63",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "339"
   }, {
-    "range" : "75",
+    "range" : "21",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "340"
   }, {
-    "range" : "34",
-    "domain" : "13",
+    "range" : "15",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "341"
   }, {
     "range" : "11",
-    "domain" : "15",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "342"
   }, {
-    "range" : "23",
+    "range" : "102",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
     "id" : "343"
   }, {
-    "range" : "36",
+    "range" : "31",
     "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "344"
   }, {
-    "range" : "50",
-    "domain" : "13",
+    "range" : "8",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "345"
   }, {
     "range" : "11",
-    "domain" : "75",
+    "domain" : "17",
     "attributes" : [ "anonymous", "object" ],
     "id" : "346"
   }, {
-    "range" : "15",
+    "range" : "71",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "347"
@@ -6005,23 +6000,23 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "354"
   }, {
-    "range" : "50",
+    "range" : "8",
     "domain" : "277",
     "attributes" : [ "anonymous", "object" ],
     "id" : "355"
   }, {
-    "range" : "50",
+    "range" : "8",
     "domain" : "357",
     "attributes" : [ "anonymous", "object" ],
     "id" : "356"
   }, {
-    "range" : "112",
+    "range" : "113",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "358"
   }, {
-    "range" : "112",
-    "domain" : "50",
+    "range" : "113",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "359"
   }, {
@@ -6031,56 +6026,56 @@
     "id" : "360"
   }, {
     "range" : "46",
-    "domain" : "82",
+    "domain" : "80",
     "attributes" : [ "anonymous", "object" ],
     "id" : "362"
   }, {
-    "range" : "5",
+    "range" : "15",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "363"
   }, {
-    "range" : "8",
+    "range" : "7",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "364"
   }, {
-    "range" : "36",
+    "range" : "31",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "365"
   }, {
-    "range" : "46",
+    "range" : "41",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "368"
   }, {
-    "range" : "43",
+    "range" : "34",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "369"
   }, {
-    "range" : "21",
+    "range" : "17",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "371"
   }, {
-    "range" : "64",
+    "range" : "13",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "372"
   }, {
-    "range" : "38",
+    "range" : "84",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "373"
   }, {
-    "range" : "5",
+    "range" : "185",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "374"
   }, {
-    "range" : "72",
+    "range" : "4",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "375"
@@ -6106,16 +6101,16 @@
       "en" : "Assertion",
       "fr" : "Assertion"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "The assertion carried by the tag binding.",
       "fr" : "L'assertion portée par le binding de tag."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "377"
   }, {
     "range" : "11",
-    "domain" : "112",
+    "domain" : "113",
     "attributes" : [ "anonymous", "object" ],
     "id" : "378"
   }, {
@@ -6124,17 +6119,17 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "379"
   }, {
-    "range" : "82",
+    "range" : "80",
     "domain" : "381",
     "attributes" : [ "anonymous", "object" ],
     "id" : "380"
   }, {
-    "range" : "82",
-    "domain" : "81",
+    "range" : "80",
+    "domain" : "79",
     "attributes" : [ "anonymous", "object" ],
     "id" : "382"
   }, {
-    "range" : "82",
+    "range" : "80",
     "domain" : "325",
     "attributes" : [ "anonymous", "object" ],
     "id" : "383"
@@ -6160,7 +6155,7 @@
       "en" : "Has product context",
       "fr" : "A pour contexte produit"
     },
-    "domain" : "55",
+    "domain" : "13",
     "comment" : {
       "en" : "The product context of an argument.",
       "fr" : "Le contexte produit d'un argument."
@@ -6168,18 +6163,18 @@
     "attributes" : [ "external", "object" ],
     "id" : "385"
   }, {
-    "range" : "82",
+    "range" : "80",
     "domain" : "384",
     "attributes" : [ "anonymous", "object" ],
     "id" : "386"
   }, {
-    "range" : "82",
+    "range" : "80",
     "domain" : "187",
     "attributes" : [ "anonymous", "object" ],
     "id" : "387"
   }, {
     "range" : "327",
-    "domain" : "21",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "388"
   }, {
@@ -6190,17 +6185,17 @@
   }, {
     "iri" : "https://natclinn.github.io/hasMaterial",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "5",
+    "range" : "34",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour matière",
+        "language" : "en",
+        "value" : "Has material",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has material",
+        "language" : "fr",
+        "value" : "A pour matière",
         "type" : "label"
       } ]
     },
@@ -6243,7 +6238,7 @@
       "en" : "Has clean label",
       "fr" : "A pour clean label"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to clean-label information.",
       "fr" : "Relie un produit à une information de clean label."
@@ -6251,14 +6246,14 @@
     "attributes" : [ "external", "object" ],
     "id" : "393"
   }, {
-    "range" : "26",
+    "range" : "102",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "394"
   }, {
     "iri" : "https://natclinn.github.io/hasVerbatim",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "36",
+    "range" : "68",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -6277,7 +6272,7 @@
       "en" : "Has verbatim",
       "fr" : "A pour verbatim"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Link an argument to its verbatim.",
       "fr" : "Link an argument to its verbatim."
@@ -6285,57 +6280,57 @@
     "attributes" : [ "external", "object" ],
     "id" : "395"
   }, {
-    "range" : "185",
+    "range" : "328",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "396"
   }, {
-    "range" : "23",
+    "range" : "52",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "397"
   }, {
-    "range" : "30",
+    "range" : "2",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "398"
   }, {
-    "range" : "15",
+    "range" : "8",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "399"
   }, {
-    "range" : "7",
+    "range" : "29",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "400"
   }, {
-    "range" : "34",
+    "range" : "46",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "401"
   }, {
-    "range" : "2",
+    "range" : "36",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "402"
   }, {
-    "range" : "19",
+    "range" : "25",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "403"
   }, {
-    "range" : "4",
+    "range" : "26",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "404"
   }, {
-    "range" : "46",
+    "range" : "52",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "405"
   }, {
-    "range" : "4",
+    "range" : "5",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "406"
@@ -6346,13 +6341,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédients additifs",
+        "language" : "en",
+        "value" : "Has additive ingredients",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has additive ingredients",
+        "language" : "fr",
+        "value" : "A pour ingrédients additifs",
         "type" : "label"
       } ]
     },
@@ -6369,7 +6364,7 @@
     "attributes" : [ "external", "object" ],
     "id" : "407"
   }, {
-    "range" : "21",
+    "range" : "36",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "408"
@@ -6379,44 +6374,44 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "409"
   }, {
-    "range" : "30",
+    "range" : "17",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "410"
   }, {
-    "range" : "67",
+    "range" : "2",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "411"
   }, {
-    "range" : "1",
+    "range" : "68",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "412"
   }, {
-    "range" : "26",
+    "range" : "34",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "413"
   }, {
-    "range" : "328",
+    "range" : "1",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "414"
   }, {
-    "range" : "64",
+    "range" : "4",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "415"
   }, {
-    "range" : "154",
+    "range" : "29",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "416"
   }, {
     "iri" : "https://natclinn.github.io/hasNOVAgroup",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "124",
+    "range" : "125",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -6435,37 +6430,37 @@
       "en" : "Has NOVA group",
       "fr" : "A pour groupe NOVA"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "NOVA group (1..4) as provided by Open Food Facts.",
       "fr" : "Groupe NOVA (1..4) tel que fourni par Open Food Facts."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "417"
   }, {
-    "range" : "36",
+    "range" : "328",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "418"
   }, {
-    "range" : "55",
+    "range" : "19",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "419"
   }, {
     "iri" : "https://natclinn.github.io/hasFNI",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "154",
+    "range" : "87",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour FNI",
+        "language" : "en",
+        "value" : "Has FNI",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has FNI",
+        "language" : "fr",
+        "value" : "A pour FNI",
         "type" : "label"
       } ]
     },
@@ -6474,7 +6469,7 @@
       "en" : "Has FNI",
       "fr" : "A pour FNI"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its Food Naturalness Index resource.",
       "fr" : "Relie un produit à sa ressource d'indice de naturalité alimentaire."
@@ -6503,12 +6498,12 @@
       "en" : "Condition",
       "fr" : "Condition"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Condition under which the argument applies.",
       "fr" : "Condition dans laquelle l'argument s'applique."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "421"
   }, {
     "iri" : "https://natclinn.github.io/refersTo",
@@ -6532,7 +6527,7 @@
       "en" : "Refers to",
       "fr" : "Réfère à"
     },
-    "domain" : "34",
+    "domain" : "29",
     "comment" : {
       "en" : "Relates a product or ingredient to its quantification in a food industry product.",
       "fr" : "Relie un produit ou un ingrédient à sa quantification dans un produit de l'industrie agro-alimentaire."
@@ -6545,58 +6540,58 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "424"
   }, {
-    "range" : "23",
+    "range" : "63",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "425"
   }, {
-    "range" : "75",
+    "range" : "46",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "426"
   }, {
-    "range" : "50",
+    "range" : "84",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "427"
   }, {
-    "range" : "19",
+    "range" : "25",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "428"
   }, {
-    "range" : "34",
+    "range" : "102",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "429"
   }, {
-    "range" : "38",
+    "range" : "87",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "430"
   }, {
-    "range" : "2",
+    "range" : "26",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "431"
   }, {
-    "range" : "13",
+    "range" : "31",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "432"
   }, {
-    "range" : "64",
+    "range" : "21",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "433"
   }, {
-    "range" : "64",
-    "domain" : "2",
+    "range" : "36",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "434"
   }, {
-    "range" : "57",
-    "domain" : "23",
+    "range" : "102",
+    "domain" : "52",
     "attributes" : [ "anonymous", "object" ],
     "id" : "435"
   }, {
@@ -6606,13 +6601,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Est composé de",
+        "language" : "en",
+        "value" : "Is composed of",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Is composed of",
+        "language" : "fr",
+        "value" : "Est composé de",
         "type" : "label"
       } ]
     },
@@ -6629,39 +6624,39 @@
     "attributes" : [ "external", "object" ],
     "id" : "436"
   }, {
-    "range" : "50",
+    "range" : "5",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "439"
   }, {
     "range" : "17",
-    "domain" : "2",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "440"
   }, {
-    "range" : "36",
-    "domain" : "17",
+    "range" : "102",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "441"
   }, {
-    "range" : "57",
+    "range" : "15",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "442"
   }, {
-    "range" : "36",
-    "domain" : "2",
+    "range" : "102",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "443"
   }, {
-    "range" : "57",
-    "domain" : "17",
+    "range" : "68",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "444"
   }, {
     "iri" : "https://natclinn.github.io/unit",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "80",
+    "range" : "78",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -6680,36 +6675,36 @@
       "en" : "Unit",
       "fr" : "Unité"
     },
-    "domain" : "34",
+    "domain" : "29",
     "comment" : {
       "en" : "Unit of the quantity of a by-product or ingredient present in a food industry product.",
       "fr" : "Unité de la quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "445"
   }, {
-    "range" : "67",
+    "range" : "36",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "446"
   }, {
-    "range" : "75",
-    "domain" : "2",
+    "range" : "63",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "447"
   }, {
-    "range" : "36",
-    "domain" : "57",
+    "range" : "68",
+    "domain" : "102",
     "attributes" : [ "anonymous", "object" ],
     "id" : "448"
   }, {
-    "range" : "50",
-    "domain" : "2",
+    "range" : "15",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "449"
   }, {
-    "range" : "34",
-    "domain" : "15",
+    "range" : "19",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "451"
   }, {
@@ -6718,163 +6713,163 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "452"
   }, {
-    "range" : "21",
-    "domain" : "15",
+    "range" : "68",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "453"
   }, {
-    "range" : "30",
-    "domain" : "15",
+    "range" : "36",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "454"
   }, {
-    "range" : "50",
-    "domain" : "15",
+    "range" : "17",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "455"
   }, {
-    "range" : "7",
-    "domain" : "15",
+    "range" : "31",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "456"
   }, {
-    "range" : "46",
+    "range" : "26",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "458"
   }, {
-    "range" : "43",
+    "range" : "1",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "459"
   }, {
-    "range" : "23",
+    "range" : "4",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "460"
   }, {
-    "range" : "55",
+    "range" : "13",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "461"
   }, {
-    "range" : "15",
+    "range" : "19",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "462"
   }, {
-    "range" : "75",
+    "range" : "87",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "463"
   }, {
-    "range" : "36",
-    "domain" : "23",
+    "range" : "68",
+    "domain" : "52",
     "attributes" : [ "anonymous", "object" ],
     "id" : "464"
-  }, {
-    "range" : "4",
-    "domain" : "328",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "465"
-  }, {
-    "range" : "57",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "466"
   }, {
     "range" : "2",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
+    "id" : "465"
+  }, {
+    "range" : "52",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "466"
+  }, {
+    "range" : "8",
+    "domain" : "328",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "467"
   }, {
-    "range" : "67",
-    "domain" : "2",
+    "range" : "31",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "468"
   }, {
-    "range" : "36",
-    "domain" : "75",
+    "range" : "68",
+    "domain" : "17",
     "attributes" : [ "anonymous", "object" ],
     "id" : "469"
   }, {
-    "range" : "30",
+    "range" : "31",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "470"
   }, {
-    "range" : "8",
-    "domain" : "2",
+    "range" : "52",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "471"
   }, {
-    "range" : "64",
-    "domain" : "75",
+    "range" : "2",
+    "domain" : "17",
     "attributes" : [ "anonymous", "object" ],
     "id" : "472"
   }, {
-    "range" : "8",
+    "range" : "71",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "473"
   }, {
-    "range" : "7",
-    "domain" : "2",
+    "range" : "68",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "474"
   }, {
-    "range" : "17",
-    "domain" : "75",
+    "range" : "102",
+    "domain" : "17",
     "attributes" : [ "anonymous", "object" ],
     "id" : "475"
   }, {
-    "range" : "57",
-    "domain" : "2",
+    "range" : "25",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "476"
   }, {
-    "range" : "23",
-    "domain" : "75",
+    "range" : "25",
+    "domain" : "17",
     "attributes" : [ "anonymous", "object" ],
     "id" : "477"
   }, {
-    "range" : "19",
-    "domain" : "2",
+    "range" : "7",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "478"
   }, {
-    "range" : "36",
-    "domain" : "64",
+    "range" : "102",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "479"
   }, {
-    "range" : "23",
-    "domain" : "2",
+    "range" : "2",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "480"
   }, {
-    "range" : "17",
-    "domain" : "64",
+    "range" : "25",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "481"
   }, {
-    "range" : "21",
-    "domain" : "2",
+    "range" : "19",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "482"
   }, {
-    "range" : "57",
-    "domain" : "64",
+    "range" : "68",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "483"
   }, {
-    "range" : "13",
-    "domain" : "2",
+    "range" : "29",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "484"
   }, {
-    "range" : "23",
-    "domain" : "64",
+    "range" : "52",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "485"
   }, {
@@ -6907,18 +6902,18 @@
     "attributes" : [ "external", "object" ],
     "id" : "486"
   }, {
-    "range" : "15",
-    "domain" : "2",
+    "range" : "84",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "487"
   }, {
-    "range" : "17",
-    "domain" : "23",
+    "range" : "25",
+    "domain" : "52",
     "attributes" : [ "anonymous", "object" ],
     "id" : "488"
   }, {
-    "range" : "34",
-    "domain" : "2",
+    "range" : "8",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "489"
   }, {
@@ -6943,7 +6938,7 @@
       "en" : "Has allegation",
       "fr" : "A pour allégation"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its allegations or claims.",
       "fr" : "Relie un produit à ses allégations."
@@ -6953,17 +6948,17 @@
   }, {
     "iri" : "https://natclinn.github.io/hasCiqualProxyFoodCode",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "152",
+    "range" : "153",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour code Ciqual proxy",
+        "language" : "en",
+        "value" : "Has Ciqual proxy food code",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has Ciqual proxy food code",
+        "language" : "fr",
+        "value" : "A pour code Ciqual proxy",
         "type" : "label"
       } ]
     },
@@ -6977,126 +6972,126 @@
       "en" : "Ciqual code for a similar food industry product.",
       "fr" : "Code Ciqual d'un produit similaire de l'industrie agroalimentaire."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "491"
   }, {
-    "range" : "17",
+    "range" : "52",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "492"
   }, {
-    "range" : "72",
+    "range" : "25",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "493"
   }, {
-    "range" : "5",
+    "range" : "68",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "494"
   }, {
-    "range" : "43",
+    "range" : "60",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "495"
   }, {
-    "range" : "57",
+    "range" : "21",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "496"
   }, {
-    "range" : "72",
+    "range" : "41",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "497"
   }, {
-    "range" : "17",
+    "range" : "13",
     "domain" : "185",
     "attributes" : [ "anonymous", "object" ],
     "id" : "498"
   }, {
-    "range" : "75",
-    "domain" : "72",
+    "range" : "84",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "499"
   }, {
-    "range" : "17",
-    "domain" : "72",
+    "range" : "13",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "500"
   }, {
-    "range" : "57",
-    "domain" : "30",
+    "range" : "25",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "501"
   }, {
-    "range" : "21",
-    "domain" : "72",
+    "range" : "52",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "502"
   }, {
-    "range" : "75",
-    "domain" : "30",
+    "range" : "2",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "503"
   }, {
-    "range" : "8",
-    "domain" : "72",
+    "range" : "102",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "504"
   }, {
-    "range" : "17",
-    "domain" : "30",
+    "range" : "52",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "505"
   }, {
-    "range" : "7",
-    "domain" : "72",
+    "range" : "26",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "506"
   }, {
-    "range" : "64",
-    "domain" : "30",
+    "range" : "17",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "507"
   }, {
-    "range" : "75",
-    "domain" : "8",
+    "range" : "2",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "508"
   }, {
-    "range" : "19",
-    "domain" : "72",
+    "range" : "15",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "509"
   }, {
-    "range" : "64",
-    "domain" : "8",
+    "range" : "68",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "510"
   }, {
-    "range" : "43",
-    "domain" : "72",
+    "range" : "31",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "511"
   }, {
-    "range" : "57",
-    "domain" : "8",
+    "range" : "52",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "512"
   }, {
     "range" : "17",
-    "domain" : "8",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "513"
   }, {
-    "range" : "36",
-    "domain" : "8",
+    "range" : "25",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "514"
   }, {
-    "range" : "23",
-    "domain" : "8",
+    "range" : "102",
+    "domain" : "84",
     "attributes" : [ "anonymous", "object" ],
     "id" : "515"
   }, {
@@ -7121,40 +7116,40 @@
       "en" : "Reliability",
       "fr" : "Fiabilité"
     },
-    "domain" : "57",
+    "domain" : "102",
     "comment" : {
       "en" : "Fiability score of the source type.",
       "fr" : "Score de fiabilité du type de source."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "516"
   }, {
-    "range" : "50",
-    "domain" : "72",
+    "range" : "8",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "517"
   }, {
-    "range" : "36",
-    "domain" : "72",
+    "range" : "4",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "518"
   }, {
-    "range" : "5",
-    "domain" : "72",
+    "range" : "46",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "519"
   }, {
-    "range" : "38",
-    "domain" : "72",
+    "range" : "7",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "520"
   }, {
-    "range" : "34",
+    "range" : "29",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "521"
   }, {
-    "range" : "26",
+    "range" : "17",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "522"
@@ -7164,13 +7159,13 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "523"
   }, {
-    "range" : "154",
-    "domain" : "72",
+    "range" : "25",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "524"
   }, {
-    "range" : "57",
-    "domain" : "34",
+    "range" : "15",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "525"
   }, {
@@ -7179,13 +7174,13 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "526"
   }, {
-    "range" : "4",
-    "domain" : "72",
+    "range" : "19",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "527"
   }, {
-    "range" : "64",
-    "domain" : "34",
+    "range" : "102",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "528"
   }, {
@@ -7194,8 +7189,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "529"
   }, {
-    "range" : "8",
-    "domain" : "34",
+    "range" : "84",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "530"
   }, {
@@ -7204,8 +7199,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "531"
   }, {
-    "range" : "17",
-    "domain" : "34",
+    "range" : "2",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "533"
   }, {
@@ -7214,13 +7209,13 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "534"
   }, {
-    "range" : "154",
+    "range" : "60",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "536"
   }, {
-    "range" : "75",
-    "domain" : "34",
+    "range" : "17",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "537"
   }, {
@@ -7229,44 +7224,44 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "538"
   }, {
-    "range" : "19",
+    "range" : "34",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "539"
   }, {
-    "range" : "30",
-    "domain" : "34",
+    "range" : "25",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "540"
   }, {
-    "range" : "23",
-    "domain" : "34",
+    "range" : "68",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
     "id" : "541"
   }, {
-    "range" : "8",
-    "domain" : "30",
+    "range" : "84",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "542"
   }, {
-    "range" : "23",
-    "domain" : "30",
+    "range" : "68",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "543"
   }, {
-    "range" : "36",
-    "domain" : "30",
+    "range" : "102",
+    "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
     "id" : "544"
   }, {
-    "range" : "38",
+    "range" : "84",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "545"
   }, {
     "iri" : "https://natclinn.github.io/hasTypeSource",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "57",
+    "range" : "102",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7285,7 +7280,7 @@
       "en" : "Has source type",
       "fr" : "A pour type de source"
     },
-    "domain" : "8",
+    "domain" : "84",
     "comment" : {
       "en" : "Link a source to its type (expert, peer-reviewed article, etc.).",
       "fr" : "Relie une source à son type (expert, article peer-reviewed, etc.)."
@@ -7293,22 +7288,22 @@
     "attributes" : [ "external", "object" ],
     "id" : "546"
   }, {
-    "range" : "1",
+    "range" : "41",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "547"
   }, {
-    "range" : "13",
+    "range" : "46",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "548"
   }, {
-    "range" : "36",
+    "range" : "102",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "549"
   }, {
-    "range" : "21",
+    "range" : "63",
     "domain" : "328",
     "attributes" : [ "anonymous", "object" ],
     "id" : "550"
@@ -7319,13 +7314,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour détails du groupe NOVA calculé",
+        "language" : "en",
+        "value" : "Has calculated NOVA group details",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has calculated NOVA group details",
+        "language" : "fr",
+        "value" : "A pour détails du groupe NOVA calculé",
         "type" : "label"
       } ]
     },
@@ -7334,7 +7329,7 @@
       "en" : "Has calculated NOVA group details",
       "fr" : "A pour détails du groupe NOVA calculé"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its calculated NOVA group details.",
       "fr" : "Relie un produit aux détails de son groupe NOVA calculé."
@@ -7344,17 +7339,17 @@
   }, {
     "iri" : "https://natclinn.github.io/hasContext",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "55",
+    "range" : "13",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has context",
+        "language" : "fr",
+        "value" : "A pour contexte",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour contexte",
+        "language" : "en",
+        "value" : "Has context",
         "type" : "label"
       } ]
     },
@@ -7363,7 +7358,7 @@
       "en" : "Has context",
       "fr" : "A pour contexte"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Links an argument to its context",
       "fr" : "Relie un argument à son contexte"
@@ -7373,7 +7368,7 @@
   }, {
     "iri" : "https://natclinn.github.io/hasSource",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "8",
+    "range" : "84",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7392,7 +7387,7 @@
       "en" : "Has source",
       "fr" : "A pour source"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Link an argument to its source (consumer survey, scientific journal, etc.).",
       "fr" : "Relie un argument à sa source (enquête consommateur, revue scientifique, etc.)."
@@ -7402,17 +7397,17 @@
   }, {
     "iri" : "https://natclinn.github.io/rank",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "115",
+    "range" : "116",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Rang",
+        "language" : "en",
+        "value" : "Rank",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Rank",
+        "language" : "fr",
+        "value" : "Rang",
         "type" : "label"
       } ]
     },
@@ -7421,17 +7416,17 @@
       "en" : "Rank",
       "fr" : "Rang"
     },
-    "domain" : "34",
+    "domain" : "29",
     "comment" : {
       "en" : "Classification of an ingredient or by-product in the textual statement of a product's composition.",
       "fr" : "Classement d'un ingrédient ou d'un sous-produit dans l’énoncé textuel de la composition d'un produit."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "554"
   }, {
     "iri" : "https://natclinn.github.io/containsIngredientWithFunction",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "98",
+    "range" : "166",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7450,22 +7445,22 @@
       "en" : "Contains ingredient with function",
       "fr" : "Contient un ingrédient avec fonction"
     },
-    "domain" : "50",
+    "domain" : "94",
     "comment" : {
       "en" : "Links a product to the function of its ingredients.",
       "fr" : "Relie un produit à la fonction de ses ingrédients."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "555"
   }, {
-    "range" : "46",
-    "domain" : "72",
+    "range" : "5",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "556"
   }, {
     "iri" : "https://natclinn.github.io/hasManufacturingProcess",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "43",
+    "range" : "5",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7484,7 +7479,7 @@
       "en" : "Has manufacturing process",
       "fr" : "A pour procédé de fabrication"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its manufacturing process.",
       "fr" : "Relie un produit à son procédé de fabrication."
@@ -7492,29 +7487,29 @@
     "attributes" : [ "external", "object" ],
     "id" : "557"
   }, {
-    "range" : "64",
-    "domain" : "72",
+    "range" : "29",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "558"
   }, {
-    "range" : "23",
-    "domain" : "72",
+    "range" : "60",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "559"
   }, {
     "iri" : "https://natclinn.github.io/hasTag",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "23",
+    "range" : "52",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour tag",
+        "language" : "en",
+        "value" : "Has tag",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has tag",
+        "language" : "fr",
+        "value" : "A pour tag",
         "type" : "label"
       } ]
     },
@@ -7523,7 +7518,7 @@
       "en" : "Has tag",
       "fr" : "A pour tag"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to a tag.",
       "fr" : "Relie un produit à un tag."
@@ -7533,7 +7528,7 @@
   }, {
     "iri" : "https://natclinn.github.io/hasProductArgument",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "21",
+    "range" : "63",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7552,7 +7547,7 @@
       "en" : "Has product argument",
       "fr" : "A pour argument produit"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Link a food industry product to an argument.",
       "fr" : "Relie un produit de l'industrie agro-alimentaire à un argument."
@@ -7566,13 +7561,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédients bruts",
+        "language" : "en",
+        "value" : "Has raw ingredients",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has raw ingredients",
+        "language" : "fr",
+        "value" : "A pour ingrédients bruts",
         "type" : "label"
       } ]
     },
@@ -7610,7 +7605,7 @@
       "en" : "Has packaging",
       "fr" : "A pour emballage"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its packaging.",
       "fr" : "Relie un produit à son emballage."
@@ -7620,7 +7615,7 @@
   }, {
     "iri" : "https://natclinn.github.io/unitArg",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "86",
+    "range" : "85",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -7639,27 +7634,27 @@
       "en" : "Argument unit",
       "fr" : "Unité de l'argument"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Unit of measurement for the argument values.",
       "fr" : "Unité de mesure pour les valeurs de l'argument."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "564"
   }, {
     "iri" : "https://natclinn.github.io/hasNutriScore",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "15",
+    "range" : "41",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has Nutri-Score",
+        "language" : "fr",
+        "value" : "A pour Nutri-Score",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour Nutri-Score",
+        "language" : "en",
+        "value" : "Has Nutri-Score",
         "type" : "label"
       } ]
     },
@@ -7668,7 +7663,7 @@
       "en" : "Has Nutri-Score",
       "fr" : "A pour Nutri-Score"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to its Nutri-Score resource.",
       "fr" : "Relie un produit à sa ressource Nutri-Score."
@@ -7678,17 +7673,17 @@
   }, {
     "iri" : "https://natclinn.github.io/aboutTag",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "23",
+    "range" : "52",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Concerne le tag",
+        "language" : "en",
+        "value" : "About tag",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "About tag",
+        "language" : "fr",
+        "value" : "Concerne le tag",
         "type" : "label"
       } ]
     },
@@ -7697,7 +7692,7 @@
       "en" : "About tag",
       "fr" : "Concerne le tag"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Links a TagArgumentBinding to the related Tag.",
       "fr" : "Relie un TagArgumentBinding au Tag concerné."
@@ -7711,13 +7706,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédient",
+        "language" : "en",
+        "value" : "Has ingredient",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has ingredient",
+        "language" : "fr",
+        "value" : "A pour ingrédient",
         "type" : "label"
       } ]
     },
@@ -7726,7 +7721,7 @@
       "en" : "Has ingredient",
       "fr" : "A pour ingrédient"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to one of its ingredients.",
       "fr" : "Relie un produit à l'un de ses ingrédients."
@@ -7755,7 +7750,7 @@
       "en" : "Has controlled origin label",
       "fr" : "A pour label d'origine contrôlée"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Links a product to a controlled-origin label.",
       "fr" : "Relie un produit à un label d'origine contrôlée."
@@ -7769,13 +7764,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour ingrédients transformés",
+        "language" : "en",
+        "value" : "Has processed ingredients",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has processed ingredients",
+        "language" : "fr",
+        "value" : "A pour ingrédients transformés",
         "type" : "label"
       } ]
     },
@@ -7794,17 +7789,17 @@
   }, {
     "iri" : "https://natclinn.github.io/supValue",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "119",
+    "range" : "120",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Upper bound value",
+        "language" : "fr",
+        "value" : "Valeur supérieure",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Valeur supérieure",
+        "language" : "en",
+        "value" : "Upper bound value",
         "type" : "label"
       } ]
     },
@@ -7813,27 +7808,27 @@
       "en" : "Upper bound value",
       "fr" : "Valeur supérieure"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Upper bound value for the argument condition.",
       "fr" : "Valeur maximale pour la condition de l'argument."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "570"
   }, {
     "iri" : "https://natclinn.github.io/hasSubcategory",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "64",
+    "range" : "2",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has subcategory",
+        "language" : "fr",
+        "value" : "A pour sous-catégorie",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour sous-catégorie",
+        "language" : "en",
+        "value" : "Has subcategory",
         "type" : "label"
       } ]
     },
@@ -7842,7 +7837,7 @@
       "en" : "Has subcategory",
       "fr" : "A pour sous-catégorie"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Links an argument to its subcategory.",
       "fr" : "Relie un argument à sa sous-catégorie."
@@ -7852,17 +7847,17 @@
   }, {
     "iri" : "https://natclinn.github.io/infValue",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "133",
+    "range" : "134",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Valeur inférieure",
+        "language" : "en",
+        "value" : "Lower bound value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Lower bound value",
+        "language" : "fr",
+        "value" : "Valeur inférieure",
         "type" : "label"
       } ]
     },
@@ -7871,27 +7866,27 @@
       "en" : "Lower bound value",
       "fr" : "Valeur inférieure"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Lower bound value for the argument condition.",
       "fr" : "Valeur minimale pour la condition de l'argument."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "572"
   }, {
     "iri" : "https://natclinn.github.io/hasTagArgumentBindingInitiator",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "17",
+    "range" : "25",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour liaison tag-argument initiatrice",
+        "language" : "en",
+        "value" : "Has tag argument binding initiator",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has tag argument binding initiator",
+        "language" : "fr",
+        "value" : "A pour liaison tag-argument initiatrice",
         "type" : "label"
       } ]
     },
@@ -7908,129 +7903,129 @@
     "attributes" : [ "external", "object" ],
     "id" : "573"
   }, {
-    "range" : "8",
-    "domain" : "154",
+    "range" : "17",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "574"
   }, {
-    "range" : "17",
-    "domain" : "154",
+    "range" : "31",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "575"
   }, {
-    "range" : "57",
-    "domain" : "154",
+    "range" : "25",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "576"
   }, {
-    "range" : "34",
-    "domain" : "154",
+    "range" : "52",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "577"
   }, {
-    "range" : "67",
-    "domain" : "154",
+    "range" : "60",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "578"
   }, {
-    "range" : "13",
-    "domain" : "154",
+    "range" : "21",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "579"
   }, {
-    "range" : "4",
-    "domain" : "154",
+    "range" : "84",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "580"
   }, {
-    "range" : "75",
-    "domain" : "154",
+    "range" : "34",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "581"
   }, {
-    "range" : "64",
-    "domain" : "154",
+    "range" : "41",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "582"
   }, {
-    "range" : "5",
-    "domain" : "154",
+    "range" : "36",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "583"
   }, {
-    "range" : "46",
-    "domain" : "154",
+    "range" : "29",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "584"
   }, {
-    "range" : "38",
+    "range" : "29",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "585"
   }, {
-    "range" : "67",
+    "range" : "52",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "586"
   }, {
-    "range" : "19",
-    "domain" : "154",
+    "range" : "46",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "587"
   }, {
-    "range" : "2",
-    "domain" : "154",
+    "range" : "63",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "588"
   }, {
-    "range" : "36",
-    "domain" : "154",
+    "range" : "8",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "589"
   }, {
-    "range" : "38",
-    "domain" : "154",
+    "range" : "102",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "590"
   }, {
-    "range" : "43",
-    "domain" : "154",
+    "range" : "2",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "591"
   }, {
-    "range" : "7",
-    "domain" : "154",
+    "range" : "5",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "592"
   }, {
-    "range" : "50",
-    "domain" : "154",
+    "range" : "7",
+    "domain" : "87",
     "attributes" : [ "anonymous", "object" ],
     "id" : "593"
   }, {
-    "range" : "13",
+    "range" : "63",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "594"
   }, {
-    "range" : "30",
-    "domain" : "2",
+    "range" : "41",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "595"
   }, {
     "iri" : "https://natclinn.github.io/nameCriterion",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "136",
+    "range" : "137",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Nom du critère",
+        "language" : "en",
+        "value" : "Criterion name",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Criterion name",
+        "language" : "fr",
+        "value" : "Nom du critère",
         "type" : "label"
       } ]
     },
@@ -8039,22 +8034,22 @@
       "en" : "Criterion name",
       "fr" : "Nom du critère"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Name of the criterion addressed by the tag binding.",
       "fr" : "Nom du critère abordé par le binding de tag."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "596"
   }, {
-    "range" : "57",
+    "range" : "5",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "597"
   }, {
     "iri" : "https://natclinn.github.io/polarity",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "108",
+    "range" : "109",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8073,142 +8068,142 @@
       "en" : "Polarity",
       "fr" : "Polarité"
     },
-    "domain" : "17",
+    "domain" : "25",
     "comment" : {
       "en" : "Polarity of the tag binding (positive '+' or negative '-').",
       "fr" : "Polarité du binding de tag (positif '+' ou négatif '-')."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "598"
   }, {
-    "range" : "19",
-    "domain" : "38",
+    "range" : "25",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "599"
   }, {
-    "range" : "4",
+    "range" : "25",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "600"
   }, {
-    "range" : "21",
-    "domain" : "38",
+    "range" : "17",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "601"
   }, {
-    "range" : "2",
+    "range" : "68",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "602"
   }, {
-    "range" : "50",
-    "domain" : "38",
+    "range" : "7",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "603"
   }, {
-    "range" : "75",
+    "range" : "46",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "604"
   }, {
-    "range" : "2",
-    "domain" : "38",
+    "range" : "19",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "605"
   }, {
-    "range" : "34",
+    "range" : "102",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "606"
   }, {
-    "range" : "57",
-    "domain" : "38",
+    "range" : "29",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "607"
   }, {
-    "range" : "15",
+    "range" : "4",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "608"
   }, {
-    "range" : "34",
-    "domain" : "38",
+    "range" : "8",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "609"
   }, {
-    "range" : "23",
+    "range" : "21",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "610"
   }, {
-    "range" : "8",
-    "domain" : "38",
+    "range" : "68",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "611"
   }, {
-    "range" : "5",
+    "range" : "7",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "612"
   }, {
-    "range" : "17",
-    "domain" : "38",
+    "range" : "15",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "613"
   }, {
-    "range" : "50",
+    "range" : "87",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "614"
   }, {
-    "range" : "7",
-    "domain" : "38",
+    "range" : "52",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "615"
   }, {
-    "range" : "8",
+    "range" : "41",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "616"
   }, {
-    "range" : "15",
-    "domain" : "38",
+    "range" : "84",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "617"
   }, {
-    "range" : "19",
+    "range" : "17",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "618"
   }, {
-    "range" : "64",
-    "domain" : "38",
+    "range" : "2",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "619"
   }, {
-    "range" : "64",
+    "range" : "60",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "620"
   }, {
-    "range" : "19",
-    "domain" : "5",
+    "range" : "52",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "621"
   }, {
-    "range" : "36",
+    "range" : "84",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "622"
   }, {
-    "range" : "2",
-    "domain" : "5",
+    "range" : "36",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "623"
   }, {
     "iri" : "https://natclinn.github.io/hasRole",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "23",
+    "range" : "52",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8235,69 +8230,69 @@
     "attributes" : [ "external", "object" ],
     "id" : "624"
   }, {
-    "range" : "46",
+    "range" : "8",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "625"
   }, {
-    "range" : "23",
-    "domain" : "38",
+    "range" : "63",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "626"
   }, {
-    "range" : "154",
+    "range" : "15",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "627"
   }, {
-    "range" : "67",
-    "domain" : "38",
+    "range" : "31",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "628"
   }, {
-    "range" : "30",
+    "range" : "34",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "629"
   }, {
-    "range" : "75",
-    "domain" : "38",
+    "range" : "60",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "630"
   }, {
-    "range" : "17",
+    "range" : "31",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "631"
   }, {
-    "range" : "36",
-    "domain" : "38",
+    "range" : "41",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "632"
   }, {
-    "range" : "43",
+    "range" : "2",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "633"
   }, {
-    "range" : "30",
-    "domain" : "38",
+    "range" : "102",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "634"
   }, {
-    "range" : "21",
+    "range" : "36",
     "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
     "id" : "635"
   }, {
-    "range" : "13",
-    "domain" : "38",
+    "range" : "36",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "636"
   }, {
     "iri" : "https://natclinn.github.io/hasReferenceProductArgument",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "21",
+    "range" : "63",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8326,17 +8321,17 @@
   }, {
     "iri" : "https://natclinn.github.io/hasCategory",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "72",
+    "range" : "71",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has category",
+        "language" : "fr",
+        "value" : "A pour catégorie",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour catégorie",
+        "language" : "en",
+        "value" : "Has category",
         "type" : "label"
       } ]
     },
@@ -8345,7 +8340,7 @@
       "en" : "Has category",
       "fr" : "A pour catégorie"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Links an argument to its main category.",
       "fr" : "Relie un argument à sa catégorie principale."
@@ -8355,17 +8350,17 @@
   }, {
     "iri" : "https://natclinn.github.io/hasText",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "127",
+    "range" : "128",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "A pour texte",
+        "language" : "en",
+        "value" : "Has text",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Has text",
+        "language" : "fr",
+        "value" : "A pour texte",
         "type" : "label"
       } ]
     },
@@ -8374,27 +8369,27 @@
       "en" : "Has text",
       "fr" : "A pour texte"
     },
-    "domain" : "36",
+    "domain" : "68",
     "comment" : {
       "en" : "Verbatim text.",
       "fr" : "Texte du verbatim."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "639"
   }, {
     "iri" : "https://natclinn.github.io/quantity",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "110",
+    "range" : "111",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Quantity",
+        "language" : "fr",
+        "value" : "Quantité",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Quantité",
+        "language" : "en",
+        "value" : "Quantity",
         "type" : "label"
       } ]
     },
@@ -8403,17 +8398,17 @@
       "en" : "Quantity",
       "fr" : "Quantité"
     },
-    "domain" : "34",
+    "domain" : "29",
     "comment" : {
       "en" : "Quantity of a by-product or ingredient present in a food industry product.",
       "fr" : "Quantité présente d'un sous-produit ou d'un ingrédient dans un produit de l'industrie agro-alimentaire."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "640"
   }, {
     "iri" : "https://natclinn.github.io/hasCalculatedNOVAgroup",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "148",
+    "range" : "149",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8432,17 +8427,17 @@
       "en" : "Has calculated NOVA group",
       "fr" : "A pour groupe NOVA calculé"
     },
-    "domain" : "50",
+    "domain" : "8",
     "comment" : {
       "en" : "Calculated NOVA group (1..4) inferred by rules, not the OFF-provided value.",
       "fr" : "Groupe NOVA calculé (1..4) inféré par les règles, distinct de la valeur fournie par OFF."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "641"
   }, {
     "iri" : "https://natclinn.github.io/hasStakeholder",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "75",
+    "range" : "17",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8461,7 +8456,7 @@
       "en" : "Has stakeholder",
       "fr" : "A pour partie prenante"
     },
-    "domain" : "21",
+    "domain" : "63",
     "comment" : {
       "en" : "Link an argument to its stakeholder (consumer, manufacturer, etc.).",
       "fr" : "Relie un argument à sa partie prenante (consommateur, fabricant, etc.)."
@@ -8469,42 +8464,42 @@
     "attributes" : [ "external", "object" ],
     "id" : "642"
   }, {
-    "range" : "13",
+    "range" : "87",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "643"
   }, {
-    "range" : "75",
+    "range" : "15",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "644"
   }, {
-    "range" : "67",
+    "range" : "60",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "645"
   }, {
-    "range" : "57",
+    "range" : "5",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "646"
   }, {
-    "range" : "328",
+    "range" : "19",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "647"
   }, {
-    "range" : "154",
+    "range" : "63",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "648"
   }, {
-    "range" : "50",
+    "range" : "71",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "649"
   }, {
-    "range" : "55",
+    "range" : "21",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "650"
@@ -8514,14 +8509,14 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "651"
   }, {
-    "range" : "17",
+    "range" : "68",
     "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "652"
   }, {
     "iri" : "https://natclinn.github.io/identifier",
     "baseIri" : "https://natclinn.github.io",
-    "range" : "51",
+    "range" : "131",
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
@@ -8540,12 +8535,12 @@
       "en" : "Identifier",
       "fr" : "Identifiant"
     },
-    "domain" : "112",
+    "domain" : "94",
     "comment" : {
       "en" : "Identifier associated with a resource.",
       "fr" : "Identifiant associé à une ressource."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "653"
   } ]
 }

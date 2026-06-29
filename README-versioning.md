@@ -198,3 +198,13 @@ Attendre 1 a 3 minutes, puis tester:
   - verifier que `ontology.owl` racine a bien ete remplace avant `generate-widoco.ps1`
 - Si Maven echoue:
   - verifier Java/Maven avec `java -version` et `mvn -version`
+
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; .\scripts\run-create-natclinn-tbox.ps1
+
+Copy-Item .\NewGeneratedOntology\ontology.owl .\ontology.owl -Force
+
+./scripts/generate-widoco.ps1 
+
+./scripts/release-widoco-version.ps1 -Version 1.0.2
