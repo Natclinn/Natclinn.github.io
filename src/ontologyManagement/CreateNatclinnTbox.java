@@ -108,11 +108,11 @@ public class CreateNatclinnTbox {
 		ont.addProperty(RDFS.label, "Ontologie Natcl'inn", "fr");
 		om.add(ont, DC.description,"Tbox for the Natcl'inn ontology", "en");
 		om.add(ont, DC.description,"Tbox pour l'ontologie Natcl'inn", "fr");
-		om.add(ont, DC.creator,"Raphael CONDE SALAZAR, Pierre BISQUERT, Rallou THOMOPOULOS, Magalie Weber");	
+		om.add(ont, DC.creator,"Raphael CONDE SALAZAR, Cedric Baudrit, Pierre BISQUERT, Christophe Fernandez, Rallou THOMOPOULOS, Magalie Weber");	
         
-		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "ncl/1.0.1"));
-		ont.addProperty(OWL.versionInfo, "1.0.1");
-		ont.addProperty(om.createProperty(pav + "previousVersion"), om.createResource(ncl + "ncl/1.0.0/ontology.owl"));
+		ont.addProperty(OWL.versionIRI, om.createResource(ncl + "ncl/1.0.2"));
+		ont.addProperty(OWL.versionInfo, "1.0.2");
+		ont.addProperty(om.createProperty(pav + "previousVersion"), om.createResource(ncl + "ncl/1.0.1/ontology.owl"));
 
 
 
@@ -133,8 +133,8 @@ public class CreateNatclinnTbox {
         ont.addProperty(om.createProperty(dct + "created"), "October 5th, 2021", "en");
 
         // Licence et DOI
-        ont.addProperty(om.createProperty(dct + "license"), om.createResource("http://creativecommons.org/licenses/by/4.0/"));
-        ont.addProperty(om.createProperty(bibo + "doi"), om.createResource("https://doi.org/XXXXXXXXXXXXXXXX"));
+        ont.addProperty(om.createProperty(dct + "license"), om.createResource("https://www.data.gouv.fr/pages/legal/licences/etalab-2.0"));
+        ont.addProperty(om.createProperty(bibo + "doi"), om.createResource("https://doi.org/10.57745/PKKGWE"));
         ont.addProperty(om.createProperty(bibo + "status"), om.createResource("http://purl.org/ontology/bibo/status/draft"));
 
         // Informations complémentaires
@@ -147,10 +147,10 @@ public class CreateNatclinnTbox {
         ont.addProperty(om.createProperty(foaf + "fundedBy"), om.createResource("https://www.pole-valorial.fr"));
 
         ont.addProperty(om.createProperty(schema + "citation"),
-                "Cite this vocabulary as: Raphael Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX", "en");
+                "Cite this vocabulary as: Raphael Conde Salazar , Cedric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309", "en");
 
 		 ont.addProperty(om.createProperty(schema + "citation"),
-                "Cite this vocabulary as: Raphaël Conde Salazar , Pierre Bisquert, Rallou Thomopoulos, Magalie Weber; DOI: XXXXXXXXXXXXXXXX", "fr");
+                "Cite this vocabulary as: Raphaël Conde Salazar , Cédric Baudrit, Pierre Bisquert, Christophe Fernandez, Rallou Thomopoulos, Magalie Weber; HAL: https://hal.science/hal-05638309", "fr");
         // Introduction
         ont.addProperty(om.createProperty(vocab + "introduction"),
                 "NATCL’INN vise à proposer une solution aux entreprises de l’agroalimentaire qui doivent réaliser des arbitrages entre différents attributs produits relatifs à la naturalité en vue de répondre aux nouvelles attentes et représentations des consommateurs en matière de naturalité alimentaire. Afin de proposer un prototype d’Outil d’Aide à la Décision, les équipes de R&D de l’ADRIA, le laboratoire LEGO de l’Université de Bretagne Occidentale (UBO), les unités de recherche INRAE et leurs partenaires industriels (Bridor, Paticeo, Charles Christ, La PAM, Ecomiam, Fleury Michon, Guyader Gastronomie) se sont associés pour mener un programme ambitieux de R&D collaborative. Le projet NATCL’INN a été labellisé par le pôle de compétitivité VALORIAL et a reçu le soutien de la Région Bretagne, de la Région Pays de la Loire et de Quimper Bretagne Occidentale. Le projet a démarré au 1er janvier 2024 et s'achèvera fin 2027.", "fr");
@@ -220,6 +220,32 @@ public class CreateNatclinnTbox {
         person4.addProperty(om.createProperty(schema + "url"), om.createResource("https://orcid.org/0000-0001-6573-4070"));
         ont.addProperty(om.createProperty(schema + "creator"), person4);
 
+		// Auteur 5
+        Resource person5 = om.createResource();
+        person5.addProperty(RDF.type, om.createResource(schema + "Person"));
+        Resource org5 = om.createResource();
+        org5.addProperty(RDF.type, om.createResource(foaf + "Organization"));
+        org5.addProperty(om.createProperty(foaf + "name"), "INRAE, France");
+        org5.addProperty(om.createProperty(schema + "url"), "https://www.inrae.fr/");
+        person5.addProperty(om.createProperty(org + "memberOf"), org5);
+        person5.addProperty(om.createProperty(schema + "name"), "Cédric Baudrit", "fr");
+        person5.addProperty(om.createProperty(schema + "name"), "Cedric Baudrit", "en");
+        person5.addProperty(om.createProperty(schema + "url"), om.createResource("https://orcid.org/0000-0003-4320-3345"));
+        ont.addProperty(om.createProperty(schema + "creator"), person5);
+
+		// Auteur 6
+        Resource person6 = om.createResource();
+        person6.addProperty(RDF.type, om.createResource(schema + "Person"));
+        Resource org6 = om.createResource();
+        org6.addProperty(RDF.type, om.createResource(foaf + "Organization"));
+        org6.addProperty(om.createProperty(foaf + "name"), "INRAE, France");	
+        org6.addProperty(om.createProperty(schema + "url"), "https://www.inrae.fr/");
+        person6.addProperty(om.createProperty(org + "memberOf"), org6);
+        person6.addProperty(om.createProperty(schema + "name"), "Christophe Fernandez", "fr");
+        person6.addProperty(om.createProperty(schema + "name"), "Christophe Fernandez", "en");
+        person6.addProperty(om.createProperty(schema + "url"), om.createResource("https://orcid.org/0000-0001-6765-4680"));
+        ont.addProperty(om.createProperty(schema + "creator"), person6);
+
         // Financement
         ont.addProperty(om.createProperty(schema + "funding"),
                 om.createResource("https://www.pole-valorial.fr"));
@@ -268,13 +294,6 @@ public class CreateNatclinnTbox {
 		SimpleProduct.addComment("Produit de l'industrie alimentaire composé uniquement d'ingrédients.", "fr"); 
 		addBilingualLabels(SimpleProduct, prefLabel, "Simple product", "Produit simple");
 
-		// OntClass AdditiveProduct = om.createClass(ncl + "AdditiveProduct");
-		// SimpleProduct.addComment("Food industry product considered as an additive (stabilizer, raising agent, preservative, etc.). It may be composed of additive ingredients (sorbitol, E330, E520, etc.).", "en");
-		// SimpleProduct.addComment("Produit de l'industrie alimentaire considéré comme un additif (stabilisant, poudre à levée, conservateur, etc.). Il peut être composé d’ingrédient additif (sorbitol, E330, E520, etc.).", "fr");
-
-		// OntClass AromaProduct = om.createClass(ncl + "AromaProduct");
-		// SimpleProduct.addComment("Food industry product considered as a flavoring. It can be composed of ingredients.", "en");
-		// SimpleProduct.addComment("Produit de l'industrie alimentaire considéré comme un arôme. Il peut être composé d’ingrédient.", "fr");
 
 		OntClass Resource = om.createClass(ncl + "Resource");
 		Resource.addComment("Abstract class Resource, from which Product and Ingredient inherit.", "en");
